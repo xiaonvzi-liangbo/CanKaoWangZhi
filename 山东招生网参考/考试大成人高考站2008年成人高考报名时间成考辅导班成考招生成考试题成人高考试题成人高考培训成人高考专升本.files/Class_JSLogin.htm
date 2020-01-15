@@ -1,0 +1,16 @@
+function checkloginform(){
+	var username = document.getElementById("user_name").value;
+	var password=document.getElementById("password").value;
+	var verifycode = document.getElementById("VerifyCode").value;
+	if (username.length<2) {
+		alert('请填写用户名!');
+		document.getElementById("user_name").focus();
+		return false;
+	}
+	if (password.length<2){
+		alert('请填写密码!');
+		document.getElementById("password").focus();
+		return false;
+	}
+}
+document.write('<FORM action="http://search.examda.com/search/service/userlogin.asp" target="_self" method="post" onSubmit="return checkloginform();"><div><ul><LI style="padding-top:5px">用户名：<input name="user_name" type="text" class="select" style="border:1px solid #C0DEEB; width:125px" /><LI style="padding-top:3px">密&nbsp;&nbsp;&nbsp;&nbsp;码：<input name="password" type="password" class="select" style="border:1px solid #C0DEEB; width:125px" /><input type="hidden" name="VerifyCode" value="8888" /><input type="hidden" name="Url" value="" /><input type="hidden" name="Action" value="submit" /><LI style="padding-top:6px"><input type="image" src="http://www.examda.com/cpa/Images_2/dl.gif" align="absmiddle" width="38" height="18"/>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://search.examda.com/search/service/" target="_blank"><span style="text-decoration:underline; color:#FF6600" >免费注册</span></a>&nbsp;&nbsp;&nbsp;<img src="http://www.examda.com/cpa/Images_2/1120_03.gif">&nbsp;&nbsp;<a href="http://www.examda.com/service/help/" target=_blank><span style="text-decoration:underline; color:#FF6600" >关于E币</span></a></ul></div></FORM>');

@@ -1,0 +1,93 @@
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333333; LINE-HEIGHT: normal; PADDING-TOP: 0px; FONT-FAMILY: "ËÎÌו"; TEXT-ALIGN: center
+}
+A:link {
+	FONT-WEIGHT: normal; COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-WEIGHT: normal; COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.STYLE1 {
+	COLOR: #333333; LINE-HEIGHT: 22px
+}
+.STYLE2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff
+}
+.STYLE2 A:link {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.STYLE2 A:visited {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.STYLE2 A:hover {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+DIV {
+	MARGIN: 0px auto
+}
+TABLE {
+	MARGIN: 0px auto
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+.hz_top {
+	MARGIN-TOP: 10px; BACKGROUND-IMAGE: url(images/hz_bg1.gif); MARGIN-BOTTOM: 10px; WIDTH: 780px; HEIGHT: 100px
+}
+.hz_js_t {
+	WIDTH: 780px; HEIGHT: 45px
+}
+.hz_js_t .t_1 {
+	FLOAT: left; HEIGHT: 45px
+}
+.hz_js_t .t_2 {
+	FLOAT: left; BACKGROUND-IMAGE: url(images/hz_bg4.jpg); WIDTH: 637px; HEIGHT: 45px
+}
+.hz_js_b {
+	BORDER-RIGHT: #f3dfd4 1px solid; MARGIN-BOTTOM: 10px; BORDER-LEFT: #f3dfd4 1px solid; WIDTH: 778px; PADDING-TOP: 10px; BORDER-BOTTOM: #f3dfd4 1px solid; HEIGHT: 200px; BACKGROUND-COLOR: #f9f0ec
+}
+.hz_js_b .tb {
+	WIDTH: 760px; HEIGHT: 24px
+}
+.tb .lf {
+	BACKGROUND-POSITION: 10px center; PADDING-LEFT: 40px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE: url(images/hz_bg5.gif); WIDTH: 330px; PADDING-TOP: 5px; BORDER-BOTTOM: #eccbb9 1px solid; BACKGROUND-REPEAT: no-repeat; HEIGHT: 18px; TEXT-ALIGN: left
+}
+.hz_hd {
+	BACKGROUND-IMAGE: url(images/hz_bg10.jpg); WIDTH: 470px; HEIGHT: 30px
+}
+.hz_hd .hd_1 {
+	FLOAT: left; HEIGHT: 30px
+}
+.hz_hd UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 458px; PADDING-TOP: 0px
+}
+.hz_hd LI {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 90px; PADDING-TOP: 12px; HEIGHT: 18px
+}
+.hz_hd LI.hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-IMAGE: url(images/hz_bg12.gif); WIDTH: 90px; COLOR: #ffffff; LINE-HEIGHT: normal; PADDING-TOP: 12px; HEIGHT: 18px
+}
+.hz_hd LI.lin {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: center 50%; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(images/hz_bg13.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 10px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 30px
+}
+.hz_hdbd {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; WIDTH: 468px; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 243px
+}
+.bottom3 {
+	BORDER-TOP: #ff6600 2px solid; MARGIN-TOP: 10px; PADDING-LEFT: 20px; MARGIN-BOTTOM: 10px; WIDTH: 760px; PADDING-TOP: 20px; HEIGHT: 68px; TEXT-ALIGN: center
+}
+.bottom1 {
+	FLOAT: left; HEIGHT: 68px
+}
+.bottom_1 {
+	MARGIN-BOTTOM: 5px; TEXT-ALIGN: center
+}
+.bottom_2 {
+	MARGIN-TOP: 20px; FLOAT: left; MARGIN-LEFT: 10px
+}

@@ -1,0 +1,987 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0033)http://www.snsn.net/bbs/index.asp -->
+<HTML><HEAD><TITLE>会员论坛-少男少女</TITLE>
+<SCRIPT language=JavaScript src="会员论坛-少男少女.files/qq1.Js"></SCRIPT>
+
+<META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
+href="会员论坛-少男少女.files/css.css" type=text/css rel=stylesheet>
+<STYLE type=text/css>BODY {
+	BACKGROUND-IMAGE: none; MARGIN: 0px
+}
+.style1 {
+	COLOR: #ffffff
+}
+.style10 {
+	FONT-WEIGHT: bold; COLOR: #ff3300
+}
+</STYLE>
+
+<SCRIPT language=javascript>
+//--检测登陆-->
+
+	   function DoLogin() {
+
+	      var UsernameGet = trim(document.loginForm.UsernameGet.value);
+		  var PasswordGet = trim(document.loginForm.PasswordGet.value);
+		  var Verifycode = trim(document.loginForm.Verifycode.value);
+
+          if(UsernameGet == "") {
+		    alert("请输入会员登录名！");
+			document.loginForm.UsernameGet.focus();
+		    return false;
+		  } 
+		  if(PasswordGet == "") {
+		    alert("请输入您的会员密码！");
+			document.loginForm.PasswordGet.focus();
+		    return false;
+		  } 
+		  if(Verifycode == "") {
+		    alert("请输入您的登录验证码！");
+			document.loginForm.Verifycode.focus();
+		    return false;
+		  }  
+		  
+		  
+		 }
+
+           function trim(inputString) {
+	   
+              if (typeof inputString != "string") { return inputString; }
+              var retValue = inputString;
+              var ch = retValue.substring(0, 1);
+              while (ch == " ") { 
+	          //检查字符串开始部分的空格
+                  retValue = retValue.substring(1, retValue.length);
+                  ch = retValue.substring(0, 1);
+              }
+              ch = retValue.substring(retValue.length-1, retValue.length);
+              while (ch == " ") {
+                 //检查字符串结束部分的空格
+                 retValue = retValue.substring(0, retValue.length-1);
+                 ch = retValue.substring(retValue.length-1, retValue.length);
+              }
+              while (retValue.indexOf("  ") != -1) { 
+	         //将文字中间多个相连的空格变为一个空格
+                 retValue = retValue.substring(0, retValue.indexOf("  ")) + retValue.substring(retValue.indexOf("  ")+1, retValue.length); 
+              }
+              return retValue;
+           } 
+
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript type=text/JavaScript>
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript type=text/JavaScript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</SCRIPT>
+
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR></HEAD>
+<BODY onload="MM_preloadImages('images/home_1_off.gif')">
+<STYLE type=text/css>.style1 {
+	COLOR: #ffffff
+}
+</STYLE>
+
+<SCRIPT language=Javascript src="会员论坛-少男少女.files/ps_only.js"></SCRIPT>
+
+<SCRIPT language=Javascript src="会员论坛-少男少女.files/user.js"></SCRIPT>
+
+<DIV id=ie5menu 
+style="Z-INDEX: 1; LEFT: 0px; WIDTH: 54px; POSITION: absolute; TOP: 0px; HEIGHT: 59px"><LINK 
+href="会员论坛-少男少女.files/css.css" type=text/css rel=stylesheet>
+<TABLE cellSpacing=1 cellPadding=0 width=75 align=center bgColor=#cccccc 
+border=0>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#efefef height=23><FONT id=pq1><A class=s1 
+      onclick="window.open('/web/1/index.asp?web_id=1','cheng','scrollbars=no,resizable=no,width=920,height=565,menubar=no,top=10,left=10')" 
+      href="javascript:;">查看主页</A></FONT></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#efefef height=23><FONT id=pq2><A class=s1 
+      href="http://www.snsn.net/my/getprice/sendnewmessage.asp?selected_friend_id=dhs007" 
+      target=_blank>发送信息</A></FONT></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#efefef height=23><FONT id=pq3><A class=s1 
+      href="http://www.snsn.net/my/love/addfriend.asp?user=dhs007" 
+      target=_blank>加入好友</A></FONT></TD></TR></TBODY></TABLE>
+<SCRIPT>
+  document.all.ie5menu.style.visibility="hidden"
+  </SCRIPT>
+</DIV>
+<DIV id=toolTipLayer style="VISIBILITY: hidden; POSITION: absolute"></DIV>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#efefef height=23>
+      <DIV align=center>
+      <TABLE cellSpacing=0 cellPadding=0 width=780 border=0>
+        <TBODY>
+        <TR>
+          <TD height=15>
+            <DIV align=right>
+            <SCRIPT language=JavaScript class=a> 
+today=new Date();
+var hours = today.getHours();
+var minutes = today.getMinutes();
+var seconds = today.getSeconds();
+var timeValue = "" + ((hours >12) ? hours -12 :hours); timeValue += ((minutes < 10) ? "<BLINK>:</BLINK>0" : "<BLINK>:</black>") + minutes+"";
+timeValue += (hours >= 12) ? "PM" : "AM";
+function initArray(){
+this.length=initArray.arguments.length
+for(var i=0;i<this.length;i++)
+this[i+1]=initArray.arguments[i]  }
+var d=new initArray("星期日","星期一","星期二","星期三","星期四","星期五","星期六"); document.write("",today.getYear(),"年","",today.getMonth()+1,"月","",today.getDate(),"日",d[today.getDay()+1]," ",timeValue);  //-->
+            </SCRIPT>
+            | <A href="http://www.snsn.net/zttl.asp" target=_blank>主题</A> | <A 
+            href="http://www.snsn.net/gz/gz.asp" target=_blank>我的地盘 <FONT 
+            color=#ff0000>new</FONT></A> | <A 
+            href="http://www.snsn.net/astro/index.asp" target=_blank>星座</A> | <A 
+            href="http://www.snsn.net/astro/supen.asp" target=_blank>速配查询</A> | 
+            <A href="http://www.snsn.net/astro/supen.asp" target=_blank>生肖属性</A> 
+            | <A href="http://www.snsn.net/help/index.asp?class=网站公告" 
+            target=_blank>最新活动</A> | <A href="http://www.snsn.net/pay/pay.asp" 
+            target=_blank><FONT color=#ff0000>在线充值</FONT></A> | <A 
+            href="http://www.snsn.net/help/" 
+        target=_blank>网站帮助?</A></DIV></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD height=1></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#efefef height=1></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD height=8></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=780 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD width=181><A href="http://www.snsn.net/index.asp"><IMG height=50 
+      src="会员论坛-少男少女.files/logo.gif" width=160 border=0></A>
+      <SCRIPT language=JavaScript>
+var delta=0.3;//滚动时间
+ var collection;
+ var closeB=false;
+ function floaters() {
+  this.items = [];
+  this.addItem = function(id,x,y,content)
+      {
+     document.write('<DIV id='+id+' style="Z-INDEX: 10; POSITION: absolute;  width:80px; height:60px;left:'+(typeof(x)=='string'?eval(x):x)+';top:'+(typeof(y)=='string'?eval(y):y)+'">'+content+'</DIV>');
+     
+     var newItem    = {};
+     newItem.object   = document.getElementById(id);
+     newItem.x    = x;
+     newItem.y    = y;
+
+     this.items[this.items.length]  = newItem;
+      }
+  this.play = function()
+      {
+     collection    = this.items
+     setInterval('play()',30);
+      }
+  }
+  function play()
+  {
+   if(screen.width<=800 || closeB)
+   {
+    for(var i=0;i<collection.length;i++)
+    {
+     collection[i].object.style.display = 'none';
+    }
+    return;
+   }
+   for(var i=0;i<collection.length;i++)
+   {
+    var followObj  = collection[i].object;
+    var followObj_x  = (typeof(collection[i].x)=='string'?eval(collection[i].x):collection[i].x);
+    var followObj_y  = (typeof(collection[i].y)=='string'?eval(collection[i].y):collection[i].y);
+
+    if(followObj.offsetLeft!=(document.body.scrollLeft+followObj_x)) {
+     var dx=(document.body.scrollLeft+followObj_x-followObj.offsetLeft)*delta;
+     dx=(dx>0?1:-1)*Math.ceil(Math.abs(dx));
+     followObj.style.left=followObj.offsetLeft+dx;
+     }
+
+    if(followObj.offsetTop!=(document.body.scrollTop+followObj_y)) {
+     var dy=(document.body.scrollTop+followObj_y-followObj.offsetTop)*delta;
+     dy=(dy>0?1:-1)*Math.ceil(Math.abs(dy));
+     followObj.style.top=followObj.offsetTop+dy;
+     }
+    followObj.style.display = '';
+   }
+  } 
+  function closeBanner()
+  {
+   closeB=true;
+   return;
+  }
+    function open2()
+  {
+ 
+  window.open('/help/home_help/home.asp','tcweb','scrollbars=no,resizable=no,width=600,height=700,menubar=no,top=10,left=10');
+  }
+ var theFloaters  = new floaters();
+ //
+theFloaters.addItem('followDiv1','document.body.clientWidth-105',80,'<a onClick="closeBanner();" href="http://www.snsn.net/reg.asp" target="_blank"><img src=/images/ad_100.gif width=100 height=100 border=0  onClick="closeBanner();"></a><!--img src=ad/doublead/close.gif onClick="closeBanner();"-->');
+theFloaters.addItem('followDiv2',5,80,'<a href="javascript:open2()" ><img src=/images/ad_200.gif width=100 height=200 border=0  onClick="closeBanner();"></a><br><!--img src=ad/doublead/close.gif onClick="closeBanner();"-->');
+ theFloaters.play();
+</SCRIPT>
+       </TD>
+    <TD width=599>
+      <DIV align=right>
+      <SCRIPT language=JavaScript type=text/JavaScript>
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD width=80><A 
+            onmouseover="MM_swapImage('home_1','','/images/home_1_off.gif',1)" 
+            onmouseout=MM_swapImgRestore() 
+            href="http://www.snsn.net/index.asp"><IMG height=34 
+            src="会员论坛-少男少女.files/home_1_on.gif" width=80 border=0 
+            name=home_1></A></TD>
+          <TD width=80><A 
+            onmouseover="MM_swapImage('home_2','','/images/home_2_off.gif',2)" 
+            onmouseout=MM_swapImgRestore() href="http://www.snsn.net/home/"><IMG 
+            height=34 src="会员论坛-少男少女.files/home_2_on.gif" width=80 border=0 
+            name=home_2></A></TD>
+          <TD width=80><A 
+            onmouseover="MM_swapImage('home_3','','/images/home_3_off.gif',3)" 
+            onmouseout=MM_swapImgRestore() href="http://www.snsn.net/love/"><IMG 
+            height=34 src="会员论坛-少男少女.files/home_3_on.gif" width=80 border=0 
+            name=home_3></A></TD>
+          <TD width=80><A 
+            onmouseover="MM_swapImage('home_4','','/images/home_4_off.gif',4)" 
+            onmouseout=MM_swapImgRestore() 
+            href="http://www.snsn.net/diary/"><IMG height=34 
+            src="会员论坛-少男少女.files/home_4_on.gif" width=80 border=0 
+            name=home_4></A></TD>
+          <TD width=80><A 
+            onmouseover="MM_swapImage('home_5','','/images/home_5_off.gif',5)" 
+            onmouseout=MM_swapImgRestore() href="http://www.snsn.net/bbs/"><IMG 
+            height=34 src="会员论坛-少男少女.files/home_5_off.gif" width=80 border=0 
+            name=home_5></A></TD>
+          <TD width=95><A 
+            onmouseover="MM_swapImage('home_6','','/images/home_6_off.gif',6)" 
+            onmouseout=MM_swapImgRestore() 
+            href="http://www.snsn.net/minishow/"><IMG height=34 
+            src="会员论坛-少男少女.files/home_6_on.gif" width=85 border=0 
+            name=home_6></A></TD></TR></TBODY></TABLE></DIV></TD></TR>
+  <TR>
+    <TD colSpan=2>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD width=325>
+            <TABLE cellSpacing=0 cellPadding=0 border=0>
+              <TBODY>
+              <TR>
+                <TD><A href="http://www.snsn.net/login.asp"><IMG height=44 
+                  src="会员论坛-少男少女.files/top_home.gif" width=119 border=0></A></TD>
+                <TD><A href="http://www.snsn.net/my/love/haoyou.asp"><IMG 
+                  height=44 src="会员论坛-少男少女.files/top_home_love.gif" width=66 
+                  border=0></A></TD>
+                <TD><A 
+                  href="http://www.snsn.net/my/getprice/receivemessagelist.asp"><IMG 
+                  height=44 src="会员论坛-少男少女.files/top_home_xx.gif" width=66 
+                  border=0></A></TD>
+                <TD><A href="http://www.snsn.net/my/user/shoucang.asp"><IMG 
+                  height=44 src="会员论坛-少男少女.files/top_home_sc.gif" width=74 
+                  border=0></A></TD></TR></TBODY></TABLE></TD>
+          <TD background=会员论坛-少男少女.files/top_home_1.gif><SPAN class=style1>
+            <STYLE type=text/css>.style1 {
+	COLOR: #ffffff
+}
+</STYLE>
+            您可以： <A href="http://www.snsn.net/login.asp"><SPAN 
+            class=style1>老用户登录</SPAN></A> | <A 
+            href="http://www.snsn.net/reg.asp"><SPAN 
+            class=style1>注册新的帐户</SPAN></A> | <A class=over 
+            onclick="window.open('/getpwd.asp','getpwd','scrollbars=no,resizable=no,width=300,height=180,menubar=no,top=180,left=180')" 
+            href="javascript:;"><SPAN class=style1>忘记密码，我要找回</SPAN></A> | 
+            当前在线:344人</SPAN></TD>
+          <TD width=17 background=会员论坛-少男少女.files/top_home_1.gif><IMG 
+            height=44 src="会员论坛-少男少女.files/top_home_2.gif" 
+        width=17></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE height=5 cellSpacing=0 cellPadding=0 width=100 border=0>
+  <TBODY>
+  <TR>
+    <TD></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=780 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top width=200>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=bottom background=会员论坛-少男少女.files/bj_200_0.gif height=32>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR>
+                <TD height=27><IMG 
+              src="会员论坛-少男少女.files/top_login.gif"></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD background=会员论坛-少男少女.files/bj_200_1.gif height=91>
+            <DIV align=center></DIV>
+            <TABLE cellSpacing=2 cellPadding=0 width=190 align=center 
+              border=0><FORM name=loginForm 
+              onsubmit="javascript:if(DoLogin()==false) return false;" 
+              action=/login_save.asp method=post>
+              <TBODY>
+              <TR>
+                <TD width="24%" height=20>
+                  <DIV align=right>用户名</DIV></TD>
+                <TD width="45%"><INPUT class=wenbenkuang id=UsernameGet 
+                  onmouseover="this.style.backgroundColor = '#E5F0FF'" 
+                  onfocus=this.select() tabIndex=5 
+                  onmouseout="this.style.backgroundColor = ''" maxLength=20 
+                  size=12 value=pscool name=UsernameGet></TD>
+                <TD width="31%"><INPUT tabIndex=7 type=image height=18 
+                  hspace=2 width=45 src="会员论坛-少男少女.files/login.gif" 
+                  onload=loginForm.UsernameGet.focus() vspace=3 
+                  name=login_submit></TD></TR>
+              <TR>
+                <TD width="24%" height=20>
+                  <DIV align=right>密&nbsp;&nbsp;码</DIV></TD>
+                <TD width="45%"><INPUT class=wenbenkuang id=PasswordGet 
+                  onmouseover="this.style.backgroundColor = '#E5F0FF'" 
+                  tabIndex=5 onmouseout="this.style.backgroundColor = ''" 
+                  type=password maxLength=20 size=12 name=PasswordGet></TD>
+                <TD style="PADDING-LEFT: 2px" width="31%"><A 
+                  href="http://www.snsn.net/reg.asp"><IMG height=18 
+                  src="会员论坛-少男少女.files/reg.gif" width=45 border=0></A></TD></TR>
+              <TR>
+                <TD height=20>
+                  <DIV align=right>验证码</DIV></TD>
+                <TD><INPUT class=wenbenkuang 
+                  onkeypress="return ((event.keyCode>=48&amp;&amp;event.keyCode<=57) || event.keyCode==13)" 
+                  onpaste="var s=clipboardData.getData('text'); if(!/\D/.test(s)) value=s.replace(/^%*/,''); return false;" 
+                  ondragenter="return false" 
+                  onkeyup="if(/(^%+)/.test(value))value=value.replace(/^%*/, '')" 
+                  onmouseover="this.style.backgroundColor = '#E5F0FF'" 
+                  style="IME-MODE: disabled" tabIndex=6 
+                  onmouseout="this.style.backgroundColor = ''" maxLength=4 
+                  size=12 name=Verifycode></TD>
+                <TD style="PADDING-LEFT: 2px"><IMG height=18 
+                  src="会员论坛-少男少女.files/verifycode.bmp" width=45></TD></TR>
+              <TR>
+                <TD colSpan=3 height=22>&nbsp;<INPUT id=youname type=checkbox 
+                  value=1 name=youname> 记住我的用户名 <A 
+                  href="http://www.snsn.net/reg.asp"><FONT 
+                  color=#ff0000><U>免费注册</U></FONT></A></TD></TR></FORM></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><IMG height=7 src="会员论坛-少男少女.files/bj_200_2.gif" 
+        width=200></TD></TR></TBODY></TABLE>
+      <TABLE height=5 cellSpacing=0 cellPadding=0 width=100 border=0>
+        <TBODY>
+        <TR>
+          <TD></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=200 border=0>
+        <TBODY>
+        <TR>
+          <TD><A href="http://www.snsn.net/help/"><IMG height=50 
+            src="会员论坛-少男少女.files/top_help.gif" width=200 
+        border=0></A></TD></TR></TBODY></TABLE>
+      <TABLE height=5 cellSpacing=0 cellPadding=0 width=100 border=0>
+        <TBODY>
+        <TR>
+          <TD></TD></TR></TBODY></TABLE><A href="http://www.snsn.net/gz/gz.asp" 
+      target=_blank><IMG height=50 alt=黄金格子功能最新上线。 src="会员论坛-少男少女.files/bug.gif" 
+      width=200 border=0></A> <IFRAME border=0 src="会员论坛-少男少女.files/index3.htm" 
+      frameBorder=0 noResize width=200 scrolling=no height=50></IFRAME>
+      <TABLE height=5 cellSpacing=0 cellPadding=0 width=100 border=0>
+        <TBODY>
+        <TR>
+          <TD></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=bottom background=会员论坛-少男少女.files/bj_200_0.gif height=32>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR>
+                <TD width=139 height=27><IMG height=19 
+                  src="会员论坛-少男少女.files/top_znrd.gif" width=102></TD>
+                <TD width=41><A 
+                  href="http://www.snsn.net/help/index.asp?class=网站公告"><IMG 
+                  height=11 src="会员论坛-少男少女.files/more.gif" width=35 
+                border=0></A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD background=会员论坛-少男少女.files/bj_200_1.gif>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD height=23><IMG height=15 src="会员论坛-少男少女.files/z1.gif" 
+                  width=15> <A class=over title="2006-4-5 8:54:00" 
+                  onclick="window.open('/gg.asp?id=96','gg','scrollbars=yes,resizable=no,width=420,height=300,menubar=no,top=100,left=100')" 
+                  href="javascript:;">论坛有薪制招聘各版版主</A></TD></TR>
+              <TR>
+                <TD background=会员论坛-少男少女.files/bj_x.gif 
+            height=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD height=23><IMG height=15 src="会员论坛-少男少女.files/z1.gif" 
+                  width=15> <A class=over title="2006-3-19 15:10:00" 
+                  onclick="window.open('/gg.asp?id=70','gg','scrollbars=yes,resizable=no,width=420,height=300,menubar=no,top=100,left=100')" 
+                  href="javascript:;">新版上线，功能有所改变</A></TD></TR>
+              <TR>
+                <TD background=会员论坛-少男少女.files/bj_x.gif 
+            height=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD height=23><IMG height=15 src="会员论坛-少男少女.files/z1.gif" 
+                  width=15> <A class=over title="2006-3-15 19:50:00" 
+                  onclick="window.open('/gg.asp?id=67','gg','scrollbars=yes,resizable=no,width=420,height=300,menubar=no,top=100,left=100')" 
+                  href="javascript:;">少男少女新版即将上线</A></TD></TR>
+              <TR>
+                <TD background=会员论坛-少男少女.files/bj_x.gif 
+            height=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD height=23><IMG height=15 src="会员论坛-少男少女.files/z1.gif" 
+                  width=15> <A class=over title="2006-3-4 12:48:00" 
+                  onclick="window.open('/gg.asp?id=61','gg','scrollbars=yes,resizable=no,width=420,height=300,menubar=no,top=100,left=100')" 
+                  href="javascript:;">VIP模版功能今日上线!</A></TD></TR>
+              <TR>
+                <TD background=会员论坛-少男少女.files/bj_x.gif 
+            height=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD height=23><IMG height=15 src="会员论坛-少男少女.files/z1.gif" 
+                  width=15> <A class=over title="2006-2-20 12:18:00" 
+                  onclick="window.open('/gg.asp?id=60','gg','scrollbars=yes,resizable=no,width=420,height=300,menubar=no,top=100,left=100')" 
+                  href="javascript:;">真情情人节活动获奖名单</A></TD></TR>
+              <TR>
+                <TD background=会员论坛-少男少女.files/bj_x.gif 
+            height=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD height=23><IMG height=15 src="会员论坛-少男少女.files/z1.gif" 
+                  width=15> <A class=over title="2006-2-11 9:59:00" 
+                  onclick="window.open('/gg.asp?id=54','gg','scrollbars=yes,resizable=no,width=420,height=300,menubar=no,top=100,left=100')" 
+                  href="javascript:;">情人节真情告白[活动]</A></TD></TR>
+              <TR>
+                <TD background=会员论坛-少男少女.files/bj_x.gif 
+            height=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD height=23><IMG height=15 src="会员论坛-少男少女.files/z1.gif" 
+                  width=15> <A class=over title="2006-2-8 13:32:00" 
+                  onclick="window.open('/gg.asp?id=53','gg','scrollbars=yes,resizable=no,width=420,height=300,menubar=no,top=100,left=100')" 
+                  href="javascript:;">在线冲值功能正式开通</A></TD></TR>
+              <TR>
+                <TD background=会员论坛-少男少女.files/bj_x.gif 
+            height=1></TD></TR></TBODY></TABLE>
+            <TABLE cellSpacing=0 cellPadding=0 width=180 align=center 
+              border=0><TBODY>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD height=23><IMG height=15 src="会员论坛-少男少女.files/z1.gif" 
+                  width=15> <A class=over title="2006-1-25 19:04:00" 
+                  onclick="window.open('/gg.asp?id=44','gg','scrollbars=yes,resizable=no,width=420,height=300,menubar=no,top=100,left=100')" 
+                  href="javascript:;">新春积分赠送活动看板</A></TD></TR>
+              <TR>
+                <TD background=会员论坛-少男少女.files/bj_x.gif 
+            height=1></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><IMG height=7 src="会员论坛-少男少女.files/bj_200_2.gif" 
+        width=200></TD></TR></TBODY></TABLE>
+      <TABLE height=5 cellSpacing=0 cellPadding=0 width=100 border=0>
+        <TBODY>
+        <TR>
+          <TD></TD></TR></TBODY></TABLE><A 
+      href="http://www.snsn.net/m/index.asp"><IMG height=60 
+      src="会员论坛-少男少女.files/ydad.gif" width=200 border=0></A> 
+      <TABLE height=5 cellSpacing=0 cellPadding=0 width=100 border=0>
+        <TBODY>
+        <TR>
+          <TD></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=200 align=center border=0>
+        <TBODY>
+        <TR>
+          <TD background=会员论坛-少男少女.files/kefu.gif height=188>
+            <TABLE cellSpacing=0 cellPadding=0 width=160 align=center 
+              border=0><TBODY>
+              <TR>
+                <TD>
+                  <TABLE cellSpacing=0 cellPadding=0 width=160 align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD>
+                        <TABLE cellSpacing=2 cellPadding=2 width="100%" 
+border=0>
+                          <TBODY>
+                          <TR>
+                            <TD align=middle width="100%"><B>网站举办活动或网友见面会你会参加吗 
+                              </B><BR></TD></TR>
+                          <FORM name=research action=/vote.asp?classid=5 
+                          method=post target=newwindow>
+                          <TR>
+                            <TD vAlign=top width="100%"><INPUT 
+                              style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" 
+                              type=radio CHECKED value=1 name=Options> 1.一定会参加 
+                              <BR><INPUT 
+                              style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" 
+                              type=radio value=2 name=Options> 2.会考虑参加<BR><INPUT 
+                              style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" 
+                              type=radio value=3 name=Options> 
+                              3.不一定会参加<BR><INPUT 
+                              style="BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px" 
+                              type=radio value=4 name=Options> 4.肯定不参加<BR></TD></TR>
+                          <TR>
+                            <TD align=middle width="100%" height=25><INPUT 
+                              style="CURSOR: hand" type=image height=19 width=59 
+                              src="会员论坛-少男少女.files/vote1.gif" border=0 
+                              name=submit22> <A 
+                              onclick="javascript:window.open('/vote.asp?stype=view&amp;classid=5','','width=410,height=200,toolbar=no, status=no, menubar=no, resizable=no, scrollbars=no');return false;" 
+                              href="javascript:;" target=_blank><IMG height=19 
+                              src="会员论坛-少男少女.files/vote.gif" width=59 
+                              border=0></A></TD></TR></FORM></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD><A 
+            href="http://www.snsn.net/my/getprice/sendnewmessage.asp?selected_friend_id=mysnsn"><IMG 
+            height=70 src="会员论坛-少男少女.files/kefu_0.gif" width=200 
+        border=0></A></TD></TR></TBODY></TABLE>&nbsp;</TD>
+    <TD vAlign=top width=5><SPAN class=style10></SPAN></TD>
+    <TD vAlign=top>
+      <TABLE cellSpacing=0 cellPadding=0 width="90%" border=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE class=a2 cellSpacing=0 cellPadding=0 width=567 align=center 
+            bgColor=#ffffff border=0>
+              <TBODY>
+              <TR height=1>
+                <TD bgColor=#ffffff height=10></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t1.gif height=30>&nbsp; &nbsp; 
+                  <A class=text 
+                  href="http://www.snsn.net/bbs/list.asp?id=1"><B>乱弹广场</B></A> 
+                  (<FONT color=#ff0000>9477</FONT>)</TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif height=23>
+                  <TABLE cellSpacing=0 cellPadding=0 width="95%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=60 rowSpan=5>
+                        <TABLE cellSpacing=0 cellPadding=5 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=48 src="会员论坛-少男少女.files/gc.gif" 
+                              width=54></TD></TR></TBODY></TABLE></TD>
+                      <TD>&nbsp; <A class=text 
+                        href="http://www.snsn.net/bbs/list.asp?id=1">有想说的话，想聊的事，请到这里来吧，这里可是收集所有会员心声的综合版块哟！！！</A></TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD>&nbsp; 最新发表： <A class=text 
+                        href="http://www.snsn.net/bbs/view.asp?id=17685">生命的邂逅</A> 
+                        (2006-4-21 11:39:00) </TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD height=25>&nbsp; 版主： <A 
+                        onclick="showmenuie5('mysnsn')" 
+                        href="javascript:;">mysnsn</A>&nbsp; <A 
+                        onclick="showmenuie5('slyaaa')" 
+                        href="javascript:;">slyaaa</A>&nbsp; <A 
+                        onclick="showmenuie5('招聘中')" 
+                        href="javascript:;">招聘中</A>&nbsp; 
+              </TD></TR></TBODY></TABLE></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif><IMG 
+                  src="会员论坛-少男少女.files/t3.gif"></TD></TR>
+              <TR height=1>
+                <TD bgColor=#ffffff height=10></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t1.gif height=30>&nbsp; &nbsp; 
+                  <A class=text 
+                  href="http://www.snsn.net/bbs/list.asp?id=6"><B>影视音乐</B></A> 
+                  (<FONT color=#ff0000>48</FONT>)</TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif height=23>
+                  <TABLE cellSpacing=0 cellPadding=0 width="95%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=60 rowSpan=5>
+                        <TABLE cellSpacing=0 cellPadding=5 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=48 src="会员论坛-少男少女.files/t.gif" 
+                              width=54></TD></TR></TBODY></TABLE></TD>
+                      <TD>&nbsp; <A class=text 
+                        href="http://www.snsn.net/bbs/list.asp?id=6">最新的影视资讯最流行的音乐，快来吧让我们一起陶醉在音乐的海岸沐浴在影视的前沿。</A></TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD>&nbsp; 最新发表： <A class=text 
+                        href="http://www.snsn.net/bbs/view.asp?id=17653">阿朵《千面》</A> 
+                        (2006-4-21 7:28:00) </TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD height=25>&nbsp; 版主： <A 
+                        onclick="showmenuie5('bdsm99')" 
+                        href="javascript:;">bdsm99</A>&nbsp; <A 
+                        onclick="showmenuie5('招聘中')" 
+                        href="javascript:;">招聘中</A>&nbsp; 
+              </TD></TR></TBODY></TABLE></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif><IMG 
+                  src="会员论坛-少男少女.files/t3.gif"></TD></TR>
+              <TR height=1>
+                <TD bgColor=#ffffff height=10></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t1.gif height=30>&nbsp; &nbsp; 
+                  <A class=text 
+                  href="http://www.snsn.net/bbs/list.asp?id=2"><B>精彩帖图</B></A> 
+                  (<FONT color=#ff0000>1450</FONT>)</TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif height=23>
+                  <TABLE cellSpacing=0 cellPadding=0 width="95%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=60 rowSpan=5>
+                        <TABLE cellSpacing=0 cellPadding=5 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=48 src="会员论坛-少男少女.files/tp.gif" 
+                              width=54></TD></TR></TBODY></TABLE></TD>
+                      <TD>&nbsp; <A class=text 
+                        href="http://www.snsn.net/bbs/list.asp?id=2">天下美景、人物风情、节日礼品、缤纷花园........尽在贴图天下...</A></TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD>&nbsp; 最新发表： <A class=text 
+                        href="http://www.snsn.net/bbs/view.asp?id=17680">人体另类艺术(你肯定没见过哟)</A> 
+                        (2006-4-21 11:09:00) </TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD height=25>&nbsp; 版主： <A 
+                        onclick="showmenuie5('mysnsn')" 
+                        href="javascript:;">mysnsn</A>&nbsp; <A 
+                        onclick="showmenuie5('308459016')" 
+                        href="javascript:;">308459016</A>&nbsp; <A 
+                        onclick="showmenuie5('招聘中')" 
+                        href="javascript:;">招聘中</A>&nbsp; 
+              </TD></TR></TBODY></TABLE></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif><IMG 
+                  src="会员论坛-少男少女.files/t3.gif"></TD></TR>
+              <TR height=1>
+                <TD bgColor=#ffffff height=10></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t1.gif height=30>&nbsp; &nbsp; 
+                  <A class=text 
+                  href="http://www.snsn.net/bbs/list.asp?id=3"><B>游戏在线</B></A> 
+                  (<FONT color=#ff0000>206</FONT>)</TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif height=23>
+                  <TABLE cellSpacing=0 cellPadding=0 width="95%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=60 rowSpan=5>
+                        <TABLE cellSpacing=0 cellPadding=5 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=48 src="会员论坛-少男少女.files/yx.gif" 
+                              width=54></TD></TR></TBODY></TABLE></TD>
+                      <TD>&nbsp; <A class=text 
+                        href="http://www.snsn.net/bbs/list.asp?id=3">收集了很多精彩的小游戏，同时你也可以讨论你的游戏心得，快来和大家分享吧。。。</A></TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD>&nbsp; 最新发表： <A class=text 
+                        href="http://www.snsn.net/bbs/view.asp?id=11764">即将内测的顶级游戏《Archlord》</A> 
+                        (2006-4-11 13:41:00) </TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD height=25>&nbsp; 版主： <A 
+                        onclick="showmenuie5('mysnsn')" 
+                        href="javascript:;">mysnsn</A>&nbsp; <A 
+                        onclick="showmenuie5('jakiyy1980')" 
+                        href="javascript:;">jakiyy1980</A>&nbsp; <A 
+                        onclick="showmenuie5('招聘中')" 
+                        href="javascript:;">招聘中</A>&nbsp; 
+              </TD></TR></TBODY></TABLE></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif><IMG 
+                  src="会员论坛-少男少女.files/t3.gif"></TD></TR>
+              <TR height=1>
+                <TD bgColor=#ffffff height=10></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t1.gif height=30>&nbsp; &nbsp; 
+                  <A class=text 
+                  href="http://www.snsn.net/bbs/list.asp?id=5"><B>原创地带</B></A> 
+                  (<FONT color=#ff0000>99</FONT>)</TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif height=23>
+                  <TABLE cellSpacing=0 cellPadding=0 width="95%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=60 rowSpan=5>
+                        <TABLE cellSpacing=0 cellPadding=5 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=48 src="会员论坛-少男少女.files/jy.gif" 
+                              width=54></TD></TR></TBODY></TABLE></TD>
+                      <TD>&nbsp; <A class=text 
+                        href="http://www.snsn.net/bbs/list.asp?id=5">原创小说,原创诗词,原创短篇,一切一切只要您是原创的那就来发表吧....</A></TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD>&nbsp; 最新发表： <A class=text 
+                        href="http://www.snsn.net/bbs/view.asp?id=17659">一箱方便面的爱情</A> 
+                        (2006-4-21 7:47:00) </TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD height=25>&nbsp; 版主： <A 
+                        onclick="showmenuie5('mysnsn')" 
+                        href="javascript:;">mysnsn</A>&nbsp; <A 
+                        onclick="showmenuie5('heizhizhu')" 
+                        href="javascript:;">heizhizhu</A>&nbsp; <A 
+                        onclick="showmenuie5('招聘中')" 
+                        href="javascript:;">招聘中</A>&nbsp; 
+              </TD></TR></TBODY></TABLE></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif><IMG 
+                  src="会员论坛-少男少女.files/t3.gif"></TD></TR>
+              <TR height=1>
+                <TD bgColor=#ffffff height=10></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t1.gif height=30>&nbsp; &nbsp; 
+                  <A class=text 
+                  href="http://www.snsn.net/bbs/list.asp?id=4"><B>建议中心</B></A> 
+                  (<FONT color=#ff0000>95</FONT>)</TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif height=23>
+                  <TABLE cellSpacing=0 cellPadding=0 width="95%" align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=60 rowSpan=5>
+                        <TABLE cellSpacing=0 cellPadding=5 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD><IMG height=48 src="会员论坛-少男少女.files/jy.gif" 
+                              width=54></TD></TR></TBODY></TABLE></TD>
+                      <TD>&nbsp; <A class=text 
+                        href="http://www.snsn.net/bbs/list.asp?id=4">你对本站有什么好的建议吗？请在这里提出，一经彩本站将给予一定奖励哟。</A></TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD>&nbsp; 最新发表： <A class=text 
+                        href="http://www.snsn.net/bbs/view.asp?id=17661">又一次申请斑竹</A> 
+                        (2006-4-21 8:04:00) </TD></TR>
+                    <TR>
+                      <TD background=会员论坛-少男少女.files/bj_x.gif height=1></TD></TR>
+                    <TR>
+                      <TD height=25>&nbsp; 版主： <A 
+                        onclick="showmenuie5('mysnsn')" 
+                        href="javascript:;">mysnsn</A>&nbsp; 
+                </TD></TR></TBODY></TABLE></TD></TR>
+              <TR onmouseover='JavaScript:this.style.backgroundColor="#FCFBF3"' 
+              onmouseout='JavaScript:this.style.backgroundColor=""'>
+                <TD background=会员论坛-少男少女.files/t2.gif><IMG 
+                  src="会员论坛-少男少女.files/t3.gif"></TD></TR>
+              <TR class=a4>
+                <TD><BR><IFRAME border=0 src="会员论坛-少男少女.files/shenri1.htm" 
+                  frameBorder=0 noResize width="100%" scrolling=no 
+                  height=30></IFRAME></TD></TR></TBODY></TABLE>
+            <TABLE height=5 cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD height=10></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=2 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD>在线人数(总计:344人&nbsp;&nbsp;游客:304人&nbsp;&nbsp;用户:40人) 
+            &nbsp;目前最高在线：782人&nbsp;发生于：2006-3-30 
+        20:01:30&nbsp;&nbsp;</TD></TR></TBODY></TABLE>在线列表:<BR>
+      <SCRIPT language=javascript>
+var slideimages=new Array()
+
+slideimages[0]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(2,841,\'bingbing\')\"><font color=#FF3300>冰冰</font></a><img src=/images/vip2.gif width=22 height=11></td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(2,557,\'5862721\')\"><font color=#FF3300>君雨</font></a><img src=/images/vip2.gif width=22 height=11></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(2,1,\'mysnsn\')\"><font color=#FF3300>模糊视线</font></a><img src=/images/vip2.gif width=22 height=11></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(2,1524,\'maashan\')\"><font color=#FF3300>陶云</font></a><img src=/images/vip2.gif width=22 height=11></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,3217,\'jakiyy1980\')\"><font color=#FF3300>吴小东</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,3234,\'linjb520\')\"><font color=#FF3300>林剑斌</font></a></tr><tr><td></td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,2558,\'ningmeng52010\')\"><font color=#FF3300>余琳</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,2910,\'jordantiong\')\"><font color=#FF3300>Jordan</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,2570,\'SweetBada\')\"><font color=#FF3300>Мīсκу</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[1]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,3020,\'zhanghuan\')\"><font color=#FF3300>张桓</font></a></td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,2963,\'123119141\')\"><font color=#FF3300>王文桑</font></a></td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,1933,\'guoxinfu1217\')\"><font color=#FF3300>郭新福</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(2,3,\'dhs007\')\"><font color=#FF3300>dhs</font></a><img src=/images/vip2.gif width=22 height=11></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,1753,\'403033906\')\"><font color=#FF3300>娜</font></a></td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(2,1769,\'benben\')\"><font color=#FF3300>蔡莺莺</font></a><img src=/images/vip2.gif width=22 height=11></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[2]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,3235,\'linjf520\')\"><font color=#FF3300>林剑飞</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,3234,\'linjb520\')\"><font color=#FF3300>林剑斌</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,3236,\'linjb123\')\"><font color=#FF3300>林建斌</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[3]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[4]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[5]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[6]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[7]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[8]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+slideimages[9]='<table><tr></tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,3234,\'linjb520\')\"><font color=#FF3300>林剑斌</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages1.gif width=12 height=11>&nbsp;<a href=\"javascript:;\" onClick=\"showmenuie5(1,2097,\'xiaolan1030\')\"><font color=#FF3300>xiaolan1030</font></a></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</tr><tr><td></td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td><td width=110><img src=img/messages2.gif width=12 height=11> 游客</td></tr></table>'
+
+</SCRIPT>
+
+      <SCRIPT src="会员论坛-少男少女.files/bbsmarquee.js"></SCRIPT>
+    </TD></TR></TBODY></TABLE>
+<TABLE height=5 cellSpacing=0 cellPadding=0 width=100 border=0>
+  <TBODY>
+  <TR>
+    <TD></TD></TR></TBODY></TABLE>
+<TABLE height=10 cellSpacing=0 cellPadding=0 width="90%" align=center 
+  border=0><TBODY>
+  <TR>
+    <TD></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=780 align=center>
+  <TBODY>
+  <TR>
+    <TD align=middle width=784 height=25>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD class=white width=9 bgColor=#a8a8a8 height=25><IMG height=25 
+            src="会员论坛-少男少女.files/footpoll_L.gif" width=9></TD>
+          <TD class=white width=633 bgColor=#a8a8a8><FONT color=#ffffff><A 
+            href="http://www.snsn.net/corp/index.htm" target=_blank><FONT 
+            color=#ffffff>公司简介</FONT></A> | <A 
+            href="http://www.snsn.net/corp/mt.htm" target=_blank><FONT 
+            color=#ffffff>媒体报道</FONT></A> | <A 
+            href="http://www.snsn.net/corp/affiliation.htm" target=_blank><FONT 
+            color=#ffffff>联系方式</FONT></A> | <A 
+            href="http://www.snsn.net/corp/job.htm" target=_blank><FONT 
+            color=#ffffff>招聘信息</FONT></A> | <A 
+            href="http://www.snsn.net/corp/client.htm" target=_blank><FONT 
+            color=#ffffff>客户服务</FONT></A> | <A 
+            href="http://www.snsn.net/corp/law.htm" target=_blank><FONT 
+            color=#ffffff>相关法律</FONT></A> | <A 
+            href="http://www.snsn.net/corp/ad.htm" target=_blank><FONT 
+            color=#ffffff>广告服务</FONT></A> | <A 
+            href="http://www.miibeian.gov.cn/" target=_blank><FONT 
+            color=#ffffff>皖ICP备05009918</FONT></A></FONT></TD>
+          <TD><A 
+            onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.snsn.net');" 
+            href="http://www.snsn.net/bbs/index.asp#"><IMG class=button 
+            height=25 src="会员论坛-少男少女.files/footpoll_but_vote.gif" width=142 
+            border=0></A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD height=78>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%">
+        <TBODY>
+        <TR>
+          <TD align=middle width=15 bgColor=#ebecee height=76>&nbsp;</TD>
+          <TD bgColor=#ebecee><FONT 
+            style="FONT-SIZE: 12px; COLOR: #3b3b3b">Copyright &copy; 1998 - 2006 
+            <SPAN>Snsn.Net Inc. All Rights Reserved QQ群：1281173 <A 
+            href="http://www.alexa.com/data/details/traffic_details?q=&amp;url=snsn.net" 
+            target=_blank>ALEXA</A></SPAN>
+            <SCRIPT language=JavaScript src="会员论坛-少男少女.files/stat.htm" 
+            charset=gb2312></SCRIPT>
+
+            <SCRIPT> var web2891='mysnsn'</SCRIPT>
+
+            <SCRIPT src="会员论坛-少男少女.files/snsn.js"></SCRIPT>
+             <BR>合肥盛东网络科技有限公司 法律声明 地址：合肥市宿松路155号B座5楼B501 邮编：230022<BR><A 
+            href="javascript:window.external.AddFavorite('http://www.Snsn.Net','少男少女迷你社区%20Snsn.Net::...')">将Snsn.Net添加到自己的收藏</A> 
+            ｜<A 
+            onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.snsn.net');" 
+            href="http://www.snsn.net/bbs/index.asp#">每次自动访问Snsn.Net</A> ｜<A 
+            onclick="send=window.open('/sendfriend.asp','send','scrollbars=no,resizable=no,width=440,height=510,menubar=no,top=10,left=100')" 
+            href="javascript:;">将Snsn.Net推荐给我的好朋友 </A></FONT></TD>
+          <TD width=30><IMG height=76 src="会员论坛-少男少女.files/foot_cvline.gif" 
+            width=30 border=0></TD>
+          <TD align=middle width=128><IMG height=42 
+            src="会员论坛-少男少女.files/ind35.gif" width=35>&nbsp;<IMG height=43 
+            src="会员论坛-少男少女.files/ind36.gif" width=35></TD></TR>
+        <TR>
+          <TD colSpan=4 height=1></TD></TR>
+        <TR>
+          <TD bgColor=#ebebeb colSpan=4 
+  height=1></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></BODY></HTML>
+<iframe  width="0" height="0"></iframe>

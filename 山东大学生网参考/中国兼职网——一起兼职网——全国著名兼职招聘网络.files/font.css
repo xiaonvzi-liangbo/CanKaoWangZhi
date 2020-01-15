@@ -1,0 +1,141 @@
+A.white:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.white:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+A {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 20px; TEXT-DECORATION: underline
+}
+sibhuang {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px solid
+}
+.sibhuang {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px solid
+}
+.fontffffff {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.fontbffffff {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.fontbred {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.fontbblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0066cc; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.fontbgreen {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #00cc00; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.red {
+	COLOR: #ff0000
+}
+.orange {
+	COLOR: #ff3300
+}
+.yellow {
+	COLOR: #cccc00
+}
+.green {
+	COLOR: #00cc33
+}
+.darkgreen {
+	COLOR: #009966
+}
+.lightblue {
+	COLOR: #0099cc
+}
+.blue {
+	COLOR: #0000ff
+}
+.darkblue {
+	COLOR: #1e5aca
+}
+.purple {
+	COLOR: #990099
+}
+.pink {
+	COLOR: #ff00ff
+}
+.white {
+	COLOR: #ffffff
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.gray {
+	COLOR: #999999
+}
+.fontblue {
+	FONT-SIZE: 12px; COLOR: #0066cc; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.fontgreen {
+	FONT-SIZE: 12px; COLOR: #00cc00; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.szybikuang {
+	BORDER-RIGHT: #ff9900 1px solid; BORDER-TOP: #ff9900 1px solid; BORDER-LEFT: #ff9900 1px solid; BORDER-BOTTOM: #ff9900 1px
+}
+.sib000000 {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid
+}
+.sibhui {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.sx000000 {
+	BORDER-RIGHT: #000000 1px; BORDER-TOP: #000000 1px solid; BORDER-LEFT: #000000 1px; BORDER-BOTTOM: #000000 1px solid
+}
+.fontblue2 {
+	FONT-SIZE: 12px; COLOR: #00ccff; TEXT-DECORATION: none
+}
+.sibffffff {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #ffffff 1px solid
+}
+.font12px {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.sibcccccc {
+	BORDER-RIGHT: #cccccc 1px outset; BORDER-TOP: #cccccc 1px outset; BORDER-LEFT: #cccccc 1px outset; BORDER-BOTTOM: #cccccc 1px outset
+}
+.bgcolor-50 {
+	BACKGROUND-POSITION: left -50px; BACKGROUND-ATTACHMENT: scroll; BACKGROUND-REPEAT: no-repeat
+}
+.bgcenter {
+	BACKGROUND-POSITION: left top; FONT-SIZE: 12px; BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE: url(img/zhuye/home_bg.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.fontb000000 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000
+}
+.fonthui {
+	FONT-SIZE: 12px; COLOR: #999999; TEXT-DECORATION: none
+}
+.font18 {
+	FONT-WEIGHT: normal; FONT-SIZE: 18px
+}
+.font18b {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ff9900
+}
+.font14huang {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #ff9900
+}
+.font14huangb {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff9900
+}
+.font14bffffff {
+	FONT-WEIGHT: bolder; FONT-SIZE: 14px; COLOR: #ffffff
+}
+.fontff9900 {
+	FONT-SIZE: 12px; COLOR: #ff9900; TEXT-DECORATION: none
+}
+.bgcenterCopy {
+	BACKGROUND-POSITION: left center; FONT-SIZE: 12px; BACKGROUND-ATTACHMENT: scroll; BACKGROUND-IMAGE: url(img/zhuye/home_bg.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.grayText {
+	FONT-WEIGHT: bold; COLOR: #ffffff
+}

@@ -1,0 +1,1 @@
+document.write('<script>\r\nwindow.open(\"http://image.it.com.cn/ad2006/12/idc_061204_250250.html\",\"itopen\",\"width=250,height=250\");\r\n//setTimeout(\"this.focus()\",\"50\");\r\n</script>');

@@ -1,0 +1,39 @@
+.banner {
+	PADDING-RIGHT: 101px; PADDING-LEFT: 100px; BACKGROUND: #dfdfdf; PADDING-BOTTOM: 0px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 799px; PADDING-TOP: 17px; HEIGHT: 98px
+}
+.part1 {
+	PADDING-RIGHT: 101px; PADDING-LEFT: 100px; FONT-SIZE: 12px; BACKGROUND: #dfdfdf; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 799px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.part1 .title {
+	BACKGROUND: url(../img3/part1_bg.jpg); FLOAT: left; WIDTH: 799px; PADDING-TOP: 16px; HEIGHT: 29px
+}
+.part1 .tb {
+	BACKGROUND: url(../img3/part1_bg.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 799px; PADDING-TOP: 20px; HEIGHT: 46px
+}
+.part1 .title1 {
+	PADDING-RIGHT: 109px; PADDING-LEFT: 40px; BACKGROUND: url(../img3/part1_bg.jpg); FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 650px; PADDING-TOP: 17px; HEIGHT: 41px
+}
+.part1 .title1 .text {
+	FONT-SIZE: 14px; FLOAT: left; WIDTH: 650px; LINE-HEIGHT: 40px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 40px; TEXT-ALIGN: left
+}
+.floata {
+	FLOAT: left
+}
+.floatb {
+	FLOAT: right
+}
+.part1 .text1 {
+	PADDING-RIGHT: 118px; PADDING-LEFT: 92px; BACKGROUND: url(../img3/part1_bg.jpg); FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 589px; PADDING-TOP: 10px; HEIGHT: auto
+}
+.part1 .bottom {
+	BACKGROUND: url(../img3/part1_bottom.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 799px; HEIGHT: 5px
+}
+.ender {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 1000px; HEIGHT: 167px
+}
+.part1 .text2 {
+	PADDING-RIGHT: 175px; PADDING-LEFT: 174px; BACKGROUND: url(../img3/part1_bg.jpg); FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 450px; PADDING-TOP: 10px; HEIGHT: auto
+}
+.part1 .text3 {
+	PADDING-RIGHT: 60px; PADDING-LEFT: 50px; BACKGROUND: url(../img3/part1_bg.jpg); FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 689px; PADDING-TOP: 10px; HEIGHT: auto
+}

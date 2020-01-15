@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0037)http://www.guaixia.com/User/index.asp -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>怪侠网-用户管理中心</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
+href="怪侠网-用户管理中心.files/css.css" type=text/css rel=stylesheet>
+<SCRIPT language=javascript>	
+<!--
+	window.onerror=new Function("return true");	
+	function init() 
+    {			
+	  //自动调整iframe高度
+       if(parseFloat(navigator.appVersion.match(/MSIE (\d\.*\d*)/i)[1])<7){
+		var newHeight	=window.frames["main"].document.body.scrollHeight;
+	   }else {
+		var newHeight	=window.frames["main"].document.documentElement.scrollHeight;	
+	   }
+	  if (newHeight<460) newHeight=460
+			document.getElementById("main").height = newHeight;
+    }
+    function resize_mainframe(){
+	  try{
+		if(window.frames["main"].document.readyState!="complete"){
+		init();
+   	}
+    }catch(e){}
+   }
+	window.onresize	=init;
+	resize_mainframe();
+	//-->
+</SCRIPT>
+
+<SCRIPT language=Javascript src="怪侠网-用户管理中心.files/ajax_fun.js"></SCRIPT>
+
+<SCRIPT language=javascript>
+	<!--
+		var id = 1;  //默认选中的ID
+		var cache_id = id;
+		function switchShow(id,tag){
+	    	document.getElementById("td_"+id).className='left_menu_selected';
+	    	for(var i=1; i<=9; i++){
+			   if (i!=id)
+					document.getElementById("td_"+i).className='left_menu';
+				 }
+				var tObj = document.getElementById("div"+id);
+				var	cObj = document.getElementById("div"+cache_id);
+				if(tag){
+					if(tObj) tObj.className =(tObj.className=='hid') ? "show" : "hid";
+				}else{
+				   if(tObj) tObj.className = "show";
+				}
+				if(cache_id != id){
+					cache_id = id;
+				if(cObj)cObj.className = "hid";
+				}
+			event.cancelBubble = true;
+		}
+					
+		function getAjax(obj,url)
+		{
+						   var oXmlHttp = xmlhttp();
+							//obj.innerHTML = "<div align='center'>加载中...</div>";
+							try
+							{
+								oXmlHttp.open("GET", url, true);
+								oXmlHttp.onreadystatechange = function(){
+								obj.innerHTML=oXmlHttp.responseText;
+								}
+								oXmlHttp.send(null);
+							} catch (e) {
+							}
+		}
+		function getNewMessage()
+		{
+			var obj = document.getElementById("NewMessage");
+			getAjax(obj,"UserAjax.asp?Action=GetNewMessage")
+			setTimeout("getNewMessage()", 10000);
+		}
+		setTimeout("getNewMessage()", 1000);
+				//-->
+			</SCRIPT>
+
+<STYLE>.hid {
+	DISPLAY: none
+}
+.show {
+	
+}
+#menubox {
+	BORDER-RIGHT: #26517b 0px solid; BORDER-TOP: #26517b 0px solid; BACKGROUND: #ffffff; MARGIN: 0px; BORDER-LEFT: #26517b 0px solid; WIDTH: 180px; BORDER-BOTTOM: #26517b 0px solid; HEIGHT: 463px
+}
+#menubox UL {
+	MARGIN: 1px
+}
+#menubox .left_menu {
+	PADDING-LEFT: 40px; FONT-SIZE: 14px; BACKGROUND: url(images/nselect.gif) no-repeat left 50%; MARGIN: 0px; CURSOR: hand; PADDING-TOP: 11px; LETTER-SPACING: 5px; HEIGHT: 27px; TEXT-ALIGN: left
+}
+#menubox .left_menu_selected {
+	PADDING-LEFT: 40px; FONT-WEIGHT: bolder; FONT-SIZE: 14px; BACKGROUND: url(images/select.gif) no-repeat left 50%; MARGIN: 0px; CURSOR: hand; PADDING-TOP: 11px; LETTER-SPACING: 4px; HEIGHT: 27px; TEXT-ALIGN: left
+}
+#menubox LI {
+	LIST-STYLE-IMAGE: url(images/lea2f.gif); MARGIN: 0px 0px 0px 10px; TEXT-ALIGN: left
+}
+#menubox LI A {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 3px
+}
+#menubox LI A:hover {
+	LIST-STYLE-IMAGE: url(images/leaf.gif); COLOR: #ff6600
+}
+#foot {
+	BACKGROUND: url(images/foot.gif); COLOR: #ffffff; HEIGHT: 40px; TEXT-ALIGN: center
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.3157" name=GENERATOR></HEAD>
+<BODY leftMargin=0 topMargin=0>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE style="BORDER-BOTTOM: #333333 2px solid" cellSpacing=0 
+      cellPadding=0 width="100%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD align=right width=411 background=怪侠网-用户管理中心.files/10bg.gif 
+          height=76><IMG height=76 src="怪侠网-用户管理中心.files/11.jpg" width=305></TD>
+          <TD vAlign=bottom width=833 background=怪侠网-用户管理中心.files/10bg.gif 
+          height=76>
+            <TABLE cellSpacing=0 cellPadding=0 width=614 align=center 
+              border=0><TBODY>
+              <TR>
+                <TD id=userbasicinfo align=left height=35>
+                  <SCRIPT>
+							getAjax(document.getElementById("userbasicinfo"),"UserAjax.asp?Action=Info");
+							</SCRIPT>
+                </TD></TR>
+              <TR>
+                <TD background=怪侠网-用户管理中心.files/navBg.gif height=35>
+                  <DIV class=top_nav2>
+                  <UL class=nav>
+                    <LI class=home><A 
+                    href="http://www.guaixia.com/index.asp">首页</A> </LI>
+                    <LI><A 
+                    href="http://www.guaixia.com/User/User_Message.asp?action=inbox" 
+                    target=main><SPAN id=NewMessage>我的信箱</SPAN></A> </LI>
+                    <LI><A 
+                    href="http://www.guaixia.com/User/UserAjax.asp?Action=Space" 
+                    target=_blank>我的主页</A> </LI>
+                    <LI><A href="http://www.guaixia.com/User/User_Photo.asp" 
+                    target=main>我的相册</A> </LI>
+                    <LI><A href="http://www.guaixia.com/User/User_Team.asp" 
+                    target=main>我的圈子</A> </LI>
+                    <LI><A href="http://www.guaixia.com/User/UserLogout.asp" 
+                    target=_parent>安全退出</A> 
+        </LI></UL></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width=990 align=center bgColor=#ffffff 
+border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=middle width=990>
+      <TABLE style="MARGIN-TOP: 8px" cellSpacing=0 cellPadding=0 width=1000 
+      align=center border=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top align=middle width=1000>
+            <TABLE cellSpacing=0 cellPadding=0 width="98%" align=center 
+border=0>
+              <TBODY>
+              <TR>
+                <TD vAlign=top width=231 height=450>
+                  <TABLE cellSpacing=0 cellPadding=0 width=210 align=center 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD align=left width=210 
+                      background=怪侠网-用户管理中心.files/menutop.gif height=42><SPAN 
+                        style="FONT-SIZE: 14px; COLOR: #ff6600"><SPAN 
+                        class=menu>&nbsp;<IMG height=17 
+                        src="怪侠网-用户管理中心.files/m_list_20.gif" width=21 
+                        border=0></SPAN>管理菜单</SPAN></TD></TR>
+                    <TR>
+                      <TD vAlign=top background=怪侠网-用户管理中心.files/menumid.gif 
+                      height=620>
+                        <DIV id=menubox>
+                        <DIV class=left_menu id=td_1 
+                        onclick=javascript:switchShow(1,1);>空间设置<IMG 
+                        src="怪侠网-用户管理中心.files/new_l.gif"></DIV>
+                        <DIV id=div1 style="WIDTH: 100%">
+                        <SCRIPT language=javascript>
+								  getAjax(document.getElementById("div1"),"UserAjax.asp?action=SpaceMenu");
+								 </SCRIPT>
+                        </DIV>
+                        <DIV class=left_menu id=td_2 
+                        onclick=javascript:switchShow(2,1);>招聘求职</DIV>
+                        <DIV class=hid id=div2 style="WIDTH: 100%">
+                        <LI><A href="http://www.guaixia.com/job/zhaopin.asp" 
+                        target=_blank>企业招聘</A> 
+                        <LI><A href="http://www.guaixia.com/job/qiuzhi.asp" 
+                        target=_blank>个人求职</A> </LI></DIV>
+                        <DIV class=left_menu id=td_3 
+                        onclick=javascript:switchShow(3,1);>我的资料</DIV>
+                        <DIV class=hid id=div3 style="WIDTH: 100%">
+                        <LI><A 
+                        href="http://www.guaixia.com/User/user_editinfo.asp" 
+                        target=main>基本资料</A> 
+                        <LI><A 
+                        href="http://www.guaixia.com/User/User_EditInfo.asp?Action=ContactInfo" 
+                        target=main>详细信息</A> 
+                        <LI><A 
+                        href="http://www.guaixia.com/User/User_EditInfo.asp?Action=PassInfo" 
+                        target=main>安全设置</A> </LI></DIV>
+                        <DIV class=left_menu id=td_4 
+                        onclick=javascript:switchShow(4,1);>财务管理</DIV>
+                        <DIV class=hid id=div4 style="WIDTH: 100%">
+                        <LI><A 
+                        href="http://www.guaixia.com/User/user_payonline.asp" 
+                        target=main>在线支付</A> 
+                        <LI><A 
+                        href="http://www.guaixia.com/User/user_recharge.asp" 
+                        target=main>充值卡充值</A> 
+                        <LI><A 
+                        href="http://www.guaixia.com/User/user_exchange.asp?Action=Point" 
+                        target=main>兑换点券</A> 
+                        <LI><A 
+                        href="http://www.guaixia.com/User/user_exchange.asp?Action=Edays" 
+                        target=main>兑换有效期</A> </LI></DIV>
+                        <DIV class=left_menu id=td_5 
+                        onclick=javascript:switchShow(5,1);>商城管理</DIV>
+                        <DIV class=hid id=div5 style="WIDTH: 100%"></DIV>
+                        <DIV class=left_menu id=td_6 
+                        onclick=javascript:switchShow(6,1);>服务中心</DIV>
+                        <DIV class=hid id=div6 style="WIDTH: 100%">
+                        <LI><A href="http://www.guaixia.com/User/user_rss.asp" 
+                        target=main>RSS订阅服务</A> 
+                        <LI><A 
+                        href="http://www.guaixia.com/User/User_files.asp?action=show" 
+                        target=main>我的文件管理</A> </LI></DIV>
+                        <DIV class=left_menu id=td_7 
+                        onclick=javascript:switchShow(7,1);>短消息服务</DIV>
+                        <DIV class=hid id=div7 style="WIDTH: 100%">
+                        <LI><A 
+                        href="http://www.guaixia.com/User/user_message.asp?action=new" 
+                        target=main>发送消息</A> 
+                        <LI><A 
+                        href="http://www.guaixia.com/User/user_message.asp?action=inbox" 
+                        target=main>我的收信箱</A> 
+                        <LI><A 
+                        href="http://www.guaixia.com/User/user_message.asp?action=outbox" 
+                        target=main>我的草稿箱</A> </LI></DIV>
+                        <DIV class=left_menu id=td_8 
+                        onclick=javascript:switchShow(8,1);>我的收藏夹</DIV>
+                        <DIV class=hid id=div8 style="WIDTH: 100%">
+                        <SCRIPT language=javascript>
+								  getAjax(document.getElementById("div8"),"UserAjax.asp?action=Fav");
+								 </SCRIPT>
+                        </DIV>
+                        <DIV class=left_menu id=td_9 
+                        onclick=javascript:switchShow(9,1);>我发表的评论</DIV>
+                        <DIV class=hid id=div9 style="WIDTH: 100%">
+                        <SCRIPT language=javascript>
+							  getAjax(document.getElementById("div9"),"UserAjax.asp?action=Comment");
+							 </SCRIPT>
+                        </DIV></DIV></TD></TR>
+                    <TR>
+                      <TD background=怪侠网-用户管理中心.files/menubot.gif 
+                    height=16></TD></TR></TBODY></TABLE></TD>
+                <TD vAlign=top width=749><IFRAME id=main 
+                  onreadystatechange=resize_mainframe() name=main 
+                  src="怪侠网-用户管理中心.files/User_Main.htm" frameBorder=0 width=750 
+                  scrolling=no 
+                  onload="this.height=main.document.body.scrollHeight; init()" 
+                  height=600></IFRAME></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV id=foot>Powered By KesionCMS V4.0 www.kesion.com 
+inc.<BR>福建·漳州科兴信息技术有限公司版权所有 2006-2008 闽ICP备 06009871号</DIV>
+<SCRIPT language=Javascript type=text/javascript>
+<!--
+			var gUrl = location.search;
+			gUrl = gUrl.substr(gUrl.indexOf('?')+1);
+			document.getElementById('main').src=(gUrl=='')?'User_Main.asp':gUrl;
+//-->
+</SCRIPT>
+
+<SCRIPT src="怪侠网-用户管理中心.files/ajax.js"></SCRIPT>
+</BODY></HTML>

@@ -1,0 +1,297 @@
+.ileft {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 670px
+}
+.leftop {
+	OVERFLOW: hidden; WIDTH: 670px
+}
+.leftop .swfnews {
+	FLOAT: left; WIDTH: 280px; HEIGHT: 200px
+}
+.leftop .topnews {
+	FLOAT: left; MARGIN-LEFT: 6px; WIDTH: 384px
+}
+.leftop .topnews DL {
+	BACKGROUND: url(../images/topline_botbg.gif) repeat-x left bottom; PADDING-BOTTOM: 6px; WIDTH: 384px
+}
+.leftop .topnews DL DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px solid
+}
+.leftop .topnews DL DT A {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #f00
+}
+.leftop .topnews DL DT SPAN {
+	COLOR: #000; LINE-HEIGHT: 20px
+}
+.leftop .topnews DL DD {
+	OVERFLOW: hidden; WIDTH: 384px
+}
+.leftop .topnews DL DD UL {
+	MARGIN: 6px auto 0px; WIDTH: 384px
+}
+.leftop .topnews DL DD UL LI {
+	DISPLAY: block; FLOAT: left; OVERFLOW: hidden; WIDTH: 192px; HEIGHT: 29px
+}
+.leftop .topnews DL DD UL LI A {
+	DISPLAY: block; BACKGROUND: url(../images/ico_2.gif) no-repeat 5px 12px; OVERFLOW: hidden; WIDTH: 188px; COLOR: #f00; TEXT-INDENT: 21px; LINE-HEIGHT: 29px; WHITE-SPACE: nowrap; HEIGHT: 29px
+}
+.leftlist {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; OVERFLOW: hidden; BORDER-LEFT: #ddd 1px solid; WIDTH: 668px; BORDER-BOTTOM: #ddd 1px solid
+}
+.leftlist .ptitle {
+	BACKGROUND: url(../images/topline_botbg.gif) repeat-x 0px -20px; MARGIN: 1px auto 0px; WIDTH: 666px; BORDER-BOTTOM: #eee 1px solid; HEIGHT: 31px
+}
+.leftlist .ptitle A {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../images/article_ico_1.gif) no-repeat 8px 8px; WIDTH: 200px; TEXT-INDENT: 30px; LINE-HEIGHT: 31px; HEIGHT: 31px; TEXT-DECORATION: none
+}
+.leftlist .ptlink {
+	DISPLAY: inline; FLOAT: right; MARGIN: -23px 10px 0px 0px; POSITION: relative
+}
+.leftlist .ptlink A {
+	COLOR: #666666
+}
+.leftlist .plist {
+	OVERFLOW: hidden; WIDTH: 668px; LIST-STYLE-TYPE: none
+}
+.picnews DD {
+	DISPLAY: inline; FLOAT: left; MARGIN: 10px 0px 0px 10px; OVERFLOW: hidden; WIDTH: 154px; LINE-HEIGHT: 31px; TEXT-ALIGN: center
+}
+.picnews DD A IMG {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; BORDER-BOTTOM: #ddd 1px solid
+}
+.picnews DD A:hover IMG {
+	BORDER-RIGHT: #ffcc00 1px solid; BORDER-TOP: #ffcc00 1px solid; BORDER-LEFT: #ffcc00 1px solid; BORDER-BOTTOM: #ffcc00 1px solid
+}
+.picnews DD A {
+	DISPLAY: block
+}
+.newsbox {
+	CLEAR: both; OVERFLOW: hidden; WIDTH: 680px
+}
+.newsbox DL {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; FLOAT: left; BORDER-LEFT: #ddd 1px solid; WIDTH: 330px; MARGIN-RIGHT: 6px; BORDER-BOTTOM: #ddd 1px solid
+}
+.newsbox DL DT {
+	BACKGROUND: url(../images/daohang_1.jpg) repeat-x 0px 0px; MARGIN: 1px auto 0px; WIDTH: 328px; BORDER-BOTTOM: #eee 1px solid; HEIGHT: 31px
+}
+.newsbox DL DT A {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../images/article_ico_1.gif) no-repeat 8px 8px; TEXT-INDENT: 30px; LINE-HEIGHT: 31px; HEIGHT: 31px; TEXT-DECORATION: none
+}
+.newsbox DL DD {
+	WIDTH: 330px
+}
+.newsbox DL DD UL {
+	MARGIN: 6px auto; WIDTH: 300px
+}
+.newsbox DL DD UL LI {
+	BACKGROUND: url(../images/ico_4.gif) no-repeat 6px 14px; TEXT-INDENT: 20px; LINE-HEIGHT: 29px; HEIGHT: 29px
+}
+.newsbox DL DD UL LI A {
+	FONT-SIZE: 12px; COLOR: #0000ff
+}
+.clsbox {
+	WIDTH: 668px
+}
+.clsbox UL {
+	MARGIN: 5px auto; OVERFLOW: hidden; WIDTH: 668px
+}
+.clsbox UL LI {
+	BACKGROUND: url(../images/ico_4.gif) no-repeat 16px 15px; FLOAT: left; MARGIN-LEFT: -1px; OVERFLOW: hidden; BORDER-LEFT: #eee 1px solid; WIDTH: 334px; TEXT-INDENT: 30px; LINE-HEIGHT: 30px; HEIGHT: 31px
+}
+.clsbox UL LI SPAN A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+.clsbox UL LI A {
+	FONT-SIZE: 14px; COLOR: #0066cc
+}
+.pdlbox {
+	FLOAT: left; WIDTH: 434px
+}
+.pdlbox DL {
+	WIDTH: 434px
+}
+.pdright {
+	DISPLAY: inline; BACKGROUND: url(../images/topline_botbg.gif) repeat-x right bottom; FLOAT: right; OVERFLOW: hidden; BORDER-LEFT: #eee 1px solid; WIDTH: 232px; HEIGHT: 260px
+}
+.pdright DL {
+	BORDER-RIGHT: #fff 1px solid; BORDER-LEFT: #fff 1px solid; WIDTH: 230px; HEIGHT: 260px
+}
+.pdright DL DT {
+	MARGIN-TOP: 7px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../images/ico_8.gif) no-repeat 5px 0px; TEXT-INDENT: 24px; LINE-HEIGHT: 17px
+}
+.pdright DL DD UL {
+	WIDTH: 230px; TEXT-INDENT: 25px
+}
+.pdright DL DD UL LI {
+	BACKGROUND: url(../images/ico_4.gif) no-repeat 12px 15px; LINE-HEIGHT: 29px; HEIGHT: 29px
+}
+.pdright DL DD UL LI A {
+	COLOR: #666
+}
+.askbox {
+	PADDING-BOTTOM: 1px; OVERFLOW: hidden; WIDTH: 668px
+}
+.askbox .pdlbox DL DD {
+	CLEAR: both; DISPLAY: block; OVERFLOW: hidden; WIDTH: 430px; LINE-HEIGHT: 32px; HEIGHT: 32px
+}
+.askbox .pdlbox DL DD.ot1 {
+	BACKGROUND: url(../images/qa_ico_ot.gif) no-repeat 94px 10px
+}
+.askbox .pdlbox DL DD.ot2 {
+	BACKGROUND: url(../images/qa_ico_ot.gif) no-repeat 94px -17px
+}
+.askbox .pdlbox DL DD SPAN.otclass {
+	DISPLAY: block; FLOAT: left; WIDTH: 88px; COLOR: #999; TEXT-ALIGN: right
+}
+.askbox .pdlbox DL DD SPAN.otclass A {
+	COLOR: #888; TEXT-DECORATION: none
+}
+.askbox .pdlbox DL DD SPAN.otclass A:hover {
+	COLOR: #ff3300
+}
+.askbox .pdlbox DL DD SPAN.otlink {
+	DISPLAY: block; FONT-SIZE: 14px; FLOAT: left; TEXT-INDENT: 28px
+}
+.askbox .pdlbox DL DD SPAN.otlink A {
+	COLOR: #0066cc
+}
+.askbox .pdlbox DL DD SPAN.otlink A:hover {
+	COLOR: #ff0000
+}
+.flabox .pdlbox DL {
+	WIDTH: 434px
+}
+.flabox .pdlbox DL DD {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 17px; FLOAT: left; PADDING-BOTTOM: 6px; OVERFLOW: hidden; WIDTH: 200px; PADDING-TOP: 10px; HEIGHT: 48px
+}
+.flabox .pdlbox DL DD SPAN.flashimg {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ddd 1px solid; DISPLAY: block; PADDING-LEFT: 1px; FLOAT: left; PADDING-BOTTOM: 1px; OVERFLOW: hidden; BORDER-LEFT: #ddd 1px solid; WIDTH: 60px; PADDING-TOP: 1px; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 42px
+}
+.flabox .pdlbox DL DD SPAN.flashimg IMG {
+	WIDTH: 60px; HEIGHT: 42px
+}
+.flabox .pdlbox DL DD SPAN.flashname {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; OVERFLOW: hidden; WIDTH: 130px; TEXT-INDENT: 5px; LINE-HEIGHT: 25px; WHITE-SPACE: nowrap; HEIGHT: 25px
+}
+.flabox .pdlbox DL DD SPAN.flashvs {
+	DISPLAY: block; FLOAT: left; WIDTH: 130px; COLOR: #aaa; TEXT-INDENT: 10px; LINE-HEIGHT: 21px; HEIGHT: 21px
+}
+.iright {
+	FLOAT: right; WIDTH: 222px
+}
+.rlist {
+	WIDTH: 222px
+}
+.rlist .title {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/rlist_title_bg.gif) no-repeat; WIDTH: 222px; COLOR: #444; TEXT-INDENT: 10px; PADDING-TOP: 9px; LETTER-SPACING: 2px; HEIGHT: 19px
+}
+.rlist .titlelogin {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/rlist_title_bg1.gif) no-repeat; WIDTH: 222px; COLOR: #fff; TEXT-INDENT: 10px; PADDING-TOP: 9px; LETTER-SPACING: 2px; HEIGHT: 19px
+}
+.rlist .rbox {
+	BORDER-RIGHT: #e2e2e2 1px solid; BORDER-TOP: #e2e2e2 1px solid; BORDER-LEFT: #e2e2e2 1px solid; WIDTH: 220px; BORDER-BOTTOM: #e2e2e2 1px solid
+}
+.jftop {
+	BACKGROUND: url(../images/no_list_bg_1.gif) repeat-y 9px 31px; WIDTH: 222px
+}
+.jftop .jftitle {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/jitop_bgtop.gif) no-repeat; WIDTH: 222px; TEXT-INDENT: 26px; LINE-HEIGHT: 17px; PADDING-TOP: 12px; LETTER-SPACING: 3px; HEIGHT: 18px
+}
+.jftop DL {
+	CLEAR: both; BORDER-RIGHT: #d9d9d9 1px solid; BORDER-TOP: #d9d9d9 0px solid; BACKGROUND: url(../images/no_list_1.gif) no-repeat 8px 0px; PADDING-BOTTOM: 5px; BORDER-LEFT: #d9d9d9 1px solid; WIDTH: 220px; BORDER-BOTTOM: #d9d9d9 1px solid
+}
+.jftop DL DD {
+	CLEAR: both; DISPLAY: block; BACKGROUND: url(../images/hr_1.gif) repeat-x center bottom; MARGIN: 0px 4px; WIDTH: 212px; PADDING-TOP: 7px; HEIGHT: 23px
+}
+.jftop DL DD SPAN {
+	DISPLAY: inline
+}
+.jftop DL DD .name {
+	FLOAT: left; MARGIN-LEFT: 29px
+}
+.jftop DL DD .jifen {
+	FONT-SIZE: 10px; FLOAT: right; WIDTH: 60px; COLOR: #339933; TEXT-ALIGN: left
+}
+.gpbox {
+	WIDTH: 220px
+}
+.gpbox UL {
+	PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 220px
+}
+.gpbox UL LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 9px 0px 0px 8px; WIDTH: 98px
+}
+.gpbox UL LI SPAN.gpimg {
+	DISPLAY: block; WIDTH: 96px
+}
+.gpbox UL LI SPAN.gpimg A {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ddd 1px solid; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; OVERFLOW: hidden; BORDER-LEFT: #ddd 1px solid; WIDTH: 94px; PADDING-TOP: 1px; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 56px
+}
+.gpbox UL LI SPAN.gpimg A:hover {
+	BORDER-RIGHT: #f90 1px solid; BORDER-TOP: #f90 1px solid; BORDER-LEFT: #f90 1px solid; BORDER-BOTTOM: #f90 1px solid
+}
+.gpbox UL LI SPAN.gpimg A IMG {
+	WIDTH: 94px; HEIGHT: 56px
+}
+.gpbox UL LI SPAN.gpname {
+	MARGIN-TOP: 5px; DISPLAY: block; OVERFLOW: hidden; WIDTH: 96px; LINE-HEIGHT: 21px; TEXT-ALIGN: center
+}
+.gplist {
+	WIDTH: 220px
+}
+.gplist DL {
+	BORDER-TOP: #eee 1px solid; PADDING-TOP: 1px
+}
+.gplist DL DT {
+	FONT-WEIGHT: bold; BACKGROUND: url(../images/topline_botbg.gif) repeat-x right -25px; MARGIN: 0px auto; WIDTH: 218px; TEXT-INDENT: 12px; LINE-HEIGHT: 26px; BORDER-BOTTOM: #eee 1px solid; LETTER-SPACING: 3px; HEIGHT: 26px
+}
+.gplist DL DD UL {
+	MARGIN: 0px auto; WIDTH: 200px
+}
+.gplist DL DD UL LI {
+	OVERFLOW: hidden; WIDTH: 200px; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.gplist DL DD UL LI SPAN.gpclass {
+	COLOR: #999999
+}
+.gplist DL DD UL LI SPAN.gpclass A {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+.gplist DL DD UL LI SPAN A:hover {
+	COLOR: #ff3300
+}
+.gplist DL DD UL LI SPAN.gptlink {
+	MARGIN-LEFT: 5px
+}
+.gplist DL DD UL LI SPAN.gptlink A {
+	COLOR: #0066cc
+}
+.vote SPAN {
+	DISPLAY: block; MARGIN: 12px 0px 2px 10px; LINE-HEIGHT: 20px; HEIGHT: 20px
+}
+.vote SPAN INPUT {
+	WIDTH: 26px
+}
+.vote .votesubmit {
+	BORDER-TOP: #ddd 1px solid; MARGIN: 7px auto; WIDTH: 200px; PADDING-TOP: 10px; HEIGHT: 24px; TEXT-ALIGN: center
+}
+.flink {
+	CLEAR: both; BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; MARGIN: 6px auto; OVERFLOW: hidden; BORDER-LEFT: #ddd 1px solid; WIDTH: 898px; BORDER-BOTTOM: #ddd 1px solid
+}
+.flink .title {
+	BACKGROUND: url(../images/flink_title_bg.gif) repeat-x; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.flink .title DL DT {
+	FONT-WEIGHT: bold; FLOAT: left; WIDTH: 200px; COLOR: #666666; TEXT-INDENT: 20px; LINE-HEIGHT: 26px; LETTER-SPACING: 2px
+}
+.flink .title DL DD {
+	DISPLAY: inline; FLOAT: right; COLOR: #aaa; MARGIN-RIGHT: 10px
+}
+.flink .title DL DD A {
+	COLOR: #666666
+}
+.flink .flinkcon {
+	PADDING-BOTTOM: 10px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 895px
+}
+.flink .flinkcon A {
+	PADDING-RIGHT: 12px; DISPLAY: block; PADDING-LEFT: 12px; FLOAT: left; MARGIN: 10px 0px 0px -1px; BORDER-LEFT: #eee 1px solid; COLOR: #666666; LINE-HEIGHT: 15px; WHITE-SPACE: nowrap; HEIGHT: 15px
+}

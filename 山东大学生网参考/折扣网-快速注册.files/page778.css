@@ -1,0 +1,144 @@
+.top_rim {
+	MARGIN: 0px auto; WIDTH: 778px; TEXT-ALIGN: center
+}
+#PageTop {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 100px
+}
+#PageLogo {
+	CLEAR: left; FLOAT: left; MARGIN: 10px 0px 10px 10px; WIDTH: 170px; HEIGHT: 49px
+}
+#FenZhanText {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; WIDTH: 180px; TEXT-ALIGN: center
+}
+#FenZhanText B {
+	FONT-WEIGHT: normal
+}
+#FenZhanText B A {
+	COLOR: #666
+}
+#TopFirstLine {
+	FONT-SIZE: 12px; FLOAT: right; MARGIN: 10px 10px 0px auto; WIDTH: 500px; COLOR: #f80; HEIGHT: 20px; TEXT-ALIGN: right
+}
+#TopSecondLine {
+	CLEAR: right; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 500px; PADDING-TOP: 0px; HEIGHT: 30px; TEXT-ALIGN: right
+}
+#TopFirstLine A {
+	COLOR: #555
+}
+#TopFirstLine SPAN A {
+	COLOR: #555
+}
+#TopSecondLine TD {
+	MARGIN-LEFT: 10px; WIDTH: 80px; TEXT-ALIGN: center
+}
+#TopSecondLine TABLE {
+	MARGIN-BOTTOM: 10px; WIDTH: auto
+}
+#TopBottomLine {
+	BORDER-TOP: #f60 2px solid; WIDTH: 100%; HEIGHT: 2px
+}
+#TopFirstLine A {
+	FONT-SIZE: 12px
+}
+#FenZhanText A {
+	FONT-SIZE: 12px
+}
+#PageChannel {
+	BORDER-RIGHT: #c30 1px solid; BORDER-TOP: #f30 1px solid; BACKGROUND: url(../../image/navbg.jpg) #f60 repeat-x; MARGIN: 0px auto; BORDER-LEFT: #c30 1px solid; WIDTH: 100%; HEIGHT: 30px
+}
+#PageSearchLine {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: 0px; BACKGROUND: #f8f8f8; MARGIN: 0px auto 5px; BORDER-LEFT: #ddd 1px solid; WIDTH: 100%; PADDING-TOP: 3px; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 40px
+}
+#PageSearchLine DIV.flt {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 10px 0px auto 5px; WIDTH: auto; PADDING-TOP: 0px; HEIGHT: auto
+}
+.topSearchInput {
+	BORDER-RIGHT: #ddd 1px solid; BORDER-TOP: #555 2px solid; MARGIN: 0px; BORDER-LEFT: #555 2px solid; WIDTH: 200px; BORDER-BOTTOM: #ddd 1px solid
+}
+.topSearchBtn {
+	BORDER-RIGHT: #333 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #333 1px solid; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../../image/sjbtn.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #333 1px solid; WIDTH: 50px; COLOR: #000; PADDING-TOP: 0px; BORDER-BOTTOM: #333 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #fff
+}
+.topSearchHot {
+	FONT-SIZE: 12px; FLOAT: left; MARGIN: 5px auto auto 10px; WIDTH: auto; COLOR: #f30; PADDING-TOP: 10px; HEIGHT: 24px
+}
+.topSearchHot A {
+	FONT-SIZE: 12px; COLOR: #555
+}
+.topSearchHot A:link {
+	FONT-SIZE: 12px; COLOR: #555
+}
+.topSearchHot A:visited {
+	FONT-SIZE: 12px; COLOR: #555
+}
+.topSearchHot A:hover {
+	FONT-SIZE: 12px; COLOR: #f60
+}
+#PageChannel DIV {
+	MARGIN-TOP: 3px; FLOAT: left; MARGIN-LEFT: 5px; VERTICAL-ALIGN: middle; WIDTH: 90px; LINE-HEIGHT: 27px; HEIGHT: 27px
+}
+#PageChannel DIV H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.Channel_On {
+	PADDING-RIGHT: 6px; BORDER-TOP: #fff 0px solid; PADDING-LEFT: 6px; BACKGROUND: #f8f8f8; MARGIN: 0px auto; CURSOR: hand; COLOR: #000; PADDING-TOP: 6px; TEXT-ALIGN: center
+}
+.Channel_Out {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; COLOR: #fff; PADDING-TOP: 4px; TEXT-ALIGN: center
+}
+.Channel_Out A:link {
+	COLOR: #fff
+}
+.Channel_Out A:visited {
+	COLOR: #fff
+}
+.Channel_Out A:hover {
+	COLOR: #ff0; TEXT-DECORATION: none
+}
+.Channel_On A:link {
+	COLOR: #000
+}
+.Channel_On A:visited {
+	COLOR: #000
+}
+.Channel_On A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#PageMain {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; BORDER-LEFT: #ddd 1px solid; WIDTH: 760px; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: auto
+}
+.p_outer {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 760px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.p_inner {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: auto
+}
+.posi {
+	PADDING-LEFT: 5px; FONT-SIZE: 12px; MARGIN: 3px auto 5px; VERTICAL-ALIGN: middle; COLOR: #555; LINE-HEIGHT: 150%; HEIGHT: auto
+}
+.posi A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.posi A:hover {
+	COLOR: #f60; TEXT-DECORATION: underline
+}
+#PageBottom {
+	PADDING-RIGHT: 15px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 15px; MARGIN: 20px auto; WIDTH: 760px; PADDING-TOP: 15px; HEIGHT: 100px
+}
+#PageBottomLeft {
+	FLOAT: left; MARGIN: 10px auto; WIDTH: 20%; COLOR: #555; LINE-HEIGHT: 150%; HEIGHT: auto
+}
+#PageBottomRight {
+	FONT-SIZE: 12px; FLOAT: left; MARGIN: 10px auto; WIDTH: 75%; COLOR: #555; LINE-HEIGHT: 150%; HEIGHT: auto
+}
+#PageBottomRight A {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+#PageBottomRight A:link {
+	FONT-SIZE: 12px; COLOR: #336666; TEXT-DECORATION: none
+}
+#PageBottomRight A:visited {
+	FONT-SIZE: 12px; COLOR: #336666; TEXT-DECORATION: none
+}
+#PageBottomRight A:hover {
+	FONT-SIZE: 12px; COLOR: #f60; TEXT-DECORATION: underline
+}

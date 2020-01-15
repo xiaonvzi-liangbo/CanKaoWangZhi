@@ -1,0 +1,96 @@
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #06329f; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #0033ff; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 12px; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.mianDiv {
+	MARGIN: 0px auto; WIDTH: 780px; POSITION: relative; TEXT-ALIGN: left
+}
+.cDiv {
+	FLOAT: left; WIDTH: 780px; PADDING-TOP: 10px
+}
+.cwDiv {
+	FLOAT: left; WIDTH: 480px
+}
+.csDiv {
+	FLOAT: right; WIDTH: 280px
+}
+.conDiv {
+	PADDING-LEFT: 0px; FLOAT: left; OVERFLOW: hidden; WIDTH: 100%; PADDING-TOP: 55px; TEXT-ALIGN: left
+}
+.inf_li {
+	LIST-STYLE-IMAGE: url(../images/dot.gif); MARGIN-LEFT: 20px
+}
+.inf_li LI A {
+	POSITION: relative; TOP: -5px
+}
+.shopLogo {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MIN-HEIGHT: 43px; BORDER-LEFT: #ccc 1px solid; WIDTH: 95px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 43px
+}
+.shopBack {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: red
+}
+.more {
+	LIST-STYLE-IMAGE: none; MARGIN-RIGHT: 30px; LIST-STYLE-TYPE: none; TEXT-ALIGN: right
+}
+.botM {
+	FLOAT: left; BACKGROUND-IMAGE: url(../images/bg.jpg); WIDTH: 20px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 350px
+}
+#guidDiv {
+	FLOAT: left; MARGIN-LEFT: 15px; WIDTH: 98%
+}
+.info_t {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 0px 4px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../images/titlebg.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-REPEAT: repeat-x; HEIGHT: 34px
+}
+.howGetBack {
+	BACKGROUND-IMAGE: url(../images/why.jpg); OVERFLOW: hidden; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat
+}
+.howGetBack_left {
+	MARGIN-LEFT: 300px; WIDTH: 178px; PADDING-TOP: 15px; HEIGHT: 35px
+}
+.couponBox {
+	MARGIN-TOP: 0px; BACKGROUND-IMAGE: url(../images/hotcoupon.jpg); PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat
+}
+.couponBox_right {
+	PADDING-RIGHT: 20px; PADDING-TOP: 15px; HEIGHT: 30px; TEXT-ALIGN: right
+}
+.newsBox {
+	MARGIN-TOP: 0px; BACKGROUND-IMAGE: url(../images/tuijian.jpg); PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat
+}
+.newsBox_right {
+	PADDING-RIGHT: 20px; PADDING-TOP: 12px; HEIGHT: 30px; TEXT-ALIGN: right
+}
+.shopBox {
+	BACKGROUND-IMAGE: url(../images/tuijianwz.jpg); PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; TEXT-ALIGN: center
+}
+.shopBox_right {
+	PADDING-RIGHT: 20px; PADDING-TOP: 14px; HEIGHT: 40px; TEXT-ALIGN: right
+}
+.a_dDiv {
+	BORDER-RIGHT: #ffcf60 1px solid; BACKGROUND-POSITION: 3px 0px; BORDER-TOP: #ffcf60 1px solid; MARGIN-TOP: 2px; PADDING-LEFT: 55px; BACKGROUND-IMAGE: url(../images/indexgz.gif); BORDER-LEFT: #ffcf60 1px solid; BORDER-BOTTOM: #ffcf60 1px solid; BACKGROUND-REPEAT: no-repeat; HEIGHT: 50px; BACKGROUND-COLOR: #fff7d6
+}
+.a_dTitle {
+	PADDING-LEFT: 4px; FLOAT: left; WIDTH: 220px; PADDING-TOP: 8px
+}
+.a_dGB {
+	BACKGROUND-POSITION: 80px 0px; FLOAT: right; BACKGROUND-IMAGE: url(../images/close.gif); WIDTH: 100px; CURSOR: pointer; BACKGROUND-REPEAT: no-repeat; HEIGHT: 19px
+}
+.a_dBody {
+	FLOAT: left; WIDTH: 385px; LINE-HEIGHT: 150%; PADDING-TOP: 10px
+}
+.a_dLink {
+	FLOAT: right; WIDTH: 100px
+}
+.a_dRight {
+	FLOAT: right; WIDTH: 101px
+}

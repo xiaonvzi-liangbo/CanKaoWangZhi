@@ -1,0 +1,111 @@
+BODY {
+	BACKGROUND-POSITION: center top; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(user_bg.jpg); MARGIN: 0px; BACKGROUND-REPEAT: repeat-x
+}
+TD {
+	FONT: 9pt/22px verdana, arial, sans-serif, ËÎÌå; COLOR: #666666; TEXT-DECORATION: none
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: #5c5c5c; FONT-FAMILY: verdana, arial, sans-serif, ËÎÌå; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #5c5c5c; FONT-FAMILY: verdana, arial, sans-serif, ËÎÌå; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 9pt; COLOR: #cc0033; FONT-FAMILY: verdana, arial, sans-serif, ËÎÌå; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc0033; FONT-FAMILY: verdana, arial, sans-serif, ËÎÌå; TEXT-DECORATION: underline
+}
+.height {
+	FONT-SIZE: 12pt; LINE-HEIGHT: 1120%; FONT-FAMILY: verdana, arial, sans-serif ËÎÌå
+}
+.width {
+	FONT-SIZE: 12pt; FONT-FAMILY: verdana, arial, sans-serif ËÎÌå; LETTER-SPACING: 0.5em
+}
+.textbox {
+	BORDER-RIGHT: #7f7f7f 1px solid; BORDER-TOP: #7f7f7f 1px solid; FONT-SIZE: 12pt; BORDER-LEFT: #7f7f7f 1px solid; COLOR: #7f7f7f; LINE-HEIGHT: 14px; BORDER-BOTTOM: #7f7f7f 1px solid; FONT-FAMILY: verdana, arial, sans-serif ËÎÌå
+}
+.small_eng {
+	FONT: 7.5pt verdana, arial, sans-serif; COLOR: #7f7f7f; LETTER-SPACING: 0em; TEXT-DECORATION: none
+}
+.small_eng:link {
+	FONT: 7.5pt verdana, arial, sans-serif; COLOR: #7f7f7f; LETTER-SPACING: 0em; TEXT-DECORATION: none
+}
+.small_eng:visited {
+	FONT: 7.5pt verdana, arial, sans-serif; COLOR: #7f7f7f; LETTER-SPACING: 0em; TEXT-DECORATION: none
+}
+.small_eng:active {
+	FONT: 7.5pt verdana, arial, sans-serif; COLOR: #7f7f7f; LETTER-SPACING: 0em; TEXT-DECORATION: none
+}
+.small_eng:hover {
+	FONT: 7.5pt verdana, arial, sans-serif; COLOR: #575757; LETTER-SPACING: 0em; TEXT-DECORATION: underline
+}
+.small_kor {
+	FONT: 12pt ±¼¸², ËÎÌå; COLOR: #7f7f7f; LETTER-SPACING: 0em; TEXT-DECORATION: none
+}
+.small_kor:link {
+	FONT: 12pt ±¼¸², ËÎÌå; COLOR: #7f7f7f; LETTER-SPACING: 0em; TEXT-DECORATION: none
+}
+.small_kor:visited {
+	FONT: 12pt ±¼¸², ËÎÌå; COLOR: #7f7f7f; LETTER-SPACING: 0em; TEXT-DECORATION: none
+}
+.small_kor:active {
+	FONT: 12pt ±¼¸², ËÎÌå; COLOR: #7f7f7f; LETTER-SPACING: 0em; TEXT-DECORATION: none
+}
+.small_kor:hover {
+	FONT: 12pt ±¼¸², ËÎÌå; COLOR: #575757; LETTER-SPACING: 0em; TEXT-DECORATION: underline
+}
+INPUT.an {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12pt; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 0px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 0px; WIDTH: 104px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 0px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: #cccccc
+}
+INPUT.an1 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10pt; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 0px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 0px; WIDTH: 104px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 0px; HEIGHT: 19px; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: #cccccc
+}
+INPUT.an2 {
+	FONT-SIZE: 12pt; HEIGHT: 23px
+}
+INPUT.an3 {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 1px; WIDTH: 90px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 1px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 0px; BORDER-RIGHT-COLOR: #cccccc
+}
+INPUT.an4 {
+	FONT-SIZE: 9pt; HEIGHT: 20px
+}
+INPUT.an5 {
+	BORDER-RIGHT: #d0d0d0 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #d0d0d0 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#F0F0F0); BORDER-LEFT: #d0d0d0 1px solid; WIDTH: 110px; CURSOR: hand; COLOR: #0066cc; PADDING-TOP: 1px; BORDER-BOTTOM: #d0d0d0 1px solid; HEIGHT: 22px; BACKGROUND-COLOR: #ffffff; 1px: 
+}
+INPUT.an6 {
+	FONT-SIZE: 12pt; WIDTH: 60px; HEIGHT: 19px
+}
+INPUT {
+	BORDER-RIGHT: #97c7e2 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #97c7e2 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; BORDER-LEFT: #97c7e2 1px solid; COLOR: #cc0000; PADDING-TOP: 4px; BORDER-BOTTOM: #97c7e2 1px solid; HEIGHT: 20px; Bbackground-color: #FFFFFF
+}
+TEXTAREA {
+	BORDER-RIGHT: #97c7e2 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #97c7e2 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; BORDER-LEFT: #97c7e2 1px solid; COLOR: #cc0000; PADDING-TOP: 4px; BORDER-BOTTOM: #97c7e2 1px solid; Bbackground-color: #FFFFFF
+}
+SELECT {
+	BORDER-RIGHT: #97c7e2 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #97c7e2 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 12px; BORDER-LEFT: #97c7e2 1px solid; COLOR: #666666; PADDING-TOP: 4px; BORDER-BOTTOM: #97c7e2 1px solid; Bbackground-color: #FFFFFF
+}
+A.A:link {
+	FONT-WEIGHT: bold; COLOR: #fff6ab
+}
+A.A:visited {
+	FONT-WEIGHT: bold; COLOR: #fff179
+}
+A.A:active {
+	FONT-WEIGHT: bold; COLOR: #ffc879
+}
+A.A:hover {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.line {
+	FONT-WEIGHT: bold; COLOR: #fff6ab
+}
+.input {
+	BORDER-RIGHT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; WIDTH: 120px; COLOR: #cc3300; BORDER-BOTTOM: #ff6600 1px solid; HEIGHT: 22px
+}
+.sub {
+	BORDER-RIGHT: #3399cc 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #3399cc 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#CAE9FF); BORDER-LEFT: #3399cc 1px solid; CURSOR: hand; COLOR: #0066cc; PADDING-TOP: 4px; BORDER-BOTTOM: #3399cc 1px solid; BACKGROUND-COLOR: #ffffff; 1px: 
+}
+.subto {
+	BORDER-TOP-WIDTH: 0px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 9pt; BACKGROUND-IMAGE: url(/images/sub.gif); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 80px; CURSOR: hand; COLOR: #fff; PADDING-TOP: 2px; HEIGHT: 27px; BORDER-RIGHT-WIDTH: 0px
+}

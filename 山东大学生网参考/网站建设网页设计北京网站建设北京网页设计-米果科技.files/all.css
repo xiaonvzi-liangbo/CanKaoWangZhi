@@ -1,0 +1,54 @@
+BODY {
+	MARGIN: 4px
+}
+.STYLE1 {
+	FONT-SIZE: 12px; FONT-FAMILY: ËÎÌו
+}
+.STYLE7 {
+	COLOR: #666666
+}
+.STYLE14 {
+	FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.STYLE19 {
+	FONT-SIZE: 10px; COLOR: #999999; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.STYLE20 {
+	COLOR: #999999
+}
+.STYLE25 {
+	COLOR: #939393
+}
+.STYLE27 {
+	COLOR: #ffffff
+}
+.STYLE28 {
+	FONT-SIZE: 12px; COLOR: #fff000
+}
+.STYLE33 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #b46618
+}
+.STYLE36 {
+	FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.STYLE38 {
+	FONT-SIZE: 12px
+}
+.STYLE39 {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+.font14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: ËÎÌו
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}

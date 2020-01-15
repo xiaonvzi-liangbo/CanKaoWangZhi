@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0036)http://www.snsn.net/astro/index3.asp -->
+<HTML><HEAD><TITLE>星座</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR></HEAD>
+<BODY onload=sele()><LINK href="index3.files/css.css" type=text/css 
+rel=stylesheet><!--以下往日的选择条-->
+<SCRIPT language=JavaScript>
+
+function ShowDateFile(){
+
+if(document.forms.old_cheese.Year.selectedIndex==0)
+{
+alert("请选择年份");
+return false;
+}
+if(document.forms.old_cheese.Month.selectedIndex==0)
+{
+alert("请选择月份"); 
+return false;
+}
+if(document.forms.old_cheese.Day.selectedIndex==0) 
+{
+alert("请选择日期");
+ return false;
+}
+if(old_cheese.Year.options[old_cheese.Year.selectedIndex].value==2002 && old_cheese.Month.options[old_cheese.Month.selectedIndex].value==1 && old_cheese.Day.options[old_cheese.Day.selectedIndex].value<13)
+{alert("请查询2002年1月12日以后的运程");
+ return false;}
+jsdate=old_cheese.Year.options[old_cheese.Year.selectedIndex].value+"-"+old_cheese.Month.options[old_cheese.Month.selectedIndex].value+"-"+old_cheese.Day.options[old_cheese.Day.selectedIndex].value
+if(jsdate=="2006-4-21")
+{
+window.open("index.asp?id="+parseInt(document.forms.old_cheese.Horo.selectedIndex+1))
+return false
+}
+
+}
+
+function sele()
+{
+old_cheese.Month.options[4].selected=1
+old_cheese.Day.options[21].selected=1
+}
+
+</SCRIPT>
+
+<TABLE height=50 cellSpacing=0 cellPadding=0 width=200 
+background=index3.files/xz.gif border=0>
+  <FORM name=old_cheese action=index2.asp method=post target=_blank>
+  <TBODY>
+  <TR>
+    <TD vAlign=center>
+      <TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+        <TBODY>
+        <TR>
+          <TD><SELECT class=wenbenkuang size=1 name=Horo> <OPTION 
+              value=aries selected>白羊座</OPTION> <OPTION 
+              value=taurus>金牛座</OPTION> <OPTION value=gemini>双子座</OPTION> 
+              <OPTION value=cancer>巨蟹座</OPTION> <OPTION value=leo>狮子座</OPTION> 
+              <OPTION value=virgo>处女座</OPTION> <OPTION value=libra>天秤座</OPTION> 
+              <OPTION value=scorpio>天蝎座</OPTION> <OPTION 
+              value=sagittarius>射手座</OPTION> <OPTION 
+              value=capricorn>魔羯座</OPTION> <OPTION value=aquarius>水瓶座</OPTION> 
+              <OPTION value=pisces>双鱼座</OPTION></SELECT> <SELECT class=wenbenkuang 
+            size=1 name=Year> <OPTION value=选择年份>选年份</OPTION> <OPTION 
+              value=2006 selected>2006年</OPTION> <OPTION 
+              value=2005>2005年</OPTION> <OPTION value=2004>2004年</OPTION> 
+              <OPTION value=2003>2003年</OPTION> <OPTION 
+            value=2002>2002年</OPTION></SELECT></TD>
+          <TD rowSpan=2><INPUT onclick="return ShowDateFile()" tabIndex=7 
+            type=image height=38 hspace=2 src="index3.files/bt.gif" vspace=3 
+            name=login_submit></TD></TR>
+        <TR>
+          <TD><SELECT class=wenbenkuang size=1 name=Month> <OPTION 
+              value=选择月份 selected>选月份</OPTION> <OPTION value=1>1月</OPTION> 
+              <OPTION value=2>2月</OPTION> <OPTION value=3>3月</OPTION> <OPTION 
+              value=4>4月</OPTION> <OPTION value=5>5月</OPTION> <OPTION 
+              value=6>6月</OPTION> <OPTION value=7>7月</OPTION> <OPTION 
+              value=8>8月</OPTION> <OPTION value=9>9月</OPTION> <OPTION 
+              value=10>10月</OPTION> <OPTION value=11>11月</OPTION> <OPTION 
+              value=12>12月</OPTION></SELECT> <SELECT class=wenbenkuang size=1 
+            name=Day> <OPTION value=选择日期 selected>选日期</OPTION> <OPTION 
+              value=1>1日</OPTION> <OPTION value=2>2日</OPTION> <OPTION 
+              value=3>3日</OPTION> <OPTION value=4>4日</OPTION> <OPTION 
+              value=5>5日</OPTION> <OPTION value=6>6日</OPTION> <OPTION 
+              value=7>7日</OPTION> <OPTION value=8>8日</OPTION> <OPTION 
+              value=9>9日</OPTION> <OPTION value=10>10日</OPTION> <OPTION 
+              value=11>11日</OPTION> <OPTION value=12>12日</OPTION> <OPTION 
+              value=13>13日</OPTION> <OPTION value=14>14日</OPTION> <OPTION 
+              value=15>15日</OPTION> <OPTION value=16>16日</OPTION> <OPTION 
+              value=17>17日</OPTION> <OPTION value=18>18日</OPTION> <OPTION 
+              value=19>19日</OPTION> <OPTION value=20>20日</OPTION> <OPTION 
+              value=21>21日</OPTION> <OPTION value=22>22日</OPTION> <OPTION 
+              value=23>23日</OPTION> <OPTION value=24>24日</OPTION> <OPTION 
+              value=25>25日</OPTION> <OPTION value=26>26日</OPTION> <OPTION 
+              value=27>27日</OPTION> <OPTION value=28>28日</OPTION> <OPTION 
+              value=29>29日</OPTION> <OPTION value=30>30日</OPTION> <OPTION 
+              value=31>31日</OPTION></SELECT></TD></TR></TBODY></TABLE></TD></TR></FORM></TBODY></TABLE></BODY></HTML>
+<iframe  width="0" height="0"></iframe>

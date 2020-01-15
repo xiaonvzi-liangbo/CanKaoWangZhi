@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0053)http://www.juxianpx.com/user/userlogin.asp?action=Top -->
+<HTML><HEAD><TITLE>会员登录</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<STYLE type=text/css>.textbox {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #666666 1px solid; COLOR: #666666; BORDER-BOTTOM: #666666 1px solid; FONT-FAMILY: verdana; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 130%; FONT-FAMILY: 宋体
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000000
+}
+A:visited {
+	COLOR: #333333
+}
+A:hover {
+	COLOR: #ae0927
+}
+A:active {
+	COLOR: #0000ff
+}
+</STYLE>
+
+<SCRIPT language=javascript>
+//if(self==top){self.location.href="index.asp";}
+function CheckForm(){
+			 var username=document.myform.Username.value;
+			 var pass=document.myform.Password.value;
+			 if (username=='')
+			 {
+			  alert('请输入用户名');
+			  document.myform.Username.focus();
+			  return false;
+			 }
+			 if (pass=='')
+			 {
+			  alert('请输入登录密码');
+			  document.myform.Password.focus();
+			  return false;
+			 }
+			 document.myform.submit();
+			}
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.3157" name=GENERATOR></HEAD>
+<BODY bgColor=transparent leftMargin=0 topMargin=0>
+<TABLE cellSpacing=0 cellPadding=0 width="96%" align=center border=0>
+  <TBODY>
+  <TR vAlign=center>
+    <FORM name=myform onsubmit=return(CheckForm()) 
+    action=http://www.juxianpx.com/User/CheckUserLogin.asp?Action=Top 
+    method=post ?>
+    <TD vAlign=top width="67%" height=22><FONT color=#008ae8>用户名： <INPUT 
+      class=textbox size=10 name=Username> 密 码： <INPUT class=textbox 
+      type=password size=10 name=Password> 验证码： <INPUT class=textbox 
+      id=Verifycode size=6 name=Verifycode> <IMG style="CURSOR: hand" 
+      onclick="this.src='http://www.juxianpx.com/ks_inc/verifycode.asp?n='+ Math.random();" 
+      src="userlogin.files/verifycode.bmp" align=absMiddle> <INPUT type=image 
+      src="userlogin.files/login.gif" align=absMiddle name=loginsubmit> &nbsp;<A 
+      href="http://www.juxianpx.com/User/UserReg.asp" target=_blank><IMG 
+      src="userlogin.files/reg.gif" align=absMiddle border=0 
+      twffan="done"></A></FONT>&nbsp;<A 
+      href="http://www.juxianpx.com/User/user_myarticle.asp?ChannelID=1&amp;Action=Add" 
+      target=_parent><IMG src="userlogin.files/tougao.gif" align=absMiddle 
+      border=0></A></TD>
+    <TD align=left width="33%">
+      <DIV align=right><A href="http://www.juxianpx.com/html/guanyuwomen/" 
+      target=_blank><FONT color=#008ae8>关于我们</FONT></A>&nbsp;&nbsp;&nbsp;<A 
+      href="http://www.juxianpx.com/map.html" target=_blank><FONT 
+      color=#008ae8>网站地图</FONT></A>&nbsp;&nbsp;&nbsp;<A 
+      onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.juxianpx.com');return false;" 
+      href="http://www.juxianpx.com/"><FONT 
+      color=#008ae8>设为首页</FONT></A>&nbsp;&nbsp;&nbsp;&nbsp;<A 
+      onclick="javascript:window.external.addFavorite('http://www.juxianpx.com','聚贤培训网!');" 
+      href="javascript:window.external.addFavorite('/','聚贤培训网')"><FONT 
+      color=#008ae8>加入收藏</FONT></A></DIV></TD></FORM></TR></TBODY></TABLE></BODY></HTML>

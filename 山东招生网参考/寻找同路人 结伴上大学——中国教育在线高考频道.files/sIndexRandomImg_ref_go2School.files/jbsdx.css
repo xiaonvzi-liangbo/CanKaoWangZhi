@@ -1,0 +1,84 @@
+BODY {
+	MARGIN-TOP: 0px; FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 22px; FONT-FAMILY: "????"
+}
+.top_table {
+	BACKGROUND-COLOR: #d0d0d0
+}
+.top_table TD {
+	BACKGROUND: url(../img/top_bg.gif) repeat-x
+}
+A.L_notes {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #666666; LINE-HEIGHT: 150%; TEXT-DECORATION: none
+}
+A.L_notes:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff6600; LINE-HEIGHT: 150%; TEXT-DECORATION: none
+}
+A.ka {
+	FONT-SIZE: 12px; COLOR: #333; TEXT-DECORATION: none
+}
+A.ka:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+.service {
+	MARGIN-TOP: 10px; FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ff6600; BACKGROUND-COLOR: #ffdec5
+}
+.service TD {
+	PADDING-LEFT: 5px
+}
+.L_02table {
+	MARGIN-TOP: 2px
+}
+A.biaoti {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.biaoti:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.L_02table UL {
+	FONT-WEIGHT: bold; MARGIN-LEFT: 5px; WIDTH: 100%; TEXT-ALIGN: left
+}
+.L_02table LI {
+	MARGIN-TOP: 8px; DISPLAY: block; BORDER-BOTTOM: #cccccc 1px dashed; LIST-STYLE-TYPE: none; HEIGHT: 40px
+}
+.canyu_table {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+.search {
+	MARGIN-TOP: 10px; FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 10px; COLOR: #ffffff
+}
+.province {
+	WIDTH: 70px; HEIGHT: 18px
+}
+.city {
+	WIDTH: 100px; HEIGHT: 18px
+}
+.zxjr {
+	BACKGROUND-COLOR: #f1dca4
+}
+.zxjr TD {
+	LINE-HEIGHT: 30px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.zxjr_table {
+	BACKGROUND-COLOR: #f1dca4
+}
+.zxjr_table TD {
+	BACKGROUND-COLOR: #fffdf3; TEXT-ALIGN: center
+}
+.zxjr_table TH {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #fffbe6
+}
+.dxxyfjx {
+	MARGIN-TOP: 10px
+}
+.scroll {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+A.top {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A.top:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.dang {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #ff6600
+}

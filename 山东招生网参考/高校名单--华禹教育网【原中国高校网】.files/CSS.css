@@ -1,0 +1,27 @@
+A {
+	TEXT-TRANSFORM: none; COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+.unnamed1 {
+	FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 18pt
+}
+.unnamed2 {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 16pt
+}
+.unnamed3 {
+	FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 15pt
+}
+.unnamed4 {
+	FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 15pt
+}
+.unnamed5 {
+	BORDER-TOP-WIDTH: 1px; FONT-WEIGHT: normal; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: black; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #000000; COLOR: #000000; BORDER-TOP-COLOR: black; LINE-HEIGHT: normal; FONT-STYLE: normal; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 1px; FONT-VARIANT: normal; BORDER-RIGHT-COLOR: #000000
+}
+.HIGHTABLE {
+	BORDER-RIGHT: 1px dashed; BORDER-TOP: 1px dashed; BORDER-LEFT: 1px dashed; BORDER-BOTTOM: 1px dashed
+}
+.stdedit_en {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 18px; BACKGROUND-COLOR: #ffffff
+}

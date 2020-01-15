@@ -1,0 +1,39 @@
+TD {
+	FONT-SIZE: 9pt
+}
+BODY {
+	FONT-SIZE: 9pt
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:active {
+	COLOR: green; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #3399ff; TEXT-DECORATION: underline
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #f1f1f1; SCROLLBAR-HIGHLIGHT-COLOR: #f2f2f2; SCROLLBAR-SHADOW-COLOR: #c0c0c0; SCROLLBAR-ARROW-COLOR: #3e3110; SCROLLBAR-DARKSHADOW-COLOR: #ffffff; SCROLLBAR-BASE-COLOR: #666666
+}
+.alpah {
+	FILTER: alpha(opacity=28)
+}
+.an {
+	BORDER-RIGHT: #0099cc 1px solid; BORDER-TOP: #0099cc 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #0099cc 1px solid; COLOR: #0099cc; LINE-HEIGHT: 120%; BORDER-BOTTOM: #0099cc 1px solid; FONT-FAMILY: "ËÎÌו", "Tahoma", "Verdana"; BACKGROUND-COLOR: #efefef; TEXT-DECORATION: none
+}
+.a1 {
+	BACKGROUND-IMAGE: url(titlebg.gif); COLOR: #3e3110
+}
+.a2 {
+	BACKGROUND-COLOR: #a4b6d7
+}
+.a3 {
+	BACKGROUND-COLOR: #f2f8ff
+}
+.a4 {
+	BACKGROUND-COLOR: #ecf5ff
+}

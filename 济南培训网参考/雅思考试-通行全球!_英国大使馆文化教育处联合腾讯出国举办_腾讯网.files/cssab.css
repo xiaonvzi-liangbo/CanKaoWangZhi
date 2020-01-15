@@ -1,0 +1,855 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #000; LINE-HEIGHT: 20px
+}
+BODY {
+	FONT-SIZE: 12px; COLOR: #000; LINE-HEIGHT: 20px
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #000; LINE-HEIGHT: 20px
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: #000; LINE-HEIGHT: 20px
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.block {
+	DISPLAY: block
+}
+.inline {
+	DISPLAY: inline
+}
+.indent {
+	TEXT-INDENT: 2em
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.fll {
+	FLOAT: left
+}
+.flr {
+	FLOAT: right
+}
+.pointer {
+	CURSOR: pointer
+}
+.tale {
+	TEXT-ALIGN: left
+}
+.tace {
+	TEXT-ALIGN: center
+}
+.tari {
+	TEXT-ALIGN: right
+}
+.bg_no {
+	BACKGROUND-REPEAT: no-repeat
+}
+.bg_lb {
+	BACKGROUND-POSITION: left bottom
+}
+.bg_tc {
+	BACKGROUND-POSITION: center top
+}
+.bg_x {
+	BACKGROUND-REPEAT: repeat-x
+}
+.bg_tr {
+	BACKGROUND-POSITION: right top
+}
+.fonthei {
+	FONT-SIZE: 16px; FONT-FAMILY: 黑体
+}
+.fontblack {
+	COLOR: #000
+}
+.fontwhite {
+	COLOR: #fff
+}
+.fontred {
+	COLOR: #f00
+}
+.fontFFFC {
+	COLOR: #fffcd5
+}
+.fontFFFC A {
+	COLOR: #fffcd5
+}
+.fontFFFC A:hover {
+	COLOR: #fffcd5
+}
+.font7C00 TD {
+	COLOR: #7c0000
+}
+.font7C00 TD A {
+	COLOR: #7c0000
+}
+.font7C00 {
+	COLOR: #7c0000
+}
+.font7C00 TD A:hover {
+	COLOR: #f00
+}
+.f14 {
+	FONT-SIZE: 14px
+}
+.f14 TD {
+	FONT-SIZE: 14px
+}
+.k2 {
+	TEXT-INDENT: 2em
+}
+.hg16 {
+	LINE-HEIGHT: 16px
+}
+.hg16 TD {
+	LINE-HEIGHT: 16px
+}
+.hg18 {
+	LINE-HEIGHT: 18px
+}
+.hg18 TD {
+	LINE-HEIGHT: 18px
+}
+.hg20 {
+	LINE-HEIGHT: 20px
+}
+.hg20 TD {
+	LINE-HEIGHT: 20px
+}
+.hg22 {
+	LINE-HEIGHT: 22px
+}
+.hg22 TD {
+	LINE-HEIGHT: 22px
+}
+.hg24 {
+	LINE-HEIGHT: 24px
+}
+.hg24 TD {
+	LINE-HEIGHT: 24px
+}
+.hg25 {
+	LINE-HEIGHT: 25px
+}
+.hg25 TD {
+	LINE-HEIGHT: 25px
+}
+.hg26 {
+	LINE-HEIGHT: 26px
+}
+.hg26 TD {
+	LINE-HEIGHT: 26px
+}
+.font12px {
+	FONT-SIZE: 12px
+}
+.font14px {
+	FONT-SIZE: 14px
+}
+.fontbold {
+	FONT-WEIGHT: bold
+}
+.fontpp6 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px
+}
+.fontpp12 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 12px
+}
+.fl {
+	FLOAT: left
+}
+.fr {
+	FLOAT: right
+}
+.mart1 {
+	MARGIN-TOP: 1px
+}
+.marb2 {
+	MARGIN-BOTTOM: 2px
+}
+.mart10 {
+	MARGIN-TOP: 10px
+}
+.bg1 {
+	BACKGROUND-POSITION: left top; BACKGROUND-REPEAT: no-repeat
+}
+.bg2 {
+	BACKGROUND-POSITION: right top; BACKGROUND-REPEAT: no-repeat
+}
+.bg3 {
+	BACKGROUND-POSITION: right bottom; BACKGROUND-REPEAT: no-repeat
+}
+.bg4 {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-REPEAT: no-repeat
+}
+.bx {
+	BACKGROUND-REPEAT: repeat-x
+}
+.by {
+	BACKGROUND-REPEAT: repeat-y
+}
+.bno {
+	BACKGROUND-IMAGE: none
+}
+.bn {
+	BACKGROUND-REPEAT: no-repeat
+}
+.bt {
+	BACKGROUND-POSITION: 50% top
+}
+.bb {
+	BACKGROUND-POSITION: 50% bottom
+}
+.br {
+	BACKGROUND-POSITION: right 50%
+}
+.bl {
+	BACKGROUND-POSITION: left 50%
+}
+.bc {
+	BACKGROUND-POSITION: center 50%
+}
+.bd1 {
+	BORDER-RIGHT: #d1d1d1 1px solid; BORDER-TOP: #d1d1d1 0px solid; BORDER-LEFT: #d1d1d1 1px solid; BORDER-BOTTOM: #d1d1d1 1px solid
+}
+.bd2 {
+	BORDER-RIGHT: #ffd495 1px solid; BORDER-TOP: #ffd495 0px solid; BORDER-LEFT: #ffd495 1px solid; BORDER-BOTTOM: #ffd495 1px solid
+}
+.bd3 {
+	BORDER-RIGHT: #c7c7c7 1px solid; BORDER-TOP: #c7c7c7 1px solid; BORDER-LEFT: #c7c7c7 1px solid; BORDER-BOTTOM: #c7c7c7 1px solid
+}
+#vNav TD {
+	BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/vNav2.gif) no-repeat right 50%; COLOR: #cccccc; LINE-HEIGHT: 30px; TEXT-ALIGN: center
+}
+#vNav TD A {
+	COLOR: #fff
+}
+#vNav TD.on A {
+	DISPLAY: block; FONT-WEIGHT: bold; BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/vNav3.gif) no-repeat 50% top
+}
+#vNav .more {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#g_vNav TD {
+	BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/g_vNav2.gif) no-repeat right 50%; COLOR: #fff; LINE-HEIGHT: 30px; TEXT-ALIGN: center
+}
+#g_vNav TD A {
+	COLOR: #fff
+}
+#g_vNav TD.on A {
+	DISPLAY: block; FONT-WEIGHT: bold; BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/g_vNav3.gif) no-repeat 50% top
+}
+#g_vNav .more {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.tit TD {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #df1201; LINE-HEIGHT: 27px
+}
+.tit TD SPAN {
+	PADDING-RIGHT: 16px; FONT-WEIGHT: normal; FONT-SIZE: 12px; FLOAT: right
+}
+.tit TD SPAN A {
+	COLOR: #df1201
+}
+.piclist {
+	MARGIN: 7px auto
+}
+.piclist TD {
+	COLOR: #af3600
+}
+.piclist TD A {
+	COLOR: #af3600
+}
+.piclist IMG {
+	BORDER-RIGHT: #c7c7c7 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #c7c7c7 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 7px auto; BORDER-LEFT: #c7c7c7 1px solid; WIDTH: 135px; PADDING-TOP: 3px; BORDER-BOTTOM: #c7c7c7 1px solid; HEIGHT: 101px
+}
+.textlist {
+	MARGIN: 15px auto 0px
+}
+.textlist TD {
+	FONT-SIZE: 14px; LINE-HEIGHT: 25px
+}
+.piclist2 {
+	MARGIN: 10px auto 0px
+}
+.piclist2 IMG {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 8px auto; WIDTH: 123px; PADDING-TOP: 3px; HEIGHT: 89px
+}
+.textlist3 {
+	MARGIN: 7px auto 4px
+}
+.textlist2 {
+	MARGIN: 1px auto 0px
+}
+.tit2 TABLE TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/playerbg2.gif) repeat-y 300px 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+.paihang {
+	BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/icon_voide3.gif) repeat-y left top; MARGIN: 6px auto 7px; LINE-HEIGHT: 24px
+}
+.paihang .warps {
+	PADDING-LEFT: 25px
+}
+.show {
+	DISPLAY: block
+}
+.undis {
+	DISPLAY: none
+}
+#huigu {
+	MARGIN-RIGHT: 1px
+}
+#huigu TD {
+	BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/ka1_off.gif) no-repeat; WIDTH: 100px; CURSOR: pointer; LINE-HEIGHT: 27px; TEXT-ALIGN: center
+}
+#huigu TD.on {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/ka1_on.gif) no-repeat; WIDTH: 98px; COLOR: #af3600
+}
+#huigu TD.on A {
+	COLOR: #af3600
+}
+.pic3 TD {
+	BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/idx_75.gif) no-repeat center 85px; TEXT-ALIGN: center
+}
+.pic3 IMG {
+	MARGIN: 0px auto 18px
+}
+.hei {
+	COLOR: #333
+}
+.hei A {
+	COLOR: #333
+}
+.line2 {
+	BORDER-RIGHT: #ffd395 1px solid; BORDER-TOP: #ffd395 0px solid; BORDER-LEFT: #ffd395 1px solid; BORDER-BOTTOM: #ffd395 1px solid
+}
+.bai {
+	COLOR: #ffffff
+}
+.bai A {
+	COLOR: #ffffff
+}
+.bai TD {
+	COLOR: #ffffff
+}
+.pad2 {
+	PADDING-LEFT: 30px
+}
+.bn {
+	BACKGROUND-REPEAT: no-repeat
+}
+.hg24 {
+	LINE-HEIGHT: 24px
+}
+.hg24 TD {
+	LINE-HEIGHT: 24px
+}
+.g_line2 {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 0px solid; BORDER-LEFT: #d8d8d8 1px solid; BORDER-BOTTOM: #d8d8d8 1px solid
+}
+.mhay_bd1 {
+	BORDER-RIGHT: #ffd06e 1px solid; BORDER-TOP: #ffd06e 0px solid; BORDER-LEFT: #ffd06e 1px solid; BORDER-BOTTOM: #ffd06e 1px solid
+}
+.mart70 {
+	MARGIN-TOP: 70px
+}
+.fontBD1C {
+	COLOR: #bd1c00
+}
+.fontBD1C A {
+	COLOR: #bd1c00
+}
+.fontBD1C A:hover {
+	COLOR: #f00
+}
+.mr12 {
+	MARGIN-RIGHT: 12px
+}
+.ml30 {
+	MARGIN-LEFT: 30px
+}
+.pt7 {
+	PADDING-TOP: 7px
+}
+.mt105 {
+	MARGIN-TOP: 105px
+}
+.mt30 {
+	MARGIN-TOP: 30px
+}
+.mt135 {
+	MARGIN-TOP: 135px
+}
+.gaya_pic3 IMG {
+	BORDER-RIGHT: #d1d1d1 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #d1d1d1 1px solid; PADDING-LEFT: 3px; BACKGROUND: #fff; PADDING-BOTTOM: 3px; BORDER-LEFT: #d1d1d1 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #d1d1d1 1px solid
+}
+.gaya_pad2 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.hui {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.hui A {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.hui A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.ryan_pic_3 IMG {
+	BORDER-RIGHT: #a8a8a8 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #a8a8a8 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #a8a8a8 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #a8a8a8 1px solid
+}
+.va_5 {
+	VERTICAL-ALIGN: -5px
+}
+.mt5 {
+	MARGIN-TOP: 5px
+}
+.ml22 {
+	MARGIN-LEFT: 22px
+}
+.red2 {
+	COLOR: #780f11
+}
+.red2 A {
+	COLOR: #780f11
+}
+.red2 A:hover {
+	COLOR: #780f11
+}
+.font18 {
+	FONT-SIZE: 18px
+}
+.font14 {
+	FONT-SIZE: 14px
+}
+.fontht {
+	FONT-FAMILY: 黑体
+}
+.red1 {
+	COLOR: #df1201
+}
+.red1 A {
+	COLOR: #df1201
+}
+.red1 A:hover {
+	COLOR: #df1201
+}
+.black1 {
+	COLOR: #333
+}
+.black1 A {
+	COLOR: #333
+}
+.gary1 {
+	COLOR: #999999
+}
+.gary1 A {
+	COLOR: #999999
+}
+.gary1 A:hover {
+	COLOR: #999999
+}
+.bord_1 {
+	BORDER-RIGHT: #ffe1b6 1px solid; BORDER-TOP: #ffe1b6 1px solid; BORDER-LEFT: #ffe1b6 1px solid; BORDER-BOTTOM: #ffe1b6 1px solid
+}
+.color_1 {
+	COLOR: #cc6259
+}
+.tit0 {
+	PADDING-LEFT: 26px; FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 25px
+}
+.pl20 {
+	PADDING-LEFT: 20px
+}
+.pic5 DIV {
+	BORDER-RIGHT: #d9d9d9 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #d9d9d9 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; BORDER-LEFT: #d9d9d9 1px solid; WIDTH: 115px; LINE-HEIGHT: 26px; PADDING-TOP: 4px; BORDER-BOTTOM: #d9d9d9 1px solid; TEXT-ALIGN: center
+}
+.line22 {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 0px solid; BORDER-LEFT: #d8d8d8 1px solid; BORDER-BOTTOM: #d8d8d8 1px solid
+}
+.newslist .fr {
+	COLOR: #999; MARGIN-RIGHT: 5px
+}
+.newslist .fl {
+	FONT-SIZE: 14px
+}
+.pad1 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.m100 {
+	MARGIN: 10px 0px
+}
+.img1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.g_line22 {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 0px solid; BORDER-LEFT: #d8d8d8 1px solid; BORDER-BOTTOM: #d8d8d8 1px solid
+}
+.mt15 {
+	MARGIN-TOP: 15px
+}
+.mt4 {
+	MARGIN-TOP: 4px
+}
+.lh34 {
+	LINE-HEIGHT: 34px
+}
+.ml21 {
+	MARGIN-LEFT: 21px
+}
+.color_2 {
+	COLOR: #717171
+}
+.mt20 {
+	MARGIN-TOP: 20px
+}
+.twl_img1 {
+	BORDER-RIGHT: #f0d89c 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #f0d89c 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #f0d89c 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #f0d89c 1px solid
+}
+.ml11 {
+	MARGIN-LEFT: 11px
+}
+.g_twl_img1 {
+	BORDER-RIGHT: #d8d8d8 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #d8d8d8 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #d8d8d8 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #d8d8d8 1px solid
+}
+.bor_1 {
+	BORDER-RIGHT: #ffd394 1px solid; BORDER-TOP: #ffd394 1px solid; BORDER-LEFT: #ffd394 1px solid; BORDER-BOTTOM: #ffd394 1px solid
+}
+.bor_2 {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid
+}
+.lh28 {
+	LINE-HEIGHT: 28px
+}
+.mt45 {
+	MARGIN-TOP: 45px
+}
+.fs26 {
+	FONT-SIZE: 26px
+}
+.bor_3 {
+	BORDER-RIGHT: #e6c48f 1px solid; BORDER-TOP: #e6c48f 0px solid; BORDER-LEFT: #e6c48f 1px solid; BORDER-BOTTOM: #e6c48f 1px solid
+}
+.bor_4 {
+	BORDER-BOTTOM: #999 1px dashed
+}
+.g_bor_3 {
+	BORDER-RIGHT: #d8d8d8 1px solid; BORDER-TOP: #d8d8d8 0px solid; BORDER-LEFT: #d8d8d8 1px solid; BORDER-BOTTOM: #d8d8d8 1px solid
+}
+.pl10 {
+	PADDING-LEFT: 10px
+}
+.bor_5 {
+	BORDER-RIGHT: #535353 1px solid; BORDER-TOP: #535353 1px solid; BORDER-LEFT: #535353 1px solid; BORDER-BOTTOM: #535353 1px solid
+}
+#t3_tab SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/t3_tab.jpg) no-repeat; FLOAT: left; MARGIN: 1px 2px 0px 0px; WIDTH: 73px; CURSOR: pointer; COLOR: #fff; LINE-HEIGHT: 27px; HEIGHT: 27px; TEXT-ALIGN: center
+}
+#t3_tab SPAN.on {
+	BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/t3_tab_on.jpg) no-repeat; WIDTH: 74px; COLOR: #d60202
+}
+.ml35 {
+	MARGIN-LEFT: 35px
+}
+.mt12 {
+	MARGIN-TOP: 12px
+}
+#g_t3_tab SPAN {
+	FONT-WEIGHT: bold; BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/g_t3_tab.jpg) no-repeat; FLOAT: left; MARGIN: 1px 2px 0px 0px; WIDTH: 73px; CURSOR: pointer; COLOR: #fffcf6; LINE-HEIGHT: 27px; HEIGHT: 27px; TEXT-ALIGN: center
+}
+#g_t3_tab SPAN.on {
+	BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/g_t3_tab_on.jpg) no-repeat; WIDTH: 74px; COLOR: #333333
+}
+.lh32 {
+	LINE-HEIGHT: 32px
+}
+#t10_tab TD {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #fff
+}
+#t10_tab TD.on {
+	BACKGROUND: url(http://mat1.qq.com/2008/images/irvinedeng/goldmedals/t10_2.jpg) no-repeat center top; COLOR: #c00700
+}
+.bai {
+	COLOR: #fdfcfc; TEXT-DECORATION: none
+}
+.bai A {
+	COLOR: #fdfcfc; TEXT-DECORATION: none
+}
+.bai A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.hong {
+	COLOR: #c5070a; TEXT-DECORATION: none
+}
+.hong A {
+	COLOR: #c5070a; TEXT-DECORATION: none
+}
+.hong A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.huang {
+	COLOR: #a96c01; TEXT-DECORATION: none
+}
+.huang A {
+	COLOR: #a96c01; TEXT-DECORATION: none
+}
+.huang A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.ftsz14 {
+	FONT-SIZE: 14px
+}
+.ftsz14 A {
+	FONT-SIZE: 14px
+}
+.ftsz14 A:hover {
+	FONT-SIZE: 14px
+}
+.ftfml_16h {
+	FONT-SIZE: 16px; FONT-FAMILY: "黑体"
+}
+.ftfml_16h A {
+	FONT-SIZE: 16px; FONT-FAMILY: "黑体"
+}
+.ftfml_16h A:hover {
+	FONT-SIZE: 16px; FONT-FAMILY: "黑体"
+}
+.lh_22 {
+	LINE-HEIGHT: 22px
+}
+.lh_24 {
+	LINE-HEIGHT: 24px
+}
+.lh_26 {
+	LINE-HEIGHT: 26px
+}
+.lh_30 {
+	LINE-HEIGHT: 30px
+}
+.pic_1 IMG {
+	BORDER-RIGHT: #cecece 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #cecece 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #cecece 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cecece 1px solid
+}
+.pic_2 IMG {
+	BORDER-RIGHT: #ffd066 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ffd066 1px solid; PADDING-LEFT: 2px; BACKGROUND: #fff; PADDING-BOTTOM: 2px; BORDER-LEFT: #ffd066 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #ffd066 1px solid
+}
+.mgt_10 {
+	MARGIN-TOP: 10px
+}
+.mgt_5 {
+	MARGIN-TOP: 5px
+}
+.ti_2 {
+	TEXT-INDENT: 2em
+}
+.bd_1 {
+	BORDER-RIGHT: #cbcbcb 1px solid; BORDER-TOP: #cbcbcb 0px solid; BORDER-LEFT: #cbcbcb 1px solid; BORDER-BOTTOM: #cbcbcb 1px solid
+}
+.bd_2 {
+	BORDER-BOTTOM: #cbcbcb 1px dotted
+}
+.bd_3 {
+	BORDER-RIGHT: #cbcbcb 1px solid; BORDER-LEFT: #cbcbcb 1px solid
+}
+.bd_4 {
+	BORDER-RIGHT: #cbcbcb 1px solid; BORDER-TOP: #cbcbcb 1px solid; BORDER-LEFT: #cbcbcb 1px solid; BORDER-BOTTOM: #cbcbcb 1px solid
+}
+.bd_5 {
+	BORDER-RIGHT: #fcf0cf 1px solid; BORDER-LEFT: #fcf0cf 1px solid
+}
+.bd_6 {
+	BORDER-RIGHT: #fcf0cf 1px solid; BORDER-TOP: #fcf0cf 0px solid; BORDER-LEFT: #fcf0cf 1px solid; BORDER-BOTTOM: #fcf0cf 1px solid
+}
+#jp4 {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: none
+}
+#jp4 A {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 180%; TEXT-DECORATION: none
+}
+#jp4 A:hover {
+	FONT-SIZE: 14px; COLOR: #cc0000; LINE-HEIGHT: 180%; TEXT-DECORATION: underline
+}
+#jp1 {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 200%; TEXT-DECORATION: none
+}
+#jp1 A {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 200%; TEXT-DECORATION: none
+}
+#jp1 A:hover {
+	FONT-SIZE: 12px; COLOR: #cc0000; LINE-HEIGHT: 200%; TEXT-DECORATION: underline
+}
+#oly_top {
+	COLOR: #ffc881
+}
+#oly_top A {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; MARGIN: 0px 3px; COLOR: #ffc881; PADDING-TOP: 3px; TEXT-DECORATION: none
+}
+#oly_top A:hover {
+	BACKGROUND: #a20000; COLOR: #ffe456
+}
+#oly_top_link TABLE TD {
+	COLOR: #fff; LINE-HEIGHT: 22px; TEXT-ALIGN: left
+}
+#oly_top_link A {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 2px; COLOR: #fff; PADDING-TOP: 3px; TEXT-DECORATION: none
+}
+#oly_top_link A:hover {
+	BACKGROUND: #a20000; COLOR: #fff
+}
+#oly_top_link A.link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #fff; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+#oly_top_link A.link:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff
+}
+#oly_top_link1 TH {
+	COLOR: #fff; LINE-HEIGHT: 24px
+}
+#oly_top_link1 TH A {
+	COLOR: #fff; MARGIN-RIGHT: 3px; TEXT-DECORATION: none
+}
+#oly_top_link1 TH A:hover {
+	LEFT: 1px; COLOR: #fff; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+#oly_top_link1 TD {
+	PADDING-LEFT: 10px; COLOR: #ff9d04; LINE-HEIGHT: 24px
+}
+#oly_top_link1 TD A {
+	MARGIN: 0px 1px; COLOR: #c00; TEXT-DECORATION: none
+}
+#oly_top_link1 TD A:hover {
+	LEFT: 1px; COLOR: #f00; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+.oly_topnews TH {
+	FONT-WEIGHT: normal; FONT-SIZE: 18px; COLOR: #333; LINE-HEIGHT: 28px; FONT-FAMILY: "黑体"; TEXT-ALIGN: center
+}
+.oly_topnews TH A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.oly_topnews TH A:hover {
+	COLOR: #c00; TEXT-DECORATION: underline
+}
+.oly_topnews TH A.red {
+	COLOR: #c00; TEXT-DECORATION: none
+}
+.oly_topnews TD {
+	PADDING-LEFT: 6px; COLOR: #555; LINE-HEIGHT: 22px; TEXT-ALIGN: left
+}
+.oly_topnews TD A {
+	COLOR: #555; TEXT-DECORATION: none
+}
+.oly_topnews TD A:hover {
+	COLOR: #c00; TEXT-DECORATION: underline
+}
+.medals TH {
+	PADDING-LEFT: 10px; FONT-WEIGHT: normal; COLOR: #333; LINE-HEIGHT: 25px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+.medals TD {
+	COLOR: #333; PADDING-TOP: 2px; TEXT-ALIGN: center; ine-height: 25px
+}
+.medals .red {
+	COLOR: #df1201
+}
+.medals .red A {
+	COLOR: #df1201
+}
+.medals .red A:hover {
+	COLOR: #df1201
+}
+.medals A {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.medals A:hover {
+	COLOR: #df1201; TEXT-DECORATION: underline
+}
+#fods #Fod_list {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#fods #Fod_list DIV {
+	FONT-WEIGHT: bold; FLOAT: left; CURSOR: pointer; COLOR: #333; PADDING-TOP: 4px; HEIGHT: 20px; TEXT-ALIGN: center
+}
+#fods #Fod_list DIV.carda {
+	WIDTH: 60px
+}
+#fods #Fod_list .sa {
+	FONT-SIZE: 14px; BACKGROUND: url(http://mat1.qq.com/2008/images/final/card_01.gif); WIDTH: 82px; COLOR: #fff
+}
+#fods UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#fods LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#fods .dis {
+	DISPLAY: block
+}
+#fods .undis {
+	DISPLAY: none
+}
+.sel {
+	MARGIN-BOTTOM: 12px
+}
+.sel IMG {
+	MARGIN-TOP: 18px
+}
+.sel SPAN {
+	BORDER-RIGHT: #e4d1a4 1px solid; BORDER-TOP: #b87c35 1px solid; OVERFLOW: hidden; BORDER-LEFT: #b87c35 1px solid; BORDER-BOTTOM: #e4d1a4 1px solid; POSITION: absolute
+}
+.sel SELECT {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN: 0px -1px; WIDTH: 192px; COLOR: #9c9c9c; BORDER-RIGHT-WIDTH: 0px
+}
+.sel INPUT {
+	BORDER-RIGHT: #e4d1a4 1px solid; BORDER-TOP: #b87c35 1px solid; MARGIN-TOP: 18px; BORDER-LEFT: #b87c35 1px solid; WIDTH: 186px; COLOR: #9c9c9c; LINE-HEIGHT: 16px; BORDER-BOTTOM: #e4d1a4 1px solid
+}
+.selinput {
+	BORDER-RIGHT: #e4d1a4 1px solid; BORDER-TOP: #b87c35 1px solid; MARGIN-TOP: 1px; BORDER-LEFT: #b87c35 1px solid; WIDTH: 186px; COLOR: #9c9c9c; LINE-HEIGHT: 16px; BORDER-BOTTOM: #e4d1a4 1px solid
+}
+.ml4 {
+	MARGIN-LEFT: 4px
+}
+.cl {
+	CLEAR: both
+}

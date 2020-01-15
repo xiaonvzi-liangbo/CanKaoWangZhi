@@ -1,0 +1,45 @@
+A:link {
+	FONT-SIZE: 12px; COLOR: #06329f; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #0033ff; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 12px; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.orenge {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 22px; TEXT-DECORATION: none
+}
+.orenge A:link {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.orenge A:visited {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}
+.orenge A:hover {
+	COLOR: #000000
+}
+.comLink {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 22px; TEXT-DECORATION: none
+}
+.comLink A:link {
+	FONT-SIZE: 12px; COLOR: #06329f; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.comLink A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.comLink A:active {
+	FONT-SIZE: 12px; COLOR: #0033ff; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.comLink A:visited {
+	FONT-SIZE: 12px; LINE-HEIGHT: 190%; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.shopBack {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: red
+}
+.storeCouponBG {
+	BACKGROUND-IMAGE: url(../images/quanBG.gif); WIDTH: 176px; PADDING-TOP: 20px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 130px; TEXT-ALIGN: center
+}

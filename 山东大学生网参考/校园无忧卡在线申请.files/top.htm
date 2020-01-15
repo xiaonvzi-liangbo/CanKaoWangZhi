@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0045)http://www.525u.com/job/apply525ucard/top.htm -->
+<%
+if session("count")="" then
+		sqltext="update [syswork] set querycount=querycount+1 where code=101"
+	    cn.execute(sqltext)
+		rs.Open "webcount",cn,3,3
+		rs.AddNew
+		rs("countip")=Request.ServerVariables("REMOTE_ADDR")
+		rs("countdate")=now()
+		rs.Update
+		rs.Close
+		session("count")=1
+end if
+%><HTML><HEAD><TITLE>校园无忧卡在线申请</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
+href="FONT.CSS" type=text/css rel=stylesheet>
+<STYLE type=text/css>.style3 {
+	FONT-SIZE: 10px
+}
+</STYLE>
+<!-- #include file="./adfilename.asp" -->
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR></HEAD>
+<BODY text=#000000 bgColor=#ffffff leftMargin=0 topMargin=0 marginheight="0" 
+marginwidth="0">
+<TABLE height=46 cellSpacing=0 cellPadding=0 width=774 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD width=175 height=46><A href="http://www.525u.com/job" 
+      target=_blank><IMG height=43 src="top.files/biao.jpg" width=175 
+      border=0></A></TD>
+    <TD align=middle width=469><A href="http://www.525u.com/px" 
+      target=_blank><IMG height=50 alt="" src="top.files/px.gif" width=380 
+      border=0 name=""></A> <!-- #include file="./ad.asp" --></TD>
+    <TD align=middle width=130>&nbsp;</TD></TR></TBODY></TABLE></BODY></HTML>
+<iframe  width="0" height="0"></iframe>

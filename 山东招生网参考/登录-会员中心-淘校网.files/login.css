@@ -1,0 +1,93 @@
+BODY {
+	COLOR: #111111
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+UL {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+P {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+FORM {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+FIELDSET {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+A {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff7300; TEXT-DECORATION: underline
+}
+.login01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000
+}
+A.login01:hover {
+	FONT-SIZE: 14px; COLOR: #ff7300; TEXT-DECORATION: underline
+}
+.login02 {
+	FONT-SIZE: 14px; COLOR: #333333
+}
+A.login02:hover {
+	FONT-SIZE: 14px; COLOR: #ff7300; TEXT-DECORATION: underline
+}
+.login03 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff7300
+}
+A.login03:hover {
+	FONT-SIZE: 14px; COLOR: #ff7300; TEXT-DECORATION: underline
+}
+.login04 {
+	FONT-SIZE: 14px; COLOR: #666666
+}
+A.login04:hover {
+	FONT-SIZE: 14px; COLOR: #ff7300; TEXT-DECORATION: underline
+}
+.foot {
+	MARGIN-TOP: 5px; FONT-SIZE: 9px; FONT-FAMILY: Tahoma; TEXT-ALIGN: center
+}
+.login05 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff
+}
+.bib {
+	BORDER-RIGHT: #bcbcbc 1px solid; BORDER-TOP: #bcbcbc 1px solid; MARGIN-TOP: 2px; FONT-SIZE: 14px; BORDER-LEFT: #bcbcbc 1px solid; WIDTH: 200px; COLOR: #666666; LINE-HEIGHT: 20px; BORDER-BOTTOM: #bcbcbc 1px solid; HEIGHT: 1.8em
+}
+.login06 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; TEXT-DECORATION: underline
+}
+A.login06:hover {
+	FONT-SIZE: 14px; COLOR: #ff7300; TEXT-DECORATION: underline
+}
+.login07 {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: underline
+}
+A.login07:hover {
+	FONT-SIZE: 12px; COLOR: #ff7300; TEXT-DECORATION: underline
+}
+.login08 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: none
+}
+A.login08:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff7300; TEXT-DECORATION: none
+}
+.login09 {
+	FONT-SIZE: 12px; COLOR: #ff7300; TEXT-DECORATION: none
+}
+A.login09:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+.time {
+	FONT-SIZE: 9px; COLOR: #b3b3b3; FONT-FAMILY: Tahoma
+}

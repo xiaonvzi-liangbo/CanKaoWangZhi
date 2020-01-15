@@ -1,0 +1,117 @@
+TD {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "?s??? "???
+}
+HR {
+	BORDER-RIGHT: #736351 2pt dotted; BORDER-TOP: #736351 2pt dotted; BORDER-LEFT: #736351 2pt dotted; BORDER-BOTTOM: #736351 2pt dotted
+}
+.s {
+	FONT-SIZE: 8pt; FONT-FAMILY: "?s??? "???
+}
+.sd {
+	FONT-SIZE: 5pt; FONT-FAMILY: "?s??? "???
+}
+.t {
+	FONT-SIZE: 11pt; COLOR: #666699; FONT-FAMILY: "?s??? "???
+}
+.tit {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #d76a4c; FONT-FAMILY: "?s??? "???
+}
+.v {
+	FONT-SIZE: 7pt; COLOR: #524230; FONT-FAMILY: "verdana"
+}
+.time {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #5876cc; FONT-FAMILY: "verdana"
+}
+.time9 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #666699; FONT-FAMILY: "arial"
+}
+.m {
+	FONT-SIZE: 9pt; FONT-FAMILY: "?s??? "???
+}
+.bgform {
+	FONT-SIZE: 9pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? BACKGROUND-COLOR: #f2f3e1
+}
+.h {
+	COLOR: #524230; LINE-HEIGHT: 18pt; FONT-FAMILY: "?s??? "???
+}
+.h14 {
+	COLOR: #524230; LINE-HEIGHT: 14pt; FONT-FAMILY: "?s??? "???
+}
+.h16 {
+	COLOR: #524230; LINE-HEIGHT: 16pt; FONT-FAMILY: "?s??? "???
+}
+.h17 {
+	COLOR: #524230; LINE-HEIGHT: 17pt; FONT-FAMILY: "?s??? "???
+}
+.h21 {
+	COLOR: #524230; LINE-HEIGHT: 21pt; FONT-FAMILY: "?s??? "???
+}
+.but {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #dddddd
+}
+.command1 {
+	FONT-SIZE: 9pt; COLOR: #666666; LINE-HEIGHT: 17px
+}
+A:link {
+	FONT-SIZE: 10pt; COLOR: #666699; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 10pt; COLOR: #666699; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}
+A.n:link {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}
+A.n:visited {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}
+A.n:hover {
+	FONT-SIZE: 10pt; COLOR: #666699; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: underline
+}
+A.n:active {
+	FONT-SIZE: 10pt; COLOR: #666699; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: underline
+}
+A.ml:link {
+	FONT-SIZE: 9pt; COLOR: #666699; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: underline
+}
+A.ml:visited {
+	FONT-SIZE: 9pt; COLOR: #666699; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: underline
+}
+A.mln:link {
+	FONT-SIZE: 9pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}
+A.mln:visited {
+	FONT-SIZE: 9pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}
+A.mln:hover {
+	FONT-SIZE: 9pt; LEFT: 1px; COLOR: #666699; FONT-FAMILY: "?s??? "??? POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+A.copy:link {
+	FONT-SIZE: 8pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}
+A.copy:visited {
+	FONT-SIZE: 8pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}
+A.copy:hover {
+	FONT-SIZE: 8pt; LEFT: 1px; COLOR: #524230; FONT-FAMILY: "?s??? "??? POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+A.copy:active {
+	FONT-SIZE: 8pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: underline
+}
+A.t:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #d76a4c; FONT-FAMILY: "?s??? "???
+}
+A.t:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #d76a4c; FONT-FAMILY: "?s??? "???
+}
+A.t:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; LEFT: 1px; FONT-FAMILY: "?s??? "??? POSITION: relative; TOP: 1px; TEXT-DECORATION: none
+}
+A.t:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #524230; FONT-FAMILY: "?s??? "??? TEXT-DECORATION: none
+}

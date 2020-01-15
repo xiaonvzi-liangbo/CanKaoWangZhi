@@ -1,0 +1,237 @@
+BODY {
+	SCROLLBAR-ARROW-COLOR: #a4bee1; SCROLLBAR-TRACK-COLOR: #ecf2f9; SCROLLBAR-BASE-COLOR: #a4bee1; BACKGROUND-COLOR: #ecf2f9; TEXT-ALIGN: center
+}
+BODY {
+	FONT-SIZE: 11px; COLOR: #1b3252; LINE-HEIGHT: 20px; FONT-FAMILY: Verdana, Arial, "ËÎÌו"
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #1b3252; LINE-HEIGHT: 20px; FONT-FAMILY: Verdana, Arial, "ËÎÌו"
+}
+BODY {
+	BACKGROUND-IMAGE: url(/Images/bg_index.jpg)
+}
+TD {
+	WORD-WRAP: break-word
+}
+P {
+	LINE-HEIGHT: 20px
+}
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 11px; BORDER-LEFT-COLOR: #c0c0c0; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #c0c0c0; PADDING-BOTTOM: 1px; COLOR: #000000; BORDER-TOP-COLOR: #c0c0c0; PADDING-TOP: 1px; FONT-FAMILY: Tahoma, Verdana, "ËÎÌו"; HEIGHT: 19px; BACKGROUND-COLOR: #ffffff; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #c0c0c0
+}
+A {
+	COLOR: #1b3252; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #2d4e92; TEXT-DECORATION: none
+}
+A {
+	
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.menu {
+	COLOR: #1b3252; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+.menu:hover {
+	COLOR: #203c62; BORDER-BOTTOM: #ffcc00 2px solid; TEXT-DECORATION: none
+}
+.red {
+	COLOR: #e00
+}
+.red:hover {
+	COLOR: #f60
+}
+.yellow {
+	COLOR: #ff0
+}
+.yellow:hover {
+	COLOR: #f60
+}
+.purple {
+	COLOR: #800080
+}
+.purple:hover {
+	COLOR: #000
+}
+.orange {
+	COLOR: #f60
+}
+.orange:hover {
+	COLOR: #f00
+}
+.blue {
+	COLOR: #369
+}
+.blue:hover {
+	COLOR: #069
+}
+.black {
+	COLOR: #000
+}
+.black:hover {
+	COLOR: #444
+}
+.white {
+	COLOR: #fff
+}
+.white:hover {
+	COLOR: #eee
+}
+.grey {
+	COLOR: #666
+}
+.grey:hover {
+	COLOR: #999
+}
+.green {
+	COLOR: #638400
+}
+.green:hover {
+	COLOR: #000
+}
+.f8 {
+	FONT-SIZE: 8px; LINE-HEIGHT: 12pt
+}
+.f9 {
+	FONT-SIZE: 9px; LINE-HEIGHT: 12pt
+}
+.f10 {
+	FONT-SIZE: 10px; LINE-HEIGHT: 12pt
+}
+.f11 {
+	FONT-SIZE: 11px
+}
+.f12 {
+	FONT-SIZE: 12px
+}
+.f107 {
+	FONT-SIZE: 10.7pt; LINE-HEIGHT: 20px
+}
+.f14 {
+	FONT-SIZE: 14pt; LINE-HEIGHT: 25px
+}
+#floater {
+	Z-INDEX: 10; VISIBILITY: visible; POSITION: absolute
+}
+.b {
+	FONT-WEIGHT: bold
+}
+.arrow {
+	FONT-FAMILY: webdings
+}
+.dotline {
+	PADDING-TOP: 3px; BORDER-BOTTOM: #cccccc 1px dashed
+}
+.line {
+	PADDING-TOP: 3px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.noline {
+	TEXT-DECORATION: none
+}
+.input1 {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px solid; BACKGROUND: #c7d7ed; BORDER-LEFT: #ffffff 1px solid; COLOR: #003366; BORDER-BOTTOM: #ffffff 1px solid; HEIGHT: 20px
+}
+.input3 {
+	COLOR: #003366; HEIGHT: 20px
+}
+.input2 {
+	HEIGHT: 20px
+}
+.pad5 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.pad10 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.pad20 {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.lblOn {
+	BACKGROUND: url(/Images/tip/bg_on.gif); FLOAT: left; OVERFLOW: hidden; WIDTH: 97px; COLOR: #000; HEIGHT: 24px; TEXT-ALIGN: center
+}
+.lblOff {
+	BACKGROUND: url(/Images/tip/bg_off.gif); FLOAT: left; OVERFLOW: hidden; WIDTH: 97px; COLOR: #f00; HEIGHT: 24px; TEXT-ALIGN: center
+}
+.lblOna {
+	BACKGROUND: url(/Images/tip/bg_on.gif); FLOAT: left; OVERFLOW: hidden; WIDTH: 97px; COLOR: #000; HEIGHT: 24px; TEXT-ALIGN: center
+}
+.lblOffa {
+	BACKGROUND: url(/Images/tip/bg_off.gif); FLOAT: left; OVERFLOW: hidden; WIDTH: 97px; COLOR: #f00; HEIGHT: 24px; TEXT-ALIGN: center
+}
+.mh {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 6px; COLOR: #f00; PADDING-TOP: 0px; HEIGHT: 24px
+}
+.lblOna DIV A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOna DIV A:hover {
+	FONT-WEIGHT: bold; COLOR: #000; TEXT-DECORATION: none
+}
+.lblOna DIV A:active {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOna DIV A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOffa DIV A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOffa DIV A:hover {
+	FONT-WEIGHT: bold; COLOR: #000; TEXT-DECORATION: none
+}
+.lblOffa DIV A:active {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOffa DIV A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOna DIV {
+	PADDING-TOP: 5px
+}
+.lblOffa DIV {
+	PADDING-TOP: 5px
+}
+.lblOn DIV A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOn DIV A:hover {
+	FONT-WEIGHT: bold; COLOR: #000; TEXT-DECORATION: none
+}
+.lblOn DIV A:active {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOn DIV A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOff DIV A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOff DIV A:hover {
+	FONT-WEIGHT: bold; COLOR: #000; TEXT-DECORATION: none
+}
+.lblOff DIV A:active {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOff DIV A:visited {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.lblOn DIV {
+	PADDING-TOP: 5px
+}
+.lblOff DIV {
+	PADDING-TOP: 5px
+}
+.lblTita {
+	BACKGROUND: url(/images/tip/bg_fn.gif)
+}
+.lblTit {
+	BACKGROUND: url(/images/btn_bgg.gif)
+}

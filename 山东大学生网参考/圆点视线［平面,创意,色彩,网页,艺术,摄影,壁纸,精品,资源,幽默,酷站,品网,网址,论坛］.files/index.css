@@ -1,0 +1,165 @@
+.com {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.lanmu {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.dibu {
+	FONT-SIZE: 12px; COLOR: #687f99; LINE-HEIGHT: 16px; TEXT-DECORATION: none
+}
+.time {
+	FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.news {
+	FONT-SIZE: 12px; COLOR: #4b4b4b; LINE-HEIGHT: 21px; TEXT-DECORATION: none
+}
+.sao01 {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.sao01:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+.bbs01 {
+	FONT-SIZE: 12px; COLOR: #4e9e1b; LINE-HEIGHT: 22px; TEXT-DECORATION: none
+}
+.bbs01:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+.ydsl {
+	FONT-SIZE: 12px; COLOR: #828c00; LINE-HEIGHT: 18px; TEXT-DECORATION: none
+}
+.dh {
+	FONT-SIZE: 12px; COLOR: #633f2c; TEXT-DECORATION: none
+}
+.gong {
+	FONT-SIZE: 12px; COLOR: #633f2c; TEXT-DECORATION: none
+}
+.gong:link {
+	FONT-SIZE: 12px; COLOR: #633f2c; TEXT-DECORATION: none
+}
+.gong:hover {
+	FONT-SIZE: 12px; COLOR: #ff3300; TEXT-DECORATION: none
+}
+A {
+	FONT-SIZE: 12px; COLOR: #3b3a37; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff3300; TEXT-DECORATION: underline
+}
+.gonggao {
+	FONT-SIZE: 12px; COLOR: #006633; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.yqlj {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px; TEXT-DECORATION: none
+}
+.bsxx {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.daohan {
+	FONT-SIZE: 12px; LINE-HEIGHT: 23px; TEXT-DECORATION: none
+}
+TD {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+HR {
+	BORDER-RIGHT: #006699 1px dashed; BORDER-TOP: #006699 1px dashed; BORDER-LEFT: #006699 1px dashed; BORDER-BOTTOM: #006699 1px dashed; HEIGHT: 1px
+}
+.biao-dh {
+	FONT-SIZE: 12px; COLOR: #3379b4; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.biao-dh01 {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.jingxuan {
+	FONT-SIZE: 12px; COLOR: #009966
+}
+.coolsite {
+	FONT-SIZE: 12px; COLOR: #0a8590; LINE-HEIGHT: 22px; TEXT-DECORATION: none
+}
+.guengdong {
+	FONT-SIZE: 12px; COLOR: #ffffcc; LINE-HEIGHT: 21px
+}
+.16 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff6600; TEXT-DECORATION: none
+}
+.sheying {
+	FONT-SIZE: 12px; COLOR: #cc6600; TEXT-DECORATION: none
+}
+.sheji {
+	FONT-SIZE: 12px; COLOR: #e00080
+}
+.color {
+	FONT-SIZE: 12px; COLOR: #c5155a; TEXT-DECORATION: none
+}
+.pic1 {
+	BORDER-RIGHT: #ffffff 5px solid; BORDER-TOP: #ffffff 5px solid; FILTER: progid:dximagetransform.microsoft.glow(color=#B48A57,strength=1); MARGIN-BOTTOM: 4px; BORDER-LEFT: #ffffff 5px solid; BORDER-BOTTOM: #ffffff 5px solid
+}
+.pic2 {
+	BORDER-RIGHT: #ffffff 5px solid; BORDER-TOP: #ffffff 5px solid; FILTER: progid:dximagetransform.microsoft.glow(color=#B48A57,strength=1); MARGIN-BOTTOM: 4px; BORDER-LEFT: #ffffff 5px solid; BORDER-BOTTOM: #ffffff 5px solid
+}
+.pic3 {
+	BORDER-RIGHT: #ffffff 5px solid; BORDER-TOP: #ffffff 5px solid; FILTER: progid:dximagetransform.microsoft.glow(color=#B48A57,strength=1); MARGIN-BOTTOM: 4px; BORDER-LEFT: #ffffff 5px solid; BORDER-BOTTOM: #ffffff 5px solid
+}
+.newscolor01 {
+	FONT-SIZE: 12px; COLOR: #1d91d1; TEXT-DECORATION: none
+}
+.newscolor {
+	FONT-SIZE: 12px; COLOR: #13a3a1; TEXT-DECORATION: none
+}
+.newscolor:link {
+	FONT-SIZE: 12px; COLOR: #13a3a1; TEXT-DECORATION: none
+}
+.newscolor:hover {
+	FONT-SIZE: 12px; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.newsview01 {
+	FONT-SIZE: 12px; COLOR: #6a66c3; TEXT-DECORATION: none
+}
+.newsview {
+	FONT-SIZE: 12px; COLOR: #13a3a1; TEXT-DECORATION: none
+}
+.newsview:link {
+	FONT-SIZE: 12px; COLOR: #9a0082; TEXT-DECORATION: none
+}
+.newsview:hover {
+	FONT-SIZE: 12px; COLOR: #3950b1; TEXT-DECORATION: none
+}
+.newsart01 {
+	FONT-SIZE: 12px; COLOR: #d29e8a; TEXT-DECORATION: none
+}
+.newsart {
+	FONT-SIZE: 12px; COLOR: #b05c3a; TEXT-DECORATION: none
+}
+.newsart:link {
+	FONT-SIZE: 12px; COLOR: #b05c3a; TEXT-DECORATION: none
+}
+.newsart:hover {
+	FONT-SIZE: 12px; COLOR: #fe1509; TEXT-DECORATION: none
+}
+.newsdesign01 {
+	FONT-SIZE: 12px; COLOR: #3391a2; TEXT-DECORATION: none
+}
+.newsdesign {
+	FONT-SIZE: 12px; COLOR: #1a6b9b; TEXT-DECORATION: none
+}
+.newsdesign:link {
+	FONT-SIZE: 12px; COLOR: #1a6b9b; TEXT-DECORATION: none
+}
+.newsdesign:hover {
+	FONT-SIZE: 12px; COLOR: #fe1509; TEXT-DECORATION: none
+}
+.jingpingtj {
+	FONT-SIZE: 12px; COLOR: #b27f5b; TEXT-DECORATION: none
+}
+.newsarticle01 {
+	FONT-SIZE: 12px; COLOR: #bc7053; TEXT-DECORATION: none
+}
+.newsarticle {
+	FONT-SIZE: 12px; COLOR: #bc7053; TEXT-DECORATION: none
+}
+.newsarticle:link {
+	FONT-SIZE: 12px; COLOR: #bc7053; TEXT-DECORATION: none
+}
+.newsarticle:hover {
+	FONT-SIZE: 12px; COLOR: #eb2308; TEXT-DECORATION: none
+}

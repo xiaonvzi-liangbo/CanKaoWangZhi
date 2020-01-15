@@ -1,0 +1,132 @@
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: #000; MARGIN: 0px; FONT-FAMILY: "ËÎÌו"
+}
+.my2008 {
+	BACKGROUND: #ffb902; MARGIN: 0px auto; WIDTH: 1004px
+}
+.myRecord {
+	BACKGROUND: url(http://blogimg.sinajs.cn/images/my2008/recordBg.gif) #fbf3da repeat-x; MARGIN: 0px auto; WIDTH: 1004px
+}
+.myRecord .OutBound {
+	MARGIN-TOP: 0px
+}
+.myRecord .InnerBound {
+	BACKGROUND: url(http://blogimg.sinajs.cn/images/my2008/myRecordTop.gif) no-repeat 50% top
+}
+.noteOutBound {
+	BACKGROUND: url(http://blogjs.sinajs.cn/images/my2008/bg.gif); MARGIN: 6px auto 0px; WIDTH: 770px; POSITION: relative
+}
+.noteInnerBound {
+	BACKGROUND: url(http://blogjs.sinajs.cn/images/my2008/topBg.gif) no-repeat 50% top
+}
+.menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; OVERFLOW: auto; PADDING-TOP: 15px; HEIGHT: 20px
+}
+.menu A {
+	COLOR: #404040; TEXT-DECORATION: none
+}
+.noteInnerBound #mainMenuImportant {
+	FLOAT: left; MARGIN-LEFT: 16px; COLOR: #404040; HEIGHT: 100%
+}
+.noteInnerBound #mainMenu_control {
+	FLOAT: right; MARGIN-RIGHT: 10px; HEIGHT: 100%
+}
+.noteInnerBound .component {
+	MARGIN: 8px 0px 16px; TEXT-ALIGN: center
+}
+.noteInnerBound .component {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.noteInnerBound .component A {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+.noteInnerBound .photo .image {
+	BORDER-RIGHT: #a6a6a6 1px solid; BORDER-TOP: #a6a6a6 1px solid; BORDER-LEFT: #a6a6a6 1px solid; BORDER-BOTTOM: #a6a6a6 1px solid
+}
+.noteInnerBound .photo .name {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 10px; MARGIN: 0px auto 8px; VERTICAL-ALIGN: middle; WIDTH: 184px; PADDING-TOP: 8px; BORDER-BOTTOM: #e17a00 1px dashed
+}
+.noteInnerBound .invite_friend_button {
+	BACKGROUND: url(http://blogimg.sinajs.cn/images/icon/invite_index.gif) no-repeat; WIDTH: 58px; CURSOR: pointer; BORDER-TOP-STYLE: none; MARGIN-RIGHT: 6px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 21px; BORDER-BOTTOM-STYLE: none
+}
+.noteInnerBound .send_message_button {
+	BACKGROUND: url(http://blogimg.sinajs.cn/images/icon/send_index.gif) no-repeat; WIDTH: 48px; CURSOR: pointer; BORDER-TOP-STYLE: none; MARGIN-RIGHT: 6px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 21px; BORDER-BOTTOM-STYLE: none
+}
+.noteInnerBound .photo .Card {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 5px
+}
+.noteInnerBound .aTitle {
+	FONT-WEIGHT: 600; FONT-SIZE: 20px; COLOR: #595959; LINE-HEIGHT: 26px
+}
+.aTitle .hot {
+	COLOR: #980800
+}
+.noteInnerBound .time {
+	COLOR: #980800; LINE-HEIGHT: 20px
+}
+.noteInnerBound .indexLink {
+	MARGIN-TOP: 6px
+}
+.noteInnerBound .indexLink A {
+	COLOR: #980800; TEXT-DECORATION: none
+}
+.noteInnerBound .allArticle {
+	MARGIN: 0px auto; WIDTH: 188px
+}
+.allArticle .top {
+	BACKGROUND: url(http://blogjs.sinajs.cn/images/my2008/allArticleTop.gif); HEIGHT: 26px
+}
+.allArticle .content {
+	FONT-SIZE: 14px; BACKGROUND: url(http://blogjs.sinajs.cn/images/my2008/allArticleBg.gif); LINE-HEIGHT: 29px; HEIGHT: 29px
+}
+.noteInnerBound .tag {
+	MARGIN-TOP: 15px; BACKGROUND: url(http://blogjs.sinajs.cn/images/my2008/28tag.gif) no-repeat; HEIGHT: 36px
+}
+.noteInnerBound .left_tag {
+	FONT-WEIGHT: 600; FONT-SIZE: 14px; FLOAT: left; WIDTH: 115px; COLOR: #980800; LINE-HEIGHT: 36px; HEIGHT: 36px; TEXT-ALIGN: center; TEXT-DECORATION: underline
+}
+.noteInnerBound .right_tag {
+	FLOAT: left; WIDTH: 404px; COLOR: #980800; BORDER-BOTTOM: #e99b4f 1px solid; HEIGHT: 36px; TEXT-ALIGN: right
+}
+.tag .comment_num {
+	MARGIN: 15px 4px 0px 0px
+}
+.noteInnerBound .list {
+	WIDTH: 519px
+}
+.list .list_content {
+	WIDTH: 519px; COLOR: #737373; LINE-HEIGHT: 27px; HEIGHT: 27px
+}
+.list .listBg {
+	BACKGROUND: #fef5ec
+}
+.list .title {
+	PADDING-LEFT: 10px; FLOAT: left; WIDTH: 390px; HEIGHT: 100%
+}
+.list .datetime {
+	FLOAT: left; WIDTH: 119px; HEIGHT: 100%
+}
+.list .line {
+	BORDER-TOP: #980800 1px dashed; MARGIN-TOP: 10px; HEIGHT: 10px
+}
+.list .fang {
+	BORDER-RIGHT: #e99b4f 1px solid; BORDER-TOP: #e99b4f 1px solid; MARGIN-TOP: 20px; FONT-SIZE: 14px; BACKGROUND: #fef5ec; BORDER-LEFT: #e99b4f 1px solid; WIDTH: 516px; COLOR: #980800; LINE-HEIGHT: 60px; BORDER-BOTTOM: #e99b4f 1px solid; HEIGHT: 126px; TEXT-ALIGN: center
+}
+.list .page {
+	MARGIN: 10px 0px; TEXT-ALIGN: center
+}
+.list .page A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.list .hot {
+	FONT-WEIGHT: 600; COLOR: #980800
+}
+.noteInnerBound .bottom {
+	FONT-SIZE: 1px; BACKGROUND: url(http://blogjs.sinajs.cn/images/my2008/bottom.gif); LINE-HEIGHT: 1px; HEIGHT: 9px
+}
+.personal_card {
+	PADDING-RIGHT: 13px; BACKGROUND: url(http://blogimg.sinajs.cn/images/icon/bloger_card_icon.gif) no-repeat; WIDTH: 21px; CURSOR: pointer; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 14px; BORDER-BOTTOM-STYLE: none
+}
+.myRecord .InnerBound .bottom {
+	FONT-SIZE: 1px; BACKGROUND: url(http://blogimg.sinajs.cn/images/my2008/recordBottom.gif); LINE-HEIGHT: 1px; HEIGHT: 9px
+}

@@ -1,0 +1,405 @@
+A.y:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #000000; TEXT-DECORATION: none
+}
+A.y:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #000000; TEXT-DECORATION: none
+}
+A.y:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ff3300; TEXT-DECORATION: none
+}
+A.y:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #000000; TEXT-DECORATION: none
+}
+A.y5:link {
+	CURSOR: pointer; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.y5:visited {
+	CURSOR: pointer; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.y5:hover {
+	CURSOR: pointer; COLOR: #d10100; TEXT-DECORATION: none
+}
+A.y5:active {
+	CURSOR: pointer; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.y3:link {
+	CURSOR: pointer; COLOR: #333333; TEXT-DECORATION: none
+}
+A.y3:visited {
+	CURSOR: pointer; COLOR: #333333; TEXT-DECORATION: none
+}
+A.y3:hover {
+	CURSOR: pointer; COLOR: #ff3300; TEXT-DECORATION: none
+}
+A.y3:active {
+	CURSOR: pointer; COLOR: #333333; TEXT-DECORATION: none
+}
+A.y2:link {
+	CURSOR: pointer; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.y2:visited {
+	CURSOR: pointer; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.y2:hover {
+	CURSOR: pointer; COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.y2:active {
+	CURSOR: pointer; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.y1:link {
+	FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ffff00; TEXT-DECORATION: none
+}
+A.y1:visited {
+	FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ffff00; TEXT-DECORATION: none
+}
+A.y1:hover {
+	FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.y1:active {
+	FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ffff00; TEXT-DECORATION: none
+}
+.style2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; LINE-HEIGHT: 35px
+}
+.STYLE8 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 18px
+}
+.STYLE8 A:link {
+	CURSOR: pointer; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.STYLE8 A:visited {
+	CURSOR: pointer; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.STYLE8 A:hover {
+	CURSOR: pointer; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.STYLE8 A:active {
+	CURSOR: pointer; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.STYLE9 {
+	COLOR: #b9eef2
+}
+.STYLE10 {
+	COLOR: #333333
+}
+.STYLE11 {
+	COLOR: #ff0000
+}
+.style7 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 30px
+}
+.style3 {
+	COLOR: #cc6600
+}
+.style4 {
+	COLOR: #ff3300; FONT-FAMILY: georgia
+}
+.style5 {
+	TEXT-DECORATION: line-through
+}
+.style6 {
+	COLOR: #146f70
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.texta {
+	FLOAT: left
+}
+.textb {
+	PADDING-RIGHT: 20px; FLOAT: right
+}
+.part7 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; MARGIN: 0px auto 11px; OVERFLOW: hidden; WIDTH: 984px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.part7 .title {
+	FLOAT: left; BACKGROUND-IMAGE: url(../img5/part7_title_tian.jpg); OVERFLOW: hidden; WIDTH: 984px; LINE-HEIGHT: 31px; HEIGHT: 31px
+}
+.part7 .title .left {
+	FLOAT: left; BACKGROUND-IMAGE: url(../img5/part7_title_left.jpg); OVERFLOW: hidden; WIDTH: 7px; HEIGHT: 31px
+}
+.part7 .title .right {
+	FLOAT: left; BACKGROUND-IMAGE: url(../img5/part7_title_right.jpg); OVERFLOW: hidden; WIDTH: 7px; HEIGHT: 31px
+}
+.part7 .title .middle {
+	FONT-SIZE: 13px; FLOAT: left; OVERFLOW: hidden; WIDTH: 970px; COLOR: #ffffff; HEIGHT: 31px; TEXT-ALIGN: left
+}
+.part7 .bodyer {
+	BORDER-RIGHT: #d8d8d8 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #d8d8d8 1px solid; MARGIN-TOP: 5px; PADDING-LEFT: 40px; FLOAT: left; PADDING-BOTTOM: 7px; OVERFLOW: hidden; BORDER-LEFT: #d8d8d8 1px solid; WIDTH: 938px; PADDING-TOP: 7px; BORDER-BOTTOM: #d8d8d8 1px solid; HEIGHT: auto
+}
+.part7 .bodyer .item {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 3px; FLOAT: left; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 3px; OVERFLOW: hidden; BORDER-LEFT: #dfdfdf 1px solid; WIDTH: 88px; MARGIN-RIGHT: 37px; PADDING-TOP: 3px; BORDER-BOTTOM: #dfdfdf 1px solid; HEIGHT: 31px
+}
+.part8 {
+	BACKGROUND: url(../img/part8_tian.jpg); MARGIN: 0px auto 24px; OVERFLOW: hidden; WIDTH: 1000px; HEIGHT: auto
+}
+.part8 .title {
+	PADDING-RIGHT: 17px; PADDING-LEFT: 19px; FONT-WEIGHT: bold; FONT-SIZE: 13px; BACKGROUND: url(../img/part8_title.jpg); FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 964px; COLOR: #016b6b; LINE-HEIGHT: 30px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square; HEIGHT: 30px; TEXT-ALIGN: left
+}
+.part8 .bodyer {
+	PADDING-RIGHT: 17px; PADDING-LEFT: 19px; FONT-SIZE: 12px; BACKGROUND: url(../img/part8_tian.jpg); FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 964px; LINE-HEIGHT: 23px; PADDING-TOP: 0px; HEIGHT: auto; TEXT-ALIGN: center
+}
+.part8 .bottom {
+	BACKGROUND: url(../img/part8_bottom.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 1000px; HEIGHT: 9px
+}
+.part9 {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 1000px; HEIGHT: 150px
+}
+.tonglan1 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px auto 10px; OVERFLOW: hidden; WIDTH: 980px; PADDING-TOP: 0px; HEIGHT: auto; TEXT-ALIGN: center
+}
+.part1 {
+	PADDING-RIGHT: 44px; PADDING-LEFT: 44px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px auto 10px; OVERFLOW: hidden; WIDTH: 912px; PADDING-TOP: 0px; HEIGHT: auto; TEXT-ALIGN: left
+}
+.part1 .flasha {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FLOAT: left; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 381px; MARGIN-RIGHT: 10px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 170px
+}
+.part1 .ad_tel {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 255px; MARGIN-RIGHT: 10px; HEIGHT: 172px
+}
+.part1 .kecheng {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 232px; LINE-HEIGHT: 25px; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 150px; TEXT-ALIGN: left
+}
+.part1 .itema {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 428px; LINE-HEIGHT: 25px; MARGIN-RIGHT: 12px; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 250px
+}
+.part1 .itema .left_ad {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 203px; MARGIN-RIGHT: 10px; HEIGHT: 250px
+}
+.part1 .itema .text {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 205px; PADDING-TOP: 10px; HEIGHT: 230px
+}
+.part1 .top {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FLOAT: left; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 910px; LINE-HEIGHT: 21px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 53px
+}
+.part1 .top .img {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 170px; HEIGHT: 53px
+}
+.part1 .top .text {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: auto; PADDING-TOP: 5px; HEIGHT: 43px
+}
+.part1 .img1 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 912px; HEIGHT: 130px
+}
+.part1 .text1 {
+	PADDING-RIGHT: 256px; PADDING-LEFT: 355px; BACKGROUND: url(../img10/p1_img2.jpg); FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 301px; COLOR: #ffffff; LINE-HEIGHT: 19px; PADDING-TOP: 0px; HEIGHT: 137px
+}
+.part1 .left {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 285px; MARGIN-RIGHT: 10px; HEIGHT: 762px
+}
+.part1 .right {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 617px; HEIGHT: 762px
+}
+.part1 .left .title {
+	PADDING-LEFT: 20px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../img10/p1_left_title.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 265px; COLOR: #0b5e70; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.part1 .left .bodyer {
+	BORDER-RIGHT: #bacada 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #bacada 1px solid; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-LEFT: #bacada 1px solid; WIDTH: 263px; LINE-HEIGHT: 20px; PADDING-TOP: 10px; BORDER-BOTTOM: #bacada 1px solid; HEIGHT: auto
+}
+.part1 .left .bodyer LI {
+	LIST-STYLE-IMAGE: url(../img10/left_li.jpg)
+}
+.part1 .right .title {
+	PADDING-LEFT: 30px; FLOAT: left; BACKGROUND-IMAGE: url(../img10/p1_right_title_tian.jpg); MARGIN-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 585px; COLOR: #ffffff; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.part1 .left TD {
+	LINE-HEIGHT: 27px; BORDER-BOTTOM: #cccccc 1px dashed
+}
+.part1 .left TH {
+	FONT-WEIGHT: normal; COLOR: #ff0000; LINE-HEIGHT: 28px
+}
+.part1 .right .item1 {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 282px; PADDING-TOP: 0px; HEIGHT: 182px
+}
+.part1 .right .item1 .title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 23px; BACKGROUND: url(../img10/part1_item1_title.jpg); FLOAT: left; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 259px; LINE-HEIGHT: 25px; PADDING-TOP: 5px; HEIGHT: 25px
+}
+.part1 .right .item1 .bodyer {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 282px; HEIGHT: 140px
+}
+.part1 .right TD {
+	LINE-HEIGHT: 26px; BORDER-BOTTOM: #cccccc 1px dashed
+}
+.part1 .left2 {
+	FLOAT: left; WIDTH: 253px; MARGIN-RIGHT: 10px; HEIGHT: auto
+}
+.part1 .left2 .title {
+	PADDING-LEFT: 35px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; BACKGROUND-IMAGE: url(../img10/lb_left_title.jpg); OVERFLOW: hidden; WIDTH: 218px; COLOR: #006a6a; LINE-HEIGHT: 29px; HEIGHT: 29px
+}
+.part1 .left2 .bodyer {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FLOAT: left; BACKGROUND-IMAGE: url(../img10/part1_left2_bodyer.jpg); LIST-STYLE-IMAGE: url(../img10/left_li1.jpg); OVERFLOW: hidden; WIDTH: 251px; LINE-HEIGHT: 20px; PADDING-TOP: 5px; HEIGHT: 124px
+}
+.part1 .left2 .bottom {
+	FLOAT: left; BACKGROUND-IMAGE: url(../img10/part1_left2_bottom.jpg); MARGIN-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 253px; HEIGHT: 5px
+}
+.part1 .left2 .text {
+	BORDER-RIGHT: #bacada 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #bacada 1px solid; PADDING-LEFT: 10px; FLOAT: left; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #bacada 1px solid; WIDTH: 231px; LINE-HEIGHT: 20px; PADDING-TOP: 10px; BORDER-BOTTOM: #bacada 1px solid; HEIGHT: auto
+}
+.part1 .left2 .text LI {
+	PADDING-LEFT: 2px; LIST-STYLE-IMAGE: url(../img10/left_li.jpg)
+}
+.part1 .right2 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 649px; HEIGHT: auto
+}
+.part1 .right2 .top1 {
+	PADDING-LEFT: 18px; BACKGROUND: url(../img10/part1_right_top.jpg); FLOAT: left; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 631px; LINE-HEIGHT: 26px; HEIGHT: 26px; TEXT-ALIGN: left
+}
+.part1 .right2 .title {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 10px; BACKGROUND: #eaeaea; FLOAT: left; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 637px; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.part1 .right2 .title .text {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 310px; COLOR: #666666; LINE-HEIGHT: 28px; HEIGHT: 28px; TEXT-ALIGN: left
+}
+.part1 .right2 .bodyer {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 12px; PADDING-LEFT: 12px; FLOAT: left; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 623px; LINE-HEIGHT: 22px; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: auto; TEXT-ALIGN: left
+}
+.part1 .right2 .ye {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 649px; LINE-HEIGHT: 33px; HEIGHT: 33px; TEXT-ALIGN: center
+}
+.part2 {
+	PADDING-RIGHT: 44px; PADDING-LEFT: 44px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px auto 10px; OVERFLOW: hidden; WIDTH: 912px; PADDING-TOP: 0px; HEIGHT: auto; TEXT-ALIGN: left
+}
+.part2 .title_left {
+	FONT-SIZE: 12px; FLOAT: left; OVERFLOW: hidden; WIDTH: 170px; COLOR: #107e7f; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.part2 .title_right {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 742px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.part2 .flash {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 370px; MARGIN-RIGHT: 9px; HEIGHT: 211px
+}
+.part2 .right2 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 532px; HEIGHT: 211px
+}
+.part2 .right2 .title {
+	OVERFLOW: hidden; WIDTH: 530px; HEIGHT: 33px
+}
+.part2 .right2 .title .left {
+	PADDING-LEFT: 68px; FONT-SIZE: 14px; BACKGROUND: url(../img10/part2_right_title_01.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 143px; LINE-HEIGHT: 33px; HEIGHT: 33px
+}
+.part2 .right2 .title .right {
+	BACKGROUND: url(../img10/part2_right_title_02.jpg); FLOAT: left; MARGIN-BOTTOM: 6px; WIDTH: 319px; COLOR: #ffffff; LINE-HEIGHT: 27px; HEIGHT: 27px
+}
+.part2 .right2 .bodyer {
+	BORDER-RIGHT: #6e8595 1px solid; PADDING-RIGHT: 15px; BORDER-TOP: #6e8595 1px solid; PADDING-LEFT: 15px; FLOAT: left; PADDING-BOTTOM: 25px; OVERFLOW: hidden; BORDER-LEFT: #6e8595 1px solid; WIDTH: 498px; PADDING-TOP: 26px; BORDER-BOTTOM: #6e8595 1px solid; HEIGHT: 125px
+}
+.part2 .right2 .bodyer TD {
+	LINE-HEIGHT: 24px; BORDER-BOTTOM: #cccccc 1px dashed
+}
+.part3 {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #dddddd 1px solid; PADDING-LEFT: 10px; FONT-SIZE: 12px; BACKGROUND: #eafdfb; PADDING-BOTTOM: 10px; MARGIN: 0px auto 10px; OVERFLOW: hidden; BORDER-LEFT: #dddddd 1px solid; WIDTH: 890px; LINE-HEIGHT: 20px; PADDING-TOP: 10px; BORDER-BOTTOM: #dddddd 1px solid; HEIGHT: 20px
+}
+.part4 {
+	MARGIN: 0px auto 10px; OVERFLOW: hidden; WIDTH: 908px; HEIGHT: auto
+}
+.part4 .title {
+	PADDING-RIGHT: 24px; PADDING-LEFT: 83px; FONT-SIZE: 14px; BACKGROUND: url(../img10/part4_title.jpg); FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 801px; LINE-HEIGHT: 27px; PADDING-TOP: 13px; HEIGHT: 27px
+}
+.part4 .bodyer {
+	BORDER-RIGHT: #b3b3b3 1px solid; BORDER-TOP: #b3b3b3 1px solid; FLOAT: left; OVERFLOW: auto; BORDER-LEFT: #b3b3b3 1px solid; WIDTH: 906px; BORDER-BOTTOM: #b3b3b3 1px solid; HEIGHT: auto
+}
+.part4 .bodyer .item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 420px; PADDING-TOP: 10px; HEIGHT: auto
+}
+.part4 .bodyer .item TH {
+	FONT-WEIGHT: normal; PADDING-TOP: 5px; BORDER-BOTTOM: #cccccc 1px dashed
+}
+.part4 .bodyer .item TD {
+	PADDING-LEFT: 10px; LINE-HEIGHT: 25px; BORDER-BOTTOM: #cccccc 1px dashed
+}
+.part4 .item5 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FLOAT: left; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 291px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: auto
+}
+.part4 .item5 .title {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 33px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 251px; LINE-HEIGHT: 35px; PADDING-TOP: 0px; HEIGHT: 35px
+}
+.part4 .item5 .bodyer {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 10px; WIDTH: 273px; LINE-HEIGHT: 22px; PADDING-TOP: 10px; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px
+}
+.part4 .item5 .bodyer TD {
+	PADDING-LEFT: 8px; BORDER-BOTTOM: #cccccc 1px dashed
+}
+.float1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; COLOR: #333333
+}
+.float2 {
+	FLOAT: right
+}
+.part1 .left3 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 584px; MARGIN-RIGHT: 10px; HEIGHT: 99px
+}
+.part1 .left3 .logo1 {
+	FLOAT: left; MARGIN: 0px 21px 9px 0px; OVERFLOW: hidden; WIDTH: 100px; HEIGHT: 45px
+}
+.part1 .left3 .logo2 {
+	FLOAT: left; MARGIN: 0px 21px 0px 0px; OVERFLOW: hidden; WIDTH: 100px; HEIGHT: 45px
+}
+.part1 .zst {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: auto; HEIGHT: 99px
+}
+.part1 .left2 .text TD {
+	LINE-HEIGHT: 23px
+}
+.part1 .left2 .img {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 253px; HEIGHT: 99px
+}
+.part1 .meu {
+	PADDING-RIGHT: 106px; PADDING-LEFT: 106px; FLOAT: left; PADDING-BOTTOM: 20px; OVERFLOW: hidden; WIDTH: 698px; PADDING-TOP: 20px; HEIGHT: auto
+}
+.part1 .meu .title {
+	FLOAT: left; MARGIN-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 698px; HEIGHT: auto
+}
+.part1 .meu .bodyer_top {
+	BACKGROUND: url(../img10/cx_bodyer_top.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 698px; HEIGHT: 30px
+}
+.part1 .meu .bodyer_mid {
+	PADDING-RIGHT: 78px; PADDING-LEFT: 68px; BACKGROUND: url(../img10/cx_bodyer_mid.jpg); FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 552px; PADDING-TOP: 0px; HEIGHT: 355px
+}
+.part1 .meu .bodyer_mid .left {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 250px; MARGIN-RIGHT: 97px; HEIGHT: 350px
+}
+.part1 .meu .bodyer_mid .left TD {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.part1 .meu .bodyer_mid .right_title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 27px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 9px; OVERFLOW: hidden; WIDTH: 178px; LINE-HEIGHT: 39px; PADDING-TOP: 0px; HEIGHT: 39px; TEXT-ALIGN: left
+}
+.part1 .meu .bodyer_mid .right_bodyer {
+	FLOAT: left; PADDING-BOTTOM: 28px; OVERFLOW: hidden; WIDTH: 205px; TEXT-INDENT: 2em; LINE-HEIGHT: 20px; HEIGHT: 167px
+}
+.part1 .meu .bodyer_mid .right_an {
+	FLOAT: left; MARGIN-BOTTOM: 20px; OVERFLOW: hidden; WIDTH: 205px; HEIGHT: 34px
+}
+.part1 .meu .bodyer_bottom {
+	PADDING-RIGHT: 24px; FONT-SIZE: 14px; BACKGROUND: url(../img10/cx_bodyer_bottom.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 674px; LINE-HEIGHT: 40px; HEIGHT: 40px; TEXT-ALIGN: right
+}
+.part1 .meu .bodyer_mid .left TH {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; COLOR: #000000
+}
+.part1 .cxjg_top {
+	BACKGROUND: url(../img10/cf_jg_top.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 912px; HEIGHT: 35px
+}
+.part1 .cxjg_bottom {
+	BACKGROUND: url(../img10/cf_jg_bottom.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 912px; HEIGHT: 72px
+}
+.part1 .cxjg_mid {
+	BACKGROUND: url(../img10/cf_jg_mid.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 912px; HEIGHT: 407px
+}
+.part1 .cxjg_mid .left6 {
+	PADDING-RIGHT: 55px; PADDING-LEFT: 70px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 515px; PADDING-TOP: 0px; HEIGHT: 376px
+}
+.part1 .cxjg_mid .left6 .title6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 15px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 515px; LINE-HEIGHT: 23px; PADDING-TOP: 7px; FONT-FAMILY: "свт╡"; HEIGHT: 74px; TEXT-ALIGN: center
+}
+.part1 .cxjg_mid .left6 .bodyer6 {
+	FONT-SIZE: 13px; FLOAT: left; OVERFLOW: hidden; WIDTH: 515px; LINE-HEIGHT: 33px; HEIGHT: 270px
+}
+.part1 .cxjg_mid .right_title6 {
+	PADDING-LEFT: 50px; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; OVERFLOW: hidden; WIDTH: 179px; LINE-HEIGHT: 35px; HEIGHT: 53px; TEXT-ALIGN: left
+}
+.part1 .cxjg_mid .right_bodyer6 {
+	PADDING-RIGHT: 26px; PADDING-LEFT: 26px; FLOAT: left; PADDING-BOTTOM: 50px; OVERFLOW: hidden; WIDTH: 205px; TEXT-INDENT: 2em; LINE-HEIGHT: 22px; PADDING-TOP: 0px; HEIGHT: 210px
+}
+.part1 .cxjg_mid .right_img6 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 257px; HEIGHT: 94px
+}

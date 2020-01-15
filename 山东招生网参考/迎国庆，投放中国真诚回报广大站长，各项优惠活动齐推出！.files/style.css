@@ -1,0 +1,60 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(body_bg.jpg) #ca0a0a repeat-x; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 12px/1.5 Tahoma, Helvetica, Arial, sans-serif; COLOR: #333; PADDING-TOP: 0px; HEIGHT: 800px
+}
+#content {
+	MARGIN: auto; WIDTH: 848px
+}
+#header {
+	COLOR: #ffffff; LINE-HEIGHT: 35px; TEXT-ALIGN: right
+}
+#header A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#pages {
+	BACKGROUND: #ffffff
+}
+.pages_left {
+	BACKGROUND: url(pages_left.jpg) repeat-y; LEFT: -7px; WIDTH: 8px; POSITION: absolute
+}
+.js {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 50px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; COLOR: #333333; LINE-HEIGHT: 25px; PADDING-TOP: 0px
+}
+.js A {
+	TEXT-DECORATION: none
+}
+.js P {
+	TEXT-INDENT: 2em
+}
+.pages_right {
+	RIGHT: -7px; BACKGROUND: url(pages_right.jpg) repeat-y; WIDTH: 8px; POSITION: absolute
+}
+.jp {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 45px; PADDING-BOTTOM: 10px; PADDING-TOP: 25px
+}
+.jp IMG {
+	PADDING-RIGHT: 20px
+}
+.sm {
+	PADDING-LEFT: 35px; COLOR: #aa2121
+}
+.wz {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 50px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px
+}
+.blue {
+	FONT-SIZE: 12px; COLOR: #238c0b
+}
+.font_12 {
+	FONT-SIZE: 12px; COLOR: #999999
+}
+.font_12 A {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-DECORATION: none
+}
+#footer {
+	COLOR: #ffffff; LINE-HEIGHT: 50px; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.lan {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A.lan:hover {
+	COLOR: #cc0000; TEXT-DECORATION: underline
+}

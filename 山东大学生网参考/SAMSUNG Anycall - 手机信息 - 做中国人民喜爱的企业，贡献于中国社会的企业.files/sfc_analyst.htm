@@ -1,0 +1,69 @@
+
+
+
+
+
+
+
+// function
+String.prototype.startsWith = function(sStart) {
+    return (this.substr(0,sStart.length)==sStart);
+}
+
+function getLastStr(str, separator) {
+    var splitStr = str.split(separator);
+    return splitStr[splitStr.length-1];
+}
+
+// URL Information
+var sfc_host = (location.host).toLowerCase()           // <hostname>[:<port>]
+var sfc_path = (location.pathname).toLowerCase()                        // <pathname>
+var sfc_param = (location.search).toLowerCase()        // <search> -- ?...
+var sfc_page = getLastStr(sfc_path, "/");
+var sfc_fullPath = (document.URL).toLowerCase();
+var sfc_id = "";
+
+// Referer URL Information
+var sfc_referType = "N"
+var sfc_referURL = "";
+if (sfc_referrer == "" || sfc_referrer.length == 0) {
+    if (sfc_opener == null) {
+        sfc_referType = "D"; // direct
+        sfc_referURL = "";
+    } else {
+        sfc_referType = "O" // opener
+        sfc_referURL = sfc_opener;
+    }
+} else {
+    sfc_referType = "L"; // link
+    sfc_referURL = sfc_referrer;
+}
+//alert("===="+sfc_referURL+"+++++");
+// Initialization
+var sfc_siteId = 1;
+var sfc_pageId = -1;
+var ip = "60.216.168.33";
+ 
+// 
+var loc="/cn/analyst/stat.jsp?info="
+loc = loc + "siteid=" + sfc_siteId;
+loc = loc + "|" + "pageid=" + sfc_pageId;
+loc = loc + "|" + "refertype=" + sfc_referType;
+loc = loc + "|" + "urlrefer=" + sfc_referURL;
+loc = loc + "|" + "param=" + sfc_param;
+loc = loc + "|" + "ip="+ip;
+loc = loc + "|" + "id="+sfc_id;
+loc = loc + "|" + "catalog="+catalog;
+loc = loc + "|" + "path="+sfc_path;
+document.writeln("<div style=\"visibility:hidden; position:absolute; left:0px; top:0px; width:1px; height:1px;\">");
+document.writeln("<img width=0 height=0 border=0 src="+loc+">");
+document.writeln("</div>");
+/*
+alert("path="+sfc_path);
+alert("refer="+sfc_referURL);
+alert("type="+sfc_referType);
+alert("ip="+"60.216.168.33");
+alert("host="+sfc_host);
+alert("param="+sfc_param);
+*/
+//document.writeln(loc);

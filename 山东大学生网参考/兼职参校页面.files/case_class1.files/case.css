@@ -1,0 +1,99 @@
+TD {
+	COLOR: #524230; FONT-FAMILY: "?s??? "???font-size:10pt
+}
+HR {
+	BORDER-RIGHT: #736351 2pt dotted; BORDER-TOP: #736351 2pt dotted; BORDER-LEFT: #736351 2pt dotted; BORDER-BOTTOM: #736351 2pt dotted
+}
+.s {
+	FONT-FAMILY: "?s??? "???font-size:8pt
+}
+.sd {
+	FONT-FAMILY: "?s??? "???font-size:5pt
+}
+.t {
+	COLOR: #666699; FONT-FAMILY: "?s??? "???font-size:11pt
+}
+.tit {
+	FONT-WEIGHT: bold; COLOR: #d76a4c; FONT-FAMILY: "?s??? "???font-size:11pt
+}
+.v {
+	FONT-SIZE: 7pt; COLOR: #524230; FONT-FAMILY: "verdana"
+}
+.time {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #5876cc; FONT-FAMILY: "verdana"
+}
+.time9 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #666699; FONT-FAMILY: "arial"
+}
+.m {
+	FONT-FAMILY: "?s??? "???font-size:9pt
+}
+.bgform {
+	COLOR: #524230; FONT-FAMILY: "?s??? "???font-size:9pt; BACKGROUND-COLOR: #f2f3e1
+}
+.h {
+	LINE-HEIGHT: 18pt; FONT-FAMILY: "?s??? "??? color:#524230
+}
+.h14 {
+	LINE-HEIGHT: 14pt; FONT-FAMILY: "?s??? "??? color:#524230
+}
+.h16 {
+	LINE-HEIGHT: 16pt; FONT-FAMILY: "?s??? "??? color:#524230
+}
+.h21 {
+	LINE-HEIGHT: 21pt; FONT-FAMILY: "?s??? "??? color:#524230
+}
+A:link {
+	FONT-SIZE: 10pt; FONT-FAMILY: "?s??? "???color: #666699; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 10pt; FONT-FAMILY: "?s??? "???color: #666699; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 10pt; FONT-FAMILY: "?s??? "???color: 524230; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 10pt; FONT-FAMILY: "?s??? "???color: 524230; TEXT-DECORATION: none
+}
+A.n:link {
+	FONT-SIZE: 10pt; FONT-FAMILY: "?s??? "???color: #524230; TEXT-DECORATION: none
+}
+A.n:visited {
+	FONT-SIZE: 10pt; FONT-FAMILY: "?s??? "???color: #524230; TEXT-DECORATION: none
+}
+A.n:hover {
+	FONT-SIZE: 10pt; FONT-FAMILY: "?s??? "???color: 666699; TEXT-DECORATION: underline
+}
+A.n:active {
+	FONT-SIZE: 10pt; FONT-FAMILY: "?s??? "???color: 666699; TEXT-DECORATION: underline
+}
+A.ml:link {
+	FONT-SIZE: 9pt; FONT-FAMILY: "?s??? "???color: #666699; TEXT-DECORATION: underline
+}
+A.ml:visited {
+	FONT-SIZE: 9pt; FONT-FAMILY: "?s??? "???color: #666699; TEXT-DECORATION: underline
+}
+A.mln:link {
+	FONT-SIZE: 9pt; FONT-FAMILY: "?s??? "???color: #524230; TEXT-DECORATION: none
+}
+A.mln:visited {
+	FONT-SIZE: 9pt; FONT-FAMILY: "?s??? "???color: #524230; TEXT-DECORATION: none
+}
+A.mln:hover {
+	FONT-SIZE: 9pt; LEFT: 1px; FONT-FAMILY: "?s??? "???color: #666699; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+A.copy:link {
+	FONT-SIZE: 8pt; FONT-FAMILY: "?s??? "???color: #524230; TEXT-DECORATION: none
+}
+A.copy:visited {
+	FONT-SIZE: 8pt; FONT-FAMILY: "?s??? "???color: #524230; TEXT-DECORATION: none
+}
+A.copy:hover {
+	FONT-SIZE: 8pt; LEFT: 1px; FONT-FAMILY: "?s??? "???	color: #524230; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+A.copy:active {
+	FONT-SIZE: 8pt; FONT-FAMILY: "?s??? "???color: #524230; TEXT-DECORATION: underline
+}
+.but {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #dddddd
+}

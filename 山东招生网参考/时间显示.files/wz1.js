@@ -1,0 +1,1 @@
+document.write("<div align='center'>[<a href='http://bbs.wellw.com/' target='_blank' class='navy'>进入论坛</a>]&nbsp; [<A href='/pro/ArticleAdd.asp'>网上投稿</A>]&nbsp; [<a href='javascript:doPrint();'>打印本页</A>]&nbsp; [<A href='javascript:window.close()'>关闭窗口</A>]&nbsp; [<A href='#top'>返回顶部</A>]</div>");

@@ -1,0 +1,138 @@
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WORD-BREAK: break-all; PADDING-TOP: 0px; WORD-WRAP: break-word
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #c30; TEXT-DECORATION: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: middle; BORDER-RIGHT-WIDTH: 0px
+}
+UL {
+	LIST-STYLE-TYPE: none
+}
+INPUT {
+	VERTICAL-ALIGN: middle
+}
+SELECT {
+	VERTICAL-ALIGN: middle
+}
+H1 {
+	FONT-FAMILY: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-FAMILY: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-FAMILY: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif
+}
+H4 {
+	FONT-FAMILY: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif
+}
+H5 {
+	FONT-FAMILY: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif
+}
+H6 {
+	FONT-FAMILY: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif
+}
+STRONG {
+	FONT-FAMILY: "Microsoft Yahei", Verdana, Arial, Helvetica, sans-serif
+}
+#page {
+	FONT-SIZE: 12px; COLOR: #555; LINE-HEIGHT: 22px
+}
+BODY {
+	FONT-SIZE: 12px; COLOR: #333; LINE-HEIGHT: 24px
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #333; LINE-HEIGHT: 24px
+}
+TR {
+	FONT-SIZE: 12px; COLOR: #333; LINE-HEIGHT: 24px
+}
+.input_login {
+	BORDER-RIGHT: #dbdbdb 1px solid; BORDER-TOP: #dbdbdb 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #dbdbdb 1px solid; WIDTH: 100px; LINE-HEIGHT: 19px; BORDER-BOTTOM: #dbdbdb 1px solid; HEIGHT: 19px
+}
+HTML {
+	HEIGHT: 100%
+}
+BODY {
+	HEIGHT: 100%
+}
+.top {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(../images/zhaosheng/bg_top.jpg) repeat-x; PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+.top SPAN {
+	DISPLAY: block; MARGIN: 0px auto; WIDTH: 937px
+}
+.banner {
+	BACKGROUND: url(../images/zhaosheng/bg_banner.jpg) no-repeat; MARGIN: 0px auto; WIDTH: 959px; POSITION: relative; HEIGHT: 207px
+}
+#tel {
+	FONT-SIZE: 12px; BACKGROUND: #fff; LEFT: 410px; WIDTH: 530px; COLOR: #c30; POSITION: absolute; TOP: 123px
+}
+#tel SPAN {
+	FONT-WEIGHT: 700; FONT-SIZE: 14px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.pleft {
+	PADDING-LEFT: 78px
+}
+.box {
+	MARGIN: 0px auto; WIDTH: 937px
+}
+.title1 {
+	PADDING-LEFT: 25px; FONT-WEIGHT: 100; FONT-SIZE: 18px; BACKGROUND: url(../images/zhaosheng/bg_title1.jpg) no-repeat; COLOR: #fff; LINE-HEIGHT: 38px; FONT-FAMILY: "ºÚÌå"; HEIGHT: 45px
+}
+.title1 A {
+	COLOR: #fff
+}
+.title2 A {
+	COLOR: #fff
+}
+.title2 {
+	PADDING-LEFT: 25px; FONT-WEIGHT: 100; FONT-SIZE: 18px; BACKGROUND: url(../images/zhaosheng/bg_title2.jpg) no-repeat; COLOR: #fff; LINE-HEIGHT: 50px; PADDING-TOP: 2px; FONT-FAMILY: "ºÚÌå"; HEIGHT: 50px
+}
+.bg_center {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; BACKGROUND: url(../images/zhaosheng/bg_center.jpg) repeat-y; PADDING-BOTTOM: 5px; PADDING-TOP: 10px
+}
+.timg {
+	MARGIN: 0px 20px 20px
+}
+.text2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; PADDING-BOTTOM: 9px; PADDING-TOP: 9px
+}
+.text2 P {
+	MARGIN-TOP: 6px; TEXT-INDENT: 28px
+}
+.red {
+	COLOR: #f00
+}
+.zybox {
+	DISPLAY: block; OVERFLOW: hidden; ZOOM: 1
+}
+.zybox LI {
+	DISPLAY: inline; BACKGROUND: url(../images/zhaosheng/zy2.jpg) no-repeat; FLOAT: left; MARGIN: 0px 6px 15px; OVERFLOW: hidden; WIDTH: 161px; LINE-HEIGHT: 36px; HEIGHT: 36px; TEXT-ALIGN: center
+}
+.zybox LI A {
+	DISPLAY: block; FONT-WEIGHT: 700; FONT-SIZE: 14px; WIDTH: 161px; COLOR: #c80000; HEIGHT: 36px
+}
+.zybox LI A:hover {
+	COLOR: #f00
+}
+.tablebox TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-BOTTOM: #dedede 1px solid
+}
+.input2 {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #888 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #888 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px solid
+}
+.submit {
+	FONT-WEIGHT: 700; FONT-SIZE: 14px; BACKGROUND: url(../images/zhaosheng/zy.jpg) no-repeat; WIDTH: 161px; CURSOR: pointer; COLOR: #fff; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; LETTER-SPACING: 3px; HEIGHT: 36px; BORDER-BOTTOM-STYLE: none
+}
+.bg_botm {
+	BACKGROUND: url(../images/zhaosheng/bg_botm.jpg) no-repeat; HEIGHT: 25px
+}
+.footer {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; TEXT-ALIGN: center
+}

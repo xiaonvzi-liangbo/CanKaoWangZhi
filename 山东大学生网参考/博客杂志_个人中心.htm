@@ -1,0 +1,418 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0040)http://mag.blog.sina.com.cn/u/1235733075 -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>博客杂志_个人中心</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<SCRIPT language=javascript1.1 src="博客杂志_个人中心.files/photo_minmax.js" 
+type=text/javascript></SCRIPT>
+<LINK href="博客杂志_个人中心.files/2008.css" type=text/css rel=stylesheet><LINK 
+title=Sina.BlogZine href="博客杂志_个人中心.files/user_center.css" type=text/css 
+rel=stylesheet>
+<SCRIPT language=javascript> 
+document.domain="blog.sina.com.cn";	
+var bc = {};
+bc.show = function () {};
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.3395" name=GENERATOR></HEAD>
+<BODY><!-- sina code start-->
+<SCRIPT id=dataScript type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+function $(x) {
+return document.getElementById(x);	
+}
+function $C(x) {
+	return document.createElement(x);	
+}
+function isRecentUpdate(postDate){
+	var ins = 86400000;
+	var todayDate = new Date().getTime();
+	return todayDate - postDate*1000 < ins;
+}
+function invite_friend(uid){
+	bcDialog.show("http://my.blog.sina.com.cn/friend/add_friend.php?opid=" + uid, 278, 258);
+}
+function send_message(uid){
+	bcDialog.show("http://my.blog.sina.com.cn/myblog/message/send_message.php?domain=1&toid=" + uid, 278, 100);
+	bc.hidden();
+}
+function showCard(oid,event,l) {
+	if(parent){
+		parent.bc.show(oid,event,window,l);
+	}else{
+		bc.show(oid,event,null,l);
+	}
+}
+function sendMSG(oid){
+	if(parent){
+		parent.bcDialog.show("http://blog.sina.com.cn/myblog/message/send_message.php?domain=1&toid="+oid, 274, 255);
+	}else{
+		bcDialog.show("http://blog.sina.com.cn/myblog/message/send_message.php?domain=1&toid="+oid, 274, 255);
+	}
+}
+function writeData() {
+	$('listbody').style.display = 'none';
+	_show('myFriendList');
+	if(typeof(OFL) != 'undefined'){
+		_show('otherFriendList');
+	}
+	Resize();
+}
+function Resize(){
+	try{
+		parent.iframeResize(window.frameElement.id,document.body.scrollHeight);
+	}catch(e){}
+}
+var timeoutNum = 5;
+var t = 0;
+var timer;
+var userInfoList = {};
+var trace = function (){};
+function loadUIC(uidArray,option){
+	trace('LOAD_UIC_DATA',"#F00");
+	clearInterval(timer);
+	uic_data = undefined;
+	t = 0;
+	var url = 'http://util.blog.sina.com.cn/ui?t=s&' + uidArray.join(',');
+	//var url = 'http://blog.sina.com.cn/js/sample_uic_data.js';
+	trace(url);
+	$('dataScript').src = url;
+	var timer = setInterval(function (){
+		trace(uic_data);
+		if(typeof(uic_data) != "undefined")
+		{
+			clearInterval(timer);
+			var len = uic_data.length;
+			for(var i=0;i<len;i++){
+				var obj = uic_data[i];
+				var uid = obj.uid;
+				userInfoList[uid] = {};
+				for(var j in obj){
+					userInfoList[uid][j] = obj[j];
+				}
+			}
+			eval(option['complete'])();
+	    }
+		if(t == timeoutNum)
+		{
+			uic_data = [];
+			clearInterval(timer);
+			eval(option['error'])();
+		}
+	  t++;
+	},500);
+}
+function addHTML(oParentNode, sHTML) {
+	if(window.addEventListener) {// for MOZ
+		var oRange = oParentNode.ownerDocument.createRange();
+		oRange.setStartBefore(oParentNode);
+		var oFrag = oRange.createContextualFragment(sHTML);
+		oParentNode.appendChild(oFrag);
+	}
+	else {// for IE5+
+		oParentNode.insertAdjacentHTML("BeforeEnd", sHTML);
+	}
+}
+</SCRIPT>
+
+<SCRIPT src="博客杂志_个人中心.files/bc.js" type=text/javascript 
+charset=gb2312></SCRIPT>
+
+<SCRIPT src="博客杂志_个人中心.files/dialog.js" type=text/javascript 
+charset=gb2312></SCRIPT>
+
+<SCRIPT src="博客杂志_个人中心.files/base.js" type=text/javascript 
+charset=gb2312></SCRIPT>
+
+<SCRIPT>
+function show_top(event)
+{
+  x =  event.clientX;   
+  y =  event.clientY;   
+	
+  top1 = y + 285;
+  top2 = y + 290;
+   
+  document.getElementById("sw_top").style.top = top1+"px";
+  document.getElementById("bg_top").style.top = top2+"px";
+
+  document.getElementById("sw_top").style.display = '';
+  document.getElementById("bg_top").style.display = '';
+}
+function close_top()
+{
+	document.getElementById("bg_top").style.display = 'none';
+	document.getElementById("sw_top").style.display = 'none';
+}
+</SCRIPT>
+<!-- sina功能实现 end --><!--新浪代码--><!-- wrapper start -->
+<DIV id=wrapper><!-- innerWrapper start -->
+<DIV id=innerWrapper><!-- 头部 start -->
+<SCRIPT language=javascript1.1 src="" type=text/javascript 
+charset=utf-8></SCRIPT>
+
+<SCRIPT language=javascript1.1 src="博客杂志_个人中心.files/user.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="博客杂志_个人中心.files/jquery-latest.js" type=text/javascript></SCRIPT>
+
+<SCRIPT language=javascript1.1 src="博客杂志_个人中心.files/checkform.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="博客杂志_个人中心.files/thickbox.js" type=text/javascript></SCRIPT>
+<LINK media=screen href="博客杂志_个人中心.files/thickbox.css" type=text/css 
+rel=stylesheet>
+<SCRIPT language=javascript> 
+	<!--
+		function copyToClipBoard(str){ 
+			if (window.clipboardData) {
+					window.clipboardData.setData("Text",str);
+			} else {
+				var flashcopier = 'flashcopier';
+				if(!document.getElementById(flashcopier)) {
+					var divholder = document.createElement('div');
+					divholder.id = flashcopier;
+					document.body.appendChild(divholder);
+			}
+			document.getElementById(flashcopier).innerHTML = '';
+			var divinfo = '<embed src="/views/normal/flash/_clipboard.swf" FlashVars="clipboard='+str+'" width="0" height="0" type="application/x-shockwave-flash"></embed>';
+			document.getElementById(flashcopier).innerHTML = divinfo;
+			}
+		    alert('代码复制成功!');
+			tb_remove();
+			
+		}
+		function addFavorite (url,title) {
+		     if (window.sidebar) {
+			    window.sidebar.addPanel(title, url,"");
+			 } else if( document.all ) {
+			     window.external.AddFavorite( url, title);
+			 } else if( window.opera && window.print ) {
+			   return true;
+			 }
+		}
+		function show_nike(){ 
+			var nike='';
+			var user_id='';	
+			var js_nike='';
+			if(typeof(card_data)!="undefined" && user_id!=''){
+			    js_nike=card_data[user_id];
+			}	
+			if(nike==''){
+				nike=js_nike;
+			}else{
+			   if(typeof(card_data)!="undefined" && user_id!=''){
+			   		nike=unescape(nike);
+			   		if(nike!=js_nike && js_nike!=''){
+					  	addCookie('nick_name',unescape(js_nike),'0','.sina.com.cn'); 
+						nike=js_nike;  
+					}
+			   }else{
+			   		nike=unescape(nike);
+			   }			
+			}
+			document.write(nike);
+		} 
+		-->
+      </SCRIPT>
+
+<DIV id=header>
+<DIV id=innerHeader>
+<H1 id=logo><A title=新浪博客杂志 href="http://mag.blog.sina.com.cn/index.php" 
+target=_blank alt="新浪博客杂志"><IMG src="博客杂志_个人中心.files/logo_sinadiy.gif"></A></H1>
+<DIV id=mainNav>
+<P class=left><A href="http://blog.sina.com.cn/" 
+target=_blank>博客</A>&nbsp;|&nbsp;<A href="http://photo.sina.com.cn/" 
+target=_blank>相册</A>&nbsp;|&nbsp;<A href="http://you.video.sina.com.cn/" 
+target=_blank>播客</A>&nbsp;|&nbsp;<A href="http://mag.sina.com.cn/" 
+target=_blank>杂志</A>&nbsp;|&nbsp;<A href="http://q.blog.sina.com.cn/" 
+target=_blank>圈子</A></P>
+<P class=right><A class=thickbox title=用户登录 onclick=clear_login(); 
+href="http://mag.blog.sina.com.cn/u/1235733075#TB_inline?height=195&amp;width=250&amp;inlineId=user_login">登录</A>&nbsp;|&nbsp;<A 
+class=aReg 
+href="http://my.blog.sina.com.cn/member/signup/register.htm">注册</A>&nbsp;|&nbsp;<A 
+class=aHelp href="http://mag.blog.sina.com.cn/help.php" 
+target=_blank>帮助</A>&nbsp;|&nbsp;<A class=aSearch 
+href="http://mag.blog.sina.com.cn/search.php" 
+target=_blank>搜索</A></P></DIV></DIV>　 </DIV>
+<DIV id=myShow>
+<DIV id=iMyShow>
+<H3><A href="http://mag.blog.sina.com.cn/u/1235733075"><SPAN class=userName 
+id=diy_nick></SPAN>的博客杂志</A></H3>
+<DIV class=left><A class=on 
+href="http://mag.blog.sina.com.cn/u/1235733075">最新杂志作品</A> <A 
+href="http://mag.blog.sina.com.cn/my_diy_list.php?user_id=1235733075">杂志作品列表</A> 
+<A 
+href="http://mag.blog.sina.com.cn/my_collection.php?user_id=1235733075">杂志作品收藏</A> 
+</DIV>
+<DIV class=right><A class=btnMaker href="javascript:openBuilder();"><IMG 
+alt=制作杂志 src="博客杂志_个人中心.files/btn_maker.gif"></A> <A class=btnHelp 
+href="javascript:openStudy();"><IMG alt=学作杂志 
+src="博客杂志_个人中心.files/btn_help.gif"></A> </DIV></DIV></DIV><!-- 头部 end --><!-- main start -->
+<DIV class=main><!-- content start -->
+<DIV class="content clearfix"><!-- innerContent start -->
+<DIV class=innerContent><!-- sbox start -->
+<DIV class=sbox>
+<DIV class=ibox>
+<H3>个人信息</H3>
+<DIV class=desc>
+<DIV class=PIM_Box>
+<DIV class=icoBox><IMG alt=吴佩慈 
+onerror="this.src='/views/normal/images/userlogo.gif'" 
+src="博客杂志_个人中心.files/50.jpg" onload=resize_me(this,180);></DIV>
+<DIV class=intro><IMG style="DISPLAY: none; CURSOR: pointer" 
+onclick="showCard('1235733075',event,'lphoto'); return false;" 
+src="博客杂志_个人中心.files/bloger_card_icon.gif"><A id=show_title 
+onmouseover=javascript:this.title href="http://blog.sina.com.cn/u/1235733075" 
+target=_blank></A> </DIV>
+<DIV class=contact style="DISPLAY: none"><A class=btn_invite 
+onclick="invite_friend('1235733075'); return false;" 
+href="http://mag.blog.sina.com.cn/u/1235733075#">加为好友</A> <A class=btn_send 
+onclick="send_message('1235733075'); return false;" 
+href="http://mag.blog.sina.com.cn/u/1235733075#">发纸条</A> </DIV>
+<DIV class=componentContent><A href="http://blog.sina.com.cn/u/1235733075" 
+target=_blank>博客</A> | <A href="http://photo.sina.com.cn/u/1235733075" 
+target=_blank>相册</A> | <A href="http://you.video.sina.com.cn/m/1235733075" 
+target=_blank>播客</A> | <A href="http://q.sina.com.cn/mygroup.php?uid=1235733075" 
+target=_blank>圈子</A> </DIV></DIV></DIV></DIV>
+<SCRIPT type=text/javascript> 
+<!--
+function resize_me(img,wmax) { 
+  if (img.width > wmax) { 
+     img.width = wmax; 
+  } 
+} 
+-->
+</SCRIPT>
+</DIV><!-- sbox end --></DIV><!-- innerContent end --></DIV><!-- content end --><!-- sidebar start -->
+<DIV class=sidebar><!-- innerSidebar start -->
+<DIV class=innerSidebar><!-- sbox start -->
+<DIV class=sbox>
+<DIV class=ibox>
+<H3>最新杂志作品 </H3>
+<DIV class=desc><!-- noticeBox start -->
+<DIV class=noticeBox>
+<DIV class=cue>博主暂时没有制作杂志。</DIV>
+<DIV class=line></DIV>
+<DIV class=h3>·想尝试制作自己的杂志吗？很简单，只要三步:</DIV>
+<DIV class=step><A class="btn_step thickbox" 
+href="http://mag.blog.sina.com.cn/u/1235733075#TB_inline?height=248&amp;width=250&amp;inlineId=user_login">登录博客</A><SPAN 
+class=arrows></SPAN><A class=btn_step>进入杂志</A><SPAN class=arrows></SPAN><A 
+class=btn_step href="javascript:openBuilder();">制作杂志</A>
+<P class=text>　　有疑问？去</P><A class=btn_step 
+href="http://mag.blog.sina.com.cn/help.php" target=_blank>学做杂志</A>
+<P class=text>手把手教你做杂志。</P></DIV>
+<DIV class=info>没有博客帐户？<A 
+href="http://my.blog.sina.com.cn/member/signup/register.htm">快速注册</A>，用文章、图片、声音、视频、动画的富媒体平台展示自我。</DIV>
+<DIV class=line></DIV>
+<DIV class=h3>·不了解杂志？先看看别人做的：</DIV><!-- zinelist 2 start -->
+<UL class="zineList miniList clearfix">
+  <LI class=vlog>
+  <DIV class=cover><A title=点击浏览杂志 
+  href="http://mag.blog.sina.com.cn/online_read.php?id=121081" target=_blank 
+  alt="点击浏览杂志"><IMG onerror="this.src='/views/normal/images/none_90x120.gif'" 
+  src="博客杂志_个人中心.files/4fad2fec0400344x.jpg"></A></DIV>
+  <H4><A class=fn href="http://mag.blog.sina.com.cn/online_read.php?id=121081" 
+  target=_blank>令人叹为观止的20大奥运发型（图）</A><SPAN class=date>(2008-08-05 
+  14:02)</SPAN></H4>
+  <P class=other><A href="http://mag.blog.sina.com.cn/online_read.php?id=121081" 
+  target=_blank>阅读</A><SPAN class=number>(53070)</SPAN><BR><A 
+  href="http://mag.blog.sina.com.cn/online_read.php?id=121081#comment" 
+  target=_blank>评论</A><SPAN class=number>(534)</SPAN> </P></LI>
+  <LI class=vlog>
+  <DIV class=cover><A title=点击浏览杂志 
+  href="http://mag.blog.sina.com.cn/online_read.php?id=113270" target=_blank 
+  alt="点击浏览杂志"><IMG onerror="this.src='/views/normal/images/none_90x120.gif'" 
+  src="博客杂志_个人中心.files/4fad2fec040030kc.jpg"></A></DIV>
+  <H4><A class=fn href="http://mag.blog.sina.com.cn/online_read.php?id=113270" 
+  target=_blank>中国奥运军团最受关注的10大明星（图）</A><SPAN class=date>(2008-07-25 
+  14:02)</SPAN></H4>
+  <P class=other><A href="http://mag.blog.sina.com.cn/online_read.php?id=113270" 
+  target=_blank>阅读</A><SPAN class=number>(54471)</SPAN><BR><A 
+  href="http://mag.blog.sina.com.cn/online_read.php?id=113270#comment" 
+  target=_blank>评论</A><SPAN class=number>(400)</SPAN> </P></LI>
+  <LI class=vlog>
+  <DIV class=cover><A title=点击浏览杂志 
+  href="http://mag.blog.sina.com.cn/online_read.php?id=108512" target=_blank 
+  alt="点击浏览杂志"><IMG onerror="this.src='/views/normal/images/none_90x120.gif'" 
+  src="博客杂志_个人中心.files/4cd73593040034ao.jpg"></A></DIV>
+  <H4><A class=fn href="http://mag.blog.sina.com.cn/online_read.php?id=108512" 
+  target=_blank>历届中国代表团奥运领奖服回顾</A><SPAN class=date>(2008-07-19 
+14:02)</SPAN></H4>
+  <P class=other><A href="http://mag.blog.sina.com.cn/online_read.php?id=108512" 
+  target=_blank>阅读</A><SPAN class=number>(37524)</SPAN><BR><A 
+  href="http://mag.blog.sina.com.cn/online_read.php?id=108512#comment" 
+  target=_blank>评论</A><SPAN class=number>(190)</SPAN> </P></LI></UL><!-- zinelist 2 end -->
+<DIV class=more_zine><A href="http://mag.blog.sina.com.cn/index.php" 
+target=_blank>更多精彩杂志&gt;&gt;</A></DIV></DIV><!-- noticeBox end --></DIV></DIV></DIV><!-- sbox end --></DIV><!-- innerSidebar end --></DIV><!-- sidebar end --></DIV><!-- main end -->
+<SCRIPT language=javascript1.1 src="博客杂志_个人中心.files/uic.htm" 
+type=text/javascript charset=utf-8></SCRIPT>
+
+<SCRIPT language=javascript> 
+	<!--
+	    var diy_nicks='';
+	    if(typeof(card_data[1235733075])!='undefined'){
+		  diy_nicks=card_data[1235733075];
+	    }
+		var showyouname = document.getElementById("show_title");
+		showyouname.title=diy_nicks;
+		showyouname.innerHTML=diy_nicks;
+		document.getElementById("diy_nick").innerHTML=diy_nicks; 
+		-->
+      </SCRIPT>
+<!-- 尾部 start --><!--用户登陆-->
+<DIV id=user_login style="DISPLAY: none">
+<DIV class=dialogForm>
+<TABLE class=login 
+onkeydown="if(event.keyCode==13){user_login(document.getElementById('user_login_tt'))};">
+  <TBODY>
+  <TR>
+    <TD align=right width="32%">登录名：</TD>
+    <TD width="68%"><INPUT id=login_name maxLength=16 name=login_name></TD></TR>
+  <TR>
+    <TD align=right>密　码：</TD>
+    <TD><INPUT id=login_password type=password maxLength=16 
+      name=login_password></TD></TR>
+  <TR id=user_validate1 style="DISPLAY: none">
+    <TD align=right>验证码：</TD>
+    <TD><INPUT id=login_verify_code maxLength=4 size=6 
+      name=login_verify_code><IMG id=auth_code_photo title=更换验证码 
+      style="CURSOR: hand" 
+      onclick="javascript:this.src='/action.php?action=validatecode'" height=22 
+      src="博客杂志_个人中心.files/action.png" width=75></TD></TR>
+  <TR id=user_validate2 style="DISPLAY: none">
+    <TD align=right></TD>
+    <TD align=middle>&nbsp;&nbsp;&nbsp;<A 
+      href="javascript:refreshCc();">看不清？</A></TD></TR>
+  <TR>
+    <TD align=middle colSpan=2><INPUT id=isuser_validate type=hidden value=0 
+      name=isuser_validate> <INPUT id=get_diy_id type=hidden value=0 
+      name=get_diy_id> <INPUT class=enter id=user_login_tt onclick="return user_login(this);" type=button value=登录 name=user_login></TD></TR>
+  <TR>
+    <TD class=line style="HEIGHT: 35px" align=middle colSpan=2><A 
+      href="http://unipro.sina.com.cn/getpass.html" 
+      target=_blank>找回密码</A>&nbsp;<A 
+      href="http://blog.sina.com.cn/lm/21/2006/0811/19.html" 
+      target=_blank>登录帮助</A></TD></TR>
+  <TR>
+    <TD style="HEIGHT: 35px" align=middle colSpan=2>还没有新浪博客账号？<A 
+      href="http://my.blog.sina.com.cn/member/signup/register.htm" 
+      target=_blank>立即注册</A></TD></TR></TBODY></TABLE></DIV></DIV><!--用户登陆end--><!-- SUDA_CODE_START -->
+<SCRIPT src="博客杂志_个人中心.files/suda_s_v844c.js" type=text/javascript></SCRIPT>
+<!-- SUDA_CODE_END -->
+<DIV id=footer>
+<DIV id=innerFooter>
+<P><A href="http://blog.sina.com.cn/advice/advice_list.php" 
+target=_blank>新浪BLOG意见反馈留言板</A>　电话：95105670 提示音后按2键（按当地市话标准计费）　欢迎批评指正</P>
+<P><A href="http://corp.sina.com.cn/chn/" target=_blank>新浪简介</A> | <A 
+href="http://corp.sina.com.cn/eng/" target=_blank>About Sina</A> | <A 
+href="http://ads.sina.com.cn/" target=_blank>广告服务</A> | <A 
+href="http://www.sina.com.cn/contactus.html" target=_blank>联系我们</A> | <A 
+href="http://corp.sina.com.cn/chn/sina_job.html" target=_blank>招聘信息</A> | <A 
+href="http://www.sina.com.cn/intro/lawfirm.shtml" target=_blank>网站律师</A> | <A 
+href="http://english.sina.com/" target=_blank>SINA English</A> | <A 
+href="http://members.sina.com.cn/apply/" target=_blank>会员注册</A> | <A 
+href="http://tech.sina.com.cn/focus/sinahelp.shtml" target=_blank>产品答疑</A></P>
+<P>Copyright &copy; 1996 - 2007 SINA Corporation, All Rights Reserved</P>
+<P>新浪公司 <A href="http://www.sina.com.cn/intro/copyright.shtml" 
+target=_blank>版权所有</A>　　　　　</P></DIV></DIV><!-- 尾部 end --></DIV><!-- innerWrapper end --></DIV><!-- wrapper end --></BODY></HTML>

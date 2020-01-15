@@ -1,0 +1,237 @@
+.tp_gonggao {
+	PADDING-RIGHT: 33px; PADDING-LEFT: 34px; BACKGROUND: url(../images/tp_gonggao.gif) no-repeat; PADDING-BOTTOM: 24px; MARGIN: 10px 30px 0px 28px; OVERFLOW: hidden; WIDTH: 554px; COLOR: #315498; PADDING-TOP: 10px; HEIGHT: 36px
+}
+.tp_nav {
+	PADDING-LEFT: 15px; WIDTH: 645px; HEIGHT: 66px
+}
+.tp_nav LI {
+	PADDING-RIGHT: 5px; FLOAT: left; WIDTH: 210px; HEIGHT: 66px
+}
+.tp_nav .jilupian A {
+	DISPLAY: block; BACKGROUND: url(../images/tp_dvshownav.gif) no-repeat 0px -198px; WIDTH: 210px; HEIGHT: 66px
+}
+.tp_nav .dvju A {
+	DISPLAY: block; BACKGROUND: url(../images/tp_dvshownav.gif) no-repeat 0px -198px; WIDTH: 210px; HEIGHT: 66px
+}
+.tp_nav .shuma A {
+	DISPLAY: block; BACKGROUND: url(../images/tp_dvshownav.gif) no-repeat 0px -198px; WIDTH: 210px; HEIGHT: 66px
+}
+.tp_nav .dvju A {
+	BACKGROUND-POSITION: 0px -264px
+}
+.tp_nav .shuma A {
+	BACKGROUND-POSITION: 0px -330px
+}
+.tp_nav .jilupian A:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.tp_nav .jilupian .cur {
+	BACKGROUND-POSITION: 0px 0px
+}
+.tp_nav .dvju A:hover {
+	BACKGROUND-POSITION: 0px -66px
+}
+.tp_nav .dvju .cur {
+	BACKGROUND-POSITION: 0px -66px
+}
+.tp_nav .shuma A:hover {
+	BACKGROUND-POSITION: 0px -132px
+}
+.tp_nav .shuma .cur {
+	BACKGROUND-POSITION: 0px -132px
+}
+.bigBox {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 36px; BACKGROUND: url(../images/tp_bg.gif) no-repeat 0px 0px; FLOAT: left; PADDING-BOTTOM: 12px; WIDTH: 635px; PADDING-TOP: 0px; HEIGHT: 921px
+}
+.bigBox .artShow {
+	MARGIN-TOP: 23px; HEIGHT: 147px
+}
+.artShow .pics {
+	BORDER-RIGHT: #333333 2px solid; BORDER-TOP: #333333 2px solid; FLOAT: left; BORDER-LEFT: #333333 2px solid; WIDTH: 188px; BORDER-BOTTOM: #333333 2px solid; HEIGHT: 143px
+}
+.artShow .pics IMG {
+	BORDER-RIGHT: #ffffff 4px solid; BORDER-TOP: #ffffff 4px solid; BORDER-LEFT: #ffffff 4px solid; WIDTH: 180px; BORDER-BOTTOM: #ffffff 4px solid; HEIGHT: 135px
+}
+.artShow .introduce {
+	PADDING-LEFT: 30px; FLOAT: left; WIDTH: 233px; HEIGHT: 147px
+}
+.artShow .introduce .title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 6px; COLOR: #333333; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.artShow .centent {
+	WIDTH: 233px; COLOR: #333333; POSITION: relative; HEIGHT: 108px
+}
+.artShow .centent .more {
+	RIGHT: 5px; BORDER-BOTTOM-WIDTH: 5px; POSITION: absolute
+}
+.artShow .tp_showTp {
+	BACKGROUND: url(../images/tp_show.jpg) no-repeat; FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden; WIDTH: 166px; HEIGHT: 147px
+}
+.tp_showTp .topiaoNum {
+	FONT-WEIGHT: bold; MARGIN: 39px 0px 51px 52px; WIDTH: 57px; COLOR: #ffff00; HEIGHT: 18px; TEXT-ALIGN: center
+}
+.tp_showTp .button {
+	PADDING-LEFT: 15px; FLOAT: left; WIDTH: 60px; HEIGHT: 30px
+}
+.tp_showTp .button A {
+	DISPLAY: block; WIDTH: 60px; CURSOR: pointer; HEIGHT: 30px
+}
+.bigBox .seeMore {
+	BACKGROUND: url(../images/tp_seeMore.gif) no-repeat; MARGIN: 14px auto 0px; WIDTH: 311px; LINE-HEIGHT: 27px; HEIGHT: 29px; TEXT-ALIGN: center
+}
+.textArea07 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 30px; PADDING-BOTTOM: 0px; WIDTH: 905px; PADDING-TOP: 0px; HEIGHT: 88px
+}
+.zanZhu {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; WIDTH: 90px; COLOR: #000000; LINE-HEIGHT: 22px; PADDING-TOP: 5px; HEIGHT: 38px
+}
+.textArea07 UL {
+	PADDING-TOP: 5px
+}
+.textArea07 LI {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FLOAT: left; MARGIN: 0px 0px 5px 14px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 84px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 31px
+}
+.textArea07 LI IMG {
+	OVERFLOW: hidden; WIDTH: 84px; HEIGHT: 31px
+}
+.zs_gonggao {
+	BACKGROUND: url(../images/zs_title.jpg) no-repeat; WIDTH: 670px; HEIGHT: 80px
+}
+.zs_nav {
+	BACKGROUND: url(../images/or.gif) no-repeat 316px center; WIDTH: 670px; HEIGHT: 66px
+}
+.zs_nav LI {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 35px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.zs_nav .dv A {
+	DISPLAY: block; BACKGROUND: url(../images/zs_dvshownav.gif) no-repeat 0px -198px; WIDTH: 270px; HEIGHT: 66px
+}
+.zs_nav .shuma A {
+	DISPLAY: block; BACKGROUND: url(../images/zs_dvshownav.gif) no-repeat 0px -198px; WIDTH: 270px; HEIGHT: 66px
+}
+.zs_nav .shuma A {
+	BACKGROUND-POSITION: 0px -66px
+}
+.zs_nav .dv A:hover {
+	BACKGROUND-POSITION: 0px -132px
+}
+.zs_nav .dv .cur {
+	BACKGROUND-POSITION: 0px -132px
+}
+.zs_nav .shuma A:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.zs_nav .shuma .cur {
+	BACKGROUND-POSITION: 0px 0px
+}
+.introduceZs {
+	MARGIN: 12px 24px 0px; COLOR: #ff0000
+}
+.bigBox .zs_artShow {
+	MARGIN: 12px 0px; HEIGHT: 147px
+}
+.zs_bigBox {
+	PADDING-LEFT: 24px; WIDTH: 647px
+}
+.zs_artShow .mingci1 {
+	PADDING-RIGHT: 22px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 22px; BACKGROUND: url(../images/paiming.jpg) no-repeat 0px 0px; FLOAT: left; PADDING-BOTTOM: 11px; MARGIN: 50px 0px 51px; WIDTH: 41px; COLOR: #ffffff; LINE-HEIGHT: 26px; PADDING-TOP: 9px; FONT-FAMILY: "Arial Black",Arial; HEIGHT: 26px; TEXT-ALIGN: center
+}
+.zs_artShow .mingci2 {
+	PADDING-RIGHT: 22px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 22px; BACKGROUND: url(../images/paiming.jpg) no-repeat 0px 0px; FLOAT: left; PADDING-BOTTOM: 11px; MARGIN: 50px 0px 51px; WIDTH: 41px; COLOR: #ffffff; LINE-HEIGHT: 26px; PADDING-TOP: 9px; FONT-FAMILY: "Arial Black",Arial; HEIGHT: 26px; TEXT-ALIGN: center
+}
+.zs_artShow .mingci3 {
+	PADDING-RIGHT: 22px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 22px; BACKGROUND: url(../images/paiming.jpg) no-repeat 0px 0px; FLOAT: left; PADDING-BOTTOM: 11px; MARGIN: 50px 0px 51px; WIDTH: 41px; COLOR: #ffffff; LINE-HEIGHT: 26px; PADDING-TOP: 9px; FONT-FAMILY: "Arial Black",Arial; HEIGHT: 26px; TEXT-ALIGN: center
+}
+.zs_artShow .mingci4 {
+	PADDING-RIGHT: 22px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 22px; BACKGROUND: url(../images/paiming.jpg) no-repeat 0px 0px; FLOAT: left; PADDING-BOTTOM: 11px; MARGIN: 50px 0px 51px; WIDTH: 41px; COLOR: #ffffff; LINE-HEIGHT: 26px; PADDING-TOP: 9px; FONT-FAMILY: "Arial Black",Arial; HEIGHT: 26px; TEXT-ALIGN: center
+}
+.zs_artShow .mingci5 {
+	PADDING-RIGHT: 22px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 22px; BACKGROUND: url(../images/paiming.jpg) no-repeat 0px 0px; FLOAT: left; PADDING-BOTTOM: 11px; MARGIN: 50px 0px 51px; WIDTH: 41px; COLOR: #ffffff; LINE-HEIGHT: 26px; PADDING-TOP: 9px; FONT-FAMILY: "Arial Black",Arial; HEIGHT: 26px; TEXT-ALIGN: center
+}
+.zs_artShow .mingci2 {
+	BACKGROUND-POSITION: 0px -46px
+}
+.zs_artShow .mingci3 {
+	BACKGROUND-POSITION: 0px -92px
+}
+.zs_artShow .mingci4 {
+	BACKGROUND-POSITION: 0px -138px
+}
+.zs_artShow .mingci5 {
+	BACKGROUND-POSITION: 0px -184px
+}
+.zs_artShow .pics {
+	BORDER-RIGHT: #333333 2px solid; BORDER-TOP: #333333 2px solid; FLOAT: left; BORDER-LEFT: #333333 2px solid; WIDTH: 188px; BORDER-BOTTOM: #333333 2px solid; HEIGHT: 143px
+}
+.zs_artShow .pics IMG {
+	BORDER-RIGHT: #ffffff 4px solid; BORDER-TOP: #ffffff 4px solid; BORDER-LEFT: #ffffff 4px solid; WIDTH: 180px; BORDER-BOTTOM: #ffffff 4px solid; HEIGHT: 135px
+}
+.zs_artShow .introduce {
+	PADDING-LEFT: 22px; FLOAT: left; WIDTH: 233px; HEIGHT: 147px
+}
+.zs_artShow .introduce .title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 6px; COLOR: #333333; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.zs_artShow .centent {
+	WIDTH: 233px; COLOR: #333333; POSITION: relative; HEIGHT: 108px
+}
+.zs_artShow .centent .more {
+	RIGHT: 5px; BORDER-BOTTOM-WIDTH: 5px; POSITION: absolute
+}
+.zs_artShow .tp_showTp {
+	PADDING-RIGHT: 18px; PADDING-LEFT: 25px; FONT-WEIGHT: bold; FONT-SIZE: 22px; BACKGROUND: url(../images/zs_show.gif) no-repeat 4px 0px; FLOAT: left; PADDING-BOTTOM: 62px; OVERFLOW: hidden; WIDTH: 83px; COLOR: #ffff00; LINE-HEIGHT: 26px; PADDING-TOP: 59px; HEIGHT: 26px; TEXT-ALIGN: center
+}
+.bigBox .zs_seeMore {
+	MARGIN-TOP: 20px
+}
+.bigBox .seeMore .cur {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.xiebanBottom {
+	BACKGROUND: #eeeeee; MARGIN: 10px auto 0px; WIDTH: 960px; HEIGHT: 72px
+}
+.xieban {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; MARGIN-LEFT: 6px; WIDTH: 16px; LINE-HEIGHT: 18px; HEIGHT: 72px
+}
+.run {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 9px; PADDING-TOP: 9px
+}
+.run .runDiv1 {
+	DISPLAY: block; FLOAT: left; WIDTH: 932px; HEIGHT: 24px
+}
+.run .runDiv2 {
+	DISPLAY: block; FLOAT: left; WIDTH: 932px; HEIGHT: 24px
+}
+.run .runDiv3 {
+	DISPLAY: block; FLOAT: left; WIDTH: 932px; HEIGHT: 24px
+}
+.run .runDiv4 {
+	DISPLAY: block; FLOAT: left; WIDTH: 932px; HEIGHT: 24px
+}
+.run .runDiv5 {
+	DISPLAY: block; FLOAT: left; WIDTH: 932px; HEIGHT: 24px
+}
+.runDiv A {
+	COLOR: #333333
+}
+.run LI {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 213px; LINE-HEIGHT: 18px; PADDING-TOP: 0px; HEIGHT: 18px
+}
+.run LI.runDivL {
+	WIDTH: 446px
+}
+#announcement {
+	OVERFLOW: hidden; WIDTH: 100%
+}
+#announcement DIV {
+	OVERFLOW-Y: hidden; LINE-HEIGHT: 18px; HEIGHT: 72px
+}
+#announcement LI {
+	FONT-SIZE: 12px; FLOAT: left; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none
+}
+#announcement A {
+	TEXT-DECORATION: none
+}
+#announcement A:hover {
+	TEXT-DECORATION: underline
+}

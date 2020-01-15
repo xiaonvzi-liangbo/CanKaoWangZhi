@@ -1,0 +1,60 @@
+A {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: "??"; TEXT-DECORATION: none
+}
+A:link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #666666; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A:visited {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #666666; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A111:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #ff0000; PADDING-BOTTOM: 0px; COLOR: #ffffff; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+A:hover {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #ff0000; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+DIV {
+	FONT-SIZE: 9pt
+}
+FORM {
+	FONT-SIZE: 9pt
+}
+P {
+	FONT-SIZE: 9pt
+}
+TD {
+	FONT-SIZE: 9pt
+}
+BODY {
+	FONT-SIZE: 9pt
+}
+BODY {
+	SCROLLBAR-HIGHLIGHT-COLOR: buttonface; SCROLLBAR-SHADOW-COLOR: buttonface; SCROLLBAR-3DLIGHT-COLOR: buttonhighlight; SCROLLBAR-TRACK-COLOR: #eeeeee; SCROLLBAR-DARKSHADOW-COLOR: buttonshadow
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #efefef; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #fdfdfd; SCROLLBAR-SHADOW-COLOR: #fdfdfd; SCROLLBAR-3DLIGHT-COLOR: #efefef; SCROLLBAR-ARROW-COLOR: #cccccc; SCROLLBAR-TRACK-COLOR: #ffffff; SCROLLBAR-DARKSHADOW-COLOR: #efefef
+}
+TD {
+	FONT: 9pt/160% "??"; COLOR: #666666
+}
+.wenbenkuang {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #cccccc 1px solid; COLOR: #333333; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: "??"
+}
+.go-wenbenkuang {
+	BORDER-RIGHT: #a2a2a2 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffffff 1px solid; PADDING-LEFT: 1px; FONT-SIZE: 9pt; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffffff 1px solid; CURSOR: hand; COLOR: #333333; PADDING-TOP: 1px; BORDER-BOTTOM: #a2a2a2 1px solid; FONT-FAMILY: "??"; HEIGHT: 19px; BACKGROUND-COLOR: #eeeeee
+}
+SELECT {
+	BACKGROUND-COLOR: #9bdbf2
+}
+.trans_msg {
+	FILTER: alpha(opacity=100,enabled=1) revealTrans(duration=.5,transition=1) blendtrans(duration=.2)
+}
+.trans_msg1 {
+	FILTER: alpha(opacity=100,enabled=1) revealTrans(duration=1,transition=21) blendtrans(duration=.2)
+}
+.s1 {
+	FONT-SIZE: 9pt; COLOR: #666666; TEXT-DECORATION: none
+}
+.s1:hover {
+	COLOR: #ff6600; TEXT-DECORATION: none
+}

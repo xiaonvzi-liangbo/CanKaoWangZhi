@@ -1,0 +1,710 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0042)http://www.txiao.com/Web/Member/Login.aspx -->
+<HTML><HEAD><TITLE>登录-会员中心-淘校网</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content="MSHTML 6.00.2900.3157" name=GENERATOR>
+<META content=C# name=CODE_LANGUAGE>
+<META content=JavaScript name=vs_defaultClientScript>
+<META content=http://schemas.microsoft.com/intellisense/ie5 
+name=vs_targetSchema><LINK href="登录-会员中心-淘校网.files/login.css" type=text/css 
+rel=stylesheet></HEAD>
+<BODY bgColor=#ececec leftMargin=0 topMargin=0 marginheight="0" marginwidth="0">
+<TABLE cellSpacing=0 cellPadding=0 width=800 align=center bgColor=#ffffff 
+border=0>
+  <TBODY>
+  <TR>
+    <TD height=52>
+      <TABLE height=52 cellSpacing=0 cellPadding=0 width=760 align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD width=120 background=登录-会员中心-淘校网.files/Login_logo.jpg 
+          height=52></TD>
+          <TD align=right width=640 height=52><A 
+            href="http://www.txiao.com/">返回淘校网首页</A></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD height=217>
+      <TABLE height=217 cellSpacing=0 cellPadding=0 width=760 align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD width=371 height=217>
+            <TABLE height=217 cellSpacing=1 cellPadding=0 width=371 align=center 
+            bgColor=#bcbcbc border=0>
+              <TBODY>
+              <TR>
+                <TD bgColor=#ffffff>
+                  <TABLE height=215 cellSpacing=0 cellPadding=0 width=369 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=369 height=33>
+                        <TABLE height=33 cellSpacing=0 cellPadding=0 width=369 
+                        border=0>
+                          <TBODY>
+                          <TR>
+                            <TD width=14 
+                            background=登录-会员中心-淘校网.files/Login_02_01_01_01.jpg 
+                            height=33></TD>
+                            <TD class=login05 width=121 
+                            background=登录-会员中心-淘校网.files/Login_02_01_01_01.jpg 
+                            height=33>淘校通行证</TD>
+                            <TD width=13 
+                            background=登录-会员中心-淘校网.files/Login_02_01_01_03.jpg 
+                            height=33></TD>
+                            <TD width=221 
+                            background=登录-会员中心-淘校网.files/Login_02_01_01_04.jpg 
+                            height=33></TD></TR></TBODY></TABLE></TD></TR>
+                    <TR>
+                      <TD width=369 bgColor=#f6f6f6 height=182>
+                        <SCRIPT language=javascript>						
+															function KillSpace(x){
+																while((x.length>0) && (x.charAt(0)==' '))
+																	x = x.substring(1,x.length);
+																while((x.length>0) && (x.charAt(x.length-1)==' '))
+																	x = x.substring(0,x.length-1);
+																return x.replace(/&nbsp;/g,"");
+															}
+															
+															CheckForm = function()
+															{			
+																if ( KillSpace(document.all("txtCode").value) == "" )
+																{
+																	alert("请输入用户名!");
+																	document.all("txtCode").focus();
+																	return false;
+																}
+																if ( KillSpace(document.all("txtPwd").value) == "" )
+																{
+																	alert("请输入密码!");
+																	document.all("txtPwd").focus();
+																	return false;
+																}	
+																
+															}
+														</SCRIPT>
+
+                        <FORM style="MARGIN: 0px" name=frmLog 
+                        onsubmit="return CheckForm();" method=post><!----------nrong----------->
+                        <TABLE height=155 cellSpacing=0 cellPadding=0 width=270 
+                        align=center border=0>
+                          <TBODY>
+                          <TR>
+                            <TD class=login02 width=60 height=40>用户名：</TD>
+                            <TD width=210><LABEL><INPUT class=bib id=txtCode 
+                              maxLength=16 size=25 name=txtCode></LABEL></TD></TR>
+                          <TR>
+                            <TD class=login02 height=40>密&nbsp;&nbsp;码：</TD>
+                            <TD><LABEL><INPUT class=bib id=txtPwd 
+                              style="FONT-SIZE: 14px" type=password maxLength=16 
+                              name=txtPwd></LABEL></TD></TR>
+                          <TR>
+                            <TD height=40></TD>
+                            <TD vAlign=center align=left><INPUT type=checkbox 
+                              value=checkbox name=checkbox><FONT 
+                              class=login02>记住密码</FONT>&nbsp;&nbsp;<INPUT 
+                              type=image height=28 width=83 
+                              src="登录-会员中心-淘校网.files/dl.gif" name=image></TD></TR>
+                          <TR>
+                            <TD height=35></TD>
+                            <TD vAlign=center align=left><A class=login06 
+                              href="http://www.txiao.com/Web/Member/Reg1.aspx" 
+                              target=_blank>注册</A>&nbsp;&nbsp;<A class=login06 
+                              href="http://www.txiao.com/Web/Server/GetPwd.aspx" 
+                              target=_blank>忘记密码</A></TD></TR></TBODY></TABLE><!---------end nrong--------></FORM></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+          <TD width=18></TD>
+          <TD width=371 height=217>
+            <TABLE height=217 cellSpacing=0 cellPadding=0 width=371 border=0>
+              <TBODY>
+              <TR>
+                <TD class=login01 height=19>注册淘校网通行证</TD></TR>
+              <TR>
+                <TD height=5></TD></TR>
+              <TR>
+                <TD class=login02 style="LINE-HEIGHT: 24px" width=371 
+                  height=99>如果还没有淘校网通行证，赶紧<A class=login03 
+                  href="http://www.txiao.com/Web/Member/Reg1.aspx" 
+                  target=_blank>注册</A>一个。使用淘校网通行证，您就可以在淘校网的所有产品（包括：学校、班级、资源、说吧、相册、博客、社区）中登录，方便快捷，自由穿行、无需二次登录。</TD></TR>
+              <TR>
+                <TD height=5></TD></TR>
+              <TR>
+                <TD><A href="http://www.txiao.com/zt/shds/Index.aspx" 
+                  target=_blank><IMG height=89 
+                  src="登录-会员中心-淘校网.files/Login_ad.gif" width=371 
+              border=0></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD height=18></TD></TR>
+  <TR>
+    <TD height=173>
+      <TABLE height=173 cellSpacing=0 cellPadding=0 width=760 align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD width=371 height=173><!----------------kuang xiaowu--------------->
+            <TABLE height=173 cellSpacing=0 cellPadding=0 width=371 border=0>
+              <TBODY>
+              <TR>
+                <TD width=371 height=27>
+                  <TABLE height=27 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=6 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD width=8 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_02.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" align=middle width=118 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_03.jpg 
+                      height=27><A class=login01 
+                        href="http://www.txiao.com/Business.aspx" 
+                        target=_blank>淘校校务</A></TD>
+                      <TD width=7 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_04.jpg 
+                      height=27></TD>
+                      <TD width=17 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" width=215 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27>帮助学校处理对外事务！</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 height=145>
+                  <TABLE height=145 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=1 bgColor=#bcbcbc height=145></TD>
+                      <TD width=10></TD>
+                      <TD vAlign=top width=349 height=145>
+                        <TABLE cellSpacing=0 cellPadding=0 width=349 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD height=10></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>采购</SPAN>]&nbsp;<A class=login04 
+                              href="http://www.txiao.com/Web/school23/1346_9672_Xxzs1.html" 
+                              target=_blank>湖南科技学院压滤机、离心式水泵采购项目</A></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>招生</SPAN>]&nbsp;<A class=login04 
+                              href="http://www.txiao.com/Web/School31/3333_9671_Xxzs1.html" 
+                              target=_blank>APQP先期产品质量策划培训 （苏州 12月20</A></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>招生</SPAN>]&nbsp;<A class=login04 
+                              href="http://www.txiao.com/Web/School31/3333_9670_Xxzs1.html" 
+                              target=_blank>FMEA失效模式与分析 （苏州 12月19日）</A></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>招生</SPAN>]&nbsp;<A class=login04 
+                              href="http://www.txiao.com/Web/School31/3333_9669_Xxzs1.html" 
+                              target=_blank>苏州ISO9001内审员培训昆山太仓常培训报名|</A></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>招生</SPAN>]&nbsp;<A class=login04 
+                              href="http://www.txiao.com/Web/School31/3333_9668_Xxzs1.html" 
+                              target=_blank>2007职业健康与安全管理体系内审员 （苏州</A></TD></TR>
+                          <TR>
+                            <TD height=10></TD></TR></TBODY></TABLE></TD>
+                      <TD width=10></TD>
+                      <TD width=1 bgColor=#bcbcbc 
+                  height=145></TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 bgColor=#bcbcbc height=1></TD></TR></TBODY></TABLE><!----------------kuang xiaowu over---------------></TD>
+          <TD width=18></TD>
+          <TD width=371 height=173><!----------------kuang--------------->
+            <TABLE height=173 cellSpacing=0 cellPadding=0 width=371 border=0>
+              <TBODY>
+              <TR>
+                <TD width=371 height=27>
+                  <TABLE height=27 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=6 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD width=8 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_02.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" align=middle width=118 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_03.jpg 
+                      height=27><A class=login01 
+                        href="http://www.txiao.com/Web/Resource/Resource.aspx" 
+                        target=_blank>淘校资源</A></TD>
+                      <TD width=7 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_04.jpg 
+                      height=27></TD>
+                      <TD width=17 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" width=215 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27>百万经典学习素材库！</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 height=145>
+                  <TABLE height=145 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=1 bgColor=#bcbcbc height=145></TD>
+                      <TD width=10></TD>
+                      <TD vAlign=top width=349 height=145>
+                        <TABLE height=145 cellSpacing=0 cellPadding=0 width=349 
+                        border=0>
+                          <TBODY>
+                          <TR>
+                            <TD colSpan=8 height=15></TD></TR>
+                          <TR>
+                            <TD width=80></TD>
+                            <TD width=10></TD>
+                            <TD width=80></TD>
+                            <TD width=10></TD>
+                            <TD width=80></TD>
+                            <TD width=10></TD>
+                            <TD width=80></TD>
+                            <TD width=0></TD></TR>
+                          <TR>
+                            <TD width=80><!--01-->
+                              <TABLE cellSpacing=0 cellPadding=0 align=center 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD><A 
+                                href="http://www.txiao.com/Web/Resource/9722.html"><IMG 
+                                height=60 
+                                src="登录-会员中心-淘校网.files/1225686726562-85.png" 
+                                width=80 align=absMiddle border=0></A></TD></TR>
+                                <TR>
+                                <TD align=middle height=30><A 
+                                href="http://www.txiao.com/Web/Resource/9722.html" 
+                                target=_blank>极品个人简历</A></TD></TR></TBODY></TABLE><!--01 完--></TD>
+                            <TD width=10></TD>
+                            <TD width=80><!--01-->
+                              <TABLE cellSpacing=0 cellPadding=0 align=center 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD><A 
+                                href="http://www.txiao.com/Web/Resource/9721.html"><IMG 
+                                height=60 
+                                src="登录-会员中心-淘校网.files/1225685836437-47.png" 
+                                width=80 align=absMiddle border=0></A></TD></TR>
+                                <TR>
+                                <TD align=middle height=30><A 
+                                href="http://www.txiao.com/Web/Resource/9721.html" 
+                                target=_blank>102个极品个</A></TD></TR></TBODY></TABLE><!--01 完--></TD>
+                            <TD width=10></TD>
+                            <TD width=80><!--01-->
+                              <TABLE cellSpacing=0 cellPadding=0 align=center 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD><A 
+                                href="http://www.txiao.com/Web/Resource/9450.html"><IMG 
+                                height=60 
+                                src="登录-会员中心-淘校网.files/1224752992765-39.png" 
+                                width=80 align=absMiddle border=0></A></TD></TR>
+                                <TR>
+                                <TD align=middle height=30><A 
+                                href="http://www.txiao.com/Web/Resource/9450.html" 
+                                target=_blank>2008年高考数</A></TD></TR></TBODY></TABLE><!--01 完--></TD>
+                            <TD width=10></TD>
+                            <TD width=80><!--01-->
+                              <TABLE cellSpacing=0 cellPadding=0 align=center 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD><A 
+                                href="http://www.txiao.com/Web/Resource/9449.html"><IMG 
+                                height=60 
+                                src="登录-会员中心-淘校网.files/1224752028734-24.png" 
+                                width=80 align=absMiddle border=0></A></TD></TR>
+                                <TR>
+                                <TD align=middle height=30><A 
+                                href="http://www.txiao.com/Web/Resource/9449.html" 
+                                target=_blank>化学方程式编</A></TD></TR></TBODY></TABLE><!--01 完--></TD>
+                            <TD width=10></TD></TR>
+                          <TR>
+                            <TD colSpan=8 height=26>·<A class=login02 
+                              href="http://www.txiao.com/Web/Server/zyjf.html#sc" 
+                              target=_blank>如何上传资源</A>&nbsp;&nbsp;·<A 
+                              class=login02 
+                              href="http://www.txiao.com/Web/Server/zyjf.html#hjf" 
+                              target=_blank>如何获得淘校币</A>&nbsp;&nbsp;·<A 
+                              class=login02 
+                              href="http://www.txiao.com/Web/Server/zyjf.html#dj" 
+                              target=_blank>会员等级和星级</A></TD></TR>
+                          <TR>
+                            <TD colSpan=8 height=10></TD></TR></TBODY></TABLE></TD>
+                      <TD width=10></TD>
+                      <TD width=1 bgColor=#bcbcbc 
+                  height=145></TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 bgColor=#bcbcbc height=1></TD></TR></TBODY></TABLE><!----------------kuang  over---------------></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD height=18></TD></TR>
+  <TR>
+    <TD height=173>
+      <TABLE height=173 cellSpacing=0 cellPadding=0 width=760 align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD width=371 height=173><!----------------kuang--------------->
+            <TABLE height=173 cellSpacing=0 cellPadding=0 width=371 border=0>
+              <TBODY>
+              <TR>
+                <TD width=371 height=27>
+                  <TABLE height=27 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=6 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD width=8 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_02.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" align=middle width=118 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_03.jpg 
+                      height=27><A class=login01 
+                        href="http://www.txiao.com/Flower.aspx" 
+                        target=_blank>淘校校花</A></TD>
+                      <TD width=7 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_04.jpg 
+                      height=27></TD>
+                      <TD width=17 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" width=215 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27>真实搜集全国最新校园图片！</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 height=145>
+                  <TABLE height=145 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=1 bgColor=#bcbcbc height=145></TD>
+                      <TD width=10></TD>
+                      <TD width=349 height=145>
+                        <TABLE cellSpacing=0 cellPadding=0 width=349 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD width=129>
+                              <TABLE height=120 cellSpacing=0 cellPadding=0 
+                              align=center border=0>
+                                <TBODY>
+                                <TR>
+                                <TD align=middle>
+                                <TABLE cellSpacing=1 cellPadding=2 align=center 
+                                bgColor=#cccccc border=0>
+                                <TBODY>
+                                <TR>
+                                <TD bgColor=#ffffff><A 
+                                href="http://www.txiao.com/Web/Soso/Soso-Flower2.aspx?CID=0&amp;ID=4658" 
+                                target=_blank><IMG height=88 
+                                src="登录-会员中心-淘校网.files/1009841996609-18.png" 
+                                width=120 
+border=0></A></TD></TR></TBODY></TABLE>
+                                <TR>
+                                <TD align=middle height=20><A 
+                                href="http://www.txiao.com/Web/Soso/Soso-Flower2.aspx?CID=0&amp;ID=4658" 
+                                target=_blank>美女</A></TD></TR></TBODY></TABLE></TD>
+                            <TD width=10></TD>
+                            <TD>
+                              <TABLE cellSpacing=0 cellPadding=0 width=210 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD height=10></TD></TR>
+                                <TR>
+                                <TD height=25>·<A 
+                                href="http://www.txiao.com/Web/News/13367.html" 
+                                target=_blank>高校完美男生7大特征</A></TD></TR>
+                                <TR>
+                                <TD height=25>·<A 
+                                href="http://www.txiao.com/Web/News/13185.html" 
+                                target=_blank>当大学校花的十个坏处</A></TD></TR>
+                                <TR>
+                                <TD height=25>·<A 
+                                href="http://www.txiao.com/Web/News/13184.html" 
+                                target=_blank>北大校花 ：才女到财女的幸福路程</A></TD></TR>
+                                <TR>
+                                <TD height=25>·<A 
+                                href="http://www.txiao.com/Web/News/12770.html" 
+                                target=_blank>重庆美眉“八大怪”</A></TD></TR>
+                                <TR>
+                                <TD height=25>·<A 
+                                href="http://www.txiao.com/Web/News/12769.html" 
+                                target=_blank>女博士当选浙江大学首届校花(图)</A></TD></TR>
+                                <TR>
+                                <TD 
+                          height=10></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+                      <TD width=10></TD>
+                      <TD width=1 bgColor=#bcbcbc 
+                  height=145></TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 bgColor=#bcbcbc height=1></TD></TR></TBODY></TABLE><!----------------kuang  over---------------></TD>
+          <TD width=18></TD>
+          <TD width=371 height=173><!----------------kuang--------------->
+            <TABLE height=173 cellSpacing=0 cellPadding=0 width=371 border=0>
+              <TBODY>
+              <TR>
+                <TD width=371 height=27>
+                  <TABLE height=27 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=6 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD width=8 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_02.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" align=middle width=118 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_03.jpg 
+                      height=27><A class=login01 
+                        href="http://www.txiao.com/Web/SosoBbs/Bbs.aspx" 
+                        target=_blank>淘校社区</A></TD>
+                      <TD width=7 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_04.jpg 
+                      height=27></TD>
+                      <TD width=17 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" width=215 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27>沟通交流互通有我！</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 height=145>
+                  <TABLE height=145 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=1 bgColor=#bcbcbc height=145></TD>
+                      <TD width=10></TD>
+                      <TD vAlign=top width=349 height=145>
+                        <TABLE cellSpacing=0 cellPadding=0 width=349 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD height=10></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>状元之路</SPAN>]&nbsp;<A class=login04 
+                              href="http://bbs.txiao.com/showtopic-42866.aspx" 
+                              target=_blank>张非 四次高考 三入北大清华 </A></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>看图说事</SPAN>]&nbsp;<A class=login04 
+                              href="http://bbs.txiao.com/showtopic-42865.aspx" 
+                              target=_blank>凤凰的80后主播群 </A></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>状元之路</SPAN>]&nbsp;<A class=login04 
+                              href="http://bbs.txiao.com/showtopic-42864.aspx" 
+                              target=_blank>09考研政治冲刺---形势与政策资料分析</A></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>状元之路</SPAN>]&nbsp;<A class=login04 
+                              href="http://bbs.txiao.com/showtopic-42863.aspx" 
+                              target=_blank>研究往年真题 专业课高分在望 </A></TD></TR>
+                          <TR>
+                            <TD height=25>·[<SPAN 
+                              class=login02>状元之路</SPAN>]&nbsp;<A class=login04 
+                              href="http://bbs.txiao.com/showtopic-42862.aspx" 
+                              target=_blank>09考研政治冲刺---形势与政策（多选题</A></TD></TR>
+                          <TR>
+                            <TD height=10></TD></TR></TBODY></TABLE></TD>
+                      <TD width=10></TD>
+                      <TD width=1 bgColor=#bcbcbc 
+                  height=145></TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 bgColor=#bcbcbc height=1></TD></TR></TBODY></TABLE><!----------------kuang  over---------------></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD height=18></TD></TR>
+  <TR>
+    <TD height=173>
+      <TABLE height=173 cellSpacing=0 cellPadding=0 width=760 align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD width=371 height=173><!----------------kuang  news--------------->
+            <TABLE height=173 cellSpacing=0 cellPadding=0 width=371 border=0>
+              <TBODY>
+              <TR>
+                <TD width=371 height=27>
+                  <TABLE height=27 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=6 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD width=8 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_02.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" align=middle width=118 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_03.jpg 
+                      height=27><A class=login01 
+                        href="http://www.txiao.com/Web/News/News.aspx" 
+                        target=_blank>淘校新闻</A></TD>
+                      <TD width=7 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_04.jpg 
+                      height=27></TD>
+                      <TD width=17 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" width=215 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27>提供全方位教育资讯！</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 height=145>
+                  <TABLE height=145 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=1 bgColor=#bcbcbc height=145></TD>
+                      <TD width=10></TD>
+                      <TD vAlign=center width=349 height=145>
+                        <TABLE cellSpacing=0 cellPadding=0 width=349 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD height=10></TD></TR>
+                          <TR>
+                            <TD height=25>·<A class=login02 
+                              href="http://www.txiao.com/Web/News/13461.html" 
+                              target=_blank>“纪念改革开放三十周年”大学生合唱比赛</A></TD></TR>
+                          <TR>
+                            <TD height=25>·<A class=login02 
+                              href="http://www.txiao.com/Web/News/13460.html" 
+                              target=_blank>河南工院召开科级干部竞聘上岗动员大会</A></TD></TR>
+                          <TR>
+                            <TD height=25>·<A class=login02 
+                              href="http://www.txiao.com/Web/News/13459.html" 
+                              target=_blank>经管系07级电会专业的学生进入湘电集团实习</A></TD></TR>
+                          <TR>
+                            <TD height=25>·<A class=login02 
+                              href="http://www.txiao.com/Web/News/13458.html" 
+                              target=_blank>全国人大代表程恩富教授来校讲学</A></TD></TR>
+                          <TR>
+                            <TD height=25>·<A class=login02 
+                              href="http://www.txiao.com/Web/News/13457.html" 
+                              target=_blank>计电学院举办大学生创业论坛</A></TD></TR>
+                          <TR>
+                            <TD height=10></TD></TR></TBODY></TABLE></TD>
+                      <TD width=10></TD>
+                      <TD width=1 bgColor=#bcbcbc 
+                  height=145></TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 bgColor=#bcbcbc height=1></TD></TR></TBODY></TABLE><!----------------kuang  news over---------------></TD>
+          <TD width=18></TD>
+          <TD width=371 height=173><!----------------kuang--------------->
+            <TABLE height=173 cellSpacing=0 cellPadding=0 width=371 border=0>
+              <TBODY>
+              <TR>
+                <TD width=371 height=27>
+                  <TABLE height=27 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=6 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD width=8 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_02.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" align=middle width=118 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_03.jpg 
+                      height=27><A class=login01 
+                        href="http://www.txiao.com/Web/SosoBlog/Blog.aspx" 
+                        target=_blank>淘校博客</A></TD>
+                      <TD width=7 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_04.jpg 
+                      height=27></TD>
+                      <TD width=17 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27></TD>
+                      <TD style="PADDING-TOP: 3px" width=215 
+                      background=登录-会员中心-淘校网.files/Login_kuang_01_01.jpg 
+                      height=27>我的地盘想写就写！</TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 height=145>
+                  <TABLE height=145 cellSpacing=0 cellPadding=0 width=371 
+                  border=0>
+                    <TBODY>
+                    <TR>
+                      <TD width=1 bgColor=#bcbcbc height=145></TD>
+                      <TD width=10></TD>
+                      <TD width=349 height=145>
+                        <TABLE cellSpacing=0 cellPadding=0 width=349 border=0>
+                          <TBODY>
+                          <TR>
+                            <TD width=3></TD>
+                            <TD width=52>
+                              <OBJECT 
+                              codeBase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0 
+                              height=115 width=52 
+                              classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000><PARAM NAME="_cx" VALUE="1376"><PARAM NAME="_cy" VALUE="3043"><PARAM NAME="FlashVars" VALUE=""><PARAM NAME="Movie" VALUE="image/flash.swf"><PARAM NAME="Src" VALUE="image/flash.swf"><PARAM NAME="WMode" VALUE="Window"><PARAM NAME="Play" VALUE="-1"><PARAM NAME="Loop" VALUE="-1"><PARAM NAME="Quality" VALUE="High"><PARAM NAME="SAlign" VALUE=""><PARAM NAME="Menu" VALUE="-1"><PARAM NAME="Base" VALUE=""><PARAM NAME="AllowScriptAccess" VALUE=""><PARAM NAME="Scale" VALUE="ShowAll"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE=""><PARAM NAME="SWRemote" VALUE=""><PARAM NAME="MovieData" VALUE=""><PARAM NAME="SeamlessTabbing" VALUE="1"><PARAM NAME="Profile" VALUE="0"><PARAM NAME="ProfileAddress" VALUE=""><PARAM NAME="ProfilePort" VALUE="0"><PARAM NAME="AllowNetworking" VALUE="all"><PARAM NAME="AllowFullScreen" VALUE="false">
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				
+                              																																				<embed 
+                              src="image/flash.swf" quality="high" 
+                              pluginspage="http://www.macromedia.com/go/getflashplayer"
+                              																			type="application/x-shockwave-flash" 
+                              width="52" height="115"> </embed>
+                              																	</OBJECT></TD>
+                            <TD width=4></TD>
+                            <TD>
+                              <TABLE cellSpacing=0 cellPadding=0 width=290 
+                              border=0>
+                                <TBODY>
+                                <TR>
+                                <TD height=10></TD></TR>
+                                <TR>
+                                <TD height=25>·<A class=login02 
+                                href="http://blog.txiao.com/4jz0066x8jp4brx8l/archive/178381.aspx" 
+                                target=_blank>刘翔退赛后首次亮相 依然微笑</A></TD></TR>
+                                <TR>
+                                <TD height=25>·<A class=login02 
+                                href="http://blog.txiao.com/40tr020t0f404lr0h/archive/163305.aspx" 
+                                target=_blank>金牌第一 中国成体育强国? </A></TD></TR>
+                                <TR>
+                                <TD height=25>·<A class=login02 
+                                href="http://blog.txiao.com/zjf0zn68z2djpd4d2/archive/39.aspx" 
+                                target=_blank>90后贱女孩：花裙下的双重潜规则</A></TD></TR>
+                                <TR>
+                                <TD height=25>·<A class=login02 
+                                href="http://blog.txiao.com/z00vt2v66txpz68nn/archive/43874.aspx" 
+                                target=_blank>2010年高校热门专业 
+毕业生就业趋势预测</A></TD></TR>
+                                <TR>
+                                <TD height=25>·<A class=login02 
+                                href="http://blog.txiao.com/z00vt2v66txpz68nn/archive/94453.aspx" 
+                                target=_blank>评论：郎平，你就大胆地往前走</A></TD></TR>
+                                <TR>
+                                <TD 
+                          height=10></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+                      <TD width=10></TD>
+                      <TD width=1 bgColor=#bcbcbc 
+                  height=145></TD></TR></TBODY></TABLE></TD></TR>
+              <TR>
+                <TD width=371 bgColor=#bcbcbc height=1></TD></TR></TBODY></TABLE><!----------------kuang  over---------------></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD height=18></TD></TR>
+  <TR>
+    <TD class=foot align=middle height=30>COPYRIGHT @&nbsp;2008 WWW.TXIAO.COM 
+      ALL RIGHTS RESERVED</A></TD></TR></TBODY></TABLE></BODY></HTML>

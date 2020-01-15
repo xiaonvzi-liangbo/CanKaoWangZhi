@@ -1,0 +1,162 @@
+BODY {
+	MARGIN: 0px; TEXT-ALIGN: center
+}
+TD {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; FONT-FAMILY: "宋体"
+}
+P {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; FONT-FAMILY: "宋体"
+}
+BODY {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; FONT-FAMILY: "宋体"
+}
+TD {
+	LETTER-SPACING: 1px
+}
+#frame {
+	MARGIN-LEFT: auto; WIDTH: 730px; MARGIN-RIGHT: auto
+}
+#indexTop {
+	MARGIN-LEFT: auto; WIDTH: 100%; MARGIN-RIGHT: auto
+}
+#catTop {
+	MARGIN-LEFT: auto; WIDTH: 730px; MARGIN-RIGHT: auto
+}
+#userState {
+	MARGIN-LEFT: auto; WIDTH: 730px; MARGIN-RIGHT: auto
+}
+#foot {
+	MARGIN-LEFT: auto; WIDTH: 730px; MARGIN-RIGHT: auto
+}
+#indexBottom {
+	MARGIN-LEFT: auto; WIDTH: 100%; MARGIN-RIGHT: auto
+}
+#layout {
+	MARGIN-LEFT: auto; WIDTH: 740px; MARGIN-RIGHT: auto; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+#space {
+	MARGIN-LEFT: auto; WIDTH: 730px; MARGIN-RIGHT: auto; HEIGHT: 10px
+}
+#news {
+	MARGIN-LEFT: auto; WIDTH: 730px; MARGIN-RIGHT: auto
+}
+#news H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; TEXT-ALIGN: center
+}
+A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.c {
+	FONT-SIZE: 12px
+}
+.form1 {
+	
+}
+.form {
+	FONT-SIZE: 9pt; FONT-FAMILY: "宋体"
+}
+.unnamed1 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 17px
+}
+.unnamed2 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px
+}
+.zi {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.font14 {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.cdzi {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 25px; TEXT-DECORATION: none
+}
+.qzsib {
+	BORDER-RIGHT: #a9a6d0 1px solid; BORDER-TOP: #a9a6d0 1px solid; BORDER-LEFT: #a9a6d0 1px solid; BORDER-BOTTOM: #a9a6d0 1px solid
+}
+.zpsib {
+	BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid; BORDER-LEFT: #808080 1px solid; BORDER-BOTTOM: #808080 1px solid
+}
+.yxsib {
+	BORDER-RIGHT: #00cc99 1px solid; BORDER-TOP: #00cc99 1px solid; BORDER-LEFT: #00cc99 1px solid; BORDER-BOTTOM: #00cc99 1px solid
+}
+.pxsib {
+	BORDER-RIGHT: #00a99d 1px solid; BORDER-TOP: #00a99d 1px solid; BORDER-LEFT: #00a99d 1px solid; BORDER-BOTTOM: #00a99d 1px solid
+}
+.ltsib {
+	BORDER-RIGHT: #bebd8d 1px solid; BORDER-TOP: #bebd8d 1px solid; BORDER-LEFT: #bebd8d 1px solid; BORDER-BOTTOM: #bebd8d 1px solid
+}
+.lwsib {
+	BORDER-RIGHT: #9ccf00 1px solid; BORDER-TOP: #9ccf00 1px solid; BORDER-LEFT: #9ccf00 1px solid; BORDER-BOTTOM: #9ccf00 1px solid
+}
+.xmsib {
+	BORDER-RIGHT: #77def0 1px solid; BORDER-TOP: #77def0 1px solid; BORDER-LEFT: #77def0 1px solid; BORDER-BOTTOM: #77def0 1px solid
+}
+.zysib {
+	BORDER-RIGHT: #cc3366 1px solid; BORDER-TOP: #cc3366 1px solid; BORDER-LEFT: #cc3366 1px solid; BORDER-BOTTOM: #cc3366 1px solid
+}
+.homesib {
+	BORDER-RIGHT: #7fd4ce 1px solid; BORDER-TOP: #7fd4ce 1px solid; BORDER-LEFT: #7fd4ce 1px solid; BORDER-BOTTOM: #7fd4ce 1px solid
+}
+.a:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.formCopy {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #666666 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #666666 1px solid; BORDER-BOTTOM: #cccccc 1px solid; FONT-FAMILY: "宋体"
+}
+.cssss {
+	WIDTH: 130px
+}
+.xiaozi {
+	LETTER-SPACING: 0px
+}
+.yffffff {
+	BORDER-RIGHT: #ffffff 1px solid; BORDER-TOP: #ffffff 1px; BORDER-LEFT: #ffffff 1px; BORDER-BOTTOM: #ffffff 1px
+}
+.homezyx {
+	BORDER-RIGHT: #7fd4cd 1px; BORDER-TOP: #7fd4cd 1px; BORDER-LEFT: #7fd4cd 1px; BORDER-BOTTOM: #7fd4cd 1px solid
+}
+.qzsibzzzz {
+	BORDER-RIGHT: #ffcc00 1px solid; BORDER-TOP: #ffcc00 1px solid; BORDER-LEFT: #ffcc00 1px solid; BORDER-BOTTOM: #ffcc00 1px solid
+}
+.pxsibyyy {
+	BORDER-RIGHT: #e2c0c0 1px solid; BORDER-TOP: #e2c0c0 1px solid; BORDER-LEFT: #e2c0c0 1px solid; BORDER-BOTTOM: #e2c0c0 1px solid
+}
+.qzsibyyy {
+	BORDER-RIGHT: #33cccc 1px solid; BORDER-TOP: #33cccc 1px solid; BORDER-LEFT: #33cccc 1px solid; BORDER-BOTTOM: #33cccc 1px solid
+}
+.ltsibzzzz {
+	BORDER-RIGHT: #cc9900 1px solid; BORDER-TOP: #cc9900 1px solid; BORDER-LEFT: #cc9900 1px solid; BORDER-BOTTOM: #cc9900 1px solid
+}
+.qh {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+.qzsib0000 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.lw000000000000 {
+	BORDER-RIGHT: #99cc99 1px solid; BORDER-TOP: #99cc99 1px solid; BORDER-LEFT: #99cc99 1px solid; BORDER-BOTTOM: #99cc99 1px solid
+}
+.fontb {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000
+}
+.fontred {
+	FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.fontffffff {
+	FONT-SIZE: 12px; COLOR: #ffffff
+}
+.xhui {
+	BORDER-RIGHT: #eeeeee 1px; BORDER-TOP: #eeeeee 1px; BORDER-LEFT: #eeeeee 1px; BORDER-BOTTOM: #eeeeee 1px solid
+}
+.lan {
+	COLOR: #0099ff
+}
+.font14 {
+	FONT-SIZE: 14px; COLOR: #000000
+}
+.font14b {
+	FONT-WEIGHT: bolder; FONT-SIZE: 14px; COLOR: #000000
+}

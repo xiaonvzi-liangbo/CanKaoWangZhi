@@ -1,0 +1,33 @@
+
+
+function CheckForm()
+{
+	if (document.myform.username.value=='')
+	{
+		alert('请输入您的用户名！');
+		document.myform.username.focus;
+		return false;
+	}
+	if (document.myform.password.value=='')
+	{
+		alert('请输入您的登录密码！');
+		document.myform.password.focus;
+		return false;
+	}
+	
+	document.myform.submit();
+}
+
+
+function gowhere1(formname)
+{
+ var url;
+ url = 'http://'+formname.searchStyle.value+'.sooedu.cn/s/';
+ formname.method = 'get';
+ formname.target = '_blank';
+ formname.action = url;
+ 
+}
+
+
+document.write("<style type='text/css'><!--td{ font-size:12px}.dl {color: #FF3300}#linka {font-family: '宋体';font-size: 12px;line-height: 20px;color: #000000;text-decoration: none;}#linka a:hover{font-family: '宋体';font-size: 12px;line-height: 20px;color:#FF6600;text-decoration: underline;}#linka a{font-family: '宋体';font-size: 12px;line-height: 20px;color: #000000;text-decoration: none;}--></style><table width='800' border='0' cellspacing='0' cellpadding='0' align='center' style='border:1px solid #E4E4E4;'>      <tr>        <td width='215' align='center'><img src='http://image.sooxue.com/head/logo/gaokao.jpg' width='160' height='43' /></td>        <td width='583' align='center' style='line-height:27px' id='linka'><div align='center'><a href='http://www.sooxue.com' target='_blank'>首页</a> | <a href='http://www.sooedu.cn'>教育搜索</a> | <a href='http://gaokao.sooxue.com' target='_blank'>高考</a> | <a href='http://peixun.sooxue.com/' target='_blank'>培训</a> | <a href='http://kaoyan.sooxue.com/' target='_blank'>考研</a> | <a href='http://english.sooxue.com/' target='_blank'>英  &nbsp;语</a> | <a href='http://www.sooxue.com/jiaoyu/' target='_blank'>教育</a> | <a href='http://job.sooxue.com/' target='_blank'>就业</a> | <a href='http://gaoxiao.sooxue.com/' target='_blank'>中国高校</a> | <a href='http://gaozhao.sooxue.com/' target='_blank'>高校招生</a> | <a href='http://www.sooxue.com/youyou/' target='_blank'>搜学悠悠</a> <br />            <a href='http://ask.sooxue.com' target='_blank'>问学</a> | <a href='http://blog.sooxue.com' target='_blank'>教育博客</a> | <a href='http://www.sooxue.com/kspx/zxks/Index.html' target='_blank'>自考</a> | <a href='http://www.sooxue.com/kspx/crgk/index.html' target='_blank'>成考</a> | <a href='http://abroad.sooxue.com/' target='_blank'>留学</a> | <a href='http://www.sooxue.com/kspx/gwy/index.html' target='_blank'>公务员</a> | <a href='http://xiaoyuan.sooxue.com/default.asp' target='_blank'>校园</a> | <a href='http://teacher.sooxue.com/' target='_blank'>人才</a> | <a href='http://zyzg.sooxue.com' target='_blank'>职业资格</a> | <a href='http://shop.sooxue.com' target='_blank'>搜学书城</a> | <a href='http://bbs.sooxue.com' target='_blank'>搜学社区</a>			</div></td>  </tr></table>");

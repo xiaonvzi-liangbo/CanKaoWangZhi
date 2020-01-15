@@ -1,0 +1,30 @@
+BODY {
+	MARGIN: 0px; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 20px
+}
+.l_bg {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-IMAGE: url(l_14.jpg); BACKGROUND-REPEAT: no-repeat
+}
+A.new:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A.new:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A.new:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.bai:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.bai:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.bai:hover {
+	COLOR: #ffff99; TEXT-DECORATION: underline
+}
+.red {
+	FONT-SIZE: 9pt; COLOR: #990000
+}

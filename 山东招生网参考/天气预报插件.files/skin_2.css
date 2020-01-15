@@ -1,0 +1,249 @@
+A:link {
+	COLOR: #000
+}
+A:visited {
+	COLOR: #000
+}
+A:hover {
+	COLOR: red
+}
+#SAd1 LI .a0 {
+	COLOR: #00f
+}
+#SAd1 LI .a1 {
+	COLOR: #369
+}
+.CB .txt LI A {
+	COLOR: #07379f
+}
+.CB .txt LI A:visited {
+	COLOR: #07379f
+}
+#Game {
+	BORDER-LEFT-COLOR: #d0e4fd; BACKGROUND: #f7f7f7; BORDER-BOTTOM-COLOR: #d0e4fd; BORDER-TOP-COLOR: #d0e4fd; BORDER-RIGHT-COLOR: #d0e4fd
+}
+#CBSo {
+	MARGIN-TOP: 8px; BORDER-LEFT-COLOR: #ffcf5f; BACKGROUND: #fff7d6; BORDER-BOTTOM-COLOR: #ffcf5f; BORDER-TOP-COLOR: #ffcf5f; BORDER-RIGHT-COLOR: #ffcf5f
+}
+#CBSo .tit .InpBtn {
+	BACKGROUND: #fff
+}
+#Report {
+	BORDER-LEFT-COLOR: #d0e4fd; BACKGROUND: #f7f7f7; BORDER-BOTTOM-COLOR: #d0e4fd; BORDER-TOP-COLOR: #d0e4fd; BORDER-RIGHT-COLOR: #d0e4fd
+}
+#FL A {
+	COLOR: #030
+}
+#FL A:visited {
+	COLOR: #030
+}
+#FL A.goback {
+	COLOR: #00f
+}
+#FL A.goback:visited {
+	COLOR: #00f
+}
+#CUrl LI.t A {
+	COLOR: #00f
+}
+#CUrl LI.t A:visited {
+	COLOR: #00f
+}
+#CUrl LI.b A {
+	COLOR: #369
+}
+#CUrl LI.b A:visited {
+	COLOR: #369
+}
+.CS .tit {
+	BORDER-LEFT-COLOR: #ff9900; BACKGROUND: #ff9900; BORDER-BOTTOM-COLOR: #ff9900; COLOR: #fff; BORDER-TOP-COLOR: #ff9900; BORDER-RIGHT-COLOR: #ff9900
+}
+.CS .tit A {
+	COLOR: #fff
+}
+.CS .tit A {
+	
+}
+.CS .tit A:visited {
+	
+}
+.CS .tit A:hover {
+	COLOR: #f00
+}
+.CS .txt {
+	BORDER-LEFT-COLOR: #f90; BORDER-BOTTOM-COLOR: #f90; BORDER-TOP-COLOR: #f90; BORDER-RIGHT-COLOR: #f90
+}
+.CS .txt .bg0 {
+	BACKGROUND: #fff9ee
+}
+.CS .txt .bg1 {
+	BACKGROUND: #fff7d6
+}
+#CTSo {
+	FLOAT: right; WIDTH: 574px
+}
+#CUrl {
+	FLOAT: right; WIDTH: 574px
+}
+#SBtn UL {
+	BACKGROUND: url(img2/line_3.gif) no-repeat 74px 0px
+}
+#SBtn LI A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP-COLOR: #fff
+}
+#SBtn LI.btn2 A {
+	BACKGROUND: #faac02; COLOR: #fff; BORDER-TOP-COLOR: #faac02
+}
+#SInp {
+	BORDER-LEFT-COLOR: #faac02; BACKGROUND-IMAGE: url(img/skin2_ico_arrow.gif); BORDER-BOTTOM-COLOR: #faac02; BORDER-TOP-COLOR: #faac02; BACKGROUND-COLOR: #fff7d6; BORDER-RIGHT-COLOR: #faac02
+}
+#SInp LI.inp .txt {
+	BORDER-LEFT-COLOR: #474747; BORDER-BOTTOM-COLOR: #fff; BORDER-TOP-COLOR: #474747; BORDER-RIGHT-COLOR: #fff
+}
+#SInp LI.inp .btn {
+	BORDER-LEFT-COLOR: #fff; BACKGROUND: #ffcf5b; BORDER-BOTTOM-COLOR: #85878c; BORDER-TOP-COLOR: #fff; BORDER-RIGHT-COLOR: #85878c
+}
+#Hot .tit {
+	BORDER-LEFT-COLOR: #f36a01; BACKGROUND: #f36a01; BORDER-BOTTOM-COLOR: #f36a01; COLOR: #fff; BORDER-TOP-COLOR: #f36a01; BORDER-RIGHT-COLOR: #f36a01
+}
+#Hot .tit A {
+	COLOR: #fff
+}
+#Hot .tit A:visited {
+	COLOR: #fff
+}
+#Hot .txt {
+	BORDER-LEFT-COLOR: #f36a01; BACKGROUND: #f7f7f7; BORDER-BOTTOM-COLOR: #f36a01; BORDER-TOP-COLOR: #f36a01; BORDER-RIGHT-COLOR: #f36a01
+}
+#Hot .txt UL {
+	BACKGROUND: #fcfcfc
+}
+#Hot .txt LI A.fst {
+	COLOR: #f00
+}
+#Hot .txt LI A.sec {
+	COLOR: #000
+}
+#SAd1 {
+	BORDER-LEFT-COLOR: #f36a01; BACKGROUND: #f7f7f7; BORDER-BOTTOM-COLOR: #f36a01; BORDER-TOP-COLOR: #f36a01; BORDER-RIGHT-COLOR: #f36a01
+}
+#CS1 .tit A {
+	COLOR: #fff
+}
+#CS2 .tit A {
+	COLOR: #fff
+}
+#CS2 .InpTxt {
+	BORDER-LEFT-COLOR: #ccc; BORDER-BOTTOM-COLOR: #ccc; BORDER-TOP-COLOR: #ccc; BORDER-RIGHT-COLOR: #ccc
+}
+#CS2 .Btn {
+	BORDER-LEFT-COLOR: #fff; BACKGROUND: #ffcf5b; BORDER-BOTTOM-COLOR: #85878c; BORDER-TOP-COLOR: #fff; BORDER-RIGHT-COLOR: #85878c
+}
+.CM .tit H2 {
+	COLOR: #fff
+}
+#CM1 {
+	BORDER-LEFT-COLOR: #f36a01; BORDER-BOTTOM-COLOR: #f36a01; BORDER-TOP-COLOR: #f36a01; BORDER-RIGHT-COLOR: #f36a01
+}
+#CM1 .tit {
+	BACKGROUND: #fff7d6
+}
+#CM1 .tit H2 {
+	BACKGROUND: #f36a01; COLOR: #fff
+}
+#CM1 .tit A.cur {
+	BACKGROUND: #f36a01; COLOR: #fff
+}
+#CM2 {
+	BORDER-LEFT-COLOR: #0075eb; BORDER-BOTTOM-COLOR: #0075eb; BORDER-TOP-COLOR: #0075eb; BORDER-RIGHT-COLOR: #0075eb
+}
+#CM2 .tit {
+	BACKGROUND: #d2e4fc
+}
+#CM2 .tit H2 {
+	BACKGROUND: #0075eb; COLOR: #fff
+}
+#CM2 .tit UL A {
+	COLOR: #0075eb
+}
+#CM2 .tit UL A:visited {
+	COLOR: #0075eb
+}
+#CM2 .txt UL.bg0 {
+	BACKGROUND: #fff
+}
+#CM2 .txt UL.bg1 {
+	BACKGROUND: #f1f1fd
+}
+#CM2 .txt LI A {
+	BACKGROUND: url(img2/icon_li_1.gif) no-repeat 100% 50%
+}
+#CM3 {
+	BORDER-LEFT-COLOR: #74c200; BORDER-BOTTOM-COLOR: #74c200; BORDER-TOP-COLOR: #74c200; BORDER-RIGHT-COLOR: #74c200
+}
+#CM3 .tit {
+	BACKGROUND: #d8ff9d
+}
+#CM3 .tit H2 {
+	BACKGROUND: #74c200; COLOR: #fff
+}
+#CM3 DL.bg0 {
+	BACKGROUND: #fff
+}
+#CM3 DL.bg1 {
+	BACKGROUND: #f5fee7
+}
+#CM3 DT A {
+	COLOR: #030
+}
+#CM3 DT A:hover {
+	COLOR: #f00
+}
+.UrlSort {
+	BORDER-LEFT-COLOR: #faac02; BORDER-BOTTOM-COLOR: #faac02; BORDER-TOP-COLOR: #faac02; BORDER-RIGHT-COLOR: #faac02
+}
+.UrlTit {
+	BORDER-LEFT-COLOR: #eee; BACKGROUND: #fff7d6; BORDER-BOTTOM-COLOR: #eee; BORDER-TOP-COLOR: #eee; BORDER-RIGHT-COLOR: #eee
+}
+.UrlTit H2 {
+	BACKGROUND: #f36a01; COLOR: #fff
+}
+.UrlTit H2 .desc {
+	FONT-WEIGHT: normal; COLOR: #f00
+}
+.UrlTxt UL LI {
+	BORDER-LEFT-COLOR: #eee; BORDER-BOTTOM-COLOR: #eee; BORDER-TOP-COLOR: #eee; BORDER-RIGHT-COLOR: #eee
+}
+.UrlTxt .commend {
+	COLOR: #f00
+}
+.SoKeys DT {
+	COLOR: #f60
+}
+.SoKeys DD A {
+	COLOR: #0075eb
+}
+.SoKeys DD A:visited {
+	COLOR: #0075eb
+}
+.RtBox {
+	BORDER-LEFT-COLOR: #ffae00; BORDER-BOTTOM-COLOR: #ffae00; BORDER-TOP-COLOR: #ffae00; BORDER-RIGHT-COLOR: #ffae00
+}
+.RtBox .Tit {
+	BORDER-LEFT-COLOR: #ffae00; BACKGROUND: #fff7d6; BORDER-BOTTOM-COLOR: #ffae00; COLOR: #f76900; BORDER-TOP-COLOR: #ffae00; BORDER-RIGHT-COLOR: #ffae00
+}
+.RtBox .Tit A.more {
+	COLOR: #fff
+}
+.RtBox .Tit A.more {
+	COLOR: #f76900
+}
+.RtBox .Tit A.more:visited {
+	COLOR: #f76900
+}
+.RtBox .Tit A.more:hover {
+	COLOR: #f00
+}
+.RtBox UL.X2 LI {
+	BORDER-LEFT-COLOR: #ffae00; BORDER-BOTTOM-COLOR: #ffae00; BORDER-TOP-COLOR: #ffae00; BORDER-RIGHT-COLOR: #ffae00
+}

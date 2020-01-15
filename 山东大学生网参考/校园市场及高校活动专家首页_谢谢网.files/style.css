@@ -1,0 +1,255 @@
+BODY {
+	FONT-SIZE: 12px; BACKGROUND: url(../images/body_bg.jpg) #ffffff repeat-x 50% top; MARGIN: 0px; COLOR: #333333; FONT-FAMILY: "ËÎÌו",Arial, Helvetica, sans-serif
+}
+A {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: "ËÎÌו",Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff6600; FONT-FAMILY: "ËÎÌו",Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.sw {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 900px
+}
+.left {
+	FLOAT: left
+}
+.right {
+	FLOAT: right
+}
+.clr {
+	CLEAR: both
+}
+.space {
+	PADDING-TOP: 10px
+}
+.space5 {
+	PADDING-TOP: 5px
+}
+#top {
+	PADDING-BOTTOM: 2px; OVERFLOW: hidden; HEIGHT: 27px
+}
+#top .toplogo {
+	FLOAT: left; WIDTH: 120px
+}
+#top .topnav {
+	FLOAT: right; PADDING-TOP: 8px
+}
+#top .topnav LI {
+	PADDING-LEFT: 8px; FLOAT: left; OVERFLOW: hidden; BORDER-LEFT: #0760b8 1px solid; COLOR: #0760b8; MARGIN-RIGHT: 8px; HEIGHT: 11px
+}
+#top .topnav LI A {
+	COLOR: #0760b8
+}
+#top .topnav LI A:hover {
+	COLOR: #ff6600
+}
+#top .topnav .noborder {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#header {
+	BACKGROUND: url(../images/head_bg.jpg) no-repeat; HEIGHT: 230px
+}
+#mainnav {
+	MARGIN: 192px auto 0px 105px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+#mainnav LI {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; COLOR: #ffffff; MARGIN-RIGHT: 30px
+}
+#mainnav LI A {
+	FONT-SIZE: 14px; COLOR: #ffffff
+}
+#mainnav LI A:hover {
+	TEXT-DECORATION: underline
+}
+#centerbox {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 690px
+}
+#sidebox {
+	FLOAT: right; OVERFLOW: hidden; WIDTH: 200px
+}
+.center_style_a {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 688px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.center_style_a .head {
+	BACKGROUND: url(../images/center_style_a_hbg.jpg) #eeeeee no-repeat; OVERFLOW: hidden; LINE-HEIGHT: 27px; HEIGHT: 27px
+}
+.center_style_a .head A {
+	COLOR: #ff6600
+}
+.center_style_a .head A:hover {
+	TEXT-DECORATION: underline
+}
+.center_style_a .head H3 {
+	FONT-SIZE: 14px; FLOAT: left; WIDTH: 100px; COLOR: #ffffff; TEXT-ALIGN: center
+}
+.center_style_a .head P {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; FLOAT: right; COLOR: #999999; MARGIN-RIGHT: 10px
+}
+.center_style_a .body {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.side_style_a {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 198px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.side_style_a .head {
+	PADDING-LEFT: 20px; BACKGROUND: url(../images/side_style_a_hbg.jpg) #eeeeee no-repeat; OVERFLOW: hidden; COLOR: #000000; LINE-HEIGHT: 25px; HEIGHT: 25px
+}
+.side_style_a .head A {
+	COLOR: #ff6600
+}
+.side_style_a .head A:hover {
+	TEXT-DECORATION: underline
+}
+.side_style_a .head H3 {
+	FONT-SIZE: 12px; FLOAT: left
+}
+.side_style_a .head P {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; FLOAT: right; COLOR: #999999; MARGIN-RIGHT: 10px
+}
+.side_style_a .body {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.main_style_a {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 898px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.main_style_a .head {
+	BACKGROUND: url(../images/center_style_a_hbg.jpg) #eeeeee no-repeat; OVERFLOW: hidden; LINE-HEIGHT: 27px; HEIGHT: 27px
+}
+.main_style_a .head A {
+	COLOR: #ff6600
+}
+.main_style_a .head A:hover {
+	TEXT-DECORATION: underline
+}
+.main_style_a .head H3 {
+	FONT-SIZE: 14px; FLOAT: left; WIDTH: 100px; COLOR: #ffffff; TEXT-ALIGN: center
+}
+.main_style_a .head P {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; FLOAT: right; COLOR: #999999; MARGIN-RIGHT: 10px
+}
+.main_style_a .body {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; PADDING-BOTTOM: 9px; PADDING-TOP: 9px
+}
+#footer {
+	PADDING-BOTTOM: 20px; COLOR: #999999; LINE-HEIGHT: 25px; TEXT-ALIGN: center
+}
+#footer A {
+	LINE-HEIGHT: 35px
+}
+.youshi {
+	BACKGROUND: url(../images/youshi_bg.jpg) no-repeat left bottom
+}
+.youshi .content {
+	FLOAT: right; WIDTH: 450px; LINE-HEIGHT: 27px
+}
+.youshi .content P {
+	MARGIN: 8px 0px; TEXT-INDENT: 2em
+}
+.youshi .content .more {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; TEXT-ALIGN: right
+}
+.youshi .content .more A {
+	COLOR: #ff6600
+}
+.youshi .content .more A:hover {
+	TEXT-DECORATION: underline
+}
+.fenzhan UL {
+	OVERFLOW: hidden; WIDTH: 188px
+}
+.fenzhan UL LI {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 47px; LINE-HEIGHT: 23px; TEXT-ALIGN: center
+}
+.fangan UL LI {
+	PADDING-LEFT: 10px; BACKGROUND: url(../images/list_style_a.jpg) no-repeat 2px 9px; LINE-HEIGHT: 23px
+}
+.anli LI {
+	FLOAT: left; PADDING-BOTTOM: 10px; MARGIN: 0px 6px 0px 2px; OVERFLOW: hidden; WIDTH: 126px; LINE-HEIGHT: 25px; TEXT-ALIGN: center
+}
+.anli LI IMG {
+	BORDER-RIGHT: #eeeeee 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #eeeeee 1px solid; DISPLAY: block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; BORDER-LEFT: #eeeeee 1px solid; WIDTH: 122px; PADDING-TOP: 1px; BORDER-BOTTOM: #eeeeee 1px solid; HEIGHT: 100px
+}
+.hezuo LI {
+	BACKGROUND: url(../images/hezuo_bg.jpg) no-repeat; FLOAT: left; MARGIN: 10px 17px; OVERFLOW: hidden; WIDTH: 100px; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.hezuo LI IMG {
+	WIDTH: 100px; HEIGHT: 50px
+}
+.hezuo_foot {
+	OVERFLOW: hidden; HEIGHT: 120px
+}
+.hezuo_foot UL {
+	OVERFLOW: hidden; HEIGHT: 720px
+}
+.hezuo_foot LI {
+	BACKGROUND: url(../images/hezuo_bg.jpg) no-repeat; FLOAT: left; MARGIN: 5px; OVERFLOW: hidden; WIDTH: 100px; HEIGHT: 50px; TEXT-ALIGN: center
+}
+.hezuo_foot LI IMG {
+	WIDTH: 100px; HEIGHT: 50px
+}
+.view {
+	LINE-HEIGHT: 23px
+}
+.view H2 {
+	FONT-SIZE: 20px; LINE-HEIGHT: 40px; TEXT-ALIGN: center
+}
+.view P {
+	CLEAR: both; MARGIN: 10px 0px; TEXT-INDENT: 2em
+}
+.view .img {
+	TEXT-ALIGN: center
+}
+.view .dimg {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 180px; PADDING-BOTTOM: 10px; TEXT-INDENT: 0em; PADDING-TOP: 10px
+}
+.view .dimg IMG {
+	FLOAT: left; MARGIN-LEFT: -180px
+}

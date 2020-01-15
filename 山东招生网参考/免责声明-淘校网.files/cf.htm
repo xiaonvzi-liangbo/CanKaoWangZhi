@@ -1,0 +1,6 @@
+
+var ly=escape(document.referrer);
+var currweb=location.href;
+ly=ly.replace(/\&/g,"|");
+currweb=currweb.replace(/\&/g,"|");
+document.write("<script src=http://count.35id.com/cf.asp?Action=getcount&User_Name=xinzhixin&Ly="+ly+"&CurrWeb="+currweb+"></script>");

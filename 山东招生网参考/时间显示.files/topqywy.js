@@ -1,0 +1,1 @@
+document.write("<DIV align=center><IFRAME src='/js/top.htm' frameBorder=0 width=778 scrolling=no height=65></IFRAME></DIV>");

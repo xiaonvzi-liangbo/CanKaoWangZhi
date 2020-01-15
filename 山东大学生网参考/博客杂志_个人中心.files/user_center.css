@@ -1,0 +1,654 @@
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND: #fff; FONT: 14px/1.4 "ËÎÌו", Verdana, Arial, Helvetica, sans-serif; COLOR: #333; WORD-BREAK: break-all
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+LI {
+	LIST-STYLE-TYPE: none
+}
+FIELDSET {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.hand {
+	CURSOR: pointer
+}
+INPUT {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+TEXTAREA {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; FONT-SIZE: 12px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+SELECT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+FIELDSET {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+H1 {
+	
+}
+H2 {
+	
+}
+H3 {
+	
+}
+H4 {
+	
+}
+H5 {
+	
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: " "
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+ HTML .clearfix {
+	HEIGHT: 1%
+}
+UNKNOWN {
+	MIN-HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}
+.clearhide {
+	CLEAR: both; OVERFLOW: hidden; HEIGHT: 0px
+}
+.hide {
+	DISPLAY: none
+}
+.fn {
+	DISPLAY: block; OVERFLOW: hidden; WIDTH: 100%; LINE-HEIGHT: 1.6em; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; o-text-overflow: ellipsis
+}
+.fn A {
+	DISPLAY: block; OVERFLOW: hidden; WIDTH: 100%; LINE-HEIGHT: 1.6em; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; o-text-overflow: ellipsis
+}
+A.fn:hover {
+	COLOR: #f60
+}
+A {
+	COLOR: #666
+}
+A:hover {
+	COLOR: #f60
+}
+A.aName {
+	FONT-WEIGHT: bold; COLOR: #1c82c9
+}
+A.aLogout {
+	COLOR: #000000! important
+}
+.date {
+	FONT-SIZE: 12px
+}
+#wrapper {
+	MARGIN: 0px auto; WIDTH: 950px
+}
+.main {
+	MARGIN-TOP: 10px
+}
+.content {
+	FLOAT: left; WIDTH: 220px
+}
+.sidebar {
+	FLOAT: right; WIDTH: 720px
+}
+#header {
+	MARGIN: auto; OVERFLOW: hidden; WIDTH: 950px; HEIGHT: 45px
+}
+#header #logo {
+	DISPLAY: inline; FLOAT: left; HEIGHT: 45px
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 0px; BORDER-TOP: #e0e0e0 1px solid; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 15px; MARGIN: 40px 0px 0px; WIDTH: 100%; LINE-HEIGHT: 200%; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+#footer {
+	FONT-SIZE: 12px; COLOR: #666
+}
+#footer A {
+	FONT-SIZE: 12px; COLOR: #666
+}
+#footer A:hover {
+	COLOR: #f60
+}
+#mainNav {
+	DISPLAY: inline; FLOAT: right; MARGIN: 0px; OVERFLOW: hidden; WIDTH: 750px; COLOR: #666; HEIGHT: 45px
+}
+#mainNav .left {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 18px; LINE-HEIGHT: 60px
+}
+#mainNav .right {
+	DISPLAY: inline; FLOAT: right; LINE-HEIGHT: 60px
+}
+#myShow {
+	CLEAR: both; BORDER-RIGHT: #e0e0e0 1px solid; BACKGROUND: url(images/bg_myshow.gif) repeat-x 0px 0px; OVERFLOW: hidden; BORDER-LEFT: #e0e0e0 1px solid; WIDTH: 948px; PADDING-TOP: 1px; HEIGHT: 69px
+}
+#iMyShow {
+	BACKGROUND: url(images/bg_myshow_right.gif) no-repeat right top; HEIGHT: 68px
+}
+#myShow H3 {
+	DISPLAY: inline; FONT-SIZE: 14px; FLOAT: left; WIDTH: 738px; HEIGHT: 38px
+}
+#myShow H3 .userName {
+	COLOR: #690; MARGIN-RIGHT: 5px
+}
+#myShow H3 A {
+	DISPLAY: block; MARGIN: 6px 0px 0px 40px; TEXT-DECORATION: none
+}
+#myShow H3 A {
+	COLOR: #666
+}
+#myShow .left {
+	DISPLAY: inline; PADDING-LEFT: 35px; FLOAT: left; OVERFLOW: hidden; WIDTH: 703px; HEIGHT: 31px
+}
+#myShow .left A {
+	DISPLAY: block; FONT-WEIGHT: bold; BACKGROUND: url(images/bg_unav.gif) no-repeat 0px 0px; FLOAT: left; MARGIN: 4px 4px 0px 0px; OVERFLOW: hidden; WIDTH: 110px; COLOR: #666; LINE-HEIGHT: 27px; HEIGHT: 27px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+#myShow .left A:hover {
+	BACKGROUND: url(images/bg_unav.gif) no-repeat 0px -27px; COLOR: white
+}
+#myShow .left A.on {
+	BACKGROUND: url(images/bg_unav.gif) no-repeat 0px -27px; COLOR: white
+}
+#myShow .left A.on:hover {
+	BACKGROUND: url(images/bg_unav.gif) no-repeat 0px -27px; COLOR: white
+}
+#myShow .right {
+	MARGIN-TOP: -37px; DISPLAY: inline; FLOAT: right; WIDTH: 210px; HEIGHT: 68px
+}
+#myShow .right A.btnMaker {
+	DISPLAY: block; FLOAT: left; MARGIN: 20px 10px 0px 0px; WIDTH: 90px; HEIGHT: 30px
+}
+#myShow .right A.btnHelp {
+	DISPLAY: block; FLOAT: left; MARGIN: 20px 0px 0px; WIDTH: 90px; HEIGHT: 30px
+}
+.sbox {
+	BORDER-RIGHT: #dadada 1px solid; BORDER-TOP: #dadada 1px solid; MARGIN-BOTTOM: 10px; BORDER-LEFT: #dadada 1px solid; BORDER-BOTTOM: #dadada 1px solid
+}
+.ibox {
+	BACKGROUND: url(images/bg_sbox_t.gif) repeat-x 0px 0px
+}
+.sbox H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; BACKGROUND: url(images/bg_sbox_h3.gif) no-repeat 0px 0px; OVERFLOW: hidden; WIDTH: 100%; COLOR: #666; TEXT-INDENT: 22px; LINE-HEIGHT: 28px; HEIGHT: 25px
+}
+.sbox H3 A.on {
+	FONT-WEIGHT: bold
+}
+.PIM_Box {
+	MARGIN: auto; OVERFLOW: hidden; WIDTH: 182px; TEXT-ALIGN: center
+}
+.PIM_Box .icoBox {
+	MARGIN: 12px auto 10px; OVERFLOW: hidden; WIDTH: 182px; HEIGHT: auto
+}
+.PIM_Box .icoBox IMG {
+	BORDER-RIGHT: #dbdbdb 1px solid; BORDER-TOP: #dbdbdb 1px solid; BACKGROUND: #fffbdb; BORDER-LEFT: #dbdbdb 1px solid; BORDER-BOTTOM: #dbdbdb 1px solid; max-width: 180px
+}
+.PIM_Box .intro {
+	OVERFLOW: hidden; BORDER-BOTTOM: #dcdcdc 1px dashed; HEIGHT: 30px
+}
+.PIM_Box .intro IMG {
+	VERTICAL-ALIGN: middle; TEXT-DECORATION: none
+}
+.PIM_Box .intro A {
+	VERTICAL-ALIGN: middle; TEXT-DECORATION: none
+}
+.PIM_Box .contact {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 18px; PADDING-BOTTOM: 0px; MARGIN: 10px 0px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 23px
+}
+.PIM_Box .contact A {
+	DISPLAY: block; FONT-SIZE: 12px; BACKGROUND: url(images/bg_button.gif) no-repeat 0px 0px; FLOAT: left; WIDTH: 69px; LINE-HEIGHT: 23px; HEIGHT: 23px; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.PIM_Box .contact A.btn_invite {
+	MARGIN-RIGHT: 8px
+}
+.PIM_Box .componentContent {
+	MARGIN: 0px 0px 15px; COLOR: #ccc
+}
+.PIM_Box .componentContent A {
+	FONT-SIZE: 12px; COLOR: #360
+}
+.PIM_Box .componentContent A:hover {
+	COLOR: #f60
+}
+.zineList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 20px; PADDING-TOP: 0px
+}
+.zineList LI.vlog {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 20px 20px 0px 22px; WIDTH: 676px; PADDING-TOP: 0px; HEIGHT: 170px
+}
+ HTML .zineList LI.vlog {
+	MARGIN-TOP: 20px; HEIGHT: 160px
+}
+UNKNOWN {
+	MARGIN-TOP: 20px; HEIGHT: 160px
+}
+.zineList .cover {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 3px 12px 0px 3px; PADDING-TOP: 0px
+}
+.zineList H4 A {
+	DISPLAY: inline; FONT-SIZE: 14px; COLOR: #360; LINE-HEIGHT: 24px; MARGIN-RIGHT: 18px
+}
+.zineList H4 .date {
+	FONT-WEIGHT: normal; COLOR: #333
+}
+.zineList .tags {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px
+}
+.zineList .tags A {
+	COLOR: #360
+}
+.zineList .description {
+	MARGIN: 5px 0px; OVERFLOW: hidden; HEIGHT: 100px
+}
+.zineList .other {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 20px; PADDING-TOP: 0px
+}
+.zineList .other .number {
+	COLOR: #666
+}
+.zineList .other A {
+	COLOR: #360
+}
+.zineList .other A:hover {
+	COLOR: #f60
+}
+DIV.cover {
+	DISPLAY: block; BACKGROUND: #adadad; WIDTH: 128px; HEIGHT: 168px
+}
+.cover A {
+	BORDER-RIGHT: #e0e0e0 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #e0e0e0 1px solid; DISPLAY: block; PADDING-LEFT: 4px; BACKGROUND: url(images/loading.gif) #fff no-repeat center center; PADDING-BOTTOM: 4px; BORDER-LEFT: #e0e0e0 1px solid; WIDTH: 120px; PADDING-TOP: 4px; BORDER-BOTTOM: #e0e0e0 1px solid; HEIGHT: 160px
+}
+.cover A:hover {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid; BACKGROUND-COLOR: #f60
+}
+.cover IMG {
+	DISPLAY: block; WIDTH: 120px; HEIGHT: 160px
+}
+.miniList {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 20px; PADDING-TOP: 0px
+}
+.miniList LI.vlog {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 15px 0px 0px 12px; OVERFLOW: hidden; WIDTH: 224px; PADDING-TOP: 0px; HEIGHT: 135px! important
+}
+.miniList H4 {
+	MARGIN-TOP: 2px; OVERFLOW: hidden; WIDTH: 113px; HEIGHT: 75px
+}
+.miniList H4 A {
+	DISPLAY: block; FONT-WEIGHT: normal; LINE-HEIGHT: 19px; WHITE-SPACE: normal; max-height: 55px
+}
+.miniList .date {
+	DISPLAY: block; COLOR: #808080
+}
+.miniList .other {
+	VERTICAL-ALIGN: text-bottom; OVERFLOW: hidden; HEIGHT: 60px
+}
+.miniList .cover {
+	MARGIN: 3px 5px 0px 3px; WIDTH: 98px; HEIGHT: 128px
+}
+.miniList .cover A {
+	WIDTH: 90px; HEIGHT: 120px
+}
+.miniList .cover IMG {
+	WIDTH: 90px; HEIGHT: 120px
+}
+.ml_fav H4 {
+	HEIGHT: 110px
+}
+.ml_fav .userName {
+	DISPLAY: block; FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #666
+}
+.ml_fav .userName A {
+	DISPLAY: inline; FONT-SIZE: 12px; COLOR: #666
+}
+.ml_fav .userName A:hover {
+	COLOR: #f60
+}
+.ml_fav .other {
+	HEIGHT: 20px
+}
+.pages {
+	MARGIN: 0px auto 20px
+}
+.pages UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 2px; MARGIN: 5px 15px; PADDING-TOP: 2px
+}
+.pages LI {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 2px; TEXT-ALIGN: center
+}
+.pages LI.on {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ddd 1px solid; PADDING-LEFT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; OVERFLOW: hidden; BORDER-LEFT: #ddd 1px solid; COLOR: #f60; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px solid; HEIGHT: 19px; BACKGROUND-COLOR: #ffc; TEXT-DECORATION: underline
+}
+.pages A {
+	BORDER-RIGHT: #ddd 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ddd 1px solid; DISPLAY: block; PADDING-LEFT: 6px; PADDING-BOTTOM: 0px; BORDER-LEFT: #ddd 1px solid; LINE-HEIGHT: 19px; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px solid
+}
+.pages A:hover {
+	BORDER-RIGHT: #f60 1px solid; BORDER-TOP: #f60 1px solid; BORDER-LEFT: #f60 1px solid; COLOR: #f60; BORDER-BOTTOM: #f60 1px solid
+}
+.selReader .content {
+	FLOAT: left; WIDTH: 112px
+}
+.selReader .sidebar {
+	FLOAT: right; WIDTH: 830px
+}
+.selReader .nbox .ibox {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.selReader .sbox H3 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; TEXT-INDENT: 8px
+}
+.selReader .PIM_Box {
+	WIDTH: 101px
+}
+.selReader .PIM_Box .icoBox {
+	MARGIN: 7px auto 5px; WIDTH: 97px
+}
+.selReader .PIM_Box .icoBox IMG {
+	max-width: 95px
+}
+.selReader .PIM_Box .intro {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; MARGIN-BOTTOM: 3px; HEIGHT: auto; BORDER-RIGHT-WIDTH: 0px
+}
+.selReader .PIM_Box .intro A {
+	FONT-SIZE: 12px
+}
+.selReader .PIM_Box .contact {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; WIDTH: 100%; PADDING-TOP: 0px; HEIGHT: 23px
+}
+.selReader .PIM_Box .contact A {
+	DISPLAY: inline; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: none
+}
+.selReader .PIM_Box .contact A.btn_invite {
+	MARGIN-RIGHT: 0px
+}
+.selReader .miniLogoList {
+	MARGIN-BOTTOM: 10px
+}
+.selReader .miniLogoList LI {
+	MARGIN: 12px 0px 0px 8px; OVERFLOW: hidden; WIDTH: 96px; HEIGHT: 42px
+}
+.selReader .miniLogoList H4 {
+	OVERFLOW: hidden; WIDTH: 60px; HEIGHT: 27px
+}
+.selReader .miniLogoList H4 A {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #360; LINE-HEIGHT: 27px
+}
+.selReader .miniLogoList H4 A:hover {
+	COLOR: #f60
+}
+.selReader .miniLogoList .icoBox {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 5px 3px 0px
+}
+.selReader .miniLogoList .icoBox A {
+	BORDER-RIGHT: #e0e0e0 1px solid; BORDER-TOP: #e0e0e0 1px solid; DISPLAY: block; BACKGROUND: #fffbdb; BORDER-LEFT: #e0e0e0 1px solid; WIDTH: 25px; BORDER-BOTTOM: #e0e0e0 1px solid; HEIGHT: 25px
+}
+.selReader .miniLogoList .icoBox A:hover {
+	BORDER-RIGHT: #f60 1px solid; BORDER-TOP: #f60 1px solid; BORDER-LEFT: #f60 1px solid; BORDER-BOTTOM: #f60 1px solid
+}
+.selReader .miniLogoList .icoBox IMG {
+	WIDTH: 25px; HEIGHT: 25px
+}
+.selReader .miniLogoList .date {
+	CLEAR: both; WIDTH: 100%; COLOR: #666; TEXT-ALIGN: center
+}
+.selReader .reader {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.selReader .comment {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.selReader .reader .ibox {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.selReader .comment .ibox {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.selReader .reader .tbox {
+	BORDER-TOP: #e0de92 1px solid; BACKGROUND: url(images/bg_reader_h3.gif) #fbf8ba no-repeat 19px 8px; OVERFLOW: hidden; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.selReader .comment .tbox {
+	BORDER-TOP: #e0de92 1px solid; BACKGROUND: url(images/bg_reader_h3.gif) #fbf8ba no-repeat 19px 8px; OVERFLOW: hidden; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.selReader .comment .tbox {
+	BORDER-TOP: #e0e0e0 1px solid; BACKGROUND: url(images/bg_sbox_h3.gif) #f2f2f2 no-repeat 10px 0px
+}
+.selReader .reader H3 {
+	DISPLAY: inline; FLOAT: left; WIDTH: 680px; TEXT-INDENT: 30px
+}
+.selReader .comment H3 {
+	DISPLAY: inline; FLOAT: left; WIDTH: 680px; TEXT-INDENT: 30px
+}
+.selReader .reader H3 .date {
+	PADDING-LEFT: 12px; COLOR: #666
+}
+.selReader .reader .more {
+	DISPLAY: inline; FONT-SIZE: 12px; FLOAT: right; MARGIN: 0px 18px 0px 0px; WIDTH: 100px; COLOR: #cc9; TEXT-ALIGN: right
+}
+.selReader .comment .more {
+	DISPLAY: inline; FONT-SIZE: 12px; FLOAT: right; MARGIN: 0px 18px 0px 0px; WIDTH: 100px; COLOR: #cc9; TEXT-ALIGN: right
+}
+.selReader .reader .reader_head {
+	FONT-SIZE: 12px; COLOR: #cc9
+}
+.selReader .reader .tags .first_text {
+	COLOR: #666
+}
+.selReader .reader .tags {
+	DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; WIDTH: 500px; TEXT-INDENT: 20px; LINE-HEIGHT: 45px; HEIGHT: 45px
+}
+.selReader .reader .share {
+	DISPLAY: inline; FLOAT: right; MARGIN: 0px 10px 0px 0px; OVERFLOW: hidden; WIDTH: 240px; LINE-HEIGHT: 45px; HEIGHT: 45px
+}
+.selReader .reader .info {
+	CLEAR: both; PADDING-RIGHT: 20px; PADDING-LEFT: 20px; FONT-SIZE: 14px; PADDING-BOTTOM: 0px; WIDTH: 785px; COLOR: #666; PADDING-TOP: 0px
+}
+ HTML .selReader .reader .info {
+	WIDTH: 760px
+}
+UNKNOWN {
+	WIDTH: 760px
+}
+.selReader .reader .info .first_text {
+	FONT-WEIGHT: bold
+}
+.selReader .reader .reader_footer {
+	FONT-SIZE: 12px; LINE-HEIGHT: 32px; HEIGHT: 32px
+}
+.selReader .reader .stat {
+	DISPLAY: inline; FLOAT: left; MARGIN: 0px 0px 0px 20px; WIDTH: 40%; COLOR: #666
+}
+.selReader .reader .alarm {
+	DISPLAY: inline; FLOAT: right; MARGIN: 0px 18px 0px 0px; WIDTH: 40%; TEXT-ALIGN: right
+}
+.selReader .reader A {
+	COLOR: #360
+}
+.selReader .comment A {
+	COLOR: #360
+}
+.selReader .reader A:hover {
+	COLOR: #f60
+}
+.selReader .comment A:hover {
+	COLOR: #f60
+}
+.selReader .commentList {
+	MARGIN: 15px auto
+}
+.selReader .commentList LI {
+	DISPLAY: inline; FLOAT: left; MARGIN-BOTTOM: 15px
+}
+.selReader .commentList .face {
+	DISPLAY: inline; FLOAT: left; WIDTH: 90px; HEIGHT: 90px
+}
+.selReader .commentList .userFace {
+	BORDER-RIGHT: #e0e0e0 1px solid; BORDER-TOP: #e0e0e0 1px solid; MARGIN: auto; BORDER-LEFT: #e0e0e0 1px solid; WIDTH: 50px; BORDER-BOTTOM: #e0e0e0 1px solid; HEIGHT: 50px
+}
+.selReader .commentList .userFace IMG {
+	WIDTH: 50px; HEIGHT: 50px
+}
+.selReader .commentList .userName {
+	FONT-SIZE: 12px; MARGIN: 3px auto; OVERFLOW: hidden; WIDTH: 50px; TEXT-ALIGN: center
+}
+.selReader .commentList .description {
+	DISPLAY: inline; FLOAT: left; OVERFLOW: hidden; WIDTH: 740px
+}
+.selReader .commentList .description H4 {
+	DISPLAY: inline; FONT-WEIGHT: normal; FONT-SIZE: 14px; FLOAT: left; WIDTH: 500px; COLOR: #360; LINE-HEIGHT: 24px
+}
+.selReader .commentList .description .date {
+	DISPLAY: inline; FLOAT: right; MARGIN: 0px 18px 0px 0px; WIDTH: 200px; COLOR: #666; LINE-HEIGHT: 24px; TEXT-ALIGN: right
+}
+.selReader .commentList .description .date A {
+	TEXT-DECORATION: none
+}
+.selReader .commentList .description .content {
+	FONT-SIZE: 14px; OVERFLOW: hidden; WIDTH: 710px; LINE-HEIGHT: 130%
+}
+.send_comment {
+	FONT-SIZE: 12px; COLOR: #808080
+}
+.send_comment A {
+	COLOR: #360
+}
+.send_comment A:hover {
+	COLOR: #f60
+}
+.send_comment TABLE {
+	WIDTH: 100%; BORDER-COLLAPSE: collapse
+}
+.send_comment TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.send_comment INPUT {
+	WIDTH: 90px
+}
+.send_comment TEXTAREA {
+	WIDTH: 98%; HEIGHT: 100px
+}
+.cue {
+	FONT-WEIGHT: bold; BACKGROUND: url(images/ico_notice.gif) no-repeat 0px 0px; MARGIN: 15px 12px 0px; COLOR: #f60; TEXT-INDENT: 40px; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+.line {
+	MARGIN: 0px 12px 15px; BORDER-BOTTOM: #e0e0e0 1px dashed; HEIGHT: 0px
+}
+.h3 {
+	FONT-WEIGHT: bold; MARGIN: 5px 12px; COLOR: #666
+}
+.step {
+	FONT-WEIGHT: bold; MARGIN: 15px 0px 15px 12px; OVERFLOW: hidden; COLOR: #666; HEIGHT: 28px
+}
+.step A.btn_step {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; OVERFLOW: hidden; COLOR: #666; LINE-HEIGHT: 28px; HEIGHT: 28px; TEXT-ALIGN: center
+}
+.step A.btn_stepB {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; OVERFLOW: hidden; COLOR: #666; LINE-HEIGHT: 28px; HEIGHT: 28px; TEXT-ALIGN: center
+}
+.step A.btn_step {
+	BACKGROUND: url(images/bg_button2.gif) no-repeat 0px 0px; WIDTH: 86px
+}
+.step A.btn_stepB {
+	BACKGROUND: url(images/bg_button3.gif) no-repeat 0px 0px; WIDTH: 111px
+}
+.step .arrows {
+	DISPLAY: block; BACKGROUND: url(images/ico_arrows.gif) no-repeat 0px center; FLOAT: left; MARGIN: 0px 8px; WIDTH: 26px; HEIGHT: 28px
+}
+.step .text {
+	PADDING-RIGHT: 5px; DISPLAY: inline; PADDING-LEFT: 5px; FONT-SIZE: 12px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; LINE-HEIGHT: 30px; PADDING-TOP: 0px; HEIGHT: 28px
+}
+.info {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN: 5px 12px 5px 15px
+}
+.info A {
+	FONT-WEIGHT: bold; COLOR: #360
+}
+.info A:hover {
+	COLOR: #f60
+}
+.more_zine {
+	FONT-SIZE: 12px; MARGIN: 5px 12px
+}
+.more_zine A {
+	FONT-WEIGHT: bold; COLOR: #666
+}
+.more_zine A:hover {
+	COLOR: #f60
+}
+.dialogForm {
+	FONT-SIZE: 12px
+}
+.dialogForm A {
+	COLOR: #000
+}
+.dialogForm A:hover {
+	COLOR: #f60
+}
+.dialogForm .info2 {
+	COLOR: #888
+}
+.dialogForm TABLE {
+	MARGIN: 10px auto; WIDTH: 95%; BORDER-COLLAPSE: collapse
+}
+.dialogForm TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.dialogForm TD {
+	VERTICAL-ALIGN: middle
+}
+.dialogForm INPUT {
+	VERTICAL-ALIGN: middle
+}
+dialogForm TEXTAREA {
+	VERTICAL-ALIGN: middle
+}
+.dialogForm #login_name {
+	WIDTH: 126px
+}
+.dialogForm #login_password {
+	WIDTH: 126px
+}
+.dialogForm #login_verify_code {
+	WIDTH: 42px
+}
+.dialogForm .mailTable {
+	MARGIN: 0px auto; WIDTH: 100%
+}
+.dialogForm .mailTable INPUT {
+	MARGIN-LEFT: 5px; WIDTH: 110px
+}
+.dialogForm .name {
+	WIDTH: 200px
+}
+.dialogForm .content {
+	WIDTH: 285px
+}
+.dialogForm .content_share {
+	WIDTH: 220px
+}
+.dialogForm .enter {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 23px
+}
+.dialogForm TABLE.login {
+	FONT-SIZE: 14px
+}
+.dialogForm TABLE.login TD.line {
+	BORDER-BOTTOM: #e0e0e0 1px dashed
+}
+.dialogForm TABLE INPUT {
+	VERTICAL-ALIGN: middle
+}
+.dialogForm IMG {
+	VERTICAL-ALIGN: middle
+}
+.dialogForm IMG {
+	MARGIN-LEFT: 9px
+}
+.noData {
+	MARGIN: 10px 20px
+}

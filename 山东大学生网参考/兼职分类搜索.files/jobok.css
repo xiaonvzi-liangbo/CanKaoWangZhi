@@ -1,0 +1,120 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #000; FONT-FAMILY: "Arial", "宋体","Helvetica", "sans-serif"
+}
+.tds {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 10px; COLOR: #000; LINE-HEIGHT: 23px; FONT-FAMILY: "Arial", "宋体","Helvetica", "sans-serif"
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff; FONT-FAMILY: "Arial", "宋体","Helvetica", "sans-serif"
+}
+.rss A:link {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.rss A:visited {
+	COLOR: #000; TEXT-DECORATION: underline
+}
+.rss A:hover {
+	FONT-WEIGHT: bold; COLOR: #ff3300; TEXT-DECORATION: underline
+}
+.rss A:active {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.title A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff; FONT-FAMILY: "Arial", "宋体","Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+.title A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff; FONT-FAMILY: "Arial", "宋体","Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+.title A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff; FONT-FAMILY: "Arial", "宋体","Helvetica", "sans-serif"; TEXT-DECORATION: underline
+}
+.title A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff; FONT-FAMILY: "Arial", "宋体","Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+.gridpad {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.font-title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ae2500
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000
+}
+#留言板 .p3 .input1 {
+	BORDER-RIGHT: #fa9442 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #fa9442 1px solid; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: #fef5b2; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #fa9442 1px solid; COLOR: #e36e05; PADDING-TOP: 2px; BORDER-BOTTOM: #fa9442 1px solid
+}
+for chinese {
+	
+}
+.title {
+	FONT-SIZE: 20px; FONT-FAMILY: 黑体,arial
+}
+.rtitle {
+	FONT-SIZE: 20px; COLOR: #ffffff; FONT-FAMILY: 黑体,arial
+}
+.stitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 120%
+}
+.rstitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; LINE-HEIGHT: 120%
+}
+.mbody {
+	FONT-SIZE: 14px; LINE-HEIGHT: 150%; FONT-FAMILY: 宋体,arial
+}
+.rmbody {
+	FONT-SIZE: 14px; COLOR: #ffffff; LINE-HEIGHT: 150%; FONT-FAMILY: 宋体,arial
+}
+.sbody {
+	FONT-SIZE: 12px; LINE-HEIGHT: 160%
+}
+.sbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 160%
+}
+.rsbody {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 160%
+}
+.gsbody {
+	FONT-SIZE: 12px; COLOR: #666666
+}
+UNKNOWN {
+	
+}
+.embody {
+	FONT-SIZE: 16px; LINE-HEIGHT: 120%; FONT-FAMILY: arial, helvetica
+}
+.esbody {
+	FONT-SIZE: 12px; LINE-HEIGHT: 120%; FONT-FAMILY: arial, helvetica
+}
+.esbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 120%; FONT-FAMILY: arial, helvetica
+}
+.li {
+	FONT-SIZE: 14px; LINE-HEIGHT: 160%; FONT-FAMILY: MS Song, 宋体, Beijing
+}
+.url {
+	FONT-SIZE: 12px; VERTICAL-ALIGN: super; COLOR: #666666; FONT-FAMILY: arial, helvetica
+}
+.list {
+	FONT-SIZE: 14px; LINE-HEIGHT: 120%; FONT-FAMILY: MS Song, 宋体, Beijing
+}
+.box {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 0px; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.cb {
+	FONT-WEIGHT: bolder; FONT-SIZE: 14px; COLOR: #3767c2; TEXT-DECORATION: none
+}
+BODY {
+	BORDER-RIGHT: #ffffff 0pt solid; BORDER-TOP: #ffffff 0pt solid; FONT-SIZE: 9pt; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: buttonface; BORDER-LEFT: #ffffff 0pt solid; SCROLLBAR-SHADOW-COLOR: buttonface; COLOR: #333333; SCROLLBAR-3DLIGHT-COLOR: buttonhighlight; LINE-HEIGHT: 160%; SCROLLBAR-ARROW-COLOR: #333333; SCROLLBAR-TRACK-COLOR: #eeeeee; BORDER-BOTTOM: #ffffff 0pt solid; FONT-STYLE: normal; FONT-FAMILY: "宋体"; SCROLLBAR-DARKSHADOW-COLOR: buttonshadow
+}

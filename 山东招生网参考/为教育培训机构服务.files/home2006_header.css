@@ -1,0 +1,120 @@
+DIV.clear-both {
+	CLEAR: both; PADDING-RIGHT: 3px; DISPLAY: block; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 0px auto; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffffff
+}
+BODY {
+	FONT-SIZE: 12px; TEXT-ALIGN: center
+}
+TABLE {
+	FONT-SIZE: 12px
+}
+TR {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+#PageHeader {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 782px; PADDING-TOP: 0px; HEIGHT: 80px; BACKGROUND-COLOR: #ffffff
+}
+#topAbout {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; COLOR: #898787; LINE-HEIGHT: normal; PADDING-TOP: 5px; TEXT-ALIGN: right
+}
+#topAbout A:link {
+	COLOR: #898787; TEXT-DECORATION: none
+}
+#topAbout A:visited {
+	COLOR: #898787; TEXT-DECORATION: none
+}
+#topAbout A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+#topAbout A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+#globalMenus {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+#globalMenus .subMenu {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; MARGIN: 0px; COLOR: #00007f; LINE-HEIGHT: normal; PADDING-TOP: 5px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+#globalMenus .subMenu A:link {
+	COLOR: #00007f; TEXT-DECORATION: none
+}
+#globalMenus .subMenu A:visited {
+	COLOR: #00007f; TEXT-DECORATION: none
+}
+#globalMenus .subMenu A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+#globalMenus .subMenu A:active {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+#page-top {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px auto; WIDTH: 782px; LINE-HEIGHT: 150%; PADDING-TOP: 5px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+#p-global-menus1 {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/ShangCheng/images_2006/page_top_menu_bg1.gif); MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 2px; WIDTH: 609px; COLOR: #000000; PADDING-TOP: 2px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 21px; TEXT-ALIGN: left
+}
+#p-global-menus2 {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; WIDTH: 609px; PADDING-TOP: 2px; HEIGHT: 21px; BACKGROUND-COLOR: #f2f2f2; TEXT-ALIGN: left
+}
+#p-global-menus1 LI {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FLOAT: left
+}
+#p-global-menus1 UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 3px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+#p-global-menus2 LI {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FLOAT: left; BACKGROUND-COLOR: #f2f2f2
+}
+#p-global-menus2 UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 3px; LIST-STYLE-TYPE: none; BACKGROUND-COLOR: #f2f2f2; TEXT-ALIGN: left
+}
+#p-global-menus1 A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#p-global-menus1 A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#p-global-menus2 A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#p-global-menus2 A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#p-global-menus1 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+#p-global-menus1 A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+#p-global-menus2 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+#p-global-menus2 A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.zs-ad-tong {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px auto; WIDTH: 782px; PADDING-TOP: 3px; BACKGROUND-COLOR: #ffffff
+}
+.p-global-menus {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; COLOR: #2b2b2b; PADDING-TOP: 0px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.p-global-menus UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+.p-global-menus LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.p-global-menus A:link {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; COLOR: #2b2b2b; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.p-global-menus A:visited {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; COLOR: #2b2b2b; PADDING-TOP: 0px; TEXT-DECORATION: none
+}
+.p-global-menus A:hover {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; COLOR: #ff0000; PADDING-TOP: 0px; TEXT-DECORATION: underline
+}
+.p-global-menus A:active {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; COLOR: #ff0000; PADDING-TOP: 0px; TEXT-DECORATION: underline
+}

@@ -1,0 +1,159 @@
+TD {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: normal; FONT-FAMILY: "宋体"
+}
+.gray {
+	FONT-SIZE: 9pt; COLOR: #666600; LINE-HEIGHT: 16px; FONT-FAMILY: "宋体"
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #646464; LINE-HEIGHT: 16px; FONT-FAMILY: "宋体"
+}
+.uprise {
+	VERTICAL-ALIGN: super; TEXT-TRANSFORM: none; FONT-VARIANT: small-caps
+}
+.blue {
+	COLOR: #007dc6
+}
+.small {
+	FONT-SIZE: 9px; COLOR: #999999; LINE-HEIGHT: 12px; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}
+A:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #043b9c; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #043b9c; TEXT-DECORATION: none
+}
+A.menu:link {
+	FONT-SIZE: 13px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:visited {
+	FONT-SIZE: 13px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:active {
+	FONT-SIZE: 13px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.menu:hover {
+	FONT-SIZE: 13px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.fgs:link {
+	FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.fgs:visited {
+	FONT-SIZE: 14px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.fgs:active {
+	FONT-SIZE: 14px; COLOR: #00ccff; TEXT-DECORATION: none
+}
+A.fgs:hover {
+	FONT-SIZE: 14px; COLOR: #00ccff; TEXT-DECORATION: none
+}
+.form22222 {
+	BORDER-RIGHT: #888888 1px solid; BORDER-TOP: #888888 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #888888 1px solid; COLOR: #000000; BORDER-BOTTOM: #888888 1px solid; HEIGHT: 16px; BACKGROUND-COLOR: #ffffff
+}
+.form {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #999999 1px solid; COLOR: #043b9c; BORDER-BOTTOM: #999999 1px solid; HEIGHT: 17px; BACKGROUND-COLOR: #ffffff
+}
+.formmenu {
+	BORDER-RIGHT: #3179ce 1px solid; BORDER-TOP: #3179ce 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #3179ce 1px solid; COLOR: #043b9c; BORDER-BOTTOM: #3179ce 1px solid; BACKGROUND-COLOR: #f7fbff
+}
+.white {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 18pt; FONT-FAMILY: "宋体"
+}
+.title1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #333333; FONT-FAMILY: "宋体"
+}
+.size8 {
+	FONT-SIZE: 8pt; FONT-FAMILY: "宋体"
+}
+.size09 {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 13px
+}
+.form2 {
+	COLOR: #333333; BACKGROUND-COLOR: #ffffff
+}
+.54master {
+	FONT-SIZE: 12px; COLOR: #bbbbbb
+}
+.red {
+	COLOR: #990000
+}
+.abc {
+	LINE-HEIGHT: 22px
+}
+.sizebig {
+	FONT-SIZE: 18px
+}
+.bg {
+	BACKGROUND-POSITION: center center; BACKGROUND-ATTACHMENT: fixed; BACKGROUND-IMAGE: url(../images/zzy-01.gif); BACKGROUND-REPEAT: no-repeat
+}
+.text-12-18 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.line0 {
+	LINE-HEIGHT: 0px
+}
+.text-14 {
+	FONT-SIZE: 14px; LINE-HEIGHT: normal; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.company:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.company:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.company:active {
+	COLOR: #d8d8d8; TEXT-DECORATION: none
+}
+A.company:hover {
+	COLOR: #d8d8d8; TEXT-DECORATION: none
+}
+.menubar_63x30 {
+	PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../images/bg_menubar_63x30_out.gif); WIDTH: 76px; COLOR: #ffffff; PADDING-TOP: 9px; HEIGHT: 31px
+}
+.menubar_63x30:hover {
+	PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../images/bg_menubar_63x30_over.gif); WIDTH: 76px; COLOR: #ffffff; PADDING-TOP: 9px; HEIGHT: 31px; TEXT-DECORATION: none
+}
+.menubar_63x30:link {
+	COLOR: #ffffff
+}
+.menubar_63x30:active {
+	COLOR: #ffffff
+}
+.menubar_63x30:visited {
+	COLOR: #ffffff
+}
+.1menubar_63x30 {
+	PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../images/bg_menubar_63x30_out.gif); WIDTH: 75px; COLOR: #ffffff; PADDING-TOP: 9px; HEIGHT: 31px
+}
+.1menubar_63x30:hover {
+	PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(../images/bg_menubar_63x30_over.gif); WIDTH: 75px; COLOR: #ffffff; PADDING-TOP: 9px; HEIGHT: 31px; TEXT-DECORATION: none
+}
+.1menubar_63x30:link {
+	COLOR: #ffffff
+}
+.1menubar_63x30:active {
+	COLOR: #ffffff
+}
+.1menubar_63x30:visited {
+	COLOR: #ffffff
+}
+.text-12-21 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 21px; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.text-12-24 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 24px; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.text-12-30 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 30px; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.bg-l-b-x {
+	BACKGROUND-POSITION: left bottom; BACKGROUND-ATTACHMENT: fixed; BACKGROUND-REPEAT: repeat-x
+}
+.text-10 {
+	FONT-SIZE: 9px; LINE-HEIGHT: normal; FONT-STYLE: normal; TEXT-DECORATION: none
+}

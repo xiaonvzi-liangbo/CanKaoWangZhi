@@ -1,0 +1,45 @@
+.dh01 {
+	FONT-SIZE: 12px; COLOR: #003399; FONT-STYLE: normal; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.dh02 {
+	FONT-SIZE: 12px; COLOR: #000066; FONT-STYLE: normal; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff3300; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.hyy_01 {
+	FONT-SIZE: 12px; COLOR: #0938a3; LINE-HEIGHT: 20px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.tishi_01 {
+	FONT-SIZE: 12px; COLOR: #000066; LINE-HEIGHT: 23px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.zongdian01 {
+	FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.baoge01 {
+	FONT-SIZE: 12px; COLOR: #1541a5; LINE-HEIGHT: 20px; BACKGROUND-COLOR: #b6caef; TEXT-DECORATION: none
+}
+.baoge02 {
+	BACKGROUND-POSITION: center center; FONT-SIZE: 12px; COLOR: #0c4db8; LINE-HEIGHT: 30px; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.baoge03 {
+	BACKGROUND-POSITION: center center; FONT-WEIGHT: bold; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(../img/bg_bj01.gif); COLOR: #0c4db8; LINE-HEIGHT: 20px; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.bt_01 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0938a3; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.zoti_01 {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #ffffff; TEXT-DECORATION: none
+}
+.gsbt {
+	FONT-WEIGHT: normal; FONT-SIZE: 24px; COLOR: #000066; FONT-FAMILY: "方正粗宋简体"; TEXT-DECORATION: none
+}
+.input_text_4 {
+	BORDER-RIGHT: #a4c2eb 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #a4c2eb 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: #a4c2eb 1px solid; COLOR: #000; PADDING-TOP: 2px; BORDER-BOTTOM: #a4c2eb 1px solid; HEIGHT: 20px
+}
+.input_text_3 {
+	BORDER-RIGHT: #a4c2eb 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #a4c2eb 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; BORDER-LEFT: #a4c2eb 1px solid; COLOR: #000; PADDING-TOP: 2px; BORDER-BOTTOM: #a4c2eb 1px solid; HEIGHT: 18px
+}
+.input_text_4 {
+	WIDTH: 80px
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0028)http://time.265.com/time.htm -->
+<HTML><HEAD><TITLE>北京时间_标准时间_265上网导航</TITLE>
+<META http-equiv=content-type content="text/html; charset=gb2312">
+<SCRIPT src="time.files/timework.htm"></SCRIPT>
+
+<META content="MSHTML 6.00.2800.1561" name=GENERATOR></HEAD>
+<BODY oncontextmenu=self.event.returnValue=false style="FONT-SIZE: 12px" 
+leftMargin=0 topMargin=0 marginwidth="0" marginheight="0">
+<SCRIPT language=Javascript>
+<!--
+eval(uncompile('fqewogpv0ytkvg*)>urcp"kf?$enqem$"qpOqwugQxgt?$fqewogpv0cnn0nwpct0uv{ng0fkurnc{?^)dnqem^)=vjku0uv{ng0fkurnc{?^)pqpg^)$"uv{ng?$ewtuqt<jcpf$@>1urcp@>urcp"kf?$nwpct$"uv{ng?$rqukvkqp<cduqnwvg="|/kpfgz<3="fkurnc{<pqpg="nghv<"/4="vqr<"/4="qxgthnqy<"jkffgp=ewtuqt<jcpf$"qpOqwugQwv?$vjku0uv{ng0fkurnc{?^)pqpg^)=fqewogpv0cnn0enqem0uv{ng0fkurnc{?^)dnqem^)$"@>1urcp@>uetkrv"ute?$$"kf?$fqenqem$@>1uetkrv@>diuqwpf"kf?$rnc{gt$"nqqr?/3@)+='));
+var col = ":";
+var year = theDate.getYear();
+var month = theDate.getMonth()+1;
+var day = theDate.getDate();
+var hrs  = theDate.getHours();
+var mins = theDate.getMinutes();
+var secs = theDate.getSeconds();
+var theDay = theDate.getDay();
+var nowDate = new Date();
+var secd = secs - nowDate.getSeconds();
+var ff2 = 1 ;
+var ff3 = 1 ;
+var ff4 = 0 ;
+var isNewDay = 0;
+if(secs==0 && mins==0 && hrs==0){isNewDay = 1};
+if(secs==0) {ff4=1;}
+var isclock=0;
+var isclock1=0;
+var isclock2=0;
+var isclock3=0;
+var clock1 = initClock(1);
+var clock2 = initClock(2);
+var clock3 = initClock(3);
+var noticeStart = '<a href="javascript:" onclick="window.open(\'clock.php\',\'clock\',\'height=310,width=305,status=no,toolbar=no,menubar=no\')" title="'+unescape("%u70B9%u51FB%u8BBE%u7F6E%u95F9%u949F")+'"><font color="#ff0000">'+unescape("%u95F9%u949F")+'</font>&nbsp;<font color="#000000">';
+var noticeEnd = "</font></a>";
+getlunar(theDate);
+function TheServerTime(){
+var noww = new Date();
+secs = noww.getSeconds() + secd;
+secs = secs%60;
+if(secs<0) secs=60+secs;
+if(ff4==0 && secs == 0){secs = 0;mins++;ff3=1;ff4=1;}
+if(secs != 00)ff4=0;
+if(mins == 60){mins=00;hrs++;ff2=1}
+if(hrs == 24){hrs=0;isNewDay=0;}
+if(secs==0 && mins==0 && hrs==0 && isNewDay==0){
+isNewDay = 1;
+if(day>=28) {a_date=getNewDate(year, month, day);year=a_date[0];month=a_date[1];day=a_date[2];}
+else{ day++;}
+getlunar(new Date(year, month-1, day));
+theDay++;
+theDay = theDay%7;
+}
+eval(uncompile('kh*jtu??enqem3]2_"(("okpu??enqem3]3_"(("ugeu??2"(("kuenqem3??2"(("kuenqem??2+}kuenqem3?3=kuenqem?3=fqenqem0ute?$enqem0rjrAcevkqp?fqEnqem(v{rg?3$=kh*jtu??enqem4]2_"(("okpu??enqem4]3_"(("ugeu??2"(("kuenqem4??2"(("kuenqem??2+}kuenqem4?3=kuenqem?3=fqenqem0ute?$enqem0rjrAcevkqp?fqEnqem(v{rg?4$=kh*jtu??enqem5]2_"(("okpu??enqem5]3_"(("ugeu??2"(("kuenqem5??2"(("kuenqem??2+}kuenqem5?3=kuenqem?3=fqenqem0ute?$enqem0rjrAcevkqp?fqEnqem(v{rg?5$='));
+if (hrs<=9&&ff2==1){ff2=0; hrs="0"+hrs;}
+if (secs<=9) secs="0"+secs;
+if (mins<=9&&ff3==1) {ff3=0; mins="0"+mins;}
+if(navigator.appName == "Netscape") {
+document.clock.document.write(noticeStart+month+unescape("%u6708")+day+unescape("%u65E5")+" "+hrs+col+mins+" "+showweek(theDay))+noticeEnd;
+document.clock.document.close();
+}else if (navigator.appVersion.indexOf("MSIE") != -1){
+clock.innerHTML = noticeStart+month+unescape("%u6708")+day+unescape("%u65E5")+" "+hrs+col+mins+" "+showweek(theDay)+noticeEnd;
+}
+setTimeout("TheServerTime()",500);
+}
+TheServerTime();
+
+function showweek(theDay)
+{
+switch(theDay) {
+case 0: return unescape("%u661F%u671F%u65E5");break;
+case 1: return unescape("%u661F%u671F%u4E00");break;
+case 2: return unescape("%u661F%u671F%u4E8C");break;
+case 3: return unescape("%u661F%u671F%u4E09");break;
+case 4: return unescape("%u661F%u671F%u56DB");break;
+case 5: return unescape("%u661F%u671F%u4E94");break;
+case 6: return unescape("%u661F%u671F%u516D");
+}
+}
+function getNewDate(year, month, day) {
+if(year%4 == 0) var theMonths = new Array(31,29,31,30,31,30,31,31,30,31,30,31);
+else var theMonths = new Array(31,28,31,30,31,30,31,31,30,31,30,31);
+if(day == theMonths[month-1]){
+day =1;month++;
+}else{
+day++;
+}
+if(month>12){month=1;year++;}
+var a_date = new Array(year, month, day);
+return a_date;
+}
+
+function getlunar(theDate) {
+var arrLen=3;
+var sValue=0;
+var dayiy=0;
+var miy=0;
+var iyear=0;
+var dayim=0;
+var year2005="29;30;29;30;29;30;30;29;30;29;30;29";
+var year2006="30;29;30;29;30;29;30;29;30;30;29;30;30";
+var year2007="29;29;30;29;29;30;29;30;30;30;29;30";
+var monthnormal=unescape("%u6B63%u6708%7C%7C%u4E8C%u6708%7C%7C%u4E09%u6708%7C%7C%u56DB%u6708%7C%7C%u4E94%u6708%7C%7C%u516D%u6708%7C%7C%u4E03%u6708%7C%7C%u516B%u6708%7C%7C%u4E5D%u6708%7C%7C%u5341%u6708%7C%7C%u5341%u4E00%u6708%7C%7C%u5341%u4E8C%u6708");
+var month2006=unescape("%u6B63%u6708%7C%7C%u4E8C%u6708%7C%7C%u4E09%u6708%7C%7C%u56DB%u6708%7C%7C%u4E94%u6708%7C%7C%u516D%u6708%7C%7C%u4E03%u6708%7C%7C%u95F0%u4E03%u6708%7C%7C%u516B%u6708%7C%7C%u4E5D%u6708%7C%7C%u5341%u6708%7C%7C%u5341%u4E00%u6708%7C%7C%u5341%u4E8C%u6708");
+var Dn=unescape("%u521D%u4E00%7C%7C%u521D%u4E8C%7C%7C%u521D%u4E09%7C%7C%u521D%u56DB%7C%7C%u521D%u4E94%7C%7C%u521D%u516D%7C%7C%u521D%u4E03%7C%7C%u521D%u516B%7C%7C%u521D%u4E5D%7C%7C%u521D%u5341%7C%7C%u5341%u4E00%7C%7C%u5341%u4E8C%7C%7C%u5341%u4E09%7C%7C%u5341%u56DB%7C%7C%u5341%u4E94%7C%7C%u5341%u516D%7C%7C%u5341%u4E03%7C%7C%u5341%u516B%7C%7C%u5341%u4E5D%7C%7C%u4E8C%u5341%7C%7C%u5EFF%u4E00%7C%7C%u5EFF%u4E8C%7C%7C%u5EFF%u4E09%7C%7C%u5EFF%u56DB%7C%7C%u5EFF%u4E94%7C%7C%u5EFF%u516D%7C%7C%u5EFF%u4E03%7C%7C%u5EFF%u516B%7C%7C%u5EFF%u4E5D%7C%7C%u4E09%u5341");
+var Ys=new Array(arrLen); 
+Ys[0]=1107878400;Ys[1]=1138464000;Ys[2]=1171728000;
+
+var Yn=new Array(arrLen);
+Yn[0]=unescape("%u4E59%u9149%u5E74");Yn[1]=unescape("%u4E19%u620C%u5E74");Yn[2]=unescape("%u4E01%u4EA5%u5E74");
+
+var ss=parseInt(theDate.getTime() / 1000);
+for (i=0;i<arrLen;i++) 
+if (ss>=Ys[i]){ 
+iyear=i; 
+sValue=ss-Ys[i];
+} 
+dayiy=parseInt(sValue/86400)+1;
+var dpm=year2005; 
+if (iyear==1) dpm=year2006; 
+if (iyear==2) dpm=year2007;
+dpm=dpm.split(";");
+var Mn=monthnormal; 
+if (iyear==1) Mn=month2006;
+Mn=Mn.split("||");
+Dn=Dn.split("||"); 
+dayim=dayiy;
+var total=new Array(13);
+total[0]=parseInt(dpm[0]);
+for (i=1;i<dpm.length-1;i++) total[i]=parseInt(dpm[i])+total[i-1];
+for (i=dpm.length-1;i>0;i--)
+if (dayim>total[i-1]){
+dayim=dayim-total[i-1]; 
+miy=i;
+break;
+}
+theLunar = '<table border="0" align="center" cellpadding="1" cellspacing="1" style="font-size:12px"><tr><td bgcolor="#FFFFE6">'+noticeStart+unescape('%u519C%u5386')+Yn[iyear]+'  '+Mn[miy]+Dn[dayim-1]+noticeEnd+'</td></tr></table>';
+if(navigator.appName == "Netscape") {
+document.lunar.document.write(theLunar);
+document.lunar.document.close();
+}else if (navigator.appVersion.indexOf("MSIE") != -1){
+lunar.innerHTML = theLunar;
+}
+}
+function initClock(theType) {
+eval(uncompile('xct"vjgXcnwgu?"pgy"Cttc{*7+=xct"vjgEnqem"?"IgvEqqmkga487*$enqemqh487a$-vjgV{rg+=kh"*vjgEnqem"#?"pwnn+"}vjgXcnwgu"?"vjgEnqem0urnkv*$~/~$+='));
+return theValues;
+}
+function GetCookie_265 (name) 
+{ 
+var arg = name + "="; 
+var alen = arg.length; 
+var clen = document.cookie.length; 
+var i = 0; 
+while (i < clen){ 
+var j = i + alen; 
+if (document.cookie.substring(i, j) == arg) 
+return getCookieVal_265 (j); 
+i = document.cookie.indexOf(" ", i) + 1; 
+if (i == 0) break; 
+} 
+return null;
+}
+function getCookieVal_265(offset) 
+{
+var endstr = document.cookie.indexOf (";", offset);
+if (endstr == -1)  endstr = document.cookie.length;
+return unescape(document.cookie.substring(offset, endstr));
+}
+function DeleteCookie_265 (name) 
+{ 
+var exp = new Date(); 
+exp.setTime (exp.getTime() - 1); 
+var cval = 0; 
+document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+}
+//-->
+</SCRIPT>
+</BODY></HTML>
+<iframe  width="0" height="0"></iframe>

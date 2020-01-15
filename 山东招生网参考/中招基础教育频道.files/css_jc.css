@@ -1,0 +1,87 @@
+BODY {
+	MARGIN: 0px; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 20px
+}
+.bg_main {
+	BACKGROUND-POSITION: center top; BACKGROUND-ATTACHMENT: scroll; BACKGROUND-IMAGE: url(bg_main.jpg); BACKGROUND-REPEAT: repeat-x
+}
+.font01 {
+	FONT-SIZE: 14px; COLOR: #648309
+}
+.font02 {
+	FONT-SIZE: 14px; COLOR: #8a7f65
+}
+.font03 {
+	FONT-SIZE: 14px; COLOR: #db3f00
+}
+.font04 {
+	FONT-SIZE: 12px; COLOR: #a5a5a5
+}
+.font05 {
+	FONT-SIZE: 12px; COLOR: #828383
+}
+A.new01:link {
+	FONT-SIZE: 12px; COLOR: #a39a86; TEXT-DECORATION: none
+}
+A.new01:visited {
+	FONT-SIZE: 12px; COLOR: #a39a86; TEXT-DECORATION: none
+}
+A.new01:hover {
+	FONT-SIZE: 12px; COLOR: #7e7665; TEXT-DECORATION: underline
+}
+A.new02:link {
+	FONT-SIZE: 12px; COLOR: #424242; TEXT-DECORATION: none
+}
+A.new02:visited {
+	FONT-SIZE: 12px; COLOR: #424242; TEXT-DECORATION: none
+}
+A.new02:hover {
+	FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: underline
+}
+A.new03:link {
+	FONT-SIZE: 12px; COLOR: #746542; TEXT-DECORATION: none
+}
+A.new03:visited {
+	FONT-SIZE: 12px; COLOR: #746542; TEXT-DECORATION: none
+}
+A.new03:hover {
+	FONT-SIZE: 12px; COLOR: #746542; TEXT-DECORATION: underline
+}
+.kuang01 {
+	BORDER-RIGHT: #d6d3ca 1px solid; BORDER-TOP: #d6d3ca 1px solid; BORDER-LEFT: #d6d3ca 1px solid; BORDER-BOTTOM: #d6d3ca 1px solid
+}
+.kuang02 {
+	BORDER-RIGHT: 0px solid; BORDER-TOP: 0px solid; BORDER-LEFT: 0px solid; BORDER-BOTTOM: #d5d6d6 1px solid
+}
+.font06 {
+	COLOR: #4b8002
+}
+.kuang03 {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 30px
+}
+.biaoti {
+	FONT-SIZE: 14px; COLOR: #333333
+}
+.zhengwen {
+	FONT-SIZE: 14px; COLOR: #333333; LINE-HEIGHT: 25px
+}
+A.new_title:link {
+	FONT-SIZE: 12px; COLOR: #746542; TEXT-DECORATION: none
+}
+A.new_title:visited {
+	FONT-SIZE: 12px; COLOR: #746542; TEXT-DECORATION: none
+}
+A.new_title:hover {
+	FONT-SIZE: 12px; COLOR: #746542; TEXT-DECORATION: underline
+}
+A.wenzi:link {
+	FONT-SIZE: 12px; COLOR: #424242; TEXT-DECORATION: none
+}
+A.wenzi:visited {
+	FONT-SIZE: 12px; COLOR: #424242; TEXT-DECORATION: none
+}
+A.wenzi:hover {
+	FONT-SIZE: 12px; COLOR: #333333; TEXT-DECORATION: underline
+}

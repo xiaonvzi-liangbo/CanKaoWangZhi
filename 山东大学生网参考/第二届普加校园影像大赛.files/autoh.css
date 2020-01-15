@@ -1,0 +1,12 @@
+.tagContent {
+	DISPLAY: none
+}
+#tagContent .selectTag {
+	DISPLAY: block
+}
+#tags DL DD.selectTag {
+	BACKGROUND-POSITION: 0px 0px
+}
+#tags DL DD.selectTag A {
+	BACKGROUND-POSITION: 0px -67px
+}

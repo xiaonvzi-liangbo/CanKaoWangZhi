@@ -1,0 +1,138 @@
+#Mright {
+	FLOAT: right; WIDTH: 680px; MARGIN-RIGHT: 4px; HEIGHT: auto
+}
+.textArea01 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; BACKGROUND: #dedede; PADDING-BOTTOM: 8px; MARGIN: 80px 6px 6px; WIDTH: 224px; COLOR: #333333; PADDING-TOP: 8px; HEIGHT: auto
+}
+.textArea01 .tp_loginBox {
+	BACKGROUND: url(../images/tp_loginbg.gif) no-repeat; WIDTH: 223px; PADDING-TOP: 1px; HEIGHT: 130px
+}
+.textArea01 .tp_loginBoxMail {
+	BACKGROUND: url(../images/tp_loginbg.gif) no-repeat; WIDTH: 223px; PADDING-TOP: 1px; HEIGHT: 130px
+}
+.textArea01 .tp_loginBoxMail {
+	BACKGROUND: url(../images/mail.gif) no-repeat
+}
+.tp_loginBox .tab {
+	MARGIN-LEFT: 77px; WIDTH: 146px; HEIGHT: 21px
+}
+.tp_loginBox .tabUser {
+	FLOAT: left; WIDTH: 63px; MARGIN-RIGHT: 2px; HEIGHT: 21px
+}
+.tp_loginBox .tabMail {
+	FLOAT: left; WIDTH: 63px; MARGIN-RIGHT: 2px; HEIGHT: 21px
+}
+.tp_loginBox .tabUser A {
+	DISPLAY: block; BACKGROUND: url(../images/tp_tab.gif) no-repeat 0px -21px; WIDTH: 63px; HEIGHT: 21px
+}
+.tp_loginBox .tabMail A {
+	DISPLAY: block; BACKGROUND: url(../images/tp_tab.gif) no-repeat 0px -21px; WIDTH: 63px; HEIGHT: 21px
+}
+.tp_loginBox .tabMail A {
+	BACKGROUND-POSITION: 0px -63px
+}
+.tabUser A:hover {
+	BACKGROUND-POSITION: 0px 0px
+}
+.tp_loginBox .tabUser .cur {
+	BACKGROUND-POSITION: 0px 0px
+}
+.tabMail A:hover {
+	BACKGROUND-POSITION: 0px -42px
+}
+.tp_loginBox .tabMail .cur {
+	BACKGROUND-POSITION: 0px -42px
+}
+.tp_loginBox .loginInput {
+	MARGIN: 15px 0px 0px 16px; WIDTH: 185px
+}
+.loginInput .userId {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; MARGIN: 5px 0px 7px; WIDTH: 56px; TEXT-INDENT: 0px; LINE-HEIGHT: 20px; HEIGHT: 20px
+}
+.loginInput .userInput {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 4px; PADDING-LEFT: 4px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 7px; VERTICAL-ALIGN: middle; WIDTH: 121px; PADDING-TOP: 0px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px
+}
+.loginInput .userInputMail {
+	WIDTH: 46px; MARGIN-RIGHT: 37px
+}
+.loginInput .loginButton {
+	FLOAT: right; MARGIN: 0px 11px; WIDTH: 42px; HEIGHT: 22px
+}
+.loginInput .loginButton A {
+	DISPLAY: block; WIDTH: 42px; CURSOR: pointer; HEIGHT: 22px
+}
+.userShow {
+	FONT-SIZE: 12px; BACKGROUND: url(../images/tp_userShow.gif) no-repeat; LEFT: 0px; TEXT-INDENT: 0px; LINE-HEIGHT: 18px; PADDING-TOP: 6px; POSITION: absolute; TOP: 0px; HEIGHT: 131px
+}
+.userShow .idShow {
+	FLOAT: left; MARGIN-LEFT: 35px; WIDTH: 90px; HEIGHT: 18px
+}
+.userShow .idShow A {
+	COLOR: #ffffff
+}
+.userShow .idShow A:hover {
+	COLOR: #ff6600
+}
+.userShow .exit {
+	FLOAT: right; COLOR: #dedede; MARGIN-RIGHT: 2px
+}
+.userShow .exit A {
+	COLOR: #2754bb
+}
+.userShow .exit A:hover {
+	COLOR: #ff6600
+}
+.userShow .today {
+	MARGIN: 16px 0px 8px; WIDTH: 223px; HEIGHT: 18px; TEXT-ALIGN: center
+}
+.userShow .photos {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; FLOAT: left; MARGIN: 4px 5px 2px 10px; BORDER-LEFT: #666666 1px solid; WIDTH: 44px; BORDER-BOTTOM: #666666 1px solid; HEIGHT: 44px
+}
+.userShow .photos IMG {
+	BORDER-RIGHT: #ffffff 2px solid; BORDER-TOP: #ffffff 2px solid; BORDER-LEFT: #ffffff 2px solid; WIDTH: 40px; BORDER-BOTTOM: #ffffff 2px solid; HEIGHT: 40px
+}
+.userShow .info {
+	FLOAT: left; WIDTH: 122px; LINE-HEIGHT: 26px; HEIGHT: 52px
+}
+.userShow .gotoId {
+	FLOAT: left; WIDTH: 122px; LINE-HEIGHT: 26px; HEIGHT: 52px
+}
+.userShow .idCardText {
+	FLOAT: left; WIDTH: 62px; COLOR: #666666
+}
+.userShow .idCardText .idCard {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 2px; MARGIN-LEFT: 8px; WIDTH: 36px; PADDING-TOP: 3px; HEIGHT: 21px
+}
+.userShow .gotoId {
+	
+}
+.userShow .linkLiaoz {
+	FLOAT: left; WIDTH: 122px; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+.userShow .linkLiaoz A {
+	FONT-WEIGHT: normal; COLOR: #666666
+}
+.userShow .linkLiaoz A:hover {
+	COLOR: #ff6600
+}
+.textArea02 .hotNow {
+	BACKGROUND: url(../images/tp_hot.jpg); LEFT: 0px; WIDTH: 240px; POSITION: absolute; TOP: -264px; HEIGHT: 99px
+}
+.allLogin {
+	WIDTH: auto
+}
+#MleftLogin {
+	BACKGROUND: #ffffff
+}
+.textArea01Login {
+	MARGIN-LEFT: 0px; HEIGHT: 130px
+}
+.textArea01 {
+	MARGIN: 80px 0px 10px 6px; TEXT-INDENT: 0px
+}
+.textArea01Login {
+	MARGIN: 0px
+}
+.textArea02 {
+	POSITION: relative
+}

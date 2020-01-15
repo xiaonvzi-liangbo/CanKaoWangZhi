@@ -1,0 +1,72 @@
+.s02 {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+.s02:visited {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+.s02:hover {
+	FONT-SIZE: 12px; COLOR: #009966
+}
+.top {
+	FONT-SIZE: 12px; COLOR: #6b1403; TEXT-DECORATION: none
+}
+.dht {
+	FONT-SIZE: 12px; COLOR: #343230; TEXT-DECORATION: none
+}
+.guandong {
+	FONT-SIZE: 12px; COLOR: #da8c0c; TEXT-DECORATION: none
+}
+.guandong:hover {
+	FONT-SIZE: 12px; COLOR: #ff4e00; TEXT-DECORATION: underline
+}
+.dht:hover {
+	FONT-SIZE: 12px; COLOR: #ff4e00; TEXT-DECORATION: underline
+}
+.dht01:hover {
+	FONT-SIZE: 12px; COLOR: #ef1005; TEXT-DECORATION: underline
+}
+.dht02:hover {
+	FONT-SIZE: 12px; COLOR: #bb0bc6; TEXT-DECORATION: underline
+}
+.dht03:hover {
+	FONT-SIZE: 12px; COLOR: #fb7905; TEXT-DECORATION: underline
+}
+.top:hover {
+	FONT-SIZE: 12px; COLOR: #e2031d; TEXT-DECORATION: underline
+}
+.hong {
+	FONT-SIZE: 12px; COLOR: #ff3300; TEXT-DECORATION: none
+}
+.fonts {
+	FONT-SIZE: 12px; COLOR: #003366; TEXT-DECORATION: none
+}
+.dingbubg {
+	FILTER: progid:DXImageTransform.Microsoft.DropShadow(color=#B03206,offX=1,offY=1,positives=true)
+}
+A.dingbu:link {
+	COLOR: #fff1e7; TEXT-DECORATION: none
+}
+A.dingbu:visited {
+	COLOR: #fff1e7; TEXT-DECORATION: none
+}
+A.dingbu:active {
+	COLOR: #fff1e7; TEXT-DECORATION: underline
+}
+A.dingbu:hover {
+	COLOR: #f0ff00; TEXT-DECORATION: underline
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%
+}
+.dht01 {
+	COLOR: #ad4106; TEXT-DECORATION: none
+}
+.dht02 {
+	COLOR: #224282; TEXT-DECORATION: none
+}
+.dht03 {
+	COLOR: #058f12; TEXT-DECORATION: none
+}
+.gundong {
+	FONT-SIZE: 12px; COLOR: #009162; TEXT-DECORATION: none
+}

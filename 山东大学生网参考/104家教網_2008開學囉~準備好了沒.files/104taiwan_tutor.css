@@ -1,0 +1,96 @@
+BODY {
+	BACKGROUND-POSITION: center 50%; MARGIN-TOP: 0px; FONT-SIZE: 10pt; COLOR: #333333; LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 13px; COLOR: #444444; LINE-HEIGHT: 28px; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"
+}
+.txAreaMsg_tutor {
+	BORDER-RIGHT: #ebebeb 1px solid; BORDER-TOP: #c2c2c2 1px solid; FONT-SIZE: 12px; BACKGROUND: #ffffff; MARGIN: 0px 0px 2px; BORDER-LEFT: #c2c2c2 1px solid; WIDTH: 500px; COLOR: #666666; BORDER-BOTTOM: #ebebeb 1px solid; FONT-FAMILY: Arial, verdana, helvetica, sans-serif; HEIGHT: 100px
+}
+.txField {
+	BORDER-RIGHT: #ebebeb 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #c2c2c2 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 12px; BACKGROUND: #ffffff; PADDING-BOTTOM: 3px; BORDER-LEFT: #c2c2c2 1px solid; COLOR: #777777; PADDING-TOP: 3px; BORDER-BOTTOM: #ebebeb 1px solid; HEIGHT: 20px
+}
+.submit {
+	BORDER-RIGHT: #898989 1px solid; BORDER-TOP: #d7d7d7 1px solid; FONT-SIZE: 15px; MARGIN: 0px; VERTICAL-ALIGN: middle; BORDER-LEFT: #b7b7b7 1px solid; CURSOR: hand; COLOR: #000000; BORDER-BOTTOM: #707070 1px solid; HEIGHT: 25px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.font_15 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15pt; COLOR: #333333; FONT-FAMILY: "新細明體"; LETTER-SPACING: 2px
+}
+.font_red {
+	FONT-WEIGHT: bold; FONT-SIZE: 15pt; COLOR: #ff3300; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_red1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #ff3300; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_blue {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #0066cc; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_green {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #009900; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_10 {
+	FONT-SIZE: 10pt; COLOR: #ff3300; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_11 {
+	FONT-SIZE: 10pt; COLOR: #444444; LINE-HEIGHT: 20px; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_111 {
+	FONT-SIZE: 10pt; COLOR: #000000; LINE-HEIGHT: 25px; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_222 {
+	FONT-SIZE: 15px; COLOR: #ff0066; LINE-HEIGHT: 30px; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_333 {
+	FONT-SIZE: 15px; COLOR: #444444; LINE-HEIGHT: 30px; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+.font_00 {
+	FONT-SIZE: 13px; COLOR: #444444; LINE-HEIGHT: 24px; FONT-FAMILY: Arial, Helvetica, sans-serif,新細明體
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #fc3f4d; TEXT-DECORATION: underline
+}
+.font_path {
+	FONT-SIZE: 9pt; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.font_path:link {
+	TEXT-DECORATION: none
+}
+A.font_path:visited {
+	TEXT-DECORATION: none
+}
+A.font_path:hover {
+	TEXT-DECORATION: underline
+}
+.font_line {
+	FONT-SIZE: 6pt; COLOR: #666666; FONT-FAMILY: "新細明體"
+}
+.font_r {
+	FONT-SIZE: 10pt; COLOR: #ff0000; FONT-FAMILY: "新細明體"
+}
+.font_or {
+	FONT-SIZE: 10pt; COLOR: #cc6600; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.font_main {
+	FONT-SIZE: 10pt; COLOR: #333333; FONT-FAMILY: "新細明體"
+}
+.font_title {
+	FONT-SIZE: 10pt; COLOR: #625839; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.font_footer {
+	FONT-SIZE: 7.5pt; COLOR: #ffffff; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.font_footer:link {
+	TEXT-DECORATION: none
+}
+A.font_footer:visited {
+	TEXT-DECORATION: none
+}
+A.font_footer:hover {
+	TEXT-DECORATION: underline
+}

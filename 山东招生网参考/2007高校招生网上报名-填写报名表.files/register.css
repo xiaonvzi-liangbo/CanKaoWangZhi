@@ -1,0 +1,48 @@
+TD {
+	FONT-SIZE: 12px
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #cc0000; TEXT-DECORATION: underline
+}
+.f14 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 1.5; TEXT-DECORATION: none
+}
+.f12 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 1.5
+}
+#input1 {
+	BORDER-RIGHT: #76716d 1px solid; BORDER-TOP: #76716d 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #76716d 1px solid; BORDER-BOTTOM: #76716d 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.f14b {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 1.5
+}
+.button {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BACKGROUND-POSITION: center center; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; LEFT: 0px; BACKGROUND-IMAGE: url(bmimg/button.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; WIDTH: 71px; CLIP: rect(0px 0px 0px 0px); COLOR: #214231; PADDING-TOP: 2px; BORDER-BOTTOM: 0px; BACKGROUND-REPEAT: no-repeat; TOP: 0px; HEIGHT: 23px
+}
+.newbutton {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BACKGROUND-POSITION: center center; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; LEFT: 0px; BACKGROUND-IMAGE: url(/images/register/button1.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; WIDTH: 140px; CLIP: rect(0px 0px 0px 0px); COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: 0px; BACKGROUND-REPEAT: no-repeat; TOP: 0px; HEIGHT: 23px
+}
+.gmbutton {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BACKGROUND-POSITION: center center; BORDER-TOP: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; LEFT: 0px; BACKGROUND-IMAGE: url(/images/register/button2.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; WIDTH: 42px; CLIP: rect(0px 0px 0px 0px); COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: 0px; BACKGROUND-REPEAT: no-repeat; TOP: 0px; HEIGHT: 19px
+}
+#input2 {
+	BORDER-RIGHT: #000000 1px ridge; BORDER-TOP: #000000 1px ridge; FONT-SIZE: 12px; BORDER-LEFT: #000000 1px ridge; BORDER-BOTTOM: #000000 1px ridge
+}
+#textarea {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; OVERFLOW-Y: visible; FONT-SIZE: 12px; BORDER-LEFT: 0px; LINE-HEIGHT: 1.7; BORDER-BOTTOM: 0px; FONT-FAMILY: Fixedsys ËÎÌו; BACKGROUND-COLOR: #f6f6f6; visoverflow: visible
+}
+#textarea1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; OVERFLOW-Y: visible; FONT-SIZE: 12px; BORDER-LEFT: 0px; LINE-HEIGHT: 1.7; BORDER-BOTTOM: 0px; FONT-FAMILY: Fixedsys ËÎÌו; BACKGROUND-COLOR: #ffffff; visoverflow: visible
+}
+.part_9 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; LINE-HEIGHT: 18px; PADDING-TOP: 3px
+}

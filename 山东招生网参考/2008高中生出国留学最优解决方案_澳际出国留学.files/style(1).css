@@ -1,0 +1,114 @@
+BODY {
+	BACKGROUND-IMAGE: none; SCROLLBAR-3DLIGHT-COLOR: #fc3; SCROLLBAR-ARROW-COLOR: #fc3; SCROLLBAR-TRACK-COLOR: #fff; SCROLLBAR-BASE-COLOR: #fc3; BACKGROUND-COLOR: #fc3; TEXT-ALIGN: center
+}
+.nav {
+	FONT-SIZE: 10.5pt; COLOR: #ffffff; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.nav:hover {
+	FONT-SIZE: 10.5pt; COLOR: #dd0000
+}
+.darkblue {
+	COLOR: #00f
+}
+.darkblue:hover {
+	COLOR: #00f
+}
+.lightgreen {
+	COLOR: #060
+}
+.lightgreen:hover {
+	COLOR: #060
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.dis {
+	DISPLAY: block
+}
+.undis {
+	DISPLAY: none
+}
+.ona1 {
+	MARGIN-TOP: 8px; BACKGROUND: #ffbb00; FLOAT: left; WIDTH: 60px; LINE-HEIGHT: 25px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.offa1 {
+	MARGIN-TOP: 3px; BACKGROUND: #ffcccc; FLOAT: left; WIDTH: 60px; LINE-HEIGHT: 25px; HEIGHT: 25px; TEXT-ALIGN: center
+}
+.ff1 {
+	COLOR: #fff
+}
+.ff1 A:link {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.ff1 A:visited {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.ff1 A:active {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.ff1 A:hover {
+	COLOR: #ff0; TEXT-DECORATION: underline
+}
+.big A:link {
+	FONT-SIZE: 18px; COLOR: #000; LINE-HEIGHT: 32px; FONT-FAMILY: "黑体"
+}
+.big A:visited {
+	FONT-SIZE: 18px; COLOR: #000; LINE-HEIGHT: 32px; FONT-FAMILY: "黑体"
+}
+.big A:active {
+	FONT-SIZE: 18px; COLOR: #000; LINE-HEIGHT: 32px; FONT-FAMILY: "黑体"
+}
+.big A:hover {
+	FONT-SIZE: 18px; COLOR: #f00; LINE-HEIGHT: 32px; FONT-FAMILY: "黑体"
+}
+.fD1 {
+	COLOR: #d1130f
+}
+.fD1 A:link {
+	COLOR: #d1130f; TEXT-DECORATION: none
+}
+.fD1 A:visited {
+	COLOR: #d1130f; TEXT-DECORATION: none
+}
+.fD1 A:active {
+	COLOR: #d1130f; TEXT-DECORATION: none
+}
+.fD1 A:hover {
+	COLOR: #f00; TEXT-DECORATION: underline
+}
+.f95 {
+	COLOR: #959595
+}
+.f95 A:link {
+	COLOR: #959595; TEXT-DECORATION: none
+}
+.f95 A:visited {
+	COLOR: #959595; TEXT-DECORATION: none
+}
+.f95 A:active {
+	COLOR: #959595; TEXT-DECORATION: none
+}
+.f95 A:hover {
+	COLOR: #f00; TEXT-DECORATION: underline
+}
+.fD9 {
+	COLOR: #d99314
+}
+.fD9 A:link {
+	COLOR: #d99314; TEXT-DECORATION: none
+}
+.fD9 A:visited {
+	COLOR: #d99314; TEXT-DECORATION: none
+}
+.fD9 A:active {
+	COLOR: #d99314; TEXT-DECORATION: none
+}
+.fD9 A:hover {
+	COLOR: #f00; TEXT-DECORATION: underline
+}

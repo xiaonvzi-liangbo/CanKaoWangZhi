@@ -1,0 +1,435 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0041)http://www.baicai.com/job_agent/index.php -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai.com</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=utf-8>
+<META id=robots content=all>
+<META 
+content="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai.com" 
+name=Description>
+<META 
+content="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai.com" 
+name=Keywords><LINK media=all 
+href="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/style.css" 
+type=text/css rel=stylesheet><LINK media=all 
+href="C:\Documents and Settings\Administrator\桌面\“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files\style(1).css" 
+type=text/css rel=stylesheet>
+<SCRIPT 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/jquery.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT src="" type=text/javascript></SCRIPT>
+
+<SCRIPT>
+		jQuery(document).ready(function(){
+			var jobAgentList=jQuery("#jobAgentList");
+			jQuery.ajax({
+				 type: "GET",
+				 url: "agent_use_list.php",
+				 dataType:"json" ,
+				 success:function(data){
+					var dd="";
+					for(var item in data){
+						var dataItem=data[item];
+						dd+="<dd><p><a href='http://www.baicai.com/resume/view.php?code="+dataItem['resumecode']+"' target='_blank'><strong>"+dataItem['name']+"</strong></a>，"+dataItem['area']+"，"+dataItem['age']+"岁</p><p class='tip'>寻 "+dataItem['position']+" 职位</p></dd>";
+					}
+					jQuery("#loadingText").remove();
+					jobAgentList.append(dd);
+				 }
+			});
+		});
+	</SCRIPT>
+
+<META content="MSHTML 6.00.2900.5659" name=GENERATOR></HEAD>
+<BODY>
+<DIV class=wrap>﻿<LINK media=all 
+href="C:\Documents and Settings\Administrator\桌面\“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files\style(2).css" 
+type=text/css rel=stylesheet>
+<SCRIPT 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/c.htm" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/jquery.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/cookie.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/login_box.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/broker.js" 
+type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+(function(){
+	var referName = 'memory_refer';
+	if(document.cookie.indexOf(referName)>0){
+		return true;	
+	}
+	var setCookie = function(value){
+		var today = new Date();
+		var expiresTime = new Date(today.getFullYear(),today.getMonth(),today.getDate()+1);
+		document.cookie = referName+"="+value+"; expires="+expiresTime.toGMTString()+";domain=.baicai.com;path=/";	
+	}
+	var urlArray = document.location.href.split('?');
+	if(urlArray.length<=1){
+		setCookie(document.referrer);
+		return true;
+	}
+	var param='';
+	if(urlArray.length>1 && typeof(urlArray[1])!='undefined'){
+		param = urlArray[1];
+		if(param == ''){
+			setCookie(document.referrer);
+			return true;	
+		}
+	}
+	var paramArray = param.split('&');
+	for(var i=0;i<paramArray.length;i++){
+		tempstr = paramArray[i]	;
+		pos = tempstr.indexOf('=');
+		if(tempstr.substring(0,pos) == 'refer'){
+			var referValue = tempstr.substring(pos+1);
+			var today = new Date();
+			var expiresTime = new Date(today.getFullYear(),today.getMonth(),today.getDate()+1);
+			document.cookie = referName+"="+referValue+"; expires="+expiresTime.toGMTString()+";domain=.baicai.com;path=/";
+		}
+	}
+
+})();
+</SCRIPT>
+ 
+<DIV class=header><!-- + holiday_h-->
+<DIV class=left style="POSITION: relative">
+<DIV class="index_pop hidden" id=quick_change_city_panel 
+onmouseover=$(this).show(); style="LEFT: 223px; TOP: 12px" 
+onmouseout=$(this).hide();>
+<P class=top></P>
+<DL>
+  <DT>全国 </DT>
+  <DD><A href="http://beijing.baicai.com/">北京</A> <A 
+  href="http://shanghai.baicai.com/">上海</A> <A 
+  href="http://guangzhou.baicai.com/">广州</A> <A 
+  href="http://shenzhen.baicai.com/">深圳</A> <A 
+  href="http://nanjing.baicai.com/">南京</A> <A 
+  href="http://tianjin.baicai.com/">天津</A> <A 
+  href="http://xian.baicai.com/">西安</A> <A 
+  href="http://suzhou.baicai.com/">苏州</A> <A 
+  href="http://hangzhou.baicai.com/">杭州</A> <A 
+  href="http://ningbo.baicai.com/">宁波</A> <A 
+  href="http://chengdu.baicai.com/">成都</A> <A 
+  href="http://chongqing.baicai.com/">重庆</A> <A 
+  href="http://dongguan.baicai.com/">东莞</A> <A 
+  href="http://dalian.baicai.com/">大连</A> <A 
+  href="http://lanzhou.baicai.com/">兰州</A> <A 
+  href="http://wuhan.baicai.com/">武汉</A> <BR class=clear></DD></DL>
+<P style="TEXT-ALIGN: right"><STRONG class=hidden><A 
+onclick="jQuery.cookie('user_area','全国_quanguo',{path:'/',expires:3600000});" 
+href="http://www.baicai.com/">全国</A></STRONG>　<A style="MARGIN: 0px 10px" 
+href="http://www.baicai.com/search/area_change.html">其他地区&gt;&gt;</A></P>
+<P class=bottom></P></DIV>
+<DIV class="logo left"><A href="http://www.baicai.com/" root="true"><IMG 
+alt="百才招聘 首页" 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/logo.gif"></A></DIV><!--logo_site.gif-->
+<DIV class="all_city left " title=快速切换城市 
+onclick="$('#quick_change_city_panel').toggle();">
+<P><A href="javascript://c">全国</A></P>
+<P><SPAN>quanguo</SPAN></P></DIV></DIV>
+<DIV class="head_right right">
+<P><A title=百才诚征英才 href="http://www.baicai.com/view_job/50016186/"><IMG 
+style="MARGIN: 15px 90px 0pt 0pt" alt=百才诚征英才 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/bchire.gif"></A> 
+<IMG alt=全国客户专线：400-678-6390(来电免长途费) 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/tel_num.gif"> 
+</P></DIV><BR class=clear>
+<DIV class=nav>
+<UL class="ul_l left">
+  <LI><A hideFocus href="http://www.baicai.com/" root="true">首页</A> </LI>
+  <LI><A hideFocus href="http://www.baicai.com/search/index.html">找工作</A> </LI>
+  <LI><A hideFocus href="http://www.baicai.com/jobs/">最新职位</A> </LI>
+  <LI><A hideFocus href="http://www.baicai.com/search/area_change.html">地区招聘</A> 
+  </LI>
+  <LI><A hideFocus href="http://www.baicai.com/personal/login.html">个人服务</A> 
+  </LI>
+  <LI class=checked id=li_ad_broker_one hideFocus value=i_sell_oneself><A 
+  href="http://www.baicai.com/job_agent/index.php" target=_blank>求职通</A> <!--无地区限制   --></LI>
+  <LI><A hideFocus href="http://www.baicai.com/company/login.html">企业服务</A> 
+</LI>
+  <LI><A hideFocus href="http://www.baicai.com/topic/baoxian.php">保险娱乐</A> 
+</LI></UL>
+<P class=right style="MARGIN: 5px 10px 0px 0px; COLOR: #c20028"><A 
+style="COLOR: #fff; TEXT-DECORATION: none" 
+href="http://www.baicai.com/search/apply_job.php" 
+target=_blank><SPAN>职位暂存器(<STRONG style="FONT-WEIGHT: normal; COLOR: #fff">
+<SCRIPT type=text/javascript>document.write(jQuery.cookie("JoInd_uApplyJobs") ? jQuery.cookie("JoInd_uApplyJobs").split(",").length : 0);</SCRIPT>
+ </STRONG>)</SPAN></A> | <A style="COLOR: #fff; TEXT-DECORATION: none" 
+onclick="if(document.all){window.external.addFavorite(document.location.href,'百才招聘');}else{alert('对不起！您的浏览器不支持这个功能！');}" 
+href="javascript://void(0);">收藏本站</A> </P><BR class=clear></DIV>
+<DIV class="area_list ">
+<H3 class=left><A 
+href="http://www.baicai.com/search/area_change.html">各地招聘</A></H3>
+<DL>
+  <DT><STRONG>全国：</STRONG> </DT>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://beijing.baicai.com/">北京</A> </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://shanghai.baicai.com/">上海</A> 
+</DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://tianjin.baicai.com/">天津</A> </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://chongqing.baicai.com/">重庆</A> 
+  </DD>
+  <DD style="MARGIN-LEFT: 15px"><A href="http://shenzhen.baicai.com/">深圳</A> 
+  </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://guangzhou.baicai.com/">广州</A> 
+  </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://dongguan.baicai.com/">东莞</A> 
+</DD>
+  <DD style="MARGIN-LEFT: 15px"><A href="http://suzhou.baicai.com/">苏州</A> </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://hangzhou.baicai.com/">杭州</A> 
+</DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://nanjing.baicai.com/">南京</A> </DD>
+  <DD style="MARGIN-LEFT: 15px"><A href="http://wuhan.baicai.com/">武汉</A> </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://chengdu.baicai.com/">成都</A> </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://xian.baicai.com/">西安</A> </DD>
+  <DD style="MARGIN-LEFT: 15px"><A href="http://zhengzhou.baicai.com/">郑州</A> 
+  </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://qingdao.baicai.com/">青岛</A> </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://shijiazhuang.baicai.com/">石家庄</A> 
+  </DD>
+  <DD style="MARGIN-LEFT: 15px"><A href="http://changsha.baicai.com/">长沙</A> 
+  </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://xiamen.baicai.com/">厦门</A> </DD>
+  <DD style="MARGIN-LEFT: 5px"><A href="http://ningbo.baicai.com/">宁波</A> <BR 
+  class=clear></DD></DL><A class=right 
+href="http://www.baicai.com/search/area_change.html">更多&gt;&gt;</A> <BR 
+class=clear></DIV>
+<DIV class="s_search hidden">
+<DIV class=left>
+<FORM action=/search/result.php method=get><IMG style="MARGIN-BOTTOM: 5px" 
+alt=职位搜索 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/find_job_bg.gif"> 
+<INPUT class="keys key_word" name=kw> <INPUT class="keys key_city" id=param_l 
+size=12 value=全国 name=l>
+<SCRIPT type=text/javascript>
+				if (jQuery.cookie("user_area") && jQuery.cookie("user_area")!="全国_quanguo") {
+					if (jQuery.cookie("user_area").split("_")[0] != "") $("#param_l").val(jQuery.cookie("user_area").split("_")[0]);
+				}
+				</SCRIPT>
+ <INPUT class=sub type=submit value=立刻搜索> </FORM></DIV>
+<P class="right personer hidden" id=header_personal_nologin_status><A 
+href="http://www.baicai.com/personal/login.html">个人登录</A> <A 
+href="http://www.baicai.com/personal/register.html">注册</A></P>
+<P class="right company hidden" id=header_company_nologin_status><A 
+href="http://www.baicai.com/company/login.html">企业登录</A> <A 
+href="http://www.baicai.com/company/register.html">注册</A></P>
+<DIV class="right com_logined hidden" id=header_personal_login_status>
+<DIV class="left p_photo"><STRONG class=red 
+id=personal_info_name></STRONG>(<SPAN id=personal_info_mail></SPAN>)</DIV><A 
+href="http://www.baicai.com/process/logout.php">退出</A> &nbsp; <A 
+href="http://www.baicai.com/personal/index/index.php">求职中心</A> 
+<DIV class="pop_p hidden"><A 
+href="http://www.baicai.com/personal/resume/index.php">我的简历</A><A 
+href="http://www.baicai.com/personal/job/job_apply.php">我的申请</A><A 
+href="http://www.baicai.com/personal/job/job_save.php">我的收藏</A><A 
+href="http://www.baicai.com/personal/resume/resume_viewed.php">企业已查看</A><A 
+href="http://www.baicai.com/personal/index/index.php">更多&gt;&gt;</A> 
+</DIV></DIV>
+<DIV class="right com_logined hidden" id=header_company_login_status>
+<DIV class="left c_photo"><STRONG class=red id=companyName></STRONG></DIV><A 
+href="http://www.baicai.com/process/logout.php">退出</A> &nbsp; <A 
+href="http://www.baicai.com/company/index/index.php">招聘管理</A> 
+<DIV class="pop_c hidden"><A 
+href="http://www.baicai.com/company/job/list.php">已发职位</A> &nbsp; <A 
+href="http://www.baicai.com/company/resume/apply_list.php">应聘简历</A> &nbsp; <A 
+href="http://www.baicai.com/company/resume/interview_log.php">已发面试通知</A> &nbsp; 
+<A href="http://www.baicai.com/company/index/index.php">更多&gt;&gt;</A> 
+</DIV></DIV><BR class=clear></DIV></DIV>
+<SCRIPT type=text/javascript>
+	if (loginBox._getLoginType() == 1) {
+		$("#header_personal_login_status").show().hover(function() {
+			$(this).removeClass('com_logined').addClass('com_logined_p').find(".pop_p").show();
+		}, function() {
+			$(this).removeClass('com_logined_p').addClass('com_logined').find(".pop_p").hide();
+		});
+		$("#personal_info_name").html($.cookie('JoInd_uName'));
+		$("#personal_info_mail").html($.cookie('JoInd_uAccount'));
+		
+	} else if (loginBox._getLoginType() == 2) {
+		$("#header_company_login_status").show().hover(function() {
+			$(this).removeClass('com_logined').addClass('com_logined_c').find(".pop_c").show();
+		}, function() {
+			$(this).removeClass('com_logined_c').addClass('com_logined').find(".pop_c").hide();
+		});
+		$("#companyName").html($.cookie('JoInd_cName'));
+	} else {
+		$("#header_personal_nologin_status,#header_company_nologin_status").show();
+	}
+	
+	// 主菜单鼠标经过高亮效果，需要 Flush.php 配合
+	$(document).ready(function(){
+		$(".nav li:not('.checked')").hover(
+			function(){
+				$(this).addClass("checked");
+			},
+			function(){
+				if($(this).attr('value') != ''){
+					$(this).removeClass("checked");
+				}
+			}
+		);				  
+	});
+	
+	
+	//if ($.cookie("user_area") && $.cookie("user_area")!="全国_quanguo" && $.cookie("user_area")!="{now_area_and_pinyin}") {
+//		if ($.cookie("user_area").split("_")[1] != "") $("a[@root=true]").attr("href","/"+$.cookie("user_area").split("_")[1]+"/");
+//		
+//	}	
+	
+	//求职经纪人
+	var area = '', imagesPath = 'http://htm.baicai.com/base/job_agent/images/';
+	var ad_broker_one = '{now_area_and_pinyin}';
+	
+	$(document).ready(function(){
+		showAgent();
+	});
+
+</SCRIPT>
+
+<DIV class=agent style="MARGIN-BOTTOM: 20px">
+<DIV class=agent_top>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG alt=简历推荐“先”服务，助您求职“快”一步！先声夺人，求职通V3！ 
+      src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/agent_top_banner.gif"></TD></TR>
+  <TR>
+    <TD vAlign=top 
+    background="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/agent_top_banner_two.gif" 
+    height=79>
+      <P><A href="http://www.baicai.com/job_agent/apply.php"><IMG 
+      alt=一天一块钱，机会多一点，30元每月，申请立即获得 
+      src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/sub_buttom.gif"></A></P>
+      <P><A 
+      href="tencent://message/?uin=351263794&amp;Site=www.baicai.com&amp;Menu=yes"><IMG 
+      title=如需要帮助，请留言 style="MARGIN: auto 15px" 
+      src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/qqline.gif" 
+      align=absMiddle border=0></A> 全国客户专线：<STRONG 
+      style="FONT-FAMILY: '黑体'">400-678-6390</STRONG> &nbsp; 申请专线：<STRONG 
+      style="COLOR: red; FONT-FAMILY: '黑体'">1688-5050</STRONG>(支持电信与铁通) 
+  </P></TD></TR></TBODY></TABLE></DIV>
+<DIV class=agent_con>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+  <TBODY>
+  <TR>
+    <TD><IMG height=455 
+      src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/agent_con_l.gif" 
+      width=20></TD>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD style="VERTICAL-ALIGN: top" height=4><IMG 
+            style="VERTICAL-ALIGN: top; HEIGHT: 4px" 
+            src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/agent_con_blue.gif"></TD></TR>
+        <TR>
+          <TD>
+            <UL class=left_ul>
+              <LI>
+              <H2>简历搜索优先推荐</H2>
+              <P class=tip>百才招聘(baicai.com) 
+              每天都有上千的企业HR寻找企业适合的优秀人选，当您的简历在搜索结果中时，您将被加亮优先推荐，第一时间吸引了HR注意！</P>
+              <LI class=result_fir>
+              <H2>应聘结果优先推荐</H2>
+              <P 
+              class=tip>企业HR在收到应聘简历时是按应聘时间排列的，<BR>现在求职通服务把您的简历优先推荐和加亮，这样，<BR>您就能获得更多机会了。</P>
+              <LI class=person_fir>
+              <H2>网站首页优秀人才推荐</H2>
+              <P class=tip>百才招聘(baicai.com) 
+              网站首页每天都有无数的企业HR在关注，其中“优秀人才推荐”最受青睐，现在您将优先出现在这里，并且按意向同时被展示200个地区频道和您意向的多个行业网站中。</P>
+              <LI class=fresh_fir>
+              <H2>智能刷新简历</H2>
+              <P 
+              class=tip>企业在百才招聘(baicai.com)搜索到的简历是按更新时间排列的，<BR>现在“求职通”为您智能刷新简历，现在您总是抢先一步，<BR>占尽先机。</P></LI></UL></TD></TR>
+        <TR>
+          <TD style="PADDING-LEFT: 18px"><A class=fs14 
+            href="http://www.baicai.com/job_agent/apply.php"><STRONG>一天一块钱，机会多一点。30元/月，申请立即获得 
+            &gt;&gt;</STRONG></A></TD></TR></TBODY></TABLE></TD>
+    <TD><IMG height=455 
+      src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/agent_con_m.gif" 
+      width=16></TD>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR height=4>
+          <TD style="OVERFLOW: hidden; HEIGHT: 4px"><IMG 
+            style="VERTICAL-ALIGN: top" height=4 
+            src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/agent_con_green.gif" 
+            width=255></TD></TR>
+        <TR>
+          <TD 
+          style="PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px">
+            <DL id=jobAgentList>
+              <DT>他们正在使用服务： 
+              <DD id=loadingText>
+              <P>加载数据中...</P></DD></DL>
+            <P style="TEXT-ALIGN: center"><IMG 
+            src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/phone_num.gif"></P></TD></TR></TBODY></TABLE></TD>
+    <TD><IMG style="VERTICAL-ALIGN: top" height=456 
+      src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/agent_con_r.gif" 
+      width=21></TD></TR></TBODY></TABLE></DIV></DIV>﻿ 
+<DIV class=foot style="CLEAR: both">
+<DIV class=right style="MARGIN-TOP: 20px">
+<P><A href="http://210.76.65.188/index.jsp" target=_blank><IMG alt="" 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/wj_chacha-.gif"></A> 
+&nbsp; <A 
+href="http://210.76.65.188/webrecord/innernet/Welcome.jsp?bano=4406043011525" 
+target=_blank><IMG 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/waicon.gif"></A> 
+&nbsp; <A href="http://210.76.65.188/" target=_blank><IMG alt="" 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/gt.gif"></A> 
+&nbsp; <A href="http://210.76.65.188/index.jsp" target=_blank><IMG alt="" 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/wj_jinjin-.gif"></A> 
+</P></DIV>
+<DIV>
+<P><A href="http://www.baicai.com/about/intro.html">关于我们</A><SPAN>|</SPAN><A 
+href="http://www.baicai.com/about/news/">百才动态</A><SPAN>|</SPAN><A 
+href="http://www.baicai.com/about/statement.html">网站声明</A><SPAN>|</SPAN><A 
+href="http://www.baicai.com/about/feedback.html">用户反馈</A><SPAN>|</SPAN><A 
+href="http://www.baicai.com/about/market.html">网站合作</A><SPAN>|</SPAN><A 
+href="http://www.baicai.com/about/contact.html">联系我们</A><SPAN>|</SPAN><A 
+href="http://www.baicai.com/about/links.html">友情链接</A><SPAN>|</SPAN><A 
+href="http://www.baicai.com/about/join.html">加入我们</A><SPAN>|</SPAN><A 
+href="http://www.baicai.com/about/media/">媒体报道</A><SPAN>|</SPAN><A 
+href="http://blog.baicai.com/" target=_blank>官方博客</A></P>
+<P>版权所有©2004-2009 <STRONG>百才招聘</STRONG> <STRONG>我们提供最全面的招聘信息。</STRONG></P>
+<P>咨询/反馈/投诉：<A 
+href="tencent://message/?uin=351263794&amp;Site=www.baicai.com&amp;Menu=yes"><IMG 
+title=如需要帮助，请留言 style="MARGIN-RIGHT: 8px" 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/qqline.gif" 
+align=absMiddle border=0></A> 求职交流QQ群：56039268<SPAN 
+class=green>(已满)</SPAN>&nbsp;&nbsp;HR交流QQ群：81289563<SPAN 
+class=green>(限广州)</SPAN> <!--
+                    市场/合作/链接：<a href="tencent://message/?uin=409158296&amp;Site=www.baicai.com&amp;Menu=yes"><img border="0" align="absmiddle" src="http://htm.baicai.com/modules/template_1/images/qqline.gif" style=" margin-right:8px" title="如需要帮助，请留言"/></a> 
+                    --></P>
+<P>最新招聘：<A href="http://www.baicai.com/jobs/lastest-companys.html">公司</A><A 
+href="http://www.baicai.com/jobs/lastest-jobs.html">职位</A>&nbsp;&nbsp;&nbsp;<STRONG 
+class=col_red>全国客户专线：400-678-6390</STRONG> <SPAN class=green 
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px">(来电免长途 
+9:00 - 17:00)</SPAN></P></DIV></DIV>
+<DIV class=sta>
+<SCRIPT language=JavaScript 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/stat.htm" 
+charset=gb2312></SCRIPT>
+
+<SCRIPT 
+src="“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files/baicaiStats.js" 
+type=text/javascript charset=UTF-8></SCRIPT>
+</DIV></DIV>
+<DIV class=sta>
+<SCRIPT language=JavaScript 
+src="C:\Documents and Settings\Administrator\桌面\“求职通V3”为您快速找到好工作 - 百才招聘(免费招聘网站，免费发职位，无限收简历！开放、立体、有效的第三代人才招聘网站！) baicai_com.files\stat(1).htm" 
+charset=gb2312></SCRIPT>
+</DIV></BODY></HTML>

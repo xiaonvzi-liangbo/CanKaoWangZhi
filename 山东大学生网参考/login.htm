@@ -1,0 +1,218 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0039)http://60.28.217.11/WebModule/login.jsp -->
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<SCRIPT language=javascript>
+<!--
+
+		function check(){
+          if(document.all.userName.value==""){
+            alert("用户名不能为空");
+            return false;
+          }
+          if(document.all.pwd.value==""){
+            alert("密码不能为空");
+            return false;
+          }
+/*          if(document.all.companyId.value==""){
+            alert("公司ID不能为空");
+            return false;
+          }*/
+          return true;
+	}
+	function login(){
+		var lf = document.all.loginForm;
+		if(check())
+		{
+			savePassword();
+
+			var pw = topUpWindow();
+			if(pw!=null)
+			{				
+				lf.target="DoyooMainWindow";
+				lf.submit();
+			}
+			else
+			{
+				lf.isPop.value = "0";
+				lf.submit();
+			}
+		}
+	}
+	function reset(){
+		var lf = document.all.loginForm;
+		lf.reset();
+	}
+	function isEnter(e){
+		keyCode = e.keyCode;
+		
+		if(keyCode==13){
+			login();
+		}
+	}
+function setCookie(name,value,exp)
+{
+    //var Days = 30;
+    //var exp  = new Date();    //new Date("December 31, 9998");
+    //exp.setTime(exp.getTime() + Days*24*60*60*1000);
+    if(exp!=null)
+    	document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+    else
+    	document.cookie = name + "="+ escape (value);
+}
+function getCookie(name)
+{
+    var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+        if(arr=document.cookie.match(reg)) return unescape(arr[2]);
+        else return null;
+}
+function delCookie(name)
+{
+    var exp = new Date();
+        exp.setTime(exp.getTime() - 1);
+    var cval=getCookie(name);
+        if(cval!=null) document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+}
+
+function savePassword()
+{
+	var isSave = document.getElementById('savePwded').checked;
+
+	if(isSave)
+	{
+//	    var companyId = loginForm.companyId.value;
+		var userName = loginForm.userName.value;
+		var pwd = loginForm.pwd.value;
+		var l = 180*24*60*60*1000;
+		var exp = new Date();
+		exp.setTime(exp.getTime() + l);
+//		setCookie('doyoo_companyId',companyId,exp);
+	    setCookie('doyoo_userName',userName,exp);
+		setCookie('doyoo_pwd',pwd,exp);	
+	}
+	else
+	{
+//		delCookie('doyoo_companyId');
+	    delCookie('doyoo_userName');
+		delCookie('doyoo_pwd');	
+	}
+}
+function initUserInfo()
+{
+
+	var userName=getCookie('doyoo_userName');
+	
+	if(userName != null && userName != '' && userName != 'null')
+	{
+		document.getElementById('userName').value = getCookie('doyoo_userName');
+		document.getElementById('pwd').value = getCookie('doyoo_pwd');
+		document.getElementById('savePwded').checked=true;
+	}
+	
+}
+
+function Addme(){ 
+	url = "http://manager.doyoo.net/WebModule/login.jsp"; //你自己的主页地址 
+	title = "多友 Web-CallCenter"; //你自己的主页名称 
+	window.external.AddFavorite(url,title); 
+}
+	
+function topUpWindow(){
+	var width=window.screen.width-20;
+	var height=window.screen.height-120;
+	
+	var popwin = window.open('','DoyooMainWindow','scrollbars=yes,resizable=yes,top=20,left=5,width='+width+',height='+height+'');
+	return popwin;
+}
+-->
+</SCRIPT>
+
+<STYLE type=text/css>BODY {
+	BACKGROUND: #ffffff; WIDTH: 100%; PADDING-TOP: 10%; TEXT-ALIGN: center
+}
+#backDiv {
+	BACKGROUND: url(imgs/ditu2.gif) no-repeat; WIDTH: 450px; POSITION: relative; HEIGHT: 300px
+}
+#inDiv {
+	FONT-SIZE: 12px; LEFT: 208px; POSITION: absolute; TOP: 91px; align: left
+}
+#actDiv {
+	LEFT: 253px; POSITION: absolute; TOP: 165px
+}
+#errorDiv {
+	FONT-SIZE: 12px; LEFT: 109px; WIDTH: 331px; COLOR: red; POSITION: absolute; TOP: 221px; HEIGHT: 20px; TEXT-ALIGN: left
+}
+.input {
+	FONT-SIZE: 12px; WIDTH: 130px; HEIGHT: 20px
+}
+#pwdDiv {
+	BACKGROUND-POSITION: right 50%; FONT-SIZE: 12px; LEFT: 68px; WIDTH: 379px; COLOR: #0000ff; FONT-FAMILY: Arial, Helvetica, sans-serif; POSITION: absolute; TOP: 257px; TEXT-DECORATION: none
+}
+#empty {
+	FONT-SIZE: 15px; COLOR: red
+}
+.STYLE1 {
+	
+}
+#backDiv #pwdDiv #checkbox {
+	
+}
+#Layer1 {
+	Z-INDEX: 1; LEFT: 57px; WIDTH: 170px; POSITION: absolute; TOP: -277px; HEIGHT: 20px
+}
+.STYLE2 {
+	FONT-SIZE: 12px
+}
+.STYLE3 {
+	COLOR: #cccccc; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 10pt; COLOR: red; TEXT-DECORATION: none
+}
+A:hover SPAN {
+	COLOR: red
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.3157" name=GENERATOR></HEAD>
+<BODY onload=initUserInfo()>
+<DIV id=backDiv>
+<DIV id=inDiv>
+<TABLE class=STYLE2 height=20 cellSpacing=0 cellPadding=0 width=200>
+  <FORM id=loginForm name=loginForm action=../login.do method=post><INPUT 
+  type=hidden value=login name=command> <INPUT type=hidden value=1 name=isPop> 
+  <TBODY>
+  <TR>
+    <TD>用户名</TD>
+    <TD><INPUT class=input id=userName name=userName></TD></TR>
+  <TR>
+    <TD>&nbsp;</TD></TR>
+  <TR>
+    <TD>密&nbsp;&nbsp;&nbsp;&nbsp;码</TD>
+    <TD><INPUT class=input id=pwd onkeydown=isEnter(event) type=password 
+      name=pwd ;></TD></TR></FORM></TBODY></TABLE></DIV>
+<DIV id=actDiv>
+<TABLE height=30 cellSpacing=0 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD><A href="javascript:login()"><IMG src="imgs/anniu1.gif" 
+      border=0></A></TD>
+    <TD>&nbsp;</TD>
+    <TD><A href="javascript:reset()"><IMG src="imgs/anniu2.gif" 
+      border=0></A></TD></TR></TBODY></TABLE></DIV>
+<DIV id=pwdDiv>
+<TABLE class=STYLE2 height=30 cellSpacing=0 cellPadding=0 width=368>
+  <TBODY>
+  <TR>
+    <TD width=90><FONT color=#ff9999><A class=STYLE3 title=设为首页 
+      onfocus=this.blur() 
+      onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://manager.doyoo.net/WebModule/login.jsp');" 
+      href="javascript:window.scroll(0,0)" target=_self>设为首页</A></FONT></TD>
+    <TD width=105><FONT color=#ff9999><A class=STYLE3 onfocus=this.blur() 
+      href="javascript:Addme()">保存到收藏夹</A></FONT></TD>
+    <TD><INPUT id=savePwded onfocus=this.blur() type=checkbox value=1 
+      name=savePwded></TD>
+    <TD class=STYLE3 vAlign=center width=111><A class=STYLE3 
+      href="http://60.28.217.11/WebModule/login.jsp#">保存登陆信息</A></TD>
+    <TD width=53><FONT color=#ff9999><A class=STYLE3 onfocus=this.blur() 
+      href="http://60.28.217.11/WebModule/forgetPwd.jsp">忘记密码</A></FONT></TD></TR></TBODY></TABLE></DIV></DIV></BODY></HTML>

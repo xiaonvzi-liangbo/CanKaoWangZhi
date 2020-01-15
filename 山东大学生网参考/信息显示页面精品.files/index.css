@@ -1,0 +1,174 @@
+BODY {
+	BACKGROUND: url(bodybg.gif)
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+#header {
+	BACKGROUND: url(topnavbg.jpg) repeat-x; MARGIN-BOTTOM: 6px; WIDTH: 100%; LINE-HEIGHT: 46px; HEIGHT: 46px; TEXT-ALIGN: left
+}
+#header .headMain {
+	FONT-SIZE: 14px; MARGIN: 0px auto; WIDTH: 960px; COLOR: #333; LINE-HEIGHT: 46px
+}
+#header .headMain IMG {
+	DISPLAY: inline; FLOAT: left; MARGIN: 6px 9px 0px 12px
+}
+#header .headMain A {
+	COLOR: #333
+}
+#nav {
+	BACKGROUND: #fff; MARGIN: 6px auto; WIDTH: 960px
+}
+#nav .navMain {
+	CLEAR: both; BACKGROUND: url(navbg.jpg) repeat-x left top; LINE-HEIGHT: 30px; HEIGHT: 30px
+}
+#nav .navL {
+	BACKGROUND: url(navl.jpg) no-repeat left top; FLOAT: left; WIDTH: 12px; HEIGHT: 30px
+}
+#nav UL {
+	PADDING-LEFT: 50px; FLOAT: left
+}
+#nav .navR {
+	BACKGROUND: url(navr.jpg) no-repeat right top; FLOAT: right; WIDTH: 12px; HEIGHT: 30px
+}
+#nav UL LI {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(navlibg.gif) no-repeat left center; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#nav UL LI A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff
+}
+#nav UL .active A {
+	COLOR: #fcf803
+}
+#nav UL LI A:hover {
+	COLOR: #fcf803
+}
+#content {
+	BACKGROUND: #fff; MARGIN: 0px auto; WIDTH: 960px
+}
+#content .mainTop {
+	FONT-SIZE: 1px; BACKGROUND: url(contenttop.gif) no-repeat left top; LINE-HEIGHT: 1px; HEIGHT: 12px
+}
+#content .mainBottom {
+	FONT-SIZE: 1px; BACKGROUND: url(contentbottom.gif) no-repeat left top; LINE-HEIGHT: 1px; HEIGHT: 12px
+}
+#content .mainContent {
+	BACKGROUND: url(contentbg.gif) repeat-y; MARGIN: 0px auto; WIDTH: 940px
+}
+#content .mainContent .col1 {
+	FLOAT: left; WIDTH: 668px
+}
+#content .mainContent .col2 {
+	FLOAT: right; WIDTH: 246px
+}
+.focusImg {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 272px; BORDER-BOTTOM: #ccc 1px solid
+}
+.focusImg IMG {
+	DISPLAY: block; MARGIN: 6px auto
+}
+.focusImg UL {
+	CLEAR: both; DISPLAY: inline; FLOAT: right; MARGIN: 3px 0px 9px
+}
+.focusImg UL LI {
+	BORDER-RIGHT: #7f7f7f 1px solid; BORDER-TOP: #7f7f7f 1px solid; FLOAT: left; BORDER-LEFT: #7f7f7f 1px solid; MARGIN-RIGHT: 6px; BORDER-BOTTOM: #7f7f7f 1px solid; TEXT-ALIGN: center
+}
+.focusImg UL LI A {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 14px; WIDTH: 16px; COLOR: #000; LINE-HEIGHT: 16px; HEIGHT: 16px
+}
+.focusImg UL .active A {
+	DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 14px; WIDTH: 16px; COLOR: #b20000; LINE-HEIGHT: 16px; HEIGHT: 16px
+}
+.Ltitle {
+	BACKGROUND: url(linepic.gif) repeat-x left bottom; HEIGHT: 27px
+}
+.Ltitle H3 {
+	DISPLAY: block; BACKGROUND: url(titletagli0.gif) no-repeat; FLOAT: left; WIDTH: 104px; LINE-HEIGHT: 27px; MARGIN-RIGHT: 9px; HEIGHT: 27px; TEXT-ALIGN: center
+}
+.Ltitle H3 A {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #7f1f40
+}
+.Ltitle .more {
+	PADDING-LEFT: 4px; BACKGROUND: url(morebg.gif) no-repeat left top; FLOAT: right; MARGIN: -3px 0px 0px; WIDTH: 75px; LINE-HEIGHT: 28px; HEIGHT: 28px; TEXT-ALIGN: center
+}
+.Ltitle H3.active {
+	DISPLAY: block; BACKGROUND: url(titletagli1.gif) no-repeat; FLOAT: left; WIDTH: 104px; LINE-HEIGHT: 27px; MARGIN-RIGHT: 9px; HEIGHT: 27px
+}
+.Ltitle .more A {
+	FONT-SIZE: 14px; COLOR: #fff
+}
+.rTitle {
+	PADDING-LEFT: 12px; BACKGROUND: url(righttitle1.jpg) repeat-x left top; LINE-HEIGHT: 23px; HEIGHT: 23px; TEXT-ALIGN: left
+}
+.rTitle H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff
+}
+.rContent {
+	MARGIN: 0px 12px
+}
+.rContent H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: #e1f0fa; MARGIN: 9px; COLOR: #1e6da0; LINE-HEIGHT: 25px; BORDER-BOTTOM: #52baff 1px solid; HEIGHT: 25px
+}
+.rightLinkList {
+	MARGIN: 14px 12px
+}
+.rightLinkList LI {
+	CLEAR: both; FONT-SIZE: 14px; LINE-HEIGHT: 24px; TEXT-ALIGN: left
+}
+.listContent {
+	MARGIN: 12px 30px; TEXT-ALIGN: left
+}
+.pageList {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: right; LINE-HEIGHT: 25px
+}
+.pageList A {
+	COLOR: #666
+}
+.textList LI {
+	CLEAR: both; BACKGROUND: url(dotline1.gif) repeat-x 0px 9px; LINE-HEIGHT: 22px
+}
+.textList LI H3 {
+	PADDING-LEFT: 15px; FONT-SIZE: 14px; BACKGROUND: url(libg1.gif) no-repeat 3px 7px
+}
+.dotline {
+	CLEAR: both; BACKGROUND: url(dotline1.gif) repeat-x 0px 15px; HEIGHT: 30px
+}
+.textList LI H4 {
+	FONT-SIZE: 14px
+}
+.textList LI .td1 {
+	BACKGROUND: #fff; FLOAT: left
+}
+.textList LI .td2 {
+	BACKGROUND: #fff; FLOAT: right
+}
+.picList2 LI {
+	PADDING-RIGHT: 28px; FLOAT: left
+}
+.picList2 P {
+	MARGIN: 6px 0px; LINE-HEIGHT: 22px; TEXT-ALIGN: left
+}
+.loginBox {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BACKGROUND: #f2f6fb; MARGIN: 0px auto; BORDER-LEFT: #ccc 1px solid; WIDTH: 542px; BORDER-BOTTOM: #ccc 1px solid
+}
+.loginBox .mainCon {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: 0px auto; WIDTH: 476px; PADDING-TOP: 20px
+}
+.loginBox H3 {
+	FONT-WEIGHT: 100; FONT-SIZE: 20px; COLOR: #b20000; LINE-HEIGHT: 30px; FONT-FAMILY: ºÚÌå; TEXT-ALIGN: center
+}
+.lineHr {
+	DISPLAY: block; BACKGROUND: url(hrline.gif) repeat-x left center; HEIGHT: 30px
+}
+.loginBox CITE {
+	CLEAR: both; DISPLAY: block; MARGIN: 9px 0px 9px 80px; COLOR: #666; LINE-HEIGHT: 30px; FONT-STYLE: normal
+}
+.loginBox .tdLine {
+	CLEAR: both; MARGIN: 0px 0px 0px 80px; LINE-HEIGHT: 30px; HEIGHT: 30px; TEXT-ALIGN: left
+}
+.loginBox .btn1 {
+	BACKGROUND: url(loginbutton.gif) no-repeat; WIDTH: 138px; CURSOR: pointer; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 28px; BORDER-BOTTOM-STYLE: none
+}
+.loginBox .btn2 {
+	BACKGROUND: url(reg.gif) no-repeat; WIDTH: 58px; CURSOR: pointer; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 28px; BORDER-BOTTOM-STYLE: none
+}

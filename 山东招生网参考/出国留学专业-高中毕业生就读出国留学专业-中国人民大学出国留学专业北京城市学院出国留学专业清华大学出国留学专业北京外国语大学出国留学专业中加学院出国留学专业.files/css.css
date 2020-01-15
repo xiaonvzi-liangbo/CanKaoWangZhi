@@ -1,0 +1,51 @@
+.ziyi {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: "宋体"
+}
+.zier {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: "宋体"
+}
+.zisan {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: "宋体"
+}
+.zisi {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 170%; FONT-FAMILY: "宋体"
+}
+BODY {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+.zisi {
+	FONT-SIZE: 12px; COLOR: #333333; LINE-HEIGHT: 170%; FONT-FAMILY: "宋体"
+}
+.xuxian {
+	BORDER-BOTTOM: #cccccc 1px dotted
+}
+.STYLE1 {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: "宋体"
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:active {
+	TEXT-DECORATION: none
+}
+.STYLE3 {
+	COLOR: #ff0000
+}
+BODY {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+TH {
+	FONT-SIZE: 12px
+}
+.STYLE4 {
+	FONT-WEIGHT: bold; COLOR: #ffffff; BACKGROUND-COLOR: #990000
+}

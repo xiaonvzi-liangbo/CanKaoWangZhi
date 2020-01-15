@@ -1,0 +1,105 @@
+#glbtop {
+	MARGIN: 0px auto; FONT: 12px Verdana; WIDTH: 910px; POSITION: relative
+}
+#glbt1 {
+	BACKGROUND: url(/images/cer.net/page/topbg.jpg) #f3f3f3 repeat-x; LINE-HEIGHT: 26px; HEIGHT: 26px
+}
+#glbt1 A:link {
+	COLOR: #8c8e8b
+}
+#glbt1 A:visited {
+	COLOR: #8c8e8b
+}
+#glbt1 A:hover {
+	COLOR: #c30
+}
+#glbt1 A:active {
+	COLOR: #c30
+}
+A.a_e {
+	PADDING-LEFT: 10px; FLOAT: left; MARGIN-LEFT: 15px
+}
+A.a_e:link {
+	BACKGROUND: url(/images/cer.net/page/dot_g.jpg) no-repeat left 9px
+}
+A.a_e:visited {
+	BACKGROUND: url(/images/cer.net/page/dot_g.jpg) no-repeat left 9px
+}
+A.a_e:hover {
+	BACKGROUND: url(/images/cer.net/page/dot_r.jpg) no-repeat left 9px
+}
+A.a_e:active {
+	BACKGROUND: url(/images/cer.net/page/dot_r.jpg) no-repeat left 9px
+}
+#a_sep {
+	PADDING-LEFT: 15px; FLOAT: right; MARGIN-RIGHT: 15px
+}
+#a_home {
+	PADDING-LEFT: 15px; FLOAT: right; MARGIN-RIGHT: 15px
+}
+#a_fav {
+	PADDING-LEFT: 15px; FLOAT: right; MARGIN-RIGHT: 15px
+}
+#a_sep {
+	BACKGROUND: url(/images/cer.net/page/sep.jpg) no-repeat left 7px
+}
+#a_home {
+	BACKGROUND: url(/images/cer.net/page/home.jpg) no-repeat left 7px
+}
+#a_fav {
+	BACKGROUND: url(/images/cer.net/page/fav.jpg) no-repeat left 7px
+}
+#glbt2 {
+	CLEAR: both; BORDER-RIGHT: #d7d7d7 1px solid; BORDER-TOP: #d7d7d7 1px solid; PADDING-LEFT: 8px; BORDER-LEFT: #d7d7d7 1px solid; LINE-HEIGHT: 30px; BORDER-BOTTOM: #d7d7d7 1px solid; TEXT-ALIGN: left
+}
+#glbt2 A:link {
+	COLOR: #343434
+}
+#glbt2 A:visited {
+	COLOR: #343434
+}
+#glbt2 A:hover {
+	COLOR: #c30
+}
+#glbt2 A:active {
+	COLOR: #c30
+}
+#glbdh {
+	FLOAT: left
+}
+#glbloc {
+	FLOAT: right; MARGIN: 3px 2px 0px 0px
+}
+#glbbot {
+	CLEAR: both; BORDER-TOP: #888 1px solid; MARGIN: 5px auto; WIDTH: 910px; LINE-HEIGHT: 150%; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+#glbbot A:link {
+	COLOR: #333
+}
+#glbbot A:visited {
+	COLOR: #333
+}
+#glbbot A:hover {
+	COLOR: #c30
+}
+#glbbot A:active {
+	COLOR: #c30
+}
+#selloc {
+	BORDER-RIGHT: #d6d7d6 1px solid; BORDER-TOP: #d6d7d6 1px solid; FONT-SIZE: 12px; Z-INDEX: 100; RIGHT: 0px; BACKGROUND: url(/images/cer.net/page/close.gif) #f8f8f8 no-repeat right 62px; BORDER-LEFT: #d6d7d6 1px solid; WIDTH: 380px; CURSOR: pointer; BORDER-BOTTOM: #d6d7d6 1px solid; POSITION: absolute; TOP: 60px; HEIGHT: 76px
+}
+#selloc LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #fff; FLOAT: left; PADDING-BOTTOM: 1px; MARGIN: 1px; WIDTH: 40px; PADDING-TOP: 1px
+}
+#selloc A:link {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#selloc A:visited {
+	COLOR: #333; TEXT-DECORATION: none
+}
+#selloc A:hover {
+	COLOR: #c30; TEXT-DECORATION: underline
+}
+#selloc A:active {
+	COLOR: #c30; TEXT-DECORATION: underline
+}

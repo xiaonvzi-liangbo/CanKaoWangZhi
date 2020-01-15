@@ -1,0 +1,75 @@
+BODY {
+	COLOR: #2e4162
+}
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+UL {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+P {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+FORM {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+FIELDSET {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+TABLE {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体",Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #333333
+}
+A {
+	COLOR: #104d6c; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600; TEXT-DECORATION: underline
+}
+.bottom0 {
+	PADDING-RIGHT: 16px; FONT-SIZE: 9px; COLOR: #f78e31; FONT-FAMILY: "Arial"
+}
+.logocode {
+	COLOR: #999999
+}
+.logotextarea {
+	COLOR: #999999
+}
+.txt {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; WORD-SPACING: normal; COLOR: #333333; LINE-HEIGHT: 22px; FONT-STYLE: normal; FONT-FAMILY: "Verdana", "Arial", "Tahoma"; LETTER-SPACING: normal
+}
+.xhu {
+	PADDING-RIGHT: 20px
+}
+.zhu {
+	COLOR: #c8c8c8
+}
+A.zhu:hover {
+	COLOR: #12a6e9; TEXT-DECORATION: none
+}
+.ws {
+	COLOR: #126e00
+}
+A.chl:hover {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.etest01 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #f78e31; FONT-FAMILY: Tahoma
+}
+.bai01 {
+	FONT-SIZE: 12px; COLOR: #f78e31; FONT-FAMILY: "Arial", "??"
+}
+.lanse01 {
+	FONT-SIZE: 12px; COLOR: #12a6e9; LINE-HEIGHT: 20px; FONT-FAMILY: "Arial", "??"
+}
+.lanse02 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #12a6e9; LINE-HEIGHT: 20px; FONT-FAMILY: "Arial", "??"
+}
+.xx {
+	PADDING-LEFT: 96px
+}

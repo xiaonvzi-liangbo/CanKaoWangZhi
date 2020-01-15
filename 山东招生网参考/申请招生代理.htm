@@ -1,0 +1,872 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0035)http://www.edu100e.com/bystu/zc.jsp -->
+<HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>百亿中国 中国教育培训门户 招生通 注册</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
+href="申请招生代理.files/zc.css" type=text/css rel=stylesheet>
+<STYLE type=text/css>BODY {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 0px
+}
+.STYLE1 {
+	FONT-SIZE: 12px; COLOR: #ff0000
+}
+A.y:link {
+	CURSOR: pointer; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.y:visited {
+	CURSOR: pointer; COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.y:hover {
+	CURSOR: pointer; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.y:active {
+	CURSOR: pointer; COLOR: #ff0000; TEXT-DECORATION: none
+}
+</STYLE>
+
+<SCRIPT type="">
+
+
+
+
+    <!--二级联动菜单-->
+    var req;
+    window.onload=function(){
+    }
+    function Change_Select(){
+      var zhi = document.getElementById('classes').value;
+      var url="/bystu/chenageclasses.jsp?id="+escape(zhi);
+      if(window.XMLHttpRequest){
+        req = new XMLHttpRequest();
+      }else if(window.ActiveXObject){
+        req = new ActiveXObject("Microsoft.XMLHTTP");
+      }
+      if(req){
+        req.open("GET",url,true);
+        req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=GB2312");
+        req.onreadystatechange = callback;
+        req.send(null);
+      }
+    }
+    function parseMessage(){
+      var xmlDoc = req.responseXML.documentElement;
+      var xSel = xmlDoc.getElementsByTagName("select");
+      var select_root = document.getElementById("grounp");
+      select_root.options.length=0;
+
+      for(var i=0;i<xSel.length;i++){
+        var xValue = xSel[i].childNodes[0].firstChild.nodeValue;
+        var xText = xSel[i].childNodes[1].firstChild.nodeValue;
+        var option = new Option(xText,xValue);
+        try{
+          select_root.add(option);
+        }catch(e){
+        }
+      }
+    }
+    function callback(){
+      if(req.readyState == 4){
+        if(req.status == 200){
+          parseMessage();
+        }else{
+          alert("Not able to retrieve description"+req.statusText);
+        }
+      }
+    }
+
+    <!--二级联动菜单-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    if(window.ActiveXObject && !window.XMLHttpRequest) {
+      window.XMLHttpRequest = function(){
+        return new ActiveXObject((navigator.userAgent.toLowerCase().indexOf("msie 5") != -1) ? "Microsoft.XMLHTTP" : "Msxml2.XMLHTTP");
+      };
+    }
+    function isNumber(String){
+      var Letters = "1234567890-"; //可以自己增加可输入值
+      var i;
+      var c;
+      if(String.charAt( 0 )=='-'){
+        return false;
+      }
+      if( String.charAt( String.length - 1 ) == '-' ){
+        return false;
+      }
+      for( i = 0; i < String.length; i ++ ){
+        c = String.charAt( i );
+        if (Letters.indexOf( c ) < 0){
+          return false;
+        }
+      }
+      return true;
+    }
+    function testName(path){
+      var name = document.getElementById("name").value;
+      var view_name = document.getElementById("view_name");
+      var req = new XMLHttpRequest();
+      if(document.form1.name.value == ""){
+        alert("请你输入用户名！");
+        document.form1.name.focus();
+        return false;
+      }
+      else{
+        if(document.form1.name.value.length < 4 || document.form1.name.value.length > 16){
+          alert("你输入用户名长度不符合要求，请你重新输入！");
+          document.form1.name.focus();
+          return false;
+        }
+        else{
+          var reg=/[^A-Za-z0-9_]/g;
+          var str = document.form1.name.value;
+          if(reg.test(str)){
+            alert("会员登录名只能包括A-Z，a-z，0-9,下划线！");
+            document.form1.name.focus();
+            return false;
+          }
+          else{
+            if(req){
+              req.onreadystatechange = function(){
+                if(req.readyState==4 && req.status==200){//判断状态，4是已发送，200已完成
+                  if(req.responseText == 0){
+                    view_name.style.color="green";
+                    view_name.innerHTML="该用户名可以正常使用";
+                  }
+                  if(req.responseText == 1){
+                    view_name.style.color="red";
+                    view_name.innerHTML="该用户名已经被使用";
+                  }
+                }
+              }
+              //req.open('POST', path+'/ajax.do');//struts
+              req.open("POST", path+"/bystu/testName.jsp");//servlet
+              //req.open('POST', path+'/ajax.action');//webwork
+              req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+              req.send("name="+name);//发送参数如果有参数req.send("username="+user_name);用request取得
+            }
+          }
+        }
+      }
+    }
+
+
+    function check(){
+      if(document.form1.name.value == ""){
+        alert("请您输入用户名！");
+        document.form1.name.focus();
+        return false;
+      }
+      if(document.form1.name.value.length < 4 || document.form1.name.value.length > 16){
+          alert("您输入用户名长度不符合要求，请您重新输入！");
+          document.form1.name.focus();
+          return false;
+      }
+      var reg=/[^A-Za-z0-9_]/g;
+      var str = document.form1.name.value;
+      if(reg.test(str)){
+        alert("会员登录名只能包括A-Z，a-z，0-9,下划线！");
+        document.form1.name.focus();
+        return false;
+      }
+      if(document.form1.pwd1.value == ""){
+        alert("请您输入密码！");
+        document.form1.pwd1.focus();
+        return false;
+      }
+      if(document.form1.pwd2.value == ""){
+        alert("请您再次输入密码！");
+        document.form1.pwd2.focus();
+        return false;
+      }
+      if(document.form1.pwd1.value != document.form1.pwd2.value){
+        alert("两次密码输入不一致！");
+        document.form1.pwd1.focus();
+        return false;
+      }
+      if(document.form1.pwd1.value.length < 6 || document.form1.pwd1.value.length > 16){
+        alert("密码设置的长度不符合要求，请您重新输入！");
+        document.form1.pwd1.focus();
+        return false;
+      }
+      if(document.form1.person.value == ""){
+        alert("请输入您的联系人姓名！");
+        document.form1.person.focus();
+        return false;
+      }
+      var tel = document.form1.shooltel.value;
+      var mobel = document.form1.shoolmobel.value;
+      if(tel == "" && mobel == ""){
+        alert("联系电话（座机）或（手机）不能同时为空!");
+        document.form1.shooltel.focus();
+        return false;
+      }
+      else{
+        if(tel != ""){
+          if(!isNumber(tel)){
+            alert("您输入的电话号码不合法!");
+            document.form1.shooltel.focus();
+            return false;
+          }
+        }
+        if(mobel != ""){
+          if(!isNumber(mobel)){
+            alert("您输入的手机号码不合法!");
+            document.form1.shoolmobel.focus();
+            return false;
+          }
+          else{
+            if(mobel.length != 11){
+              alert("您输入的手机号码位数不正确!");
+              document.form1.shoolmobel.focus();
+              return false;
+            }
+          }
+        }
+      }
+      var strEmail = document.form1.shoolemail.value;
+      if(strEmail == ""){
+        alert("请输入您的电子邮箱地址！");
+        document.form1.shoolemail.focus();
+        return false;
+      }
+      else{
+        if (!(strEmail.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) != -1)){
+          alert("您的邮箱格式不正确！");
+          document.form1.shoolemail.focus();
+          return false;
+        }
+      }
+      if(document.form1.shoolname.value == ""){
+        alert("请输入您的学校名称！");
+        document.form1.shoolname.focus();
+        return false;
+      }
+      if(document.form1.classes.value == "0"){
+        alert("请选择您的学校的分类！");
+        document.form1.classes.focus();
+        return false;
+      }
+      if(document.form1.shooladdr.value == ""){
+        alert("请输入您学校的通讯地址！");
+        document.form1.shooladdr.focus();
+        return false;
+      }
+      if(document.form1.bank_province.value == "0"){
+        alert("请选择您学校所在省份！");
+        document.form1.bank_province.focus();
+        return false;
+      }
+      if(document.form1.bank_city.value == "0"){
+        alert("请选择您学校所在城市！");
+        document.form1.bank_city.focus();
+        return false;
+      }
+    }
+
+
+
+    var cc = 0;
+    function change_area(province,city){
+      var country = document.getElementById(province);
+      var cg=country.options[country.selectedIndex].value;
+      var select2=document.getElementById(city);
+      var j=0;
+      for(var i=0;i<coutryAndCity.length;i++){
+        if(coutryAndCity[i].country==cg){
+          select2.options[j]=new Option(coutryAndCity[i].cityValue,coutryAndCity[i].cityText);
+          j++;
+        }
+      }
+      if(cc>j) {
+        for(var ii=cc;ii>=j;ii--){
+          select2.options[ii] = null;
+        }
+      }
+      cc=j;
+    }
+
+    function CityObject(aData, aValue, aText) {
+      this.country  = aData;
+      this.cityValue = aValue;
+      this.cityText  = aText;
+    }
+    var coutryAndCity = new Array(
+    new CityObject('0','-地区/城市-','0'),
+    new CityObject('北京市','北京市','北京市'),
+    new CityObject('天津市','天津市','天津市'),
+    new CityObject('河北省','石家庄市','石家庄市'),
+    new CityObject('河北省','唐山市','唐山市'),
+    new CityObject('河北省','秦皇岛市','秦皇岛市'),
+    new CityObject('河北省','邯郸市','邯郸市'),
+    new CityObject('河北省','邢台市','邢台市'),
+    new CityObject('河北省','保定市','保定市'),
+    new CityObject('河北省','张家口市','张家口市'),
+    new CityObject('河北省','承德市','承德市'),
+    new CityObject('河北省','沧州市','沧州市'),
+    new CityObject('河北省','廊坊市','廊坊市'),
+    new CityObject('河北省','衡水市','衡水市'),
+    new CityObject('山西省','太原市','太原市'),
+    new CityObject('山西省','大同市','大同市'),
+    new CityObject('山西省','阳泉市','阳泉市'),
+    new CityObject('山西省','长治市','长治市'),
+    new CityObject('山西省','晋城市','晋城市'),
+    new CityObject('山西省','朔州市','朔州市'),
+    new CityObject('山西省','晋中市','晋中市'),
+    new CityObject('山西省','运城市','运城市'),
+    new CityObject('山西省','忻州市','忻州市'),
+    new CityObject('山西省','临汾市','临汾市'),
+    new CityObject('山西省','吕梁市','吕梁市'),
+    new CityObject('内蒙古自治区','呼和浩特市','呼和浩特市'),
+    new CityObject('内蒙古自治区','包头市','包头市'),
+    new CityObject('内蒙古自治区','乌海市','乌海市'),
+    new CityObject('内蒙古自治区','赤峰市','赤峰市'),
+    new CityObject('内蒙古自治区','通辽市','通辽市'),
+    new CityObject('内蒙古自治区','鄂尔多斯市','鄂尔多斯市'),
+    new CityObject('内蒙古自治区','呼伦贝尔市','呼伦贝尔市'),
+    new CityObject('内蒙古自治区','巴彦淖尔市','巴彦淖尔市'),
+    new CityObject('内蒙古自治区','乌兰察布市','乌兰察布市'),
+    new CityObject('内蒙古自治区','兴安盟','兴安盟'),
+    new CityObject('内蒙古自治区','锡林郭勒盟','锡林郭勒盟'),
+    new CityObject('内蒙古自治区','阿拉善盟','阿拉善盟'),
+    new CityObject('辽宁省','沈阳市','沈阳市'),
+    new CityObject('辽宁省','大连市','大连市'),
+    new CityObject('辽宁省','鞍山市','鞍山市'),
+    new CityObject('辽宁省','抚顺市','抚顺市'),
+    new CityObject('辽宁省','本溪市','本溪市'),
+    new CityObject('辽宁省','丹东市','丹东市'),
+    new CityObject('辽宁省','锦州市','锦州市'),
+    new CityObject('辽宁省','营口市','营口市'),
+    new CityObject('辽宁省','阜新市','阜新市'),
+    new CityObject('辽宁省','辽阳市','辽阳市'),
+    new CityObject('辽宁省','盘锦市','盘锦市'),
+    new CityObject('辽宁省','铁岭市','铁岭市'),
+    new CityObject('辽宁省','朝阳市','朝阳市'),
+    new CityObject('辽宁省','葫芦岛市','葫芦岛市'),
+    new CityObject('吉林省','长春市','长春市'),
+    new CityObject('吉林省','吉林市','吉林市'),
+    new CityObject('吉林省','四平市','四平市'),
+    new CityObject('吉林省','辽源市','辽源市'),
+    new CityObject('吉林省','通化市','通化市'),
+    new CityObject('吉林省','白山市','白山市'),
+    new CityObject('吉林省','松原市','松原市'),
+    new CityObject('吉林省','白城市','白城市'),
+    new CityObject('吉林省','延边朝鲜族自治州','延边朝鲜族自治州'),
+    new CityObject('黑龙江省','哈尔滨市','哈尔滨市'),
+    new CityObject('黑龙江省','齐齐哈尔市','齐齐哈尔市'),
+    new CityObject('黑龙江省','鸡西市','鸡西市'),
+    new CityObject('黑龙江省','鹤岗市','鹤岗市'),
+    new CityObject('黑龙江省','双鸭山市','双鸭山市'),
+    new CityObject('黑龙江省','大庆市','大庆市'),
+    new CityObject('黑龙江省','伊春市','伊春市'),
+    new CityObject('黑龙江省','佳木斯市','佳木斯市'),
+    new CityObject('黑龙江省','七台河市','七台河市'),
+    new CityObject('黑龙江省','牡丹江市','牡丹江市'),
+    new CityObject('黑龙江省','黑河市','黑河市'),
+    new CityObject('黑龙江省','绥化市','绥化市'),
+    new CityObject('黑龙江省','大兴安岭地区','大兴安岭地区'),
+    new CityObject('上海市','上海市','上海市'),
+    new CityObject('江苏省','南京市','南京市'),
+    new CityObject('江苏省','无锡市','无锡市'),
+    new CityObject('江苏省','徐州市','徐州市'),
+    new CityObject('江苏省','常州市','常州市'),
+    new CityObject('江苏省','苏州市','苏州市'),
+    new CityObject('江苏省','南通市','南通市'),
+    new CityObject('江苏省','连云港市','连云港市'),
+    new CityObject('江苏省','淮安市','淮安市'),
+    new CityObject('江苏省','盐城市','盐城市'),
+    new CityObject('江苏省','扬州市','扬州市'),
+    new CityObject('江苏省','镇江市','镇江市'),
+    new CityObject('江苏省','泰州市','泰州市'),
+    new CityObject('江苏省','宿迁市','宿迁市'),
+    new CityObject('浙江省','杭州市','杭州市'),
+    new CityObject('浙江省','宁波市','宁波市'),
+    new CityObject('浙江省','温州市','温州市'),
+    new CityObject('浙江省','嘉兴市','嘉兴市'),
+    new CityObject('浙江省','湖州市','湖州市'),
+    new CityObject('浙江省','绍兴市','绍兴市'),
+    new CityObject('浙江省','金华市','金华市'),
+    new CityObject('浙江省','衢州市','衢州市'),
+    new CityObject('浙江省','舟山市','舟山市'),
+    new CityObject('浙江省','台州市','台州市'),
+    new CityObject('浙江省','丽水市','丽水市'),
+    new CityObject('安徽省','合肥市','合肥市'),
+    new CityObject('安徽省','芜湖市','芜湖市'),
+    new CityObject('安徽省','蚌埠市','蚌埠市'),
+    new CityObject('安徽省','淮南市','淮南市'),
+    new CityObject('安徽省','马鞍山市','马鞍山市'),
+    new CityObject('安徽省','淮北市','淮北市'),
+    new CityObject('安徽省','铜陵市','铜陵市'),
+    new CityObject('安徽省','安庆市','安庆市'),
+    new CityObject('安徽省','黄山市','黄山市'),
+    new CityObject('安徽省','滁州市','滁州市'),
+    new CityObject('安徽省','阜阳市','阜阳市'),
+    new CityObject('安徽省','宿州市','宿州市'),
+    new CityObject('安徽省','巢湖市','巢湖市'),
+    new CityObject('安徽省','六安市','六安市'),
+    new CityObject('安徽省','亳州市','亳州市'),
+    new CityObject('安徽省','池州市','池州市'),
+    new CityObject('安徽省','宣城市','宣城市'),
+    new CityObject('福建省','福州市','福州市'),
+    new CityObject('福建省','厦门市','厦门市'),
+    new CityObject('福建省','莆田市','莆田市'),
+    new CityObject('福建省','三明市','三明市'),
+    new CityObject('福建省','泉州市','泉州市'),
+    new CityObject('福建省','漳州市','漳州市'),
+    new CityObject('福建省','南平市','南平市'),
+    new CityObject('福建省','龙岩市','龙岩市'),
+    new CityObject('福建省','宁德市','宁德市'),
+    new CityObject('江西省','南昌市','南昌市'),
+    new CityObject('江西省','景德镇市','景德镇市'),
+    new CityObject('江西省','萍乡市','萍乡市'),
+    new CityObject('江西省','九江市','九江市'),
+    new CityObject('江西省','新余市','新余市'),
+    new CityObject('江西省','鹰潭市','鹰潭市'),
+    new CityObject('江西省','赣州市','赣州市'),
+    new CityObject('江西省','吉安市','吉安市'),
+    new CityObject('江西省','宜春市','宜春市'),
+    new CityObject('江西省','抚州市','抚州市'),
+    new CityObject('江西省','上饶市','上饶市'),
+    new CityObject('山东省','济南市','济南市'),
+    new CityObject('山东省','青岛市','青岛市'),
+    new CityObject('山东省','淄博市','淄博市'),
+    new CityObject('山东省','枣庄市','枣庄市'),
+    new CityObject('山东省','东营市','东营市'),
+    new CityObject('山东省','烟台市','烟台市'),
+    new CityObject('山东省','潍坊市','潍坊市'),
+    new CityObject('山东省','济宁市','济宁市'),
+    new CityObject('山东省','泰安市','泰安市'),
+    new CityObject('山东省','威海市','威海市'),
+    new CityObject('山东省','日照市','日照市'),
+    new CityObject('山东省','莱芜市','莱芜市'),
+    new CityObject('山东省','临沂市','临沂市'),
+    new CityObject('山东省','德州市','德州市'),
+    new CityObject('山东省','聊城市','聊城市'),
+    new CityObject('山东省','滨州市','滨州市'),
+    new CityObject('山东省','荷泽市','荷泽市'),
+    new CityObject('河南省','郑州市','郑州市'),
+    new CityObject('河南省','开封市','开封市'),
+    new CityObject('河南省','洛阳市','洛阳市'),
+    new CityObject('河南省','平顶山市','平顶山市'),
+    new CityObject('河南省','安阳市','安阳市'),
+    new CityObject('河南省','鹤壁市','鹤壁市'),
+    new CityObject('河南省','新乡市','新乡市'),
+    new CityObject('河南省','焦作市','焦作市'),
+    new CityObject('河南省','濮阳市','濮阳市'),
+    new CityObject('河南省','许昌市','许昌市'),
+    new CityObject('河南省','漯河市','漯河市'),
+    new CityObject('河南省','三门峡市','三门峡市'),
+    new CityObject('河南省','南阳市','南阳市'),
+    new CityObject('河南省','商丘市','商丘市'),
+    new CityObject('河南省','信阳市','信阳市'),
+    new CityObject('河南省','周口市','周口市'),
+    new CityObject('河南省','驻马店市','驻马店市'),
+    new CityObject('湖北省','武汉市','武汉市'),
+    new CityObject('湖北省','黄石市','黄石市'),
+    new CityObject('湖北省','十堰市','十堰市'),
+    new CityObject('湖北省','宜昌市','宜昌市'),
+    new CityObject('湖北省','襄樊市','襄樊市'),
+    new CityObject('湖北省','鄂州市','鄂州市'),
+    new CityObject('湖北省','荆门市','荆门市'),
+    new CityObject('湖北省','孝感市','孝感市'),
+    new CityObject('湖北省','荆州市','荆州市'),
+    new CityObject('湖北省','黄冈市','黄冈市'),
+    new CityObject('湖北省','咸宁市','咸宁市'),
+    new CityObject('湖北省','随州市','随州市'),
+    new CityObject('湖北省','恩施土家族苗族自治州','恩施土家族苗族自治州'),
+    new CityObject('湖北省','仙桃市','仙桃市'),
+    new CityObject('湖北省','潜江市','潜江市'),
+    new CityObject('湖北省','天门市','天门市'),
+    new CityObject('湖北省','神农架林区','神农架林区'),
+    new CityObject('湖南省','长沙市','长沙市'),
+    new CityObject('湖南省','株洲市','株洲市'),
+    new CityObject('湖南省','湘潭市','湘潭市'),
+    new CityObject('湖南省','衡阳市','衡阳市'),
+    new CityObject('湖南省','邵阳市','邵阳市'),
+    new CityObject('湖南省','岳阳市','岳阳市'),
+    new CityObject('湖南省','常德市','常德市'),
+    new CityObject('湖南省','张家界市','张家界市'),
+    new CityObject('湖南省','益阳市','益阳市'),
+    new CityObject('湖南省','彬州市','彬州市'),
+    new CityObject('湖南省','永州市','永州市'),
+    new CityObject('湖南省','怀化市','怀化市'),
+    new CityObject('湖南省','娄底市','娄底市'),
+    new CityObject('湖南省','湘西土家族苗族自治州','湘西土家族苗族自治州'),
+    new CityObject('广东省','广州市','广州市'),
+    new CityObject('广东省','韶关市','韶关市'),
+    new CityObject('广东省','深圳市','深圳市'),
+    new CityObject('广东省','珠海市','珠海市'),
+    new CityObject('广东省','汕头市','汕头市'),
+    new CityObject('广东省','佛山市','佛山市'),
+    new CityObject('广东省','江门市','江门市'),
+    new CityObject('广东省','湛江市','湛江市'),
+    new CityObject('广东省','茂名市','茂名市'),
+    new CityObject('广东省','肇庆市','肇庆市'),
+    new CityObject('广东省','惠州市','惠州市'),
+    new CityObject('广东省','梅州市','梅州市'),
+    new CityObject('广东省','汕尾市','汕尾市'),
+    new CityObject('广东省','河源市','河源市'),
+    new CityObject('广东省','阳江市','阳江市'),
+    new CityObject('广东省','清远市','清远市'),
+    new CityObject('广东省','东莞市','东莞市'),
+    new CityObject('广东省','中山市','中山市'),
+    new CityObject('广东省','潮州市','潮州市'),
+    new CityObject('广东省','揭阳市','揭阳市'),
+    new CityObject('广东省','云浮市','云浮市'),
+    new CityObject('广西壮族自治区','南宁市','南宁市'),
+    new CityObject('广西壮族自治区','柳州市','柳州市'),
+    new CityObject('广西壮族自治区','桂林市','桂林市'),
+    new CityObject('广西壮族自治区','梧州市','梧州市'),
+    new CityObject('广西壮族自治区','北海市','北海市'),
+    new CityObject('广西壮族自治区','防城港市','防城港市'),
+    new CityObject('广西壮族自治区','钦州市','钦州市'),
+    new CityObject('广西壮族自治区','贵港市','贵港市'),
+    new CityObject('广西壮族自治区','玉林市','玉林市'),
+    new CityObject('广西壮族自治区','百色市','百色市'),
+    new CityObject('广西壮族自治区','贺州市','贺州市'),
+    new CityObject('广西壮族自治区','河池市','河池市'),
+    new CityObject('广西壮族自治区','来宾市','来宾市'),
+    new CityObject('广西壮族自治区','崇左市','崇左市'),
+    new CityObject('海南省','海口市','海口市'),
+    new CityObject('海南省','三亚市','三亚市'),
+    new CityObject('海南省','五指山市','五指山市'),
+    new CityObject('海南省','琼海市','琼海市'),
+    new CityObject('海南省','儋州市','儋州市'),
+    new CityObject('海南省','文昌市','文昌市'),
+    new CityObject('海南省','万宁市','万宁市'),
+    new CityObject('海南省','东方市','东方市'),
+    new CityObject('海南省','定安县','定安县'),
+    new CityObject('海南省','屯昌县','屯昌县'),
+    new CityObject('海南省','澄迈县','澄迈县'),
+    new CityObject('海南省','临高县','临高县'),
+    new CityObject('海南省','白沙黎族自治县','白沙黎族自治县'),
+    new CityObject('海南省','昌江黎族自治县','昌江黎族自治县'),
+    new CityObject('海南省','乐东黎族自治县','乐东黎族自治县'),
+    new CityObject('海南省','陵水黎族自治县','陵水黎族自治县'),
+    new CityObject('海南省','保亭黎族苗族自治县','保亭黎族苗族自治县'),
+    new CityObject('海南省','琼中黎族苗族自治县','琼中黎族苗族自治县'),
+    new CityObject('海南省','西沙群岛','西沙群岛'),
+    new CityObject('海南省','南沙群岛','南沙群岛'),
+    new CityObject('海南省','中沙群岛的岛礁及其海域','中沙群岛的岛礁及其海域'),
+    new CityObject('重庆市','重庆市','重庆市'),
+    new CityObject('四川省','成都市','成都市'),
+    new CityObject('四川省','自贡市','自贡市'),
+    new CityObject('四川省','攀枝花市','攀枝花市'),
+    new CityObject('四川省','泸州市','泸州市'),
+    new CityObject('四川省','德阳市','德阳市'),
+    new CityObject('四川省','绵阳市','绵阳市'),
+    new CityObject('四川省','广元市','广元市'),
+    new CityObject('四川省','遂宁市','遂宁市'),
+    new CityObject('四川省','内江市','内江市'),
+    new CityObject('四川省','乐山市','乐山市'),
+    new CityObject('四川省','南充市','南充市'),
+    new CityObject('四川省','眉山市','眉山市'),
+    new CityObject('四川省','宜宾市','宜宾市'),
+    new CityObject('四川省','广安市','广安市'),
+    new CityObject('四川省','达州市','达州市'),
+    new CityObject('四川省','雅安市','雅安市'),
+    new CityObject('四川省','巴中市','巴中市'),
+    new CityObject('四川省','资阳市','资阳市'),
+    new CityObject('四川省','阿坝藏族羌族自治州','阿坝藏族羌族自治州'),
+    new CityObject('四川省','甘孜藏族自治州','甘孜藏族自治州'),
+    new CityObject('四川省','凉山彝族自治州','凉山彝族自治州'),
+    new CityObject('贵州省','贵阳市','贵阳市'),
+    new CityObject('贵州省','六盘水市','六盘水市'),
+    new CityObject('贵州省','遵义市','遵义市'),
+    new CityObject('贵州省','安顺市','安顺市'),
+    new CityObject('贵州省','铜仁地区','铜仁地区'),
+    new CityObject('贵州省','黔西南布依族苗族自治州','黔西南布依族苗族自治州'),
+    new CityObject('贵州省','毕节地区','毕节地区'),
+    new CityObject('贵州省','黔东南苗族侗族自治州','黔东南苗族侗族自治州'),
+    new CityObject('贵州省','黔南布依族苗族自治州','黔南布依族苗族自治州'),
+    new CityObject('云南省','昆明市','昆明市'),
+    new CityObject('云南省','曲靖市','曲靖市'),
+    new CityObject('云南省','玉溪市','玉溪市'),
+    new CityObject('云南省','保山市','保山市'),
+    new CityObject('云南省','昭通市','昭通市'),
+    new CityObject('云南省','丽江市','丽江市'),
+    new CityObject('云南省','思茅市','思茅市'),
+    new CityObject('云南省','临沧市','临沧市'),
+    new CityObject('云南省','楚雄彝族自治州','楚雄彝族自治州'),
+    new CityObject('云南省','红河哈尼族彝族自治州','红河哈尼族彝族自治州'),
+    new CityObject('云南省','文山壮族苗族自治州','文山壮族苗族自治州'),
+    new CityObject('云南省','西双版纳傣族自治州','西双版纳傣族自治州'),
+    new CityObject('云南省','大理白族自治州','大理白族自治州'),
+    new CityObject('云南省','德宏傣族景颇族自治州','德宏傣族景颇族自治州'),
+    new CityObject('云南省','怒江傈僳族自治州','怒江傈僳族自治州'),
+    new CityObject('云南省','迪庆藏族自治州','迪庆藏族自治州'),
+    new CityObject('西藏自治区','拉萨市','拉萨市'),
+    new CityObject('西藏自治区','昌都地区','昌都地区'),
+    new CityObject('西藏自治区','山南地区','山南地区'),
+    new CityObject('西藏自治区','日喀则地区','日喀则地区'),
+    new CityObject('西藏自治区','那曲地区','那曲地区'),
+    new CityObject('西藏自治区','阿里地区','阿里地区'),
+    new CityObject('西藏自治区','林芝地区','林芝地区'),
+    new CityObject('陕西省','西安市','西安市'),
+    new CityObject('陕西省','铜川市','铜川市'),
+    new CityObject('陕西省','宝鸡市','宝鸡市'),
+    new CityObject('陕西省','咸阳市','咸阳市'),
+    new CityObject('陕西省','渭南市','渭南市'),
+    new CityObject('陕西省','延安市','延安市'),
+    new CityObject('陕西省','汉中市','汉中市'),
+    new CityObject('陕西省','榆林市','榆林市'),
+    new CityObject('陕西省','安康市','安康市'),
+    new CityObject('陕西省','商洛市','商洛市'),
+    new CityObject('甘肃省','兰州市','兰州市'),
+    new CityObject('甘肃省','嘉峪关市','嘉峪关市'),
+    new CityObject('甘肃省','金昌市','金昌市'),
+    new CityObject('甘肃省','白银市','白银市'),
+    new CityObject('甘肃省','天水市','天水市'),
+    new CityObject('甘肃省','武威市','武威市'),
+    new CityObject('甘肃省','张掖市','张掖市'),
+    new CityObject('甘肃省','平凉市','平凉市'),
+    new CityObject('甘肃省','酒泉市','酒泉市'),
+    new CityObject('甘肃省','庆阳市','庆阳市'),
+    new CityObject('甘肃省','定西市','定西市'),
+    new CityObject('甘肃省','陇南市','陇南市'),
+    new CityObject('甘肃省','临夏回族自治州','临夏回族自治州'),
+    new CityObject('甘肃省','甘南藏族自治州','甘南藏族自治州'),
+    new CityObject('青海省','西宁市','西宁市'),
+    new CityObject('青海省','海东地区','海东地区'),
+    new CityObject('青海省','海北藏族自治州','海北藏族自治州'),
+    new CityObject('青海省','黄南藏族自治州','黄南藏族自治州'),
+    new CityObject('青海省','海南藏族自治州','海南藏族自治州'),
+    new CityObject('青海省','果洛藏族自治州','果洛藏族自治州'),
+    new CityObject('青海省','玉树藏族自治州','玉树藏族自治州'),
+    new CityObject('青海省','海西蒙古族藏族自治州','海西蒙古族藏族自治州'),
+    new CityObject('宁夏回族自治区','银川市','银川市'),
+    new CityObject('宁夏回族自治区','石嘴山市','石嘴山市'),
+    new CityObject('宁夏回族自治区','吴忠市','吴忠市'),
+    new CityObject('宁夏回族自治区','固原市','固原市'),
+    new CityObject('宁夏回族自治区','中卫市','中卫市'),
+    new CityObject('新疆维吾尔自治区','乌鲁木齐市','乌鲁木齐市'),
+    new CityObject('新疆维吾尔自治区','克拉玛依市','克拉玛依市'),
+    new CityObject('新疆维吾尔自治区','吐鲁番地区','吐鲁番地区'),
+    new CityObject('新疆维吾尔自治区','哈密地区','哈密地区'),
+    new CityObject('新疆维吾尔自治区','昌吉回族自治州','昌吉回族自治州'),
+    new CityObject('新疆维吾尔自治区','博尔塔拉蒙古自治州','博尔塔拉蒙古自治州'),
+    new CityObject('新疆维吾尔自治区','巴音郭楞蒙古自治州','巴音郭楞蒙古自治州'),
+    new CityObject('新疆维吾尔自治区','阿克苏地区','阿克苏地区'),
+    new CityObject('新疆维吾尔自治区','克孜勒苏柯尔克孜自治州','克孜勒苏柯尔克孜自治州'),
+    new CityObject('新疆维吾尔自治区','喀什地区','喀什地区'),
+    new CityObject('新疆维吾尔自治区','和田地区','和田地区'),
+    new CityObject('新疆维吾尔自治区','伊犁哈萨克自治州','伊犁哈萨克自治州'),
+    new CityObject('新疆维吾尔自治区','塔城地区','塔城地区'),
+    new CityObject('新疆维吾尔自治区','阿勒泰地区','阿勒泰地区'),
+    new CityObject('新疆维吾尔自治区','石河子市','石河子市'),
+    new CityObject('新疆维吾尔自治区','阿拉尔市','阿拉尔市'),
+    new CityObject('新疆维吾尔自治区','图木舒克市','图木舒克市'),
+    new CityObject('新疆维吾尔自治区','五家渠市','五家渠市'),
+    new CityObject('台湾省','台北县','台北县'),
+    new CityObject('台湾省','宜兰县','宜兰县'),
+    new CityObject('台湾省','桃园县','桃园县'),
+    new CityObject('台湾省','新竹县','新竹县'),
+    new CityObject('台湾省','苗栗县','苗栗县'),
+    new CityObject('台湾省','台中县','台中县'),
+    new CityObject('台湾省','彰化县','彰化县'),
+    new CityObject('台湾省','南投县','南投县'),
+    new CityObject('台湾省','云林县','云林县'),
+    new CityObject('台湾省','嘉义县','嘉义县'),
+    new CityObject('台湾省','台南县','台南县'),
+    new CityObject('台湾省','高雄县','高雄县'),
+    new CityObject('台湾省','屏东县','屏东县'),
+    new CityObject('台湾省','台东县','台东县'),
+    new CityObject('台湾省','花莲县','花莲县'),
+    new CityObject('台湾省','澎湖县','澎湖县'),
+    new CityObject('台湾省','基隆市','基隆市'),
+    new CityObject('台湾省','新竹市','新竹市'),
+    new CityObject('台湾省','台中市','台中市'),
+    new CityObject('台湾省','嘉义市','嘉义市'),
+    new CityObject('台湾省','台南市','台南市'),
+    new CityObject('台湾省','台北市','台北市'),
+    new CityObject('台湾省','高雄市','高雄市'),
+    new CityObject('台湾省','金门县','金门县'),
+    new CityObject('台湾省','连江县','连江县'),
+    new CityObject('香港特别行政区','香港特别行政区','香港特别行政区'),
+    new CityObject('澳门特别行政区','澳门特别行政区','澳门特别行政区'),
+    new CityObject('End', 'End', 'End') );
+
+    function fillSelect(nodeString,array) {
+      var node = document.getElementById(nodeString);
+      var nodelen = node.length;
+      for(var i=nodelen,j=0;i<array.length+nodelen;i++,j++){
+        node.options[i] = new Option(array[j][1],array[j][0]);
+      }
+    }
+    function firstSelect(id,value) {
+      if(value == null || value == '') return;
+      var sTmp = document.getElementById(id);
+      for (var i=0; i < sTmp.length; i++){
+        if(sTmp.options[i].value == value) {
+          sTmp.options[i].selected = true;
+          return;
+        }
+      }
+    }
+    var provinceArray = [
+      ["0","-省/直辖市-"],
+      ["北京市","北京"],
+      ["上海市","上海"],
+      ["天津市","天津"],
+      ["广东省","广东"],
+      ["浙江省","浙江"],
+      ["江苏省","江苏"],
+      ["福建省","福建"],
+      ["湖南省","湖南"],
+      ["湖北省","湖北"],
+      ["重庆市","重庆"],
+      ["辽宁省","辽宁"],
+      ["吉林省","吉林"],
+      ["黑龙江省","黑龙江"],
+      ["河北省","河北"],
+      ["河南省","河南"],
+      ["山东省","山东"],
+      ["陕西省","陕西"],
+      ["甘肃省","甘肃"],
+      ["青海省","青海"],
+      ["新疆维吾尔自治区","新疆"],
+      ["山西省","山西"],
+      ["四川省","四川"],
+      ["贵州省","贵州"],
+      ["安徽省","安徽"],
+      ["江西省","江西"],
+      ["云南省","云南"],
+      ["内蒙古自治区","内蒙古"],
+      ["广西壮族自治区","广西"],
+      ["西藏自治区","西藏"],
+      ["宁夏回族自治区","宁夏"],
+      ["海南省","海南"],
+      ["香港特别行政区","香港"],
+      ["澳门特别行政区","澳门"],
+      ["台湾省","台湾"]
+    ];
+    </SCRIPT>
+
+<META content="MSHTML 6.00.2900.3086" name=GENERATOR></HEAD>
+<BODY>
+<DIV class=banner><IMG alt="" src="申请招生代理.files/banner.jpg" useMap=#Map 
+border=0> <MAP id=Map name=Map><AREA shape=RECT alt="" coords=657,63,787,87 
+  href="http://www.edu100e.com/bystu/zc.jsp#"></MAP></DIV>
+<DIV class=part1>
+<DIV class=title><IMG alt="" src="申请招生代理.files/titile.jpg"></DIV></DIV>
+<DIV class=part1>
+<DIV class=tb><IMG alt="" src="申请招生代理.files/tb.jpg"></DIV></DIV>
+<DIV class=part1>
+<FORM id=form1 name=form1 onsubmit="return check()" action=/bystu/zcservlet.jsp 
+method=post>
+<DIV class=title1>
+<DIV class=text><STRONG class=floata>会员登陆名和密码：</STRONG> <SPAN class=floatb><SPAN 
+class=STYLE1>打*为必填</SPAN></SPAN> </DIV></DIV>
+<DIV class=text1 style="PADDING-BOTTOM: 0px">
+<TABLE cellSpacing=0 cellPadding=0 width=589 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=center align=right width=93 height=55>会员登陆名：</TD>
+    <TD vAlign=center align=left width=167><INPUT id=name name=name> </TD>
+    <TD vAlign=center align=left width=329><FONT color=red>*</FONT> 
+      必须大于4位且小于16位，由a-z的英文字母（不区分大小写）、0-9的数字或下划线组成，并以英文字母或者'_'开头。<BR>一旦注册成功，不可修改；建议使用公司名的字母缩写。 
+    </TD></TR>
+  <TR>
+    <TD vAlign=center align=right width=93 height=27>&nbsp;</TD>
+    <TD vAlign=center align=left width=167><INPUT onclick="return testName('')" type=button value=检查用户名> 
+</TD>
+    <TD vAlign=center align=left width=329>
+      <DIV id=view_name></DIV></TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=55>密码：</TD>
+    <TD vAlign=center align=left><INPUT type=password name=pwd1></TD>
+    <TD vAlign=center align=left><FONT color=red>*</FONT> 
+      密码不得少于6个字符或大于16个字符，建议采用易记、难猜的英文数字组合。 </TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=55>重复输入密码：</TD>
+    <TD vAlign=center align=left><INPUT type=password name=pwd2></TD>
+    <TD vAlign=center align=left><FONT 
+  color=red>*</FONT>再输入一遍您上面填写的密码。</TD></TR></TBODY></TABLE></DIV>
+<DIV class=title1>
+<DIV class=text><STRONG>姓名和联系方式：</STRONG></DIV></DIV>
+<DIV class=text1>
+<TABLE cellSpacing=0 cellPadding=0 width=589 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=center align=right width=103 height=23>联系人：</TD>
+    <TD width=486><INPUT name=person> <SPAN class=STYLE1>*</SPAN> </TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>联系电话(座机)：</TD>
+    <TD width=486><INPUT name=shooltel></TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>联系电话(手机)：</TD>
+    <TD width=486><INPUT name=shoolmobel><SPAN 
+      class=STYLE1>&nbsp;*座机和手机必须填一个</SPAN></TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>传真：</TD>
+    <TD><INPUT name=shoolfax></TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>常用email地址：</TD>
+    <TD><INPUT name=shoolemail><SPAN 
+class=STYLE1>&nbsp;*</SPAN></TD></TR></TBODY></TABLE></DIV>
+<DIV class=title1>
+<DIV class=text><STRONG>培训机构基本信息：</STRONG></DIV></DIV>
+<DIV class=text1>
+<TABLE cellSpacing=0 cellPadding=0 width=589 border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=center align=right width=93 height=23>机构名称：</TD>
+    <TD colSpan=2><INPUT name=shoolname><SPAN 
+class=STYLE1>&nbsp;*</SPAN></TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>机构简称：</TD>
+    <TD colSpan=2><INPUT name=shoolsname></TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>机构分类：</TD>
+    <TD colSpan=2>&nbsp;&nbsp;&nbsp;&nbsp;一级分类： <SELECT id=classes 
+      onchange=Change_Select() name=classes> <OPTION value=0 
+        selected>==请选择==</OPTION> <OPTION 
+        value=0fb3b2fc-f68c-4cee-a01a-9464dc1179a5>企业管理</OPTION> <OPTION 
+        value=44fffbdc-54bb-4591-a89c-e48963bc34e9>职业培训</OPTION> <OPTION 
+        value=540c3133-e9fd-4579-81d7-70aef3d5401b>计算机</OPTION> <OPTION 
+        value=5a7309a5-1cde-4610-b648-3d8f6b20ac89>小语种类</OPTION> <OPTION 
+        value=78f2148c-8d79-4bd7-8824-253f664edb72>0--18岁</OPTION> <OPTION 
+        value=80e027c0-78b9-4a79-aaf2-4f0b53f15804>休闲培训</OPTION> <OPTION 
+        value=9563838a-fdfd-466d-9828-e2dc46ead329>学历教育</OPTION> <OPTION 
+        value=aab9dc28-f43f-498d-8b43-c93fec4288a7>出国培训</OPTION> <OPTION 
+        value=bfbb7a0c-3c55-4089-b1ae-375ddbfbae78>高校招生</OPTION> <OPTION 
+        value=d62192c0-0569-4a7c-ab5c-4b06c15f2441>英语培训</OPTION></SELECT> 
+      &nbsp;&nbsp;&nbsp;&nbsp;二级分类： <SELECT id=grounp name=grounp> <OPTION 
+        value=0 selected>==请选择==</OPTION></SELECT> <SPAN 
+      class=STYLE1>&nbsp;*</SPAN> </TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>通讯地址：</TD>
+    <TD colSpan=2><INPUT name=shooladdr><SPAN 
+class=STYLE1>&nbsp;*</SPAN></TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>邮政编码：</TD>
+    <TD colSpan=2><INPUT name=shoolpost></TD></TR>
+  <TR>
+    <TD vAlign=center align=right height=23>所在城市：</TD>
+    <TD colSpan=2><LABEL><SELECT id=bank_province style="WIDTH: 150px" 
+      onchange="change_area('bank_province','bank_city');try{if(this.value!='0'){document.getElementById('bank_city').options[document.getElementById('bank_city').options.length] = new Option('-地区/城市-','');document.getElementById('bank_city').options[document.getElementById('bank_city').options.length-1].selected=true;}}catch(e){}" 
+      name=bank_province> 
+        <SCRIPT type="">fillSelect("bank_province",provinceArray);firstSelect("bank_province","");</SCRIPT>
+      </SELECT> <SELECT id=bank_city style="WIDTH: 150px" name=bank_city> 
+        <SCRIPT type=text/javascript>change_area("bank_province","bank_city");firstSelect("bank_city","");</SCRIPT>
+      </SELECT> <SPAN class=STYLE1>*</SPAN> </LABEL></TD></TR>
+  <TR>
+    <TD vAlign=center align=middle colSpan=3 height=30><A class=y 
+      href="http://www.edu100e.com/bystu/zcxy.jsp" 
+      target=_blank>点击阅读百亿中国服务条款协议</A> </TD></TR>
+  <TR>
+    <TD vAlign=center align=middle colSpan=3 height=40><LABEL><INPUT style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: url(img3/ty.jpg); BORDER-BOTTOM-WIDTH: 0px; WIDTH: 211px; HEIGHT: 32px; BORDER-RIGHT-WIDTH: 0px" type=submit name=Submit> 
+      </LABEL></TD></TR></TBODY></TABLE></DIV></FORM></DIV>
+<DIV class=part1>
+<DIV class=bottom></DIV></DIV>
+<DIV class=ender><IFRAME src="申请招生代理.files/ender.htm" frameBorder=0 width=1000 
+scrolling=no height=167></IFRAME></DIV></BODY></HTML>

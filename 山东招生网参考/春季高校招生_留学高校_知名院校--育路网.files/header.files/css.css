@@ -1,0 +1,84 @@
+.black12 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 140%; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.black12:hover {
+	TEXT-DECORATION: underline
+}
+A.black12:link {
+	
+}
+A.black12:visited {
+	
+}
+A.black12:active {
+	TEXT-DECORATION: none
+}
+.black14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; FONT-FAMILY: "宋体"
+}
+.gray {
+	FONT-SIZE: 12px; COLOR: #444444; LINE-HEIGHT: 140%; FONT-FAMILY: "宋体"
+}
+.gray14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #363636; FONT-FAMILY: "宋体"
+}
+.white12 {
+	FONT-SIZE: 12px; COLOR: #ffffff; FONT-FAMILY: "宋体"
+}
+.white14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ffffff; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.white14:hover {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.white14:link {
+	
+}
+A.white14:visited {
+	
+}
+A.white14:active {
+	TEXT-DECORATION: none
+}
+.blue {
+	FONT-SIZE: 12px; COLOR: #1f47a5; LINE-HEIGHT: 140%; FONT-FAMILY: "宋体"
+}
+.blue2 {
+	FONT-SIZE: 12px; COLOR: #05369a; LINE-HEIGHT: 140%; FONT-FAMILY: "宋体"
+}
+.blue14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #194cbf; FONT-FAMILY: "宋体"
+}
+.yellow12 {
+	FONT-SIZE: 12px; COLOR: #ff3b02; FONT-FAMILY: "宋体"
+}
+.yellow14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #ff3b02; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.yellow14 :hover {
+	COLOR: #cc6600; TEXT-DECORATION: underline
+}
+A.yellow14:link {
+	
+}
+A.yellow14:visited {
+	
+}
+A.yellow14:active {
+	COLOR: #ff3b02; TEXT-DECORATION: none
+}
+.red {
+	FONT-SIZE: 12px; COLOR: #f1040a; FONT-FAMILY: "宋体"
+}
+.red14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #f1040a; FONT-FAMILY: "宋体"
+}
+.yellow3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #a34a14; FONT-FAMILY: "宋体"
+}
+.hui12B {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #363636; FONT-FAMILY: "宋体"
+}
+.blue3 {
+	FONT-SIZE: 12px; COLOR: #0b246f; FONT-FAMILY: "宋体"
+}

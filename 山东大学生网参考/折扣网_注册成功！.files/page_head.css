@@ -1,0 +1,114 @@
+.headGuid {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 19px; TEXT-DECORATION: none
+}
+.headGuid A:link {
+	FONT-SIZE: 14px; COLOR: #ffffff; LINE-HEIGHT: 19px; TEXT-DECORATION: none
+}
+.headGuid A:visited {
+	FONT-SIZE: 14px; COLOR: #ffffff; LINE-HEIGHT: 19px; TEXT-DECORATION: none
+}
+.headGuid A:hover {
+	FONT-SIZE: 14px; COLOR: #000000; LINE-HEIGHT: 19px; TEXT-DECORATION: none
+}
+.headGuid_ {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 10px 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND-IMAGE: url(../images/index_11.gif); COLOR: #000000; LINE-HEIGHT: 19px; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.headGuid_ A:link {
+	FONT-SIZE: 14px; COLOR: #000000; TEXT-DECORATION: none
+}
+.headGuid_ A:visited {
+	FONT-SIZE: 14px; COLOR: #000000; TEXT-DECORATION: none
+}
+.headGuid_ A:hover {
+	FONT-SIZE: 14px; COLOR: #000000
+}
+.headInfo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 20px; TEXT-DECORATION: none
+}
+.headInfo A:link {
+	COLOR: #06329f; TEXT-DECORATION: underline
+}
+.headInfo A:visited {
+	COLOR: #06329f; TEXT-DECORATION: underline
+}
+.headInfo A:hover {
+	COLOR: #fd6e0e; TEXT-DECORATION: underline
+}
+.bottomInfo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; COLOR: #9a5b0e; LINE-HEIGHT: 19px; TEXT-DECORATION: none
+}
+.bottomInfoa:link {
+	COLOR: #9a5b0e; TEXT-DECORATION: underline
+}
+.bottomInfoa:visited {
+	COLOR: #9a5b0e; TEXT-DECORATION: underline
+}
+.bottomInfoa:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+#page {
+	PADDING-TOP: 12px; TEXT-ALIGN: center
+}
+#page STRONG {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; COLOR: #ff6e00; PADDING-TOP: 3px
+}
+#page A {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 14px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid; TEXT-DECORATION: none
+}
+#page A:hover {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 14px; BACKGROUND: #ffffcc; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid; TEXT-DECORATION: none
+}
+.input {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN: 0px auto; BORDER-LEFT: #ccc 1px solid; WIDTH: 30px; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fff; TEXT-ALIGN: right
+}
+.right {
+	FLOAT: right; WIDTH: 220px
+}
+.keywordsimple {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #ccc 1px solid
+}
+.keywordsimple A:hover {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BACKGROUND: #ffeef7; PADDING-BOTTOM: 1px; COLOR: #fff; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+.mBox {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 6px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.mBox A {
+	FONT-SIZE: 12px; LINE-HEIGHT: 20px
+}
+.keyword {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN: 0px; BORDER-LEFT: #ccc 1px solid; WIDTH: 100%; BORDER-BOTTOM: #ccc 1px solid
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#cLoginBox {
+	BORDER-RIGHT: #ff7300 1px solid; BORDER-TOP: #ff7300 1px solid; Z-INDEX: 500; MIN-HEIGHT: 110px; FLOAT: left; BORDER-LEFT: #ff7300 1px solid; WIDTH: 200px; BORDER-BOTTOM: #ff7300 1px solid; POSITION: absolute; BACKGROUND-COLOR: #f6f6f6
+}
+#cLoginBox INPUT {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-BOTTOM: #999 1px solid
+}
+#cLoginBox TABLE {
+	FONT-SIZE: 12px; HEIGHT: 100px
+}
+.fouter {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 30px; MIN-HEIGHT: 40px; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; WIDTH: 740px; PADDING-TOP: 15px; BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.fouter UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.fouter UL LI {
+	FLOAT: left; WIDTH: 80px; TEXT-ALIGN: left
+}
+.fouter UL LI B {
+	FONT-SIZE: 12px; COLOR: #000; POSITION: relative; TOP: 0px
+}
+.fouter UL LI A {
+	FONT-SIZE: 12px; COLOR: #000; POSITION: relative; TOP: -5px; TEXT-DECORATION: none
+}
+.fouter UL LI A:hover {
+	FONT-SIZE: 12px; COLOR: #ff0000; TOP: -5px; TEXT-DECORATION: none
+}
+.fouter UL LI A:visited {
+	FONT-SIZE: 12px; COLOR: #000; TOP: -5px; TEXT-DECORATION: none
+}

@@ -1,0 +1,75 @@
+#bodymain {
+	MARGIN: 0px auto; WIDTH: 950px
+}
+#top {
+	BACKGROUND: url(/images/top_bg.gif) no-repeat right 31px; HEIGHT: 65px
+}
+#top H1 {
+	MARGIN-TOP: 12px; FLOAT: left; WIDTH: 140px
+}
+#top H5 {
+	MARGIN-TOP: 16px; FLOAT: left; WIDTH: 190px
+}
+#top_txt {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 1px; FLOAT: right; COLOR: #666; LINE-HEIGHT: 240%; TEXT-ALIGN: right
+}
+#top_txt A {
+	COLOR: #c60
+}
+#nav {
+	BACKGROUND: url(/images/nav_bg.gif) #60a513 repeat-x; HEIGHT: 37px
+}
+#nav_l {
+	BACKGROUND: url(/images/nav_bg.gif) 0px -38px; FLOAT: left; OVERFLOW: hidden; WIDTH: 5px; MARGIN-RIGHT: 6px; HEIGHT: 37px
+}
+#nav_r {
+	BACKGROUND: url(/images/nav_bg.gif) -5px -38px; FLOAT: right; OVERFLOW: hidden; WIDTH: 5px; HEIGHT: 37px
+}
+#nav UL LI {
+	FLOAT: left
+}
+#nav UL LI A {
+	MARGIN-TOP: 5px; DISPLAY: block; FONT-SIZE: 14px; BACKGROUND: url(/images/nav_bg.gif) no-repeat right -106px; WIDTH: 84px; COLOR: #fff; PADDING-TOP: 5px; HEIGHT: 24px; TEXT-ALIGN: center
+}
+#nav UL LI A:hover {
+	COLOR: #ff6
+}
+#nav UL LI A#nav_current {
+	FONT-WEIGHT: bold; BACKGROUND: url(/images/nav_bg.gif) 0px -76px; WIDTH: 84px; COLOR: #fff
+}
+#subnav {
+	BORDER-RIGHT: #d8e3d1 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: #d8e3d1 0px solid; PADDING-LEFT: 6px; BACKGROUND: url(/images/nav_bg.gif) 0px -136px; MARGIN-BOTTOM: 4px; PADDING-BOTTOM: 0px; BORDER-LEFT: #d8e3d1 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #d8e3d1 1px solid; HEIGHT: 25px
+}
+#subnav A {
+	COLOR: #444
+}
+#subnav H5 {
+	PADDING-LEFT: 22px; BACKGROUND: url(/images/icon1.gif) no-repeat 0px -79px; FLOAT: right; LINE-HEIGHT: 180%
+}
+.nav_marquee {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(/images/icon1.gif) no-repeat 0px -117px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+.reg_btn {
+	BORDER-RIGHT: #a6410f 1px solid; BORDER-TOP: #fff2c1 1px solid; FONT-SIZE: 12px; BACKGROUND: #ff7f00; BORDER-LEFT: #fff2c1 1px solid; WIDTH: 45px; COLOR: #fff; LINE-HEIGHT: 140%; BORDER-BOTTOM: #a6410f 1px solid; HEIGHT: 19px
+}
+.login_btn {
+	BORDER-RIGHT: #3a5b17 1px solid; BORDER-TOP: #b2dc84 1px solid; FONT-SIZE: 12px; BACKGROUND: #7ab147; BORDER-LEFT: #b2dc84 1px solid; WIDTH: 45px; COLOR: #fff; LINE-HEIGHT: 140%; BORDER-BOTTOM: #3a5b17 1px solid; HEIGHT: 19px
+}
+.user_btn {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; BACKGROUND: url(/images/bg_16x16.gif) no-repeat 0px -928px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+.user_txt {
+	BORDER-RIGHT: #a8c763 1px solid; BORDER-TOP: #a8c763 1px solid; BORDER-LEFT: #a8c763 1px solid; WIDTH: 90px; BORDER-BOTTOM: #a8c763 1px solid; HEIGHT: 15px
+}
+#foot {
+	PADDING-RIGHT: 0px; BORDER-TOP: #cae9ac 3px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 12px; COLOR: #555; PADDING-TOP: 12px; TEXT-ALIGN: center
+}
+#foot A {
+	COLOR: #555
+}
+#foot A:hover {
+	COLOR: #080
+}
+#foot_ico IMG {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; MARGIN: 5px 5px 0px; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}

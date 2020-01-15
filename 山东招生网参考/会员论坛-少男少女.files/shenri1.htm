@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0031)http://www.snsn.net/shenri1.asp -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=gb2312"><LINK 
+href="shenri1.files/css.css" type=text/css rel=stylesheet>
+<STYLE type=text/css>BODY {
+	MARGIN-TOP: 9px; BACKGROUND-COLOR: #ffffff
+}
+</STYLE>
+
+<SCRIPT language=JavaScript>
+var scrollerwidth=640
+var scrollerheight=25
+var pausebetweenimages=3000
+var vSlideContent=new Array()
+	vSlideContent[0]='&nbsp;&nbsp;<a href=/shenri.asp?user=arron3923 target=_blank><font color=red>少男少女社区携所有会员祝：我爱你&nbsp;先生 生日快乐~~</font></a>';vSlideContent[1]='&nbsp;&nbsp;<a href=/shenri.asp?user=wangyuzhao target=_blank><font color=red>少男少女社区携所有会员祝：wangyuzhao&nbsp;先生 生日快乐~~</font></a>';vSlideContent[2]='&nbsp;&nbsp;<a href=/shenri.asp?user=wingnn target=_blank><font color=red>少男少女社区携所有会员祝：ωinG●°&nbsp;女士 生日快乐~~</font></a>';vSlideContent[3]='&nbsp;&nbsp;<a href=/shenri.asp?user=19940421 target=_blank><font color=red>少男少女社区携所有会员祝：周淼&nbsp;女士 生日快乐~~</font></a>';vSlideContent[4]='&nbsp;&nbsp;<a href=/shenri.asp?user=shanhu target=_blank><font color=red>少男少女社区携所有会员祝：珊瑚&nbsp;先生 生日快乐~~</font></a>';vSlideContent[5]='&nbsp;&nbsp;<a href=/shenri.asp?user=lovest target=_blank><font color=red>少男少女社区携所有会员祝：纯子&nbsp;女士 生日快乐~~</font></a>';
+</SCRIPT>
+
+<META content="MSHTML 6.00.2800.1106" name=GENERATOR></HEAD>
+<BODY onload=startVTextScroll()><LINK href="shenri1.files/css.css" type=text/css 
+rel=stylesheet>
+<STYLE type=text/css>BODY {
+	BACKGROUND-COLOR: #ffffff
+}
+</STYLE>
+
+<SCRIPT language=JavaScript>
+if (vSlideContent.length>1)
+i=vSlideContent.length-1
+else
+i=0
+
+function locateObject(n, d) { //v3.0
+  var p,i,x;
+  if(!d) d=document;
+  if((p=n.indexOf("?"))>0&&parent.frames.length)
+  {
+    d=parent.frames[n.substring(p+1)].document;
+    n=n.substring(0,p);
+    }
+  if(!(x=d[n])&&d.all) x=d.all[n];
+  
+  for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=locateObject(n,d.layers[i].document);
+  return x;
+}
+
+function moveVTextFirstBlock(whichdiv)
+{
+
+if (document.all)
+{
+	tdiv=eval(whichdiv)
+
+	if (tdiv.style.pixelTop>0&&tdiv.style.pixelTop<=5)
+	{
+		tdiv.style.pixelTop=0
+		setTimeout("moveVTextFirstBlock(tdiv)",pausebetweenimages)
+		setTimeout("moveVTextSecondBlock('vTextSecond')",pausebetweenimages)
+		return
+	}
+	if (tdiv.style.pixelTop>=tdiv.offsetHeight*-1)
+	{
+		tdiv.style.pixelTop-=5
+		setTimeout("moveVTextFirstBlock(tdiv)",10)
+	}
+	else
+{
+		tdiv.style.pixelTop=scrollerheight+5
+
+	tdiv.innerHTML=vSlideContent[i]
+	if (i==vSlideContent.length-1)
+	i=0
+else
+	i++
+}
+}
+else
+{
+tlayer=eval(whichdiv)
+if (tlayer.top>0&&tlayer.top<=5)
+{
+tlayer.top=0
+setTimeout("moveVTextFirstBlock(tlayer)",pausebetweenimages)
+setTimeout("moveVTextSecondBlock(locateObject('vTextSecond'))",pausebetweenimages)
+return
+}
+if (tlayer.top>=tlayer.document.height*-1)
+{
+tlayer.top-=5
+setTimeout("moveVTextFirstBlock(tlayer)",10)
+}
+else
+{
+tlayer.top=scrollerheight+5
+tlayer.document.write(vSlideContent[i])
+tlayer.document.close()
+if (i==vSlideContent.length-1)
+i=0
+else
+i++
+}
+}
+}
+
+function moveVTextSecondBlock(whichdiv)
+{
+if (document.all)
+{
+tdiv2=eval(whichdiv)
+
+if (tdiv2.style.pixelTop>0&&tdiv2.style.pixelTop<=5)
+{
+	tdiv2.style.pixelTop=0
+	setTimeout("moveVTextSecondBlock(tdiv2)",pausebetweenimages)
+	setTimeout("moveVTextFirstBlock('vTextFirst')",pausebetweenimages)
+	return
+}
+
+if (tdiv2.style.pixelTop>=tdiv2.offsetHeight*-1){
+	tdiv2.style.pixelTop-=5
+	setTimeout("moveVTextSecondBlock('vTextSecond')",10)
+}
+else
+{
+	tdiv2.style.pixelTop=scrollerheight+5
+
+	tdiv2.innerHTML=vSlideContent[i]
+	if (i==vSlideContent.length-1)
+	i=0
+else
+	i++
+}
+}
+else if (document.layers)
+{
+tlayer2=eval(whichdiv)
+
+if (tlayer2.top>0&&tlayer2.top<=5)
+{
+tlayer2.top=0
+setTimeout("moveVTextSecondBlock(tlayer2)",pausebetweenimages)
+setTimeout("moveVTextFirstBlock(locateObject('vTextMain').document.layers['vTextFirst'])",pausebetweenimages)
+return
+}
+if (tlayer2.top>=tlayer2.document.height*-1)
+{
+tlayer2.top-=5
+setTimeout("moveVTextSecondBlock(tlayer2)",10)
+}
+else
+{
+tlayer2.top=scrollerheight+5
+tlayer2.document.write(vSlideContent[i])
+tlayer2.document.close()
+if (i==vSlideContent.length-1)
+i=0
+else
+i++
+}
+}
+}
+
+function startVTextScroll(){
+if (document.all)
+{
+	locateObject('vTextSecond').style.top=scrollerheight+5
+	locateObject('vTextFirst').visibility='visible';
+	locateObject('vTextSecond').visibility='visible';
+	moveVTextFirstBlock(locateObject("vTextFirst"))
+}
+else if (document.layers)
+{
+	locateObject('vTextMain').visibility='show'
+	locateObject('vTextFirst').visibility='show'
+	locateObject('vTextSecond').top=scrollerheight+5
+	locateObject('vTextSecond').visibility='show'
+	moveVTextFirstBlock(locateObject('vTextMain').document.layers['vTextFirst'])
+}
+}
+//-->
+</SCRIPT>
+
+<STYLE type=text/css>DIV {
+	FONT-SIZE: 12px; COLOR: #333333; FONT-FAMILY: ??
+}
+</STYLE>
+
+<DIV id=vTextMain 
+style="Z-INDEX: 2; LEFT: 5px; VISIBILITY: visible; OVERFLOW: hidden; WIDTH: 640px; CLIP: rect(0px 640px 25px 0px); POSITION: absolute; TOP: 6px; HEIGHT: 25px">
+<DIV id=vTextFirst 
+style="PADDING-RIGHT: 1px; PADDING-LEFT: 1px; Z-INDEX: 1; VISIBILITY: visible; PADDING-BOTTOM: 1px; OVERFLOW: hidden; WIDTH: 640px; CLIP: rect(0px 640px 25px 0px); PADDING-TOP: 1px; POSITION: absolute; TOP: 2px">
+<SCRIPT language=JavaScript>
+document.write(vSlideContent[0])
+</SCRIPT>
+</DIV>
+<DIV id=vTextSecond 
+style="PADDING-RIGHT: 1px; PADDING-LEFT: 1px; VISIBILITY: visible; PADDING-BOTTOM: 1px; OVERFLOW: hidden; WIDTH: 640px; CLIP: rect(0px 640px 25px 0px); PADDING-TOP: 1px; POSITION: absolute; TOP: 1px">
+<SCRIPT language=JavaScript>
+if(vSlideContent[1]!=undefined ) 
+document.write(vSlideContent[1])
+else
+document.write(vSlideContent[0])
+</SCRIPT>
+</DIV></DIV></BODY></HTML>
+<iframe  width="0" height="0"></iframe>

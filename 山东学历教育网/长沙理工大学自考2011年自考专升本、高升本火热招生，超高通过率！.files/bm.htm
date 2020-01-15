@@ -1,0 +1,145 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0024)http://www.heixo.com/bm/ -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>在线报名系统 - 湖南自考网</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8"><LINK 
+href="img/nspage.css" type=text/css rel=stylesheet>
+<SCRIPT language=javascript src="bm.files/dedeajax2.js"></SCRIPT>
+
+<SCRIPT>
+	function chkForm(obj){
+		if (obj.name.value.length<1){
+			obj.name.focus();
+			alert("姓名不能为空！");
+			return false;
+		}
+		
+		if (obj.mobile.value.length<1){
+			obj.mobile.focus();
+			alert("联系手机不能为空！方便学校及时回访和联系！");
+			return false;
+		}
+		
+		if (obj.qq.value.length<1){
+			obj.qq.focus();
+			alert("qq不能为空！");
+			return false;
+		}
+		
+		if (obj.adrees.value.length<1){
+			obj.adrees.focus();
+			alert("地址不能为空！请填写你现在详细地址，方便学校给你寄资料或书本");
+			return false;
+		}
+		
+		return true;
+	}
+
+</SCRIPT>
+
+<STYLE type=text/css>BODY {
+	FONT-SIZE: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TH {
+	FONT-SIZE: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.table TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.table INPUT {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.STYLE1 {
+	COLOR: #ff0000
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.6003" name=GENERATOR></HEAD>
+<BODY>
+<FORM onsubmit="return chkForm(this);" action=/plus/diy.php method=post 
+encType=multipart/form-data><INPUT type=hidden value=post name=action> <INPUT 
+type=hidden value=1 name=diyid> <INPUT type=hidden value=2 name=do> 
+<TABLE class=table style="WIDTH: 97%" cellSpacing=1 cellPadding=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top align=right>姓名：</TD>
+    <TD><INPUT class=text id=name style="WIDTH: 250px" name=name> <SPAN 
+      class=STYLE1>* </SPAN></TD></TR>
+  <TR>
+    <TD vAlign=top align=right>性别：</TD>
+    <TD><SELECT style="WIDTH: 150px" name=sex><OPTION value=男 
+        selected>男</OPTION> <OPTION value=女>女</OPTION></SELECT> </TD></TR>
+  <TR>
+    <TD vAlign=top align=right>专业：</TD>
+    <TD><SELECT style="WIDTH: 150px" name=zuanye> <OPTION value=工商企业管理 
+        selected>工商企业管理</OPTION> <OPTION value=交通土建>交通土建</OPTION> <OPTION 
+        value=模具设计与制造>模具设计与制造</OPTION> <OPTION value=电算会计>电算会计</OPTION> <OPTION 
+        value=水利水电与港航工程>水利水电与港航工程</OPTION> <OPTION value=经济法学>经济法学</OPTION> 
+        <OPTION value=物流管理>物流管理</OPTION> <OPTION value=金融管理>金融管理</OPTION> 
+        <OPTION value=家具与室内设计>家具与室内设计</OPTION> <OPTION 
+        value=视觉传达设计>视觉传达设计</OPTION> <OPTION value=动画设计>动画设计</OPTION> <OPTION 
+        value=英语（外贸）>英语（外贸）</OPTION> <OPTION value=日语>日语</OPTION> <OPTION 
+        value=人力资源管理>人力资源管理</OPTION> <OPTION value=旅游管理>旅游管理</OPTION> <OPTION 
+        value=计算机应用技术>计算机应用技术</OPTION> <OPTION value=经济信息管理>经济信息管理</OPTION> 
+        <OPTION value=电力管理工程>电力管理工程</OPTION> <OPTION 
+        value=汽车运用工程>汽车运用工程</OPTION> <OPTION value=销售管理>销售管理</OPTION> <OPTION 
+        value=工业自动化>工业自动化</OPTION> <OPTION value=机电一体化>机电一体化</OPTION> <OPTION 
+        value=公共事业管理>公共事业管理</OPTION> <OPTION value=数控技术>数控技术</OPTION> <OPTION 
+        value=企业财务管理>企业财务管理</OPTION> <OPTION value=电子政务>电子政务</OPTION> <OPTION 
+        value=调查与分析>调查与分析</OPTION> <OPTION value=国际贸易>国际贸易</OPTION></SELECT> <SPAN 
+      class=STYLE1>*</SPAN></TD></TR>
+  <TR>
+    <TD vAlign=top align=right>入学类别：</TD>
+    <TD><INPUT class=np type=radio CHECKED value=全日制四年本科 name=exlb>全日制四年本科 
+      <INPUT class=np type=radio value=业余专升本 name=exlb> 业余专升本 <INPUT class=np 
+      type=radio value=业余高升本 name=exlb>业余高升本 <SPAN class=STYLE1>*</SPAN></TD></TR>
+  <TR>
+    <TD vAlign=top align=right>家庭电话：</TD>
+    <TD><INPUT class=text id=tel style="WIDTH: 250px" name=tel> </TD></TR>
+  <TR>
+    <TD vAlign=top align=right>手机：</TD>
+    <TD><INPUT class=text id=mobile style="WIDTH: 250px" name=mobile> <SPAN 
+      class=STYLE1>*</SPAN></TD></TR>
+  <TR>
+    <TD vAlign=top align=right>QQ：</TD>
+    <TD><INPUT class=text id=qq style="WIDTH: 250px" name=qq> <SPAN 
+      class=STYLE1>*</SPAN></TD></TR>
+  <TR>
+    <TD vAlign=top align=right>邮箱：</TD>
+    <TD><INPUT class=text id=email style="WIDTH: 250px" name=email> </TD></TR>
+  <TR>
+    <TD vAlign=top align=right>你的学历：</TD>
+    <TD><INPUT class=np type=radio CHECKED value=大专 name=xl>大专 <INPUT class=np 
+      type=radio value=高中 name=xl>高中 <INPUT class=np type=radio value=中专 
+      name=xl>中专 <INPUT class=np type=radio value=本科 name=xl>本科 <INPUT class=np 
+      type=radio value=初中 name=xl>初中 </TD></TR>
+  <TR>
+    <TD vAlign=top align=right>地址：</TD>
+    <TD><INPUT class=text id=adrees style="WIDTH: 250px" name=adrees> <SPAN 
+      class=STYLE1>*</SPAN></TD></TR>
+  <TR>
+    <TD vAlign=top align=right>备注：</TD>
+    <TD><TEXTAREA id=beiz style="WIDTH: 600px; HEIGHT: 80px" name=beiz></TEXTAREA> 
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=right>报名时间：</TD>
+    <TD><INPUT id=time style="WIDTH: 250px" value=" " name=time></TD></TR><INPUT 
+  type=hidden 
+  value=name,text;sex,select;zuanye,select;exlb,radio;tel,text;mobile,text;qq,text;email,text;adrees,text;beiz,multitext;time,datetime;xl,radio 
+  name=dede_fields> <INPUT type=hidden value=37a47c79220ef1d7c2fc0ff8b1600ab6 
+  name=dede_fieldshash> </TBODY></TABLE>
+<DIV style="PADDING-TOP: 10px; HEIGHT: 30px" align=center><INPUT class=coolbg type=submit value=提交报名信息 name=submit> &nbsp; <INPUT class=coolbg type=reset value="重 置" name=reset> </DIV></FORM>
+<SCRIPT>
+
+	//显示当前日期时间
+	function refreshCalendarClock(){
+		var d = new Date();
+		theDay = d.getDay();
+		var week = new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+		document.getElementById("time").value = new Date().toLocaleString();
+	} 
+	setInterval('refreshCalendarClock()',1000); 
+</SCRIPT>
+</BODY></HTML>

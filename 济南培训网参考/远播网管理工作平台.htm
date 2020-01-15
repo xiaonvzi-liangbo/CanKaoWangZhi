@@ -1,0 +1,126 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0029)http://cmanager.114study.com/ -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD 
+id=Head1><TITLE>远播网管理工作平台</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<SCRIPT src="远播网管理工作平台.files/jquery.min.js" type=text/javascript></SCRIPT>
+
+<SCRIPT src="远播网管理工作平台.files/jquery.ui.min.js" type=text/javascript></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript>
+
+        $(document).ready(function() {
+        $("[id$=btnLogin]").click(function() {
+            
+                if ($("[id$=txt_UserName]").attr("value") == null || $("[id$=txt_UserName]").attr("value") == "") {
+                    alert("请输入用户名");
+                    return false;
+                }
+                else if ($("[id$=txt_PassWord]").attr("value") == null || $("[id$=txt_PassWord]").attr("value") == "") {
+                    alert("请输入密码");
+                    return false;
+                }
+                else { return true; }
+
+            });
+
+        });
+       
+    
+    </SCRIPT>
+
+<STYLE type=text/css>BODY {
+	MARGIN: 0px; OVERFLOW: hidden; BACKGROUND-COLOR: #152753
+}
+.STYLE3 {
+	FONT-SIZE: 12px; COLOR: #adc9d9
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2900.5659" name=GENERATOR></HEAD>
+<BODY>
+<FORM id=form1 name=form1 action=login.aspx method=post>
+<DIV><INPUT id=__VIEWSTATE type=hidden 
+value=/wEPDwULLTEzMzEwNTMxMDNkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBQhidG5Mb2dpbgUIYnRuUmVzZXRtZqOFHCjDIxMOh+M0sHH/gRXu7A== 
+name=__VIEWSTATE> </DIV>
+<TABLE height="100%" cellSpacing=0 cellPadding=0 width="100%" border=0>
+  <TBODY>
+  <TR>
+    <TD bgColor=#152753></TD></TR>
+  <TR>
+    <TD background=远播网管理工作平台.files/login_03.gif height=608>
+      <TABLE cellSpacing=0 cellPadding=0 width=847 align=center border=0>
+        <TBODY>
+        <TR>
+          <TD background=远播网管理工作平台.files/login_04.gif height=308></TD></TR>
+        <TR>
+          <TD height=84>
+            <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD width=381 background=远播网管理工作平台.files/login_06.gif 
+                  height=84>&nbsp; </TD>
+                <TD vAlign=center width=162 
+                background=远播网管理工作平台.files/login_07.gif>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD vAlign=bottom width=44 height=24>
+                        <DIV align=right><SPAN class=STYLE3>用户</SPAN></DIV></TD>
+                      <TD vAlign=bottom width=10>&nbsp; </TD>
+                      <TD vAlign=bottom colSpan=2 height=24>
+                        <DIV align=left><INPUT id=txt_UserName 
+                        style="BORDER-RIGHT: #153966 1px solid; BORDER-TOP: #153966 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #153966 1px solid; WIDTH: 100px; COLOR: #283439; BORDER-BOTTOM: #153966 1px solid; HEIGHT: 17px; BACKGROUND-COLOR: #87adbf" 
+                        name=txt_UserName> </DIV></TD></TR>
+                    <TR>
+                      <TD vAlign=bottom height=24>
+                        <DIV align=right><SPAN class=STYLE3>密码</SPAN></DIV></TD>
+                      <TD vAlign=bottom width=10>&nbsp; </TD>
+                      <TD vAlign=bottom colSpan=2 height=24><INPUT 
+                        id=txt_PassWord 
+                        style="BORDER-RIGHT: #153966 1px solid; BORDER-TOP: #153966 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #153966 1px solid; WIDTH: 100px; COLOR: #283439; BORDER-BOTTOM: #153966 1px solid; HEIGHT: 17px; BACKGROUND-COLOR: #87adbf" 
+                        type=password name=txt_PassWord> </TD></TR><!--
+                                            <tr>
+                                                <td height="24" valign="bottom">
+                                                    <div align="right">
+                                                        <span class="STYLE3">验证码</span></div>
+                                                </td>
+                                                <td width="10" valign="bottom">
+                                                    &nbsp;
+                                                </td>
+                                                <td width="52" height="24" valign="bottom">
+                                                    <input type="text" name="textfield3" id="textfield3" style="width: 50px; height: 17px;
+                                                        background-color: #87adbf; border: solid 1px #153966; font-size: 12px; color: #283439;">
+                                                </td>
+                                                <td width="62" valign="bottom">
+                                                    <div align="left">
+                                                        <img src="images/yzm.gif" width="38" height="15"></div>
+                                                </td>
+                                            </tr>
+                                            -->
+                    <TR></TR></TBODY></TABLE></TD>
+                <TD width=26><IMG height=84 src="远播网管理工作平台.files/login_08.gif" 
+                  width=26> </TD>
+                <TD width=67 background=远播网管理工作平台.files/login_09.gif>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+                    <TBODY>
+                    <TR>
+                      <TD height=25>
+                        <DIV align=center><INPUT id=btnLogin 
+                        style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 57px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px" 
+                        type=image src="远播网管理工作平台.files/dl.gif" name=btnLogin> 
+                        </DIV></TD></TR>
+                    <TR>
+                      <TD height=25>
+                        <DIV align=center><INPUT id=btnReset 
+                        style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 57px; HEIGHT: 20px; BORDER-RIGHT-WIDTH: 0px" 
+                        type=image src="远播网管理工作平台.files/cz.gif" name=btnReset> 
+                        </DIV></TD></TR></TBODY></TABLE></TD>
+                <TD width=211 background=远播网管理工作平台.files/login_10.gif>&nbsp; 
+                </TD></TR></TBODY></TABLE></TD></TR>
+        <TR>
+          <TD background=远播网管理工作平台.files/login_11.gif 
+      height=206></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV><INPUT id=__EVENTVALIDATION type=hidden 
+value=/wEWBQKIyMq9DgL3xJvhBALy9cL8AgKC3IeGDAKgt7D9ClkW8xQ4ufIn7E3QhJHeE6/X2Hqi 
+name=__EVENTVALIDATION> </DIV></FORM></BODY></HTML>

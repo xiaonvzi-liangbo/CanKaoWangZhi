@@ -1,0 +1,39 @@
+TABLE {
+	FONT-SIZE: 12px; COLOR: #5e5e5e; LINE-HEIGHT: 22px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #5e5e5e; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #5e5e5e; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #ff9900; TEXT-DECORATION: underline
+}
+.side {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: #ffffff 1px solid
+}
+.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0099ff
+}
+.title2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff9900
+}
+.title3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #0d408c
+}
+.nvg {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000000
+}
+.news {
+	FONT-SIZE: 12px
+}
+.mainbg {
+	BACKGROUND-POSITION: 50% top; BACKGROUND-REPEAT: repeat-x
+}
+.side {
+	BORDER-BOTTOM: #e6e6e6 1px solid
+}
+.text {
+	TEXT-INDENT: 20px; TEXT-ALIGN: left
+}

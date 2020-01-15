@@ -1,0 +1,156 @@
+#top_1 {
+	BACKGROUND-IMAGE: url(01_01.gif); MARGIN-LEFT: auto; WIDTH: 960px; TEXT-INDENT: 170px; LINE-HEIGHT: 49px; MARGIN-RIGHT: auto; HEIGHT: 52px
+}
+#top_1 A {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#top_1 A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+ {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BODY {
+	BACKGROUND-COLOR: #666666
+}
+#top_2 {
+	MARGIN-LEFT: auto; WIDTH: 960px; MARGIN-RIGHT: auto
+}
+#top_3 {
+	BACKGROUND-IMAGE: url(index_06.gif); MARGIN-LEFT: auto; WIDTH: 960px; MARGIN-RIGHT: auto; HEIGHT: 51px
+}
+#nr {
+	MARGIN-LEFT: auto; OVERFLOW: auto; WIDTH: 960px; MARGIN-RIGHT: auto; BACKGROUND-COLOR: #ffffff
+}
+.r1 {
+	DISPLAY: inline; FLOAT: left; BACKGROUND-IMAGE: url(index_08.gif); MARGIN-LEFT: 18px; WIDTH: 683px; BACKGROUND-REPEAT: no-repeat
+}
+#z {
+	DISPLAY: inline; FLOAT: left; WIDTH: 684px
+}
+#y {
+	FLOAT: right; WIDTH: 241px; BACKGROUND-COLOR: #ffffff
+}
+.y2 {
+	BACKGROUND-POSITION: left top; DISPLAY: inline; PADDING-LEFT: 9px; FLOAT: left; BACKGROUND-IMAGE: url(12s.gif); WIDTH: 220px; LINE-HEIGHT: 26px; BACKGROUND-REPEAT: repeat-y
+}
+.hong {
+	COLOR: #ff0000
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+#too {
+	CLEAR: both; MARGIN-LEFT: auto; WIDTH: 960px; MARGIN-RIGHT: auto; BACKGROUND-COLOR: #ffffff
+}
+A.lanse:link {
+	COLOR: #0000ff; TEXT-DECORATION: underline
+}
+A.lanse:visited {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+A.lanse:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.lanse:active {
+	COLOR: #0000ff; TEXT-DECORATION: none
+}
+.hee {
+	DISPLAY: inline; FONT-SIZE: 14px; FLOAT: left; MARGIN: 8px 1px 8px 18px; WIDTH: 930px; LINE-HEIGHT: 30px; HEIGHT: 30px; BACKGROUND-COLOR: #6ba6e1
+}
+#dfd {
+	LINE-HEIGHT: 25px
+}
+.pox14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-LEFT: 5px; COLOR: #000099
+}
+.zuo {
+	PADDING-LEFT: 5px; BORDER-LEFT: #cccccc 1px dashed
+}
+.y3 {
+	FLOAT: left; BACKGROUND-IMAGE: url(12b.gif); MARGIN-BOTTOM: 10px; WIDTH: 229px; HEIGHT: 13px
+}
+.y1 {
+	BACKGROUND-POSITION: 50% top; DISPLAY: inline; FLOAT: left; BACKGROUND-IMAGE: url(index_10.gif); WIDTH: 229px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 13px
+}
+#nr .r1 DL {
+	MARGIN-TOP: 8px; FLOAT: left; BACKGROUND-IMAGE: url(index_21.gif); WIDTH: 683px; BACKGROUND-REPEAT: repeat-y
+}
+.r2 {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 18px; WIDTH: 683px
+}
+.dtt1 {
+	DISPLAY: inline; PADDING-LEFT: 8px; FONT-SIZE: 14px; FLOAT: left; WIDTH: 462px; LINE-HEIGHT: 22px
+}
+.px20 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #ff0000
+}
+.dtt2 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; DISPLAY: inline; FLOAT: left; PADDING-BOTTOM: 10px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 194px; COLOR: #ff0000; LINE-HEIGHT: 20px; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.tdd3 {
+	PADDING-LEFT: 8px; FONT-SIZE: 14px; FLOAT: left; WIDTH: 649px; LINE-HEIGHT: 22px
+}
+.sm {
+	FLOAT: left; MARGIN-LEFT: 20px
+}
+#nr .r1 .dtt2 IMG {
+	MARGIN-BOTTOM: 10px; MARGIN-LEFT: 35px
+}
+#nr2 {
+	MARGIN-LEFT: auto; WIDTH: 960px; MARGIN-RIGHT: auto; BACKGROUND-COLOR: #ffffff
+}
+#dd_1 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 8px; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 18px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 300px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 280px; BACKGROUND-COLOR: #ffffff
+}
+#dd_2 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 8px; DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 10px; BORDER-LEFT: #cccccc 1px solid; WIDTH: 300px; MARGIN-RIGHT: 10px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 280px; BACKGROUND-COLOR: #ffffff
+}
+.mimi {
+	PADDING-LEFT: 6px; FLOAT: left; WIDTH: 294px; LINE-HEIGHT: 24px; BACKGROUND-COLOR: #ffffff
+}
+#dd_3 {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN-TOP: 8px; DISPLAY: inline; FLOAT: left; BORDER-LEFT: #cccccc 1px solid; WIDTH: 300px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 280px; BACKGROUND-COLOR: #ffffff
+}
+#dd_1 H2 {
+	DISPLAY: inline; FONT-SIZE: 14px; FLOAT: left; MARGIN: 1px 1px 3px; WIDTH: 298px; LINE-HEIGHT: 30px; HEIGHT: 30px; BACKGROUND-COLOR: #cccccc
+}
+#dd_2 H2 {
+	DISPLAY: inline; FONT-SIZE: 14px; FLOAT: left; MARGIN: 1px 1px 3px; WIDTH: 298px; LINE-HEIGHT: 30px; HEIGHT: 30px; BACKGROUND-COLOR: #cccccc
+}
+#dd_3 H2 {
+	DISPLAY: inline; FONT-SIZE: 14px; FLOAT: left; MARGIN: 1px 1px 3px; WIDTH: 298px; LINE-HEIGHT: 30px; HEIGHT: 30px; BACKGROUND-COLOR: #cccccc
+}
+.dc {
+	FONT-SIZE: 12px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; MARGIN-LEFT: auto; WIDTH: 270px; LINE-HEIGHT: 24px; MARGIN-RIGHT: auto; BORDER-BOTTOM: #cccccc 1px dashed
+}
+.ing {
+	DISPLAY: inline; FLOAT: left; MARGIN-LEFT: 8px; WIDTH: 135px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+#dd_1 IMG {
+	MARGIN-BOTTOM: 3px
+}
+.indd {
+	PADDING-LEFT: 8px; FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 143px; LINE-HEIGHT: 24px; BACKGROUND-COLOR: #ffffff
+}
+#top_8 {
+	PADDING-LEFT: 200px; BACKGROUND-IMAGE: url(bbd.gif); MARGIN-LEFT: auto; WIDTH: 760px; MARGIN-RIGHT: auto; PADDING-TOP: 35px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 70px; BACKGROUND-COLOR: #ffffff
+}
+#ddb {
+	PADDING-LEFT: 220px; MARGIN-LEFT: auto; WIDTH: 740px; MARGIN-RIGHT: auto; PADDING-TOP: 30px; HEIGHT: 70px; BACKGROUND-COLOR: #f2f9fd
+}
+#gundong {
+	MARGIN: 10px auto; WIDTH: 950px
+}
+.z315 {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}

@@ -1,0 +1,336 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: url(bg.gif) #ffddad repeat-x center top; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}
+TD {
+	FONT-SIZE: 12px; WORD-BREAK: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; WORD-WRAP: break-word
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BUTTON {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+UL LI {
+	LIST-STYLE-TYPE: none
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	BACKGROUND: #fff
+}
+.select {
+	FONT-SIZE: 12px; CURSOR: pointer; COLOR: #5f5f61; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A {
+	FONT-SIZE: 12px; COLOR: #333; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #07519a; TEXT-DECORATION: underline
+}
+.banner_top {
+	BACKGROUND: url(banner_top.gif) repeat-x left top; HEIGHT: 45px
+}
+.main {
+	BACKGROUND: #fff; MARGIN-LEFT: auto; WIDTH: 970px; MARGIN-RIGHT: auto; TEXT-ALIGN: center
+}
+.main_ban {
+	MARGIN-LEFT: auto; WIDTH: 970px; MARGIN-RIGHT: auto; TEXT-ALIGN: center
+}
+.head_l {
+	PADDING-LEFT: 0px; FLOAT: left
+}
+.banr {
+	MIN-HEIGHT: 205px; BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=image,src="images/banr.png"); WIDTH: 970px; HEIGHT: 205px
+}
+.nav_bg {
+	PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(nav_bg.gif) repeat-x left top; COLOR: #fff; LINE-HEIGHT: 37px; HEIGHT: 37px
+}
+.nav_bg A {
+	FONT-SIZE: 14px; COLOR: #fff
+}
+.f_r {
+	PADDING-RIGHT: 8px; FLOAT: right
+}
+.t_l {
+	TEXT-ALIGN: left
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.m_b10p {
+	MARGIN-BOTTOM: 10px
+}
+.red {
+	COLOR: #ff0000
+}
+.f_s {
+	FONT-SIZE: 14px; COLOR: #fff
+}
+.f_s A {
+	FONT-SIZE: 14px; COLOR: #fff
+}
+.more {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #fff
+}
+.more A {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #fff
+}
+.main_new {
+	BACKGROUND: #fff; MARGIN: 15px
+}
+.main_content {
+	MARGIN: 15px
+}
+.main_con_l {
+	FLOAT: left; WIDTH: 320px; TEXT-ALIGN: left
+}
+.main_con_r {
+	FLOAT: right; WIDTH: 609px; TEXT-ALIGN: left
+}
+.left_tel {
+	BORDER-RIGHT: #ffccae 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ffccae 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 10px 0px; BORDER-LEFT: #ffccae 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #ffccae 1px solid
+}
+.bord {
+	BORDER-RIGHT: #ffccae 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #ffccae 1px solid; PADDING-LEFT: 1px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 1px; BORDER-LEFT: #ffccae 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #ffccae 1px solid
+}
+.bord LI {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; LINE-HEIGHT: 20px; PADDING-TOP: 5px
+}
+.bord LI.patch {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; WIDTH: 302px; LINE-HEIGHT: 18px; PADDING-TOP: 5px
+}
+.border01 {
+	
+}
+.title_lbg {
+	PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(title_lbg.gif) no-repeat left top; COLOR: #fff; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.title_rbg {
+	PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(title_rbg.gif) no-repeat left top; COLOR: #fff; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.title_rbg01 {
+	BORDER-RIGHT: #ffccae 1px solid; BORDER-TOP: #ffccae 1px solid; PADDING-LEFT: 8px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(title_rbg.gif) 1px 1px; BORDER-BOTTOM-WIDTH: 1px; MARGIN-BOTTOM: 1px; BORDER-BOTTOM-COLOR: #ffccae; BORDER-LEFT: #ffccae 1px solid; COLOR: #fff; LINE-HEIGHT: 28px; HEIGHT: 28px
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+ HTML .clearfix {
+	HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}
+.ellipsis {
+	OVERFLOW: hidden; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis; o-text-overflow: ellipsis
+}
+.body_bg {
+	PADDING-BOTTOM: 30px; MARGIN-LEFT: auto; WIDTH: 900px; MARGIN-RIGHT: auto; TEXT-ALIGN: left
+}
+.head_ad {
+	MARGIN-BOTTOM: 1px; HEIGHT: 220px; TEXT-ALIGN: center
+}
+.main_menu {
+	BACKGROUND: url(training01_06.jpg); MARGIN-BOTTOM: 10px; COLOR: #fff; HEIGHT: 27px; TEXT-ALIGN: left
+}
+.main_menu_talbe {
+	HEIGHT: 27px
+}
+.main_menu_td {
+	PADDING-LEFT: 3px; WIDTH: 650px
+}
+.main_menu_td A {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-WEIGHT: bold; COLOR: #fff; TEXT-DECORATION: none
+}
+.main_menu_td A:hover {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; COLOR: #fff; TEXT-DECORATION: underline
+}
+.main_menu_tel {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; BACKGROUND-IMAGE: url(training01_10.jpg); COLOR: #000
+}
+.main_body {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px
+}
+.main_line_first {
+	FLOAT: left; MARGIN-BOTTOM: 10px; WIDTH: 880px
+}
+.img_flash {
+	BORDER-RIGHT: #d2d2d2 1px solid; BORDER-TOP: #d2d2d2 1px solid; FLOAT: left; BORDER-LEFT: #d2d2d2 1px solid; WIDTH: 373px; MARGIN-RIGHT: 10px; BORDER-BOTTOM: #d2d2d2 1px solid
+}
+.school_info {
+	FLOAT: right; WIDTH: 555px; TEXT-ALIGN: left
+}
+.school_info_head {
+	BACKGROUND-IMAGE: url(training01_19.jpg); HEIGHT: 24px
+}
+.school_info_head_td {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.school_info_border_left {
+	BACKGROUND: url(training01_30.jpg) repeat-y left 50%; WIDTH: 10px
+}
+.school_info_border_right {
+	BACKGROUND: url(training01_31.jpg) repeat-y right 50%; WIDTH: 10px
+}
+.school_info_bottom {
+	FONT-SIZE: 1px; BACKGROUND: url(training01_38.jpg) repeat-x 50% bottom; HEIGHT: 7px
+}
+.school_info_text {
+	LINE-HEIGHT: 150%; HEIGHT: 183px
+}
+.main_list_second {
+	FLOAT: left; MARGIN-BOTTOM: 10px; WIDTH: 880px
+}
+.main_left {
+	FLOAT: left; WIDTH: 270px; MARGIN-RIGHT: 10px
+}
+.main_right {
+	FLOAT: right; WIDTH: 600px
+}
+.main_left_directory {
+	MARGIN-BOTTOM: 10px
+}
+.main_left_directory_head {
+	BACKGROUND: url(training01_46.jpg) repeat-x; HEIGHT: 28px
+}
+.directory_border_left {
+	BACKGROUND: url(training01_57.jpg) repeat-y left 50%; WIDTH: 10px
+}
+.directory_border_right {
+	BACKGROUND: url(training01_59.jpg) repeat-y right 50%; WIDTH: 10px
+}
+.directory_bottom {
+	FONT-SIZE: 1px; BACKGROUND: url(training01_68.jpg) repeat-x 50% bottom; HEIGHT: 7px
+}
+.directory_head_text {
+	PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #fff
+}
+.main_left_tel {
+	MARGIN-BOTTOM: 10px
+}
+.main_left_teacher {
+	MARGIN-BOTTOM: 10px
+}
+.main_left_tel_td {
+	PADDING-LEFT: 15px; FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(tel_line.jpg) no-repeat left center; WIDTH: 60%; COLOR: #000; LINE-HEIGHT: 120%
+}
+.main_teacher_table_odd {
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px; BORDER-BOTTOM: #ffccae 1px solid
+}
+.main_teacher_table_even {
+	PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+.main_teacher_td {
+	PADDING-LEFT: 5px; VERTICAL-ALIGN: top; WIDTH: 70%
+}
+.main_teacher_td P {
+	
+}
+.red_text {
+	COLOR: #c00
+}
+.main_teacher_blue_text {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 8px; COLOR: #04d
+}
+.main_right_orange {
+	FONT-SIZE: 1px; HEIGHT: 2px; BACKGROUND-COLOR: #ff8601
+}
+.main_right_class_list {
+	MARGIN-BOTTOM: 20px
+}
+.main_right_class_list_table {
+	BACKGROUND-COLOR: #ffccae
+}
+.main_right_class_list_td {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.main_right_class_list_td A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.main_right_class_list_td A:hover {
+	COLOR: #07519a; TEXT-DECORATION: underline
+}
+.main_right_class_list_head_td {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: url(training01_51.jpg) repeat-x; VERTICAL-ALIGN: middle; HEIGHT: 23px
+}
+.main_right_class_list_head_text {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #000
+}
+.main_right_class {
+	MARGIN-BOTTOM: 15px
+}
+.main_right_class_name {
+	MARGIN-BOTTOM: 10px
+}
+.main_right_class_name A {
+	FONT-SIZE: 14px; COLOR: #000; TEXT-DECORATION: none
+}
+.main_right_class_name A:hover {
+	FONT-SIZE: 14px; COLOR: #07519a; TEXT-DECORATION: underline
+}
+.main_right_class_name_td {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #c00
+}
+.main_right_class_table {
+	BACKGROUND-COLOR: #ffccae
+}
+.main_right_class_td_head {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BACKGROUND-COLOR: #fff5ed; TEXT-ALIGN: center
+}
+.main_right_class_td {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+.main_buttom {
+	PADDING-RIGHT: 10px; BORDER-TOP: #ff8601 2px solid; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: 10px; WIDTH: 950px; PADDING-TOP: 10px; HEIGHT: 140px; BACKGROUND-COLOR: #ffffcc; TEXT-ALIGN: center
+}
+.main_class_name {
+	
+}
+.main_class_list_td {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.main_class_item {
+	BACKGROUND: url(training02_05.jpg) #fbaf35 no-repeat right 50%; MARGIN-BOTTOM: 10px; COLOR: #fff; HEIGHT: 22px
+}
+.main_class_content {
+	MARGIN-BOTTOM: 35px; LINE-HEIGHT: 150%
+}
+.main_class_content P {
+	MARGIN-BOTTOM: 10px
+}
+.STYLE1 {
+	COLOR: #ff0000
+}
+.STYLE4 {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+.STYLE5 {
+	COLOR: #333
+}
+.STYLE6 {
+	COLOR: #3b363d
+}
+.STYLE7 {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.STYLE8 {
+	COLOR: #000000
+}
+.STYLE9 {
+	COLOR: #333333
+}

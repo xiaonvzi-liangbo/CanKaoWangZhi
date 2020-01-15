@@ -1,0 +1,57 @@
+BODY {
+	FONT-SIZE: 12px; MARGIN: 0px; LINE-HEIGHT: 1.5em
+}
+P {
+	MARGIN-TOP: 8px; MARGIN-BOTTOM: 8px; TEXT-INDENT: 2em
+}
+.in {
+	BORDER-RIGHT: #929292 1px solid; BORDER-TOP: #929292 1px solid; BORDER-LEFT: #929292 1px solid; BORDER-BOTTOM: #929292 1px solid; HEIGHT: 17px
+}
+.checkin {
+	FONT-SIZE: 12px; HEIGHT: 15px
+}
+.split {
+	MARGIN-LEFT: 3px; MARGIN-RIGHT: 3px
+}
+A:link {
+	FONT-SIZE: 12px; COLOR: #0f67af
+}
+A:visited {
+	FONT-SIZE: 12px; COLOR: #0f67af
+}
+A:hover {
+	FONT-SIZE: 12px; COLOR: #0f67af
+}
+A:active {
+	FONT-SIZE: 12px; COLOR: #0f67af
+}
+A.gg:link {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.gg:visited {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.gg:hover {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+A.gg:active {
+	FONT-SIZE: 12px; COLOR: #666666; TEXT-DECORATION: none
+}
+.mk1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff
+}
+.mk2 {
+	FONT-SIZE: 12px; COLOR: #ffffff
+}
+.label {
+	FLOAT: left
+}
+.td13 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1069c5; FONT-FAMILY: "ËÎÌו"
+}
+.t16 {
+	FONT-SIZE: 12px; COLOR: #2563a1
+}
+.tongzhi {
+	BORDER-RIGHT: #dcdcdc 1px solid; BORDER-TOP: #dcdcdc 1px solid; BORDER-LEFT: #dcdcdc 1px solid; COLOR: #000000; LINE-HEIGHT: 130%; BORDER-BOTTOM: #dcdcdc 1px solid; BACKGROUND-COLOR: #ffffe1
+}

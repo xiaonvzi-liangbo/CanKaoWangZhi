@@ -1,0 +1,180 @@
+TD {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"
+}
+HR {
+	BORDER-RIGHT: #736351 2pt dotted; BORDER-TOP: #736351 2pt dotted; PADDING-BOTTOM: 2px; BORDER-LEFT: #736351 2pt dotted; PADDING-TOP: 2px; BORDER-BOTTOM: #736351 2pt dotted
+}
+.big {
+	BORDER-RIGHT: #f1f0ed 4pt dotted; BORDER-TOP: #f1f0ed 4pt dotted; BORDER-LEFT: #f1f0ed 4pt dotted; BORDER-BOTTOM: #f1f0ed 4pt dotted
+}
+.bigd {
+	BORDER-RIGHT: #bbb7b2 4pt dotted; BORDER-TOP: #bbb7b2 4pt dotted; BORDER-LEFT: #bbb7b2 4pt dotted; BORDER-BOTTOM: #bbb7b2 4pt dotted
+}
+.bg {
+	BACKGROUND-REPEAT: no-repeat
+}
+.bgr {
+	BACKGROUND-POSITION: 100% 100%; BACKGROUND-REPEAT: no-repeat
+}
+.s {
+	FONT-SIZE: 8pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.sd {
+	FONT-SIZE: 5pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.t {
+	FONT-SIZE: 11pt; COLOR: #666699; FONT-FAMILY: "新細明體", "細明體"
+}
+.tit {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #d76a4c; FONT-FAMILY: "新細明體", "細明體"
+}
+.v {
+	FONT-SIZE: 7pt; COLOR: #524230; FONT-FAMILY: "verdana"
+}
+.v2 {
+	FONT-SIZE: 7pt; FONT-FAMILY: "verdana"
+}
+.v3 {
+	FONT: bold 10pt "Verdana"
+}
+.time {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #5876cc; FONT-FAMILY: "verdana"
+}
+.time9 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #666699; FONT-FAMILY: "arial"
+}
+.m {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 13pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.bgform {
+	FONT-SIZE: 9pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; BACKGROUND-COLOR: #f2f3e1
+}
+.bgform2 {
+	FONT-SIZE: 11pt; COLOR: #524230; LINE-HEIGHT: 16pt; FONT-FAMILY: "新細明體", "細明體"; BACKGROUND-COLOR: #f2f3e1
+}
+.bgform3 {
+	FONT-SIZE: 9pt; COLOR: #524230; LINE-HEIGHT: 14pt; FONT-FAMILY: "Century Gothic","新細明體", "細明體"; BACKGROUND-COLOR: #f1f0ed
+}
+.bgform4 {
+	FONT-SIZE: 9pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"
+}
+.bgform5 {
+	FONT-SIZE: 9pt; COLOR: #524230; LINE-HEIGHT: 16pt; FONT-FAMILY: "新細明體", "細明體"; BACKGROUND-COLOR: #f2f3e1
+}
+.h {
+	COLOR: #524230; LINE-HEIGHT: 18pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.h14 {
+	COLOR: #524230; LINE-HEIGHT: 14pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.h16 {
+	LINE-HEIGHT: 16pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.h17 {
+	COLOR: #524230; LINE-HEIGHT: 17pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.h21 {
+	COLOR: #524230; LINE-HEIGHT: 21pt; FONT-FAMILY: "新細明體", "細明體"
+}
+.price {
+	FONT: bolder 16px "Georgia"; COLOR: #04cdd4
+}
+.command1 {
+	FONT-SIZE: 9pt; COLOR: #666666; LINE-HEIGHT: 17px
+}
+A:link {
+	FONT-SIZE: 10pt; COLOR: #666699; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-SIZE: 10pt; COLOR: #8a8782; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: underline
+}
+A:hover {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A:active {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A.n:link {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A.n:visited {
+	FONT-SIZE: 10pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A.n:hover {
+	FONT-SIZE: 10pt; COLOR: #666699; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: underline
+}
+A.n:active {
+	FONT-SIZE: 10pt; COLOR: #666699; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: underline
+}
+A.ml:link {
+	FONT-SIZE: 9pt; COLOR: #666699; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: underline
+}
+A.ml:visited {
+	FONT-SIZE: 9pt; COLOR: #666699; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: underline
+}
+A.mln:link {
+	FONT-SIZE: 9pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A.mln:visited {
+	FONT-SIZE: 9pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A.mln:hover {
+	FONT-SIZE: 9pt; LEFT: 1px; COLOR: #666699; FONT-FAMILY: "新細明體", "細明體"; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+A.t:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #d76a4c; FONT-FAMILY: "新細明體", "細明體"
+}
+A.t:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #d76a4c; FONT-FAMILY: "新細明體", "細明體"
+}
+A.t:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; LEFT: 1px; FONT-FAMILY: "新細明體", "細明體"; POSITION: relative; TOP: 1px; TEXT-DECORATION: none
+}
+A.t:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A.copy:link {
+	FONT-SIZE: 8pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A.copy:visited {
+	FONT-SIZE: 8pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: none
+}
+A.copy:hover {
+	FONT-SIZE: 8pt; LEFT: 1px; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; POSITION: relative; TOP: 1px; TEXT-DECORATION: underline
+}
+A.copy:active {
+	FONT-SIZE: 8pt; COLOR: #524230; FONT-FAMILY: "新細明體", "細明體"; TEXT-DECORATION: underline
+}
+.but {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #000000 1px solid; COLOR: #000000; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #dddddd
+}
+.butd {
+	BORDER-RIGHT: #736351 1px solid; BORDER-TOP: #736351 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #736351 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #736351 1px solid; BACKGROUND-COLOR: #736351
+}
+.c {
+	FONT: bold 9pt "Century Gothic"
+}
+.ab {
+	FONT: 9pt "Arial Black"
+}
+.bigw {
+	BORDER-RIGHT: #ffffff 4pt dotted; BORDER-TOP: #ffffff 4pt dotted; BORDER-LEFT: #ffffff 4pt dotted; BORDER-BOTTOM: #ffffff 4pt dotted
+}
+.bigy {
+	BORDER-RIGHT: #fcff00 4pt dotted; BORDER-TOP: #fcff00 4pt dotted; BORDER-LEFT: #fcff00 4pt dotted; BORDER-BOTTOM: #fcff00 4pt dotted
+}
+.bigb {
+	BORDER-RIGHT: #736351 4pt dotted; BORDER-TOP: #736351 4pt dotted; BORDER-LEFT: #736351 4pt dotted; BORDER-BOTTOM: #736351 4pt dotted
+}
+.page {
+	FONT: bolder 11pt "Georgia"; COLOR: #666699
+}
+.markp {
+	FONT: bolder 17pt "Georgia"; COLOR: #ea8269
+}
+.markg {
+	FONT: bolder 17pt "Georgia"; COLOR: #8ab811
+}
+.number {
+	FONT: bold 13pt "Century Gothic"
+}

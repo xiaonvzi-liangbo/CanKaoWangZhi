@@ -1,0 +1,100 @@
+@import url( /ShangCheng/css/home2006_header.css );
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(/ShangCheng/images_2005/global_body_bg.gif); PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #393939; PADDING-TOP: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H5 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+H6 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+TABLE {
+	FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+TR {
+	FONT-SIZE: 12px
+}
+TH {
+	FONT-SIZE: 12px
+}
+.red {
+	COLOR: red
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+#aboutImg {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND-IMAGE: url(/ShangCheng/aboutus/about_images/aboutImg.gif); PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 782px; PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 158px; BACKGROUND-COLOR: #fff
+}
+#saceCnt {
+	CLEAR: both; MARGIN: 0px auto; WIDTH: 780px; BORDER-BOTTOM: #0066cc 2px solid; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: center
+}
+#saceCnt #auto {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 780px; PADDING-TOP: 0px; BORDER-BOTTOM: #0066cc 2px solid; BACKGROUND-COLOR: #eeeeee
+}
+#saceCnt #saceLeft {
+	FLOAT: left; WIDTH: 205px; TEXT-ALIGN: center
+}
+#saceCnt #saceRight {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; FLOAT: right; PADDING-BOTTOM: 9px; WIDTH: 557px; PADDING-TOP: 9px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+#saceLeft UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 10px 0px 0px; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+#saceLeft LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 5px; PADDING-TOP: 8px; LIST-STYLE-TYPE: none; TEXT-ALIGN: left
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; MARGIN: 3px 0px 0px; PADDING-TOP: 0px
+}
+.left1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.alignleft {
+	BACKGROUND-POSITION: 50% top; PADDING-LEFT: 30px; BACKGROUND-IMAGE: url(/ShangCheng/aboutus/about_images/menu_bg.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: left
+}
+#saceRight P {
+	LINE-HEIGHT: 180%
+}
+#saceRight #friendlinks {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+#friendlinks .wel {
+	BORDER-RIGHT: #dddddd 1px solid; BORDER-TOP: #dddddd 1px solid; PADDING-BOTTOM: 8px; BORDER-LEFT: #dddddd 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: #dddddd 1px solid; BACKGROUND-COLOR: #eeeeee; TEXT-ALIGN: center
+}
+#friendlinks .linksClass H3 {
+	CLEAR: both; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 13px; PADDING-BOTTOM: 5px; BORDER-LEFT: #dddddd 1px solid; WIDTH: 550px; COLOR: #0066cc; TEXT-INDENT: 10px; PADDING-TOP: 5px; BORDER-BOTTOM: #dddddd 1px solid; BACKGROUND-COLOR: #eeeeee
+}
+#friendlinks .linksClass {
+	BORDER-RIGHT: #dddddd 1px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 550px; PADDING-TOP: 0px; BACKGROUND-COLOR: #ffffff
+}
+#friendlinks .linksClass A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 2px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; BORDER-LEFT: #dddddd 1px solid; WIDTH: 179px; PADDING-TOP: 5px; BORDER-BOTTOM: #dddddd 1px solid; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff
+}
+#Footer {
+	CLEAR: both; BORDER-TOP: #0066cc 2px solid; PADDING-BOTTOM: 15px; MARGIN: 0px auto; WIDTH: 780px; PADDING-TOP: 15px; BACKGROUND-COLOR: #ffffff
+}

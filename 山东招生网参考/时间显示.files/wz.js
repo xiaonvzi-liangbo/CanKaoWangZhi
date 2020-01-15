@@ -1,0 +1,1 @@
+document.write("<DIV align=right>×ÖºÅÑ¡Ôñ¡¼ <A href='javascript:doZoom(16)'>´ó</A> <A href='javascript:doZoom(14)'>ÖÐ</A> <A href='javascript:doZoom(12)'>Ð¡</A> ¡½/ Ë«»÷¹öÆÁ µ¥»÷Í£Ö¹&nbsp;&nbsp;&nbsp; </DIV>");

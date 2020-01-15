@@ -1,0 +1,213 @@
+A.y:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #000000; TEXT-DECORATION: none
+}
+A.y:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #000000; TEXT-DECORATION: none
+}
+A.y:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ff3300; TEXT-DECORATION: none
+}
+A.y:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; CURSOR: pointer; COLOR: #000000; TEXT-DECORATION: none
+}
+A.y5:link {
+	CURSOR: pointer; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.y5:visited {
+	CURSOR: pointer; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.y5:hover {
+	CURSOR: pointer; COLOR: #d10100; TEXT-DECORATION: none
+}
+A.y5:active {
+	CURSOR: pointer; COLOR: #ff6600; TEXT-DECORATION: none
+}
+A.y3:link {
+	CURSOR: pointer; COLOR: #333333; TEXT-DECORATION: none
+}
+A.y3:visited {
+	CURSOR: pointer; COLOR: #333333; TEXT-DECORATION: none
+}
+A.y3:hover {
+	CURSOR: pointer; COLOR: #ff3300; TEXT-DECORATION: none
+}
+A.y3:active {
+	CURSOR: pointer; COLOR: #333333; TEXT-DECORATION: none
+}
+A.y2:link {
+	CURSOR: pointer; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.y2:visited {
+	CURSOR: pointer; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.y2:hover {
+	CURSOR: pointer; COLOR: #ff9900; TEXT-DECORATION: none
+}
+A.y2:active {
+	CURSOR: pointer; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.y1:link {
+	FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ffff00; TEXT-DECORATION: none
+}
+A.y1:visited {
+	FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ffff00; TEXT-DECORATION: none
+}
+A.y1:hover {
+	FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.y1:active {
+	FONT-SIZE: 14px; CURSOR: pointer; COLOR: #ffff00; TEXT-DECORATION: none
+}
+.style2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; LINE-HEIGHT: 35px
+}
+.STYLE8 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 18px
+}
+.STYLE8 A:link {
+	CURSOR: pointer; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.STYLE8 A:visited {
+	CURSOR: pointer; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.STYLE8 A:hover {
+	CURSOR: pointer; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.STYLE8 A:active {
+	CURSOR: pointer; COLOR: #cc0000; TEXT-DECORATION: none
+}
+.STYLE9 {
+	COLOR: #b9eef2
+}
+.STYLE10 {
+	COLOR: #333333
+}
+.STYLE11 {
+	COLOR: #ff0000
+}
+.style7 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 30px
+}
+.style3 {
+	COLOR: #cc6600
+}
+.style4 {
+	COLOR: #ff3300; FONT-FAMILY: georgia
+}
+.style5 {
+	TEXT-DECORATION: line-through
+}
+.style6 {
+	COLOR: #146f70
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.texta {
+	FLOAT: left
+}
+.textb {
+	PADDING-RIGHT: 20px; FLOAT: right
+}
+.tonglan1 {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px auto 10px; OVERFLOW: hidden; WIDTH: 980px; PADDING-TOP: 0px; HEIGHT: auto; TEXT-ALIGN: center
+}
+.part1 {
+	PADDING-RIGHT: 44px; PADDING-LEFT: 44px; FONT-SIZE: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 912px; PADDING-TOP: 0px; HEIGHT: auto; TEXT-ALIGN: left
+}
+.part1 .top {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; FLOAT: left; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 910px; LINE-HEIGHT: 21px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: 53px
+}
+.part1 .top .img {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 170px; HEIGHT: 53px
+}
+.part1 .top .text {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FLOAT: left; PADDING-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: auto; PADDING-TOP: 5px; HEIGHT: 43px
+}
+.part1 .title_left {
+	BACKGROUND: url(../img12/fzjm_title_left.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 10px; HEIGHT: 37px
+}
+.part1 .title_right {
+	BACKGROUND: url(../img12/fzjm_title_right.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 10px; HEIGHT: 37px
+}
+.part1 .title_text {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; BACKGROUND: url(../img12/fzjm_title_tian.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 892px; COLOR: #ffffff; LINE-HEIGHT: 37px; HEIGHT: 37px; TEXT-ALIGN: center
+}
+.part1 .mid .left_bian {
+	BACKGROUND: url(../img12/bodyer_left.jpg) no-repeat; FLOAT: left; OVERFLOW: hidden; WIDTH: 16px; HEIGHT: 600px
+}
+.part1 .mid .right_bian {
+	BACKGROUND: url(../img12/bodyer_right.jpg) no-repeat; FLOAT: left; OVERFLOW: hidden; WIDTH: 14px; HEIGHT: 600px
+}
+.part1 .mid {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 912px; HEIGHT: auto; BACKGROUND-COLOR: #9a0024
+}
+.part1 .mid .mid1 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 0px; BACKGROUND: url(../img12/mid1_bg.jpg) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 250px; PADDING-TOP: 14px; HEIGHT: auto
+}
+.part1 .mid .mid3 {
+	BACKGROUND: url(../img12/mid_bg.jpg) no-repeat; FLOAT: left; OVERFLOW: hidden; WIDTH: 882px; PADDING-TOP: 14px; HEIGHT: auto
+}
+.part1 .mid .mid2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(../img12/mid2_bg.jpg) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 624px; PADDING-TOP: 24px; HEIGHT: auto
+}
+.part1 .mid .mid1 .title1 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 250px; HEIGHT: auto
+}
+.part1 .mid .mid1 .bodyer1 {
+	BORDER-RIGHT: #bbcde1 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #bbcde1 1px solid; PADDING-LEFT: 9px; BACKGROUND: #ffffff; FLOAT: left; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-LEFT: #bbcde1 1px solid; WIDTH: 228px; PADDING-TOP: 0px; BORDER-BOTTOM: #bbcde1 1px solid; HEIGHT: auto
+}
+.part1 .mid .mid1 .title2 {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 248px; HEIGHT: auto
+}
+.part1 .mid .mid1 .bodyer2 {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 9px; BACKGROUND: #ffffff; FLOAT: left; PADDING-BOTTOM: 10px; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; WIDTH: 228px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid; HEIGHT: auto
+}
+.part1 .mid .mid1 .bodyer2 TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.part1 .mid .mid2 .item1 {
+	BACKGROUND: url(../img12/right_item1_bg.jpg); FLOAT: left; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 624px; HEIGHT: 150px
+}
+.part1 .mid .mid2 .item2 {
+	BACKGROUND: url(../img12/right_item2_bg.jpg); FLOAT: left; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 624px; HEIGHT: 196px
+}
+.part1 .mid .mid2 .item3 {
+	BACKGROUND: url(../img12/right_item3_bg.jpg); FLOAT: left; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 624px; HEIGHT: 247px
+}
+.part1 .mid .mid2 .item4 {
+	BACKGROUND: url(../img12/right_item4_bg.jpg); FLOAT: left; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 624px; HEIGHT: 247px
+}
+.part1 .mid .mid2 .item5 {
+	BORDER-RIGHT: #cd787b 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #cd787b 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 19px; BACKGROUND: #b50029; FLOAT: left; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; OVERFLOW: hidden; BORDER-LEFT: #cd787b 1px solid; WIDTH: 612px; COLOR: #ffffff; LINE-HEIGHT: 47px; PADDING-TOP: 5px; BORDER-BOTTOM: #cd787b 1px solid; FONT-FAMILY: "свт╡"; HEIGHT: 47px; TEXT-ALIGN: left
+}
+.part1 .mid_bottom {
+	BACKGROUND: url(../img12/fzjm_bottom.jpg); FLOAT: left; OVERFLOW: hidden; WIDTH: 912px; HEIGHT: 10px
+}
+#img_t {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 65px; PADDING-TOP: 23px; HEIGHT: 125px
+}
+#text_t {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 14px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 500px; COLOR: #ffffff; LINE-HEIGHT: 20px; PADDING-TOP: 23px; HEIGHT: auto
+}
+#text_t TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.part1 .mid .mid2 .ad {
+	FLOAT: left; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; WIDTH: 611px; HEIGHT: auto
+}
+.part1 .mid .mid2 .text {
+	PADDING-RIGHT: 22px; PADDING-LEFT: 22px; FONT-SIZE: 13px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 580px; COLOR: #ffffff; LINE-HEIGHT: 20px; PADDING-TOP: 0px; HEIGHT: auto; TEXT-ALIGN: left
+}
+.font1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #f1e285; LINE-HEIGHT: 32px; FONT-FAMILY: "свт╡"
+}
+.part1 .mid .mid3 .tab {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 60px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 726px; LINE-HEIGHT: 20px; PADDING-TOP: 0px; HEIGHT: auto
+}
+.part1 .mid .mid3 .tab TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
